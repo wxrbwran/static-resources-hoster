@@ -1,0 +1,168 @@
+{
+    "importBase": "import",
+    "nativeBase": "native",
+    "name": "Game",
+    "deps": [],
+    "uuids": [
+        "06d261e40",
+        "09ef748bb",
+        "0c910422e",
+        "0fab410cc",
+        "1f519ccc-7a50-45f7-bcce-70c553c498ba",
+        "1f519ccc-7a50-45f7-bcce-70c553c498ba@6c48a",
+        "1f519ccc-7a50-45f7-bcce-70c553c498ba@f9941",
+        "57461a7a-d746-48ba-92d6-d3c4d869e754",
+        "57461a7a-d746-48ba-92d6-d3c4d869e754@6c48a",
+        "57461a7a-d746-48ba-92d6-d3c4d869e754@f9941",
+        "636554f0-aa0e-4c3f-a6e7-384c10c1c570",
+        "662bac95-fe54-4b82-a3a4-4a006f584408",
+        "8e1474ec-1e28-42fc-964d-2a97b1572f19",
+        "a2dbcc5b-0c5d-4265-a999-a7ad8ea3679f",
+        "ae91e424-f396-4a98-9106-49c7a2f6b077",
+        "b300171c-c5d0-4fcd-8995-5c40ec7627f4",
+        "b300171c-c5d0-4fcd-8995-5c40ec7627f4@6c48a",
+        "b300171c-c5d0-4fcd-8995-5c40ec7627f4@f9941",
+        "ded65d74-149b-42bc-81e1-17fa1348c5ff",
+        "ded65d74-149b-42bc-81e1-17fa1348c5ff@6c48a",
+        "ded65d74-149b-42bc-81e1-17fa1348c5ff@f9941",
+        "ea5360d8-0919-4227-b34f-5bd2a629d27a",
+        "ea5360d8-0919-4227-b34f-5bd2a629d27a@6c48a",
+        "ea5360d8-0919-4227-b34f-5bd2a629d27a@f9941"
+    ],
+    "paths": {
+        "a2dbcc5b-0c5d-4265-a999-a7ad8ea3679f": [
+            "Scene/Game",
+            "cc.SceneAsset",
+            1
+        ],
+        "662bac95-fe54-4b82-a3a4-4a006f584408": [
+            "Module/Player/GamePlayer",
+            "cc.Prefab",
+            1
+        ],
+        "ae91e424-f396-4a98-9106-49c7a2f6b077": [
+            "Module/Star/GameStar",
+            "cc.Prefab",
+            1
+        ],
+        "1f519ccc-7a50-45f7-bcce-70c553c498ba": [
+            "Module/Game/Texture/PurpleMonster",
+            "cc.ImageAsset",
+            1
+        ],
+        "1f519ccc-7a50-45f7-bcce-70c553c498ba@6c48a": [
+            "Module/Game/Texture/PurpleMonster/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "1f519ccc-7a50-45f7-bcce-70c553c498ba@f9941": [
+            "Module/Game/Texture/PurpleMonster/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "ded65d74-149b-42bc-81e1-17fa1348c5ff": [
+            "Module/Game/Texture/background",
+            "cc.ImageAsset",
+            1
+        ],
+        "ded65d74-149b-42bc-81e1-17fa1348c5ff@6c48a": [
+            "Module/Game/Texture/background/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "ded65d74-149b-42bc-81e1-17fa1348c5ff@f9941": [
+            "Module/Game/Texture/background/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "ea5360d8-0919-4227-b34f-5bd2a629d27a": [
+            "Module/Game/Texture/btn_play",
+            "cc.ImageAsset",
+            1
+        ],
+        "ea5360d8-0919-4227-b34f-5bd2a629d27a@6c48a": [
+            "Module/Game/Texture/btn_play/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "ea5360d8-0919-4227-b34f-5bd2a629d27a@f9941": [
+            "Module/Game/Texture/btn_play/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "b300171c-c5d0-4fcd-8995-5c40ec7627f4": [
+            "Module/Game/Texture/ground",
+            "cc.ImageAsset",
+            1
+        ],
+        "b300171c-c5d0-4fcd-8995-5c40ec7627f4@6c48a": [
+            "Module/Game/Texture/ground/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "b300171c-c5d0-4fcd-8995-5c40ec7627f4@f9941": [
+            "Module/Game/Texture/ground/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "636554f0-aa0e-4c3f-a6e7-384c10c1c570": [
+            "Module/Player/Audio/jump",
+            "cc.AudioClip",
+            1
+        ],
+        "8e1474ec-1e28-42fc-964d-2a97b1572f19": [
+            "Module/Star/Audio/score",
+            "cc.AudioClip",
+            1
+        ],
+        "57461a7a-d746-48ba-92d6-d3c4d869e754": [
+            "Module/Star/Texture/star",
+            "cc.ImageAsset",
+            1
+        ],
+        "57461a7a-d746-48ba-92d6-d3c4d869e754@6c48a": [
+            "Module/Star/Texture/star/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "57461a7a-d746-48ba-92d6-d3c4d869e754@f9941": [
+            "Module/Star/Texture/star/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ]
+    },
+    "scenes": {
+        "db://assets/Game/Scene/Game.scene": "a2dbcc5b-0c5d-4265-a999-a7ad8ea3679f"
+    },
+    "packs": {
+        "0fab410cc": [
+            "1f519ccc-7a50-45f7-bcce-70c553c498ba@6c48a",
+            "57461a7a-d746-48ba-92d6-d3c4d869e754@6c48a",
+            "b300171c-c5d0-4fcd-8995-5c40ec7627f4@6c48a",
+            "ded65d74-149b-42bc-81e1-17fa1348c5ff@6c48a",
+            "ea5360d8-0919-4227-b34f-5bd2a629d27a@6c48a"
+        ],
+        "06d261e40": [
+            "1f519ccc-7a50-45f7-bcce-70c553c498ba@f9941",
+            "662bac95-fe54-4b82-a3a4-4a006f584408"
+        ],
+        "0c910422e": [
+            "a2dbcc5b-0c5d-4265-a999-a7ad8ea3679f",
+            "b300171c-c5d0-4fcd-8995-5c40ec7627f4@f9941",
+            "ded65d74-149b-42bc-81e1-17fa1348c5ff@f9941"
+        ],
+        "09ef748bb": [
+            "57461a7a-d746-48ba-92d6-d3c4d869e754@f9941",
+            "ae91e424-f396-4a98-9106-49c7a2f6b077"
+        ]
+    },
+    "versions": {
+        "import": [],
+        "native": []
+    },
+    "redirect": [],
+    "debug": true,
+    "extensionMap": {},
+    "hasPreloadScript": true,
+    "dependencyRelationships": {}
+}
