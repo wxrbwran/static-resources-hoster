@@ -1,0 +1,1 @@
+{"importBase":"import","nativeBase":"native","name":"pop-tip","deps":["pop-tip-res"],"uuids":["01q3cfok1L763illBegISW","180RaUASpLrJplYGX3wk2o@f9941"],"paths":{"0":["PopTip",0,1]},"scenes":{},"packs":{},"versions":{"import":[],"native":[]},"redirect":[1,"0"],"debug":false,"extensionMap":{},"hasPreloadScript":true,"dependencyRelationships":{},"types":["cc.Prefab"]}

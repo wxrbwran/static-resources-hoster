@@ -1,0 +1,1 @@
+{"importBase":"import","nativeBase":"native","name":"page-home","deps":["page-home-res"],"uuids":["0fX+WU/4RB95tRUfiV3d9i@f9941","e0+rz+QA5EV700Q0lX07Bc"],"paths":{"1":["PageHome",0,1]},"scenes":{},"packs":{},"versions":{"import":[],"native":[]},"redirect":[0,"0"],"debug":false,"extensionMap":{},"hasPreloadScript":true,"dependencyRelationships":{},"types":["cc.Prefab"]}
