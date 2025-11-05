@@ -1,7 +1,7 @@
 {
   "headers": [
     {
-      "source": "/(.*).(png|jpg|json|js|css|ico|svg|webp|woff|woff2|ttf|eot|otf|mp3|mp4|webm|ogg|wav|ico|svg|webp|woff|woff2|ttf|eot|otf|mp3|mp4|webm|ogg|wav)",
+      "source": "/(.*).(png|jpg|json|js|css|ico|svg|webp|woff|woff2|ttf|eot|otf|mp3|mp4|webm|ogg|wav|ico|svg|webp|woff|woff2|ttf|eot|otf|mp3|mp4|webm|ogg|wav|zip|rar|7z|tar|gz|bz2|7z|tar|gz|bz2)",
       "headers": [
         { "key": "Access-Control-Allow-Credentials", "value": "true" },
         { "key": "Access-Control-Allow-Origin", "value": "*" },
