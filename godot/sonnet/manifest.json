@@ -1,0 +1,34 @@
+{
+  "version": "1.0.1",
+  "update_time": "2025-11-07",
+  "description": "游戏资源清单",
+  "files": [
+    {
+      "name": "login.pck",
+      "path": "scenes/login.pck",
+      "version": "1.0.1",
+      "size": 8228,
+      "md5": "a9f7e01cf0e7459efed322757763e351",
+      "type": "pck",
+      "description": "登录场景资源包"
+    },
+    {
+      "name": "lobby.pck",
+      "path": "scenes/lobby.pck",
+      "version": "1.0.1",
+      "size": 8996,
+      "md5": "8ccd6ec26cc45c14f5efa59aaf469733",
+      "type": "pck",
+      "description": "大厅场景资源包"
+    },
+    {
+      "name": "demo_game.pck",
+      "path": "games/demo_game.pck",
+      "version": "1.0.1",
+      "size": 8624,
+      "md5": "3301bc77c2c507f6859bab724d08d946",
+      "type": "pck",
+      "description": "演示游戏资源包"
+    }
+  ]
+}
