@@ -1,0 +1,76 @@
+
+symbol_scatter_red.png
+size: 342,515
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mg_eft_e009
+  rotate: false
+  xy: 1, 299
+  size: 218, 215
+  orig: 232, 231
+  offset: 8, 7
+  index: -1
+syb12_c01
+  rotate: false
+  xy: 1, 99
+  size: 196, 198
+  orig: 196, 198
+  offset: 0, 0
+  index: -1
+syb12_c02
+  rotate: false
+  xy: 238, 54
+  size: 81, 81
+  orig: 81, 81
+  offset: 0, 0
+  index: -1
+syb12_c03
+  rotate: false
+  xy: 199, 137
+  size: 142, 147
+  orig: 142, 147
+  offset: 0, 0
+  index: -1
+syb12_c05bg
+  rotate: true
+  xy: 221, 286
+  size: 228, 84
+  orig: 228, 84
+  offset: 0, 0
+  index: -1
+syb6_c04
+  rotate: false
+  xy: 127, 1
+  size: 75, 47
+  orig: 84, 60
+  offset: 5, 11
+  index: -1
+syb6_c05
+  rotate: false
+  xy: 1, 50
+  size: 235, 47
+  orig: 236, 50
+  offset: 0, 1
+  index: -1
+syb6_c06
+  rotate: false
+  xy: 1, 16
+  size: 124, 32
+  orig: 126, 33
+  offset: 1, 1
+  index: -1
+syb6_c07
+  rotate: true
+  xy: 307, 294
+  size: 220, 31
+  orig: 220, 31
+  offset: 0, 0
+  index: -1
+sybres_eft_bol_02
+  rotate: false
+  xy: 204, 10
+  size: 38, 38
+  orig: 40, 40
+  offset: 1, 1
+  index: -1

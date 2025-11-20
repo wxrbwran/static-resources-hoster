@@ -1,0 +1,55 @@
+
+wheel_vfx01.png
+size: 765,350
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+LW_efn_c01
+  rotate: false
+  xy: 565, 150
+  size: 199, 199
+  orig: 199, 199
+  offset: 0, 0
+  index: -1
+LW_efn_c02
+  rotate: false
+  xy: 1, 1
+  size: 345, 348
+  orig: 349, 352
+  offset: 2, 2
+  index: -1
+LW_fr_c01
+  rotate: false
+  xy: 685, 7
+  size: 30, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: -1
+LW_fr_c03
+  rotate: true
+  xy: 685, 40
+  size: 108, 45
+  orig: 110, 47
+  offset: 1, 2
+  index: -1
+LW_fr_c05
+  rotate: true
+  xy: 565, 18
+  size: 130, 118
+  orig: 145, 125
+  offset: 7, 0
+  index: -1
+LW_fr_c06
+  rotate: true
+  xy: 732, 45
+  size: 103, 25
+  orig: 109, 29
+  offset: 2, 4
+  index: -1
+eft_exp_04big
+  rotate: true
+  xy: 348, 131
+  size: 218, 215
+  orig: 232, 231
+  offset: 8, 7
+  index: -1
