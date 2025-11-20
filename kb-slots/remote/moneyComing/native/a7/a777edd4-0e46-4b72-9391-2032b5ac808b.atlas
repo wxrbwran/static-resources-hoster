@@ -1,0 +1,69 @@
+
+intro.png
+size: 1689,545
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Intro_10000X
+  rotate: false
+  xy: 613, 1
+  size: 319, 87
+  orig: 319, 87
+  offset: 0, 0
+  index: -1
+Intro_Bg_L
+  rotate: false
+  xy: 888, 224
+  size: 800, 320
+  orig: 800, 320
+  offset: 0, 0
+  index: -1
+Intro_Dec_01
+  rotate: true
+  xy: 1569, 79
+  size: 143, 114
+  orig: 143, 114
+  offset: 0, 0
+  index: -1
+Intro_Feature_01
+  rotate: true
+  xy: 326, 39
+  size: 505, 285
+  orig: 550, 325
+  offset: 22, 15
+  index: -1
+Intro_Feature_02
+  rotate: true
+  xy: 1, 5
+  size: 539, 323
+  orig: 550, 325
+  offset: 0, 0
+  index: -1
+Intro_Feature_Bg
+  rotate: true
+  xy: 613, 90
+  size: 454, 273
+  orig: 470, 350
+  offset: 4, 43
+  index: -1
+Intro_Feature_LT_02
+  rotate: false
+  xy: 934, 4
+  size: 210, 218
+  orig: 218, 228
+  offset: 4, 5
+  index: -1
+Intro_Feature_LT_04
+  rotate: false
+  xy: 1338, 47
+  size: 229, 175
+  orig: 234, 183
+  offset: 1, 0
+  index: -1
+Intro_Scatter
+  rotate: true
+  xy: 1146, 10
+  size: 212, 190
+  orig: 212, 190
+  offset: 0, 0
+  index: -1

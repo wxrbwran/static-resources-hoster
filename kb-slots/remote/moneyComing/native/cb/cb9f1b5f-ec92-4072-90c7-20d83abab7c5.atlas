@@ -1,0 +1,62 @@
+
+unlock.png
+size: 472,267
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+LW_Lock_c01
+  rotate: false
+  xy: 221, 145
+  size: 152, 71
+  orig: 155, 74
+  offset: 1, 2
+  index: -1
+LW_Lock_c02
+  rotate: false
+  xy: 261, 6
+  size: 35, 35
+  orig: 37, 37
+  offset: 1, 1
+  index: -1
+LW_Lock_c03
+  rotate: true
+  xy: 323, 75
+  size: 68, 49
+  orig: 71, 51
+  offset: 1, 1
+  index: -1
+Luckywheel_Lock
+  rotate: false
+  xy: 1, 218
+  size: 470, 48
+  orig: 470, 52
+  offset: 0, 0
+  index: -1
+eft_bol_02
+  rotate: false
+  xy: 221, 3
+  size: 38, 38
+  orig: 40, 40
+  offset: 1, 1
+  index: -1
+eft_exp_04big
+  rotate: false
+  xy: 1, 1
+  size: 218, 215
+  orig: 232, 231
+  offset: 8, 7
+  index: -1
+eft_lw_bol_05
+  rotate: false
+  xy: 221, 43
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+eft_lw_str_02
+  rotate: false
+  xy: 375, 140
+  size: 76, 76
+  orig: 80, 80
+  offset: 2, 2
+  index: -1

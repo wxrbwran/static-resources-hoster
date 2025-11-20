@@ -1,0 +1,41 @@
+
+respin_vfx.png
+size: 359,134
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+LWs_eft_02
+  rotate: false
+  xy: 1, 5
+  size: 122, 128
+  orig: 128, 128
+  offset: 3, 0
+  index: -1
+LWs_eft_03
+  rotate: false
+  xy: 320, 39
+  size: 38, 38
+  orig: 42, 42
+  offset: 2, 2
+  index: -1
+sybres_eft_str_02
+  rotate: false
+  xy: 242, 1
+  size: 76, 76
+  orig: 80, 80
+  offset: 2, 2
+  index: -1
+sybres_eft_str_m02
+  rotate: false
+  xy: 125, 8
+  size: 115, 125
+  orig: 116, 126
+  offset: 1, 1
+  index: -1
+sybres_eft_str_m03
+  rotate: false
+  xy: 242, 79
+  size: 99, 54
+  orig: 99, 57
+  offset: 0, 1
+  index: -1
