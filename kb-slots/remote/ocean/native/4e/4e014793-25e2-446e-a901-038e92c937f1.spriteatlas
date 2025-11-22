@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: atlas_ocean_bg&reel
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 0
+      compressionQuality: 0
+      maxTextureSize: 0
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Standalone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 50
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 4096
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 50
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300000, guid: bbebcd586023dce46ad401502c36d5a7, type: 3}
+    - {fileID: 21300000, guid: f257c8879d8de914eafb819817f56a34, type: 3}
+    - {fileID: 21300000, guid: 14203d6ef8372b042aea854daf3f1912, type: 3}
+    - {fileID: 21300000, guid: b3381244325d3784987b918e09f86efb, type: 3}
+    - {fileID: 21300000, guid: 15797b7e39eadfb4b9858778d82ac3c5, type: 3}
+    - {fileID: 21300000, guid: a9ec3bb856e114e41831affc1e87ecf7, type: 3}
+    - {fileID: 21300000, guid: 32f20eb7d73a8744aad7b279e452be68, type: 3}
+    - {fileID: 21300000, guid: 8493ae29a61ef2f4dbcec390a344cc08, type: 3}
+    - {fileID: 21300000, guid: 7ac3423be9ffb894fa584cf231bd8db2, type: 3}
+    - {fileID: 21300000, guid: 157c3d767c656254f965376d629a070e, type: 3}
+    - {fileID: 21300000, guid: 9ce2135342541104790dbdd40bf58272, type: 3}
+    - {fileID: 21300000, guid: 02a5a6eb79b1b744ea9a5cdb4e2f684a, type: 3}
+    - {fileID: 21300000, guid: 762d77a21a3907e4095ce3800c99c688, type: 3}
+    - {fileID: 21300000, guid: 91a190ab72760ca4190560019a7f3d19, type: 3}
+    - {fileID: 21300000, guid: 19d93f356b472e34ba9c96dc84546dc6, type: 3}
+    - {fileID: 21300000, guid: c3c1a6fd4894ada4dba624dbabc92dd9, type: 3}
+    - {fileID: 21300000, guid: 05d5948327b35c94ba2259206b04010f, type: 3}
+    - {fileID: 21300000, guid: 90e905bfd7ba9804999c080afc8600eb, type: 3}
+    - {fileID: 21300000, guid: e5d2b3b072e07e747865fb064f390913, type: 3}
+    - {fileID: 21300000, guid: 95c4c5d5721cea2479e73b2b3c41ff1e, type: 3}
+    - {fileID: 21300000, guid: c89b119b240dba14f8f97f2b2a28f234, type: 3}
+    - {fileID: 21300000, guid: cc7f7abaddb552045bb7754316afa63c, type: 3}
+    - {fileID: 21300000, guid: efe5bfbfbe701df45a30b560c794eeb7, type: 3}
+    - {fileID: 21300000, guid: 797a3c05a7f19b94da61f799a0fe439d, type: 3}
+    - {fileID: 21300000, guid: 363716e8d09fc0441bef9ad90f720b87, type: 3}
+    - {fileID: 21300000, guid: 8e5203da0bff0b14aa7c8bae82bc84db, type: 3}
+    - {fileID: 21300000, guid: 09d22dbe8e24c11418b2607d4fc86373, type: 3}
+    - {fileID: 21300000, guid: 0f35eb49197cca4418b88f84d4216a16, type: 3}
+    - {fileID: 21300000, guid: 3869dcd635f359a46a91ecdd1f91fd32, type: 3}
+    - {fileID: 21300000, guid: 2dcdf8e1417e62f478eb1b23e3aad43f, type: 3}
+    - {fileID: 21300000, guid: 37995890661890d4f8ee250148e33a53, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 37995890661890d4f8ee250148e33a53, type: 3}
+  - {fileID: 21300000, guid: e5d2b3b072e07e747865fb064f390913, type: 3}
+  - {fileID: 21300000, guid: 2dcdf8e1417e62f478eb1b23e3aad43f, type: 3}
+  - {fileID: 21300000, guid: 762d77a21a3907e4095ce3800c99c688, type: 3}
+  - {fileID: 21300000, guid: 9ce2135342541104790dbdd40bf58272, type: 3}
+  - {fileID: 21300000, guid: 05d5948327b35c94ba2259206b04010f, type: 3}
+  - {fileID: 21300000, guid: b3381244325d3784987b918e09f86efb, type: 3}
+  - {fileID: 21300000, guid: 797a3c05a7f19b94da61f799a0fe439d, type: 3}
+  - {fileID: 21300000, guid: 19d93f356b472e34ba9c96dc84546dc6, type: 3}
+  - {fileID: 21300000, guid: 95c4c5d5721cea2479e73b2b3c41ff1e, type: 3}
+  - {fileID: 21300000, guid: 157c3d767c656254f965376d629a070e, type: 3}
+  - {fileID: 21300000, guid: 3869dcd635f359a46a91ecdd1f91fd32, type: 3}
+  - {fileID: 21300000, guid: f257c8879d8de914eafb819817f56a34, type: 3}
+  - {fileID: 21300000, guid: 32f20eb7d73a8744aad7b279e452be68, type: 3}
+  - {fileID: 21300000, guid: bbebcd586023dce46ad401502c36d5a7, type: 3}
+  - {fileID: 21300000, guid: a9ec3bb856e114e41831affc1e87ecf7, type: 3}
+  - {fileID: 21300000, guid: 363716e8d09fc0441bef9ad90f720b87, type: 3}
+  - {fileID: 21300000, guid: 8493ae29a61ef2f4dbcec390a344cc08, type: 3}
+  - {fileID: 21300000, guid: 0f35eb49197cca4418b88f84d4216a16, type: 3}
+  - {fileID: 21300000, guid: cc7f7abaddb552045bb7754316afa63c, type: 3}
+  - {fileID: 21300000, guid: 8e5203da0bff0b14aa7c8bae82bc84db, type: 3}
+  - {fileID: 21300000, guid: 7ac3423be9ffb894fa584cf231bd8db2, type: 3}
+  - {fileID: 21300000, guid: c89b119b240dba14f8f97f2b2a28f234, type: 3}
+  - {fileID: 21300000, guid: 91a190ab72760ca4190560019a7f3d19, type: 3}
+  - {fileID: 21300000, guid: 02a5a6eb79b1b744ea9a5cdb4e2f684a, type: 3}
+  - {fileID: 21300000, guid: c3c1a6fd4894ada4dba624dbabc92dd9, type: 3}
+  - {fileID: 21300000, guid: 14203d6ef8372b042aea854daf3f1912, type: 3}
+  - {fileID: 21300000, guid: 15797b7e39eadfb4b9858778d82ac3c5, type: 3}
+  - {fileID: 21300000, guid: 09d22dbe8e24c11418b2607d4fc86373, type: 3}
+  - {fileID: 21300000, guid: 90e905bfd7ba9804999c080afc8600eb, type: 3}
+  - {fileID: 21300000, guid: efe5bfbfbe701df45a30b560c794eeb7, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - ocean_bg_winwin_es
+  - ocean_bg_freegameof_en
+  - ocean_bg_winwin_en
+  - ocean_freespin_number_freespinremaining
+  - ocean_bg_tostart
+  - ocean_payline_tips
+  - ocean_bg_freegameof
+  - ocean_freespin_number_freespinremaining_es
+  - ocean_hold_spin_tips
+  - ocean_bg_freegameof_es
+  - ocean_bg_reel_freegame
+  - ocean_progress_icon_popup_es
+  - jackpots_unlocked
+  - ocean_bg_lb
+  - jackpots_locked
+  - ocean_bg_freespinscompleted
+  - ocean_freespin_number_freespinsremaining_en
+  - ocean_bg_reel
+  - ocean_progress_icon_popup_en
+  - ocean_bg_freegameof_of_es
+  - ocean_freespin_number_freespinsremaining_es
+  - ocean_bg_reel2
+  - ocean_bg_freegameof_of_en
+  - ocean_freespin_number_freespinsremaining
+  - ocean_bg_winwin
+  - ocean_payline
+  - ocean_bg_featurecomplete
+  - ocean_bg_freegameof_of
+  - ocean_progress_icon_popup
+  - ocean_pearlmask
+  - ocean_freespin_number_freespinremaining_en
+  m_RenderDataMap: {}
+  m_Tag: atlas_ocean_bg&reel
+  m_IsVariant: 0

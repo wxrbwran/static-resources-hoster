@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: atlas_line_number
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 0
+      compressionQuality: 0
+      maxTextureSize: 0
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Standalone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 50
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 4096
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 50
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300000, guid: cef33853a4f76ae4d8deeb6bf0ae6abb, type: 3}
+    - {fileID: 21300000, guid: 43ef6bbbcad46f44785ea867f7b8e57e, type: 3}
+    - {fileID: 21300000, guid: 0e0c76fce02301042bd5c92903533736, type: 3}
+    - {fileID: 21300000, guid: a816a9eaddf3f8848b404b1546d6a0c9, type: 3}
+    - {fileID: 21300000, guid: f8d271fe5139b6244ad29ddae0b5a91e, type: 3}
+    - {fileID: 21300000, guid: f4e5d81589bb12440b1e34f39ba11257, type: 3}
+    - {fileID: 21300000, guid: 2783486d88f241a448ba8af92699f375, type: 3}
+    - {fileID: 21300000, guid: 8e6e1e032f51f994e8e8669ef481fff4, type: 3}
+    - {fileID: 21300000, guid: 3193ef94cd34dd84ebca0208fab9e78b, type: 3}
+    - {fileID: 21300000, guid: 0ffed9f72da90e24e8fb3be540263ddf, type: 3}
+    - {fileID: 21300000, guid: e6d3fda690d5a1146b0c8bdb80ad1c9c, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 8e6e1e032f51f994e8e8669ef481fff4, type: 3}
+  - {fileID: 21300000, guid: cef33853a4f76ae4d8deeb6bf0ae6abb, type: 3}
+  - {fileID: 21300000, guid: 3193ef94cd34dd84ebca0208fab9e78b, type: 3}
+  - {fileID: 21300000, guid: f4e5d81589bb12440b1e34f39ba11257, type: 3}
+  - {fileID: 21300000, guid: e6d3fda690d5a1146b0c8bdb80ad1c9c, type: 3}
+  - {fileID: 21300000, guid: 0ffed9f72da90e24e8fb3be540263ddf, type: 3}
+  - {fileID: 21300000, guid: a816a9eaddf3f8848b404b1546d6a0c9, type: 3}
+  - {fileID: 21300000, guid: 43ef6bbbcad46f44785ea867f7b8e57e, type: 3}
+  - {fileID: 21300000, guid: 0e0c76fce02301042bd5c92903533736, type: 3}
+  - {fileID: 21300000, guid: 2783486d88f241a448ba8af92699f375, type: 3}
+  - {fileID: 21300000, guid: f8d271fe5139b6244ad29ddae0b5a91e, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - 7
+  - 0
+  - 8
+  - 5
+  - LINES
+  - 9
+  - 3
+  - 1
+  - 2
+  - 6
+  - 4
+  m_RenderDataMap: {}
+  m_Tag: atlas_line_number
+  m_IsVariant: 0
