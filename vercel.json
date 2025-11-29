@@ -1,7 +1,7 @@
 {
   "headers": [
     {
-      "source": "/:path*.(png|jpg|json|js|css|ico|svg|webp|woff|woff2|ttf|eot|otf|mp3|mp4|webm|ogg|wav|zip|pck|rar|7z|tar|gz|bz2|manifest)",
+      "source": "/:path*",
       "headers": [
         { "key": "Access-Control-Allow-Credentials", "value": "true" },
         { "key": "Access-Control-Allow-Origin", "value": "*" },
