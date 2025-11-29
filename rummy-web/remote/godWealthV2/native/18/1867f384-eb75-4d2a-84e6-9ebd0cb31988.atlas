@@ -1,0 +1,250 @@
+
+jinchan2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+w_h_00000
+  rotate: true
+  xy: 930, 868
+  size: 150, 80
+  orig: 150, 80
+  offset: 0, 0
+  index: -1
+w_h_00001
+  rotate: true
+  xy: 930, 716
+  size: 150, 80
+  orig: 150, 80
+  offset: 0, 0
+  index: -1
+w_h_00002
+  rotate: true
+  xy: 930, 564
+  size: 150, 80
+  orig: 150, 80
+  offset: 0, 0
+  index: -1
+w_h_00003
+  rotate: true
+  xy: 930, 412
+  size: 150, 80
+  orig: 150, 80
+  offset: 0, 0
+  index: -1
+w_h_00004
+  rotate: true
+  xy: 930, 260
+  size: 150, 80
+  orig: 150, 80
+  offset: 0, 0
+  index: -1
+w_zi_00000
+  rotate: false
+  xy: 2, 758
+  size: 230, 260
+  orig: 230, 260
+  offset: 0, 0
+  index: -1
+w_zi_00001
+  rotate: false
+  xy: 2, 496
+  size: 230, 260
+  orig: 230, 260
+  offset: 0, 0
+  index: -1
+w_zi_00002
+  rotate: false
+  xy: 234, 758
+  size: 230, 260
+  orig: 230, 260
+  offset: 0, 0
+  index: -1
+w_zi_00003
+  rotate: false
+  xy: 2, 234
+  size: 230, 260
+  orig: 230, 260
+  offset: 0, 0
+  index: -1
+w_zi_00004
+  rotate: false
+  xy: 234, 496
+  size: 230, 260
+  orig: 230, 260
+  offset: 0, 0
+  index: -1
+w_zi_00005
+  rotate: false
+  xy: 466, 758
+  size: 230, 260
+  orig: 230, 260
+  offset: 0, 0
+  index: -1
+w_zi_00006
+  rotate: false
+  xy: 234, 234
+  size: 230, 260
+  orig: 230, 260
+  offset: 0, 0
+  index: -1
+w_zi_00007
+  rotate: true
+  xy: 2, 2
+  size: 230, 260
+  orig: 230, 260
+  offset: 0, 0
+  index: -1
+w_zi_00008
+  rotate: false
+  xy: 466, 496
+  size: 230, 260
+  orig: 230, 260
+  offset: 0, 0
+  index: -1
+w_zi_00009
+  rotate: false
+  xy: 698, 758
+  size: 230, 260
+  orig: 230, 260
+  offset: 0, 0
+  index: -1
+w_zi_00010
+  rotate: false
+  xy: 466, 234
+  size: 230, 260
+  orig: 230, 260
+  offset: 0, 0
+  index: -1
+w_zi_00011
+  rotate: true
+  xy: 264, 2
+  size: 230, 260
+  orig: 230, 260
+  offset: 0, 0
+  index: -1
+w_zi_00012
+  rotate: false
+  xy: 698, 496
+  size: 230, 260
+  orig: 230, 260
+  offset: 0, 0
+  index: -1
+w_zi_00013
+  rotate: false
+  xy: 698, 234
+  size: 230, 260
+  orig: 230, 260
+  offset: 0, 0
+  index: -1
+w_zi_00014
+  rotate: true
+  xy: 526, 2
+  size: 230, 260
+  orig: 230, 260
+  offset: 0, 0
+  index: -1
+wx3
+  rotate: false
+  xy: 788, 62
+  size: 170, 170
+  orig: 170, 170
+  offset: 0, 0
+  index: -1
+
+jinchan22.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+s1
+  rotate: false
+  xy: 141, 102
+  size: 131, 131
+  orig: 131, 131
+  offset: 0, 0
+  index: -1
+w2
+  rotate: false
+  xy: 2, 96
+  size: 137, 137
+  orig: 137, 137
+  offset: 0, 0
+  index: -1
+w_h_00005
+  rotate: false
+  xy: 274, 153
+  size: 150, 80
+  orig: 150, 80
+  offset: 0, 0
+  index: -1
+w_h_00006
+  rotate: false
+  xy: 426, 153
+  size: 150, 80
+  orig: 150, 80
+  offset: 0, 0
+  index: -1
+w_h_00007
+  rotate: false
+  xy: 578, 153
+  size: 150, 80
+  orig: 150, 80
+  offset: 0, 0
+  index: -1
+w_h_00008
+  rotate: false
+  xy: 730, 153
+  size: 150, 80
+  orig: 150, 80
+  offset: 0, 0
+  index: -1
+w_h_00009
+  rotate: false
+  xy: 2, 14
+  size: 150, 80
+  orig: 150, 80
+  offset: 0, 0
+  index: -1
+w_h_00010
+  rotate: false
+  xy: 274, 71
+  size: 150, 80
+  orig: 150, 80
+  offset: 0, 0
+  index: -1
+w_h_00011
+  rotate: false
+  xy: 426, 71
+  size: 150, 80
+  orig: 150, 80
+  offset: 0, 0
+  index: -1
+w_h_00012
+  rotate: false
+  xy: 578, 71
+  size: 150, 80
+  orig: 150, 80
+  offset: 0, 0
+  index: -1
+w_h_00013
+  rotate: false
+  xy: 730, 71
+  size: 150, 80
+  orig: 150, 80
+  offset: 0, 0
+  index: -1
+w_h_00014
+  rotate: true
+  xy: 882, 83
+  size: 150, 80
+  orig: 150, 80
+  offset: 0, 0
+  index: -1
+wz
+  rotate: false
+  xy: 154, 2
+  size: 144, 67
+  orig: 144, 67
+  offset: 0, 0
+  index: -1

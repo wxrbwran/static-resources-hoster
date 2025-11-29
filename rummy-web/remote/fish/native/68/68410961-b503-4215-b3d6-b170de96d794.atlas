@@ -1,0 +1,20 @@
+
+zidan-cth.png
+size: 70,91
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cth
+  rotate: false
+  xy: 2, 2
+  size: 47, 87
+  orig: 47, 99
+  offset: 0, 12
+  index: -1
+cth2
+  rotate: false
+  xy: 51, 13
+  size: 17, 76
+  orig: 47, 99
+  offset: 16, 0
+  index: -1

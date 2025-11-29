@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: atlas_ocean_pearl_sweep
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 0
+      compressionQuality: 0
+      maxTextureSize: 0
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Standalone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 51
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 4096
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 51
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300000, guid: 745ef7bb2f632614baa2560a88d962c4, type: 3}
+    - {fileID: 21300000, guid: c3327046f3bb1d442aeb66af112b0fae, type: 3}
+    - {fileID: 21300000, guid: e621fba35638ed445bccd168cf3ec3e9, type: 3}
+    - {fileID: 21300000, guid: c5490809e802257498a8ce3ab57b23e7, type: 3}
+    - {fileID: 21300000, guid: 73c6fe8dd866e6b479f8e1d8c8f76d73, type: 3}
+    - {fileID: 21300000, guid: b725f591ef1d4434b97d15d07d17a710, type: 3}
+    - {fileID: 21300000, guid: 28eda6c1a7b5a7241be1d2d3700cd4a1, type: 3}
+    - {fileID: 21300000, guid: 52e19e322f457a640b1592b2de2a9631, type: 3}
+    - {fileID: 21300000, guid: f1863792a6ae2aa449a4d7641d8babec, type: 3}
+    - {fileID: 21300000, guid: 806f5a5790a714c458d3cb1f3e5fa909, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: b725f591ef1d4434b97d15d07d17a710, type: 3}
+  - {fileID: 21300000, guid: 28eda6c1a7b5a7241be1d2d3700cd4a1, type: 3}
+  - {fileID: 21300000, guid: 52e19e322f457a640b1592b2de2a9631, type: 3}
+  - {fileID: 21300000, guid: f1863792a6ae2aa449a4d7641d8babec, type: 3}
+  - {fileID: 21300000, guid: e621fba35638ed445bccd168cf3ec3e9, type: 3}
+  - {fileID: 21300000, guid: c3327046f3bb1d442aeb66af112b0fae, type: 3}
+  - {fileID: 21300000, guid: 806f5a5790a714c458d3cb1f3e5fa909, type: 3}
+  - {fileID: 21300000, guid: c5490809e802257498a8ce3ab57b23e7, type: 3}
+  - {fileID: 21300000, guid: 745ef7bb2f632614baa2560a88d962c4, type: 3}
+  - {fileID: 21300000, guid: 73c6fe8dd866e6b479f8e1d8c8f76d73, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - ocean_pearl_sweep_5
+  - ocean_pearl_sweep_6
+  - ocean_pearl_sweep_7
+  - ocean_pearl_sweep_8
+  - ocean_pearl_sweep_2
+  - ocean_pearl_sweep_1
+  - ocean_pearl_sweep_9
+  - ocean_pearl_sweep_3
+  - ocean_pearl_sweep_0
+  - ocean_pearl_sweep_4
+  m_RenderDataMap: {}
+  m_Tag: atlas_ocean_pearl_sweep
+  m_IsVariant: 0

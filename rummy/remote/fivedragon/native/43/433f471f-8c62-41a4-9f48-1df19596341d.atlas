@@ -1,0 +1,76 @@
+
+eff_spine_slot_wlzb_ui.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+kuang1
+  rotate: false
+  xy: 230, 183
+  size: 296, 53
+  orig: 296, 53
+  offset: 0, 0
+  index: -1
+kuang1_glow
+  rotate: false
+  xy: 230, 128
+  size: 296, 53
+  orig: 296, 53
+  offset: 0, 0
+  index: -1
+kuang2
+  rotate: false
+  xy: 528, 183
+  size: 248, 53
+  orig: 248, 53
+  offset: 0, 0
+  index: -1
+kuang2_glow
+  rotate: false
+  xy: 230, 73
+  size: 248, 53
+  orig: 248, 53
+  offset: 0, 0
+  index: -1
+kuang3
+  rotate: false
+  xy: 528, 128
+  size: 240, 53
+  orig: 240, 53
+  offset: 0, 0
+  index: -1
+kuang3_glow
+  rotate: false
+  xy: 778, 183
+  size: 240, 53
+  orig: 240, 53
+  offset: 0, 0
+  index: -1
+kuang4
+  rotate: false
+  xy: 2, 2
+  size: 219, 53
+  orig: 219, 53
+  offset: 0, 0
+  index: -1
+kuang4_glow
+  rotate: false
+  xy: 480, 73
+  size: 219, 53
+  orig: 219, 53
+  offset: 0, 0
+  index: -1
+line
+  rotate: false
+  xy: 2, 57
+  size: 226, 179
+  orig: 226, 179
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 770, 118
+  size: 63, 63
+  orig: 63, 63
+  offset: 0, 0
+  index: -1

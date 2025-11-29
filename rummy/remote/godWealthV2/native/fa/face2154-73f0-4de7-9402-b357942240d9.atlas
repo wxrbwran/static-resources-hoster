@@ -1,0 +1,111 @@
+
+xuanzhong.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+zj_00000
+  rotate: false
+  xy: 2, 466
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+zj_00001
+  rotate: false
+  xy: 234, 698
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+zj_00002
+  rotate: false
+  xy: 2, 234
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+zj_00003
+  rotate: false
+  xy: 234, 466
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+zj_00004
+  rotate: false
+  xy: 466, 698
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+zj_00005
+  rotate: false
+  xy: 2, 2
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+zj_00006
+  rotate: false
+  xy: 234, 234
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+zj_00007
+  rotate: false
+  xy: 466, 466
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+zj_00008
+  rotate: false
+  xy: 698, 698
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+zj_00009
+  rotate: false
+  xy: 234, 2
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+zj_00010
+  rotate: false
+  xy: 466, 234
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+zj_00011
+  rotate: false
+  xy: 698, 466
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+zj_00012
+  rotate: false
+  xy: 466, 2
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+zj_00013
+  rotate: false
+  xy: 698, 234
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1
+zj_00014
+  rotate: false
+  xy: 2, 698
+  size: 230, 230
+  orig: 230, 230
+  offset: 0, 0
+  index: -1

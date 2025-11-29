@@ -1,0 +1,15 @@
+{
+  "packageUrl": "https://hot.supfutce.com/static/subGame/compressed/thorV2/",
+  "remoteManifestUrl": "https://hot.supfutce.com/static/subGame/compressed/thorV2/project.manifest",
+  "remoteVersionUrl": "https://hot.supfutce.com/static/subGame/compressed/thorV2/version.manifest",
+  "version": "7.4.150",
+  "assets": {
+    "thorV2.zip": {
+      "size": 34267887,
+      "md5": "c5d0ce5ffff2c739c7933ba70970eca7",
+      "compressed": true
+    }
+  },
+  "searchPaths": [],
+  "compressed": false
+}

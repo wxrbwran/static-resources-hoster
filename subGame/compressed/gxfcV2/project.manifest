@@ -1,0 +1,15 @@
+{
+  "packageUrl": "https://hot.supfutce.com/static/subGame/compressed/gxfcV2/",
+  "remoteManifestUrl": "https://hot.supfutce.com/static/subGame/compressed/gxfcV2/project.manifest",
+  "remoteVersionUrl": "https://hot.supfutce.com/static/subGame/compressed/gxfcV2/version.manifest",
+  "version": "7.4.150",
+  "assets": {
+    "gxfcV2.zip": {
+      "size": 33660219,
+      "md5": "857e3fef75dc9f35dae514d0afaff768",
+      "compressed": true
+    }
+  },
+  "searchPaths": [],
+  "compressed": false
+}

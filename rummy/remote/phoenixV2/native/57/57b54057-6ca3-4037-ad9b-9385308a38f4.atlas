@@ -1,0 +1,13 @@
+
+tubiao_bianfu.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+icon_fenghuang_tubiao_bianfu
+  rotate: false
+  xy: 2, 2
+  size: 140, 137
+  orig: 140, 137
+  offset: 0, 0
+  index: -1

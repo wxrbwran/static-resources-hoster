@@ -1,0 +1,363 @@
+
+thor_huozhu.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+thor_anim_huozhu_00000
+  rotate: true
+  xy: 524, 1244
+  size: 175, 274
+  orig: 175, 274
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00001
+  rotate: true
+  xy: 800, 1244
+  size: 175, 274
+  orig: 175, 274
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00002
+  rotate: true
+  xy: 1076, 1244
+  size: 175, 274
+  orig: 175, 274
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00003
+  rotate: true
+  xy: 1352, 1244
+  size: 175, 274
+  orig: 175, 274
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00004
+  rotate: true
+  xy: 1628, 1244
+  size: 175, 274
+  orig: 175, 274
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00005
+  rotate: true
+  xy: 2, 1101
+  size: 175, 274
+  orig: 175, 274
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00006
+  rotate: true
+  xy: 278, 1067
+  size: 175, 274
+  orig: 175, 274
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00007
+  rotate: true
+  xy: 554, 1067
+  size: 175, 274
+  orig: 175, 274
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00008
+  rotate: true
+  xy: 830, 1067
+  size: 175, 274
+  orig: 175, 274
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00009
+  rotate: true
+  xy: 1106, 1067
+  size: 175, 274
+  orig: 175, 274
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00010
+  rotate: true
+  xy: 1382, 1067
+  size: 175, 274
+  orig: 175, 274
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00011
+  rotate: true
+  xy: 1658, 1067
+  size: 175, 274
+  orig: 175, 274
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00012
+  rotate: true
+  xy: 2, 924
+  size: 175, 273
+  orig: 175, 273
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00013
+  rotate: true
+  xy: 1378, 535
+  size: 176, 273
+  orig: 176, 273
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00014
+  rotate: true
+  xy: 1653, 535
+  size: 176, 271
+  orig: 176, 271
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00015
+  rotate: true
+  xy: 2, 392
+  size: 176, 271
+  orig: 176, 271
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00016
+  rotate: true
+  xy: 275, 358
+  size: 176, 259
+  orig: 176, 259
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00017
+  rotate: true
+  xy: 536, 358
+  size: 176, 262
+  orig: 176, 262
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00018
+  rotate: true
+  xy: 800, 358
+  size: 176, 260
+  orig: 176, 260
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00019
+  rotate: true
+  xy: 1062, 358
+  size: 176, 260
+  orig: 176, 260
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00020
+  rotate: true
+  xy: 1324, 357
+  size: 176, 261
+  orig: 176, 261
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00021
+  rotate: true
+  xy: 1587, 357
+  size: 176, 263
+  orig: 176, 263
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00022
+  rotate: true
+  xy: 2, 214
+  size: 176, 262
+  orig: 176, 262
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00023
+  rotate: false
+  xy: 1852, 272
+  size: 176, 261
+  orig: 176, 261
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00024
+  rotate: true
+  xy: 266, 180
+  size: 176, 262
+  orig: 176, 262
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00025
+  rotate: true
+  xy: 530, 180
+  size: 176, 273
+  orig: 176, 273
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00026
+  rotate: true
+  xy: 805, 180
+  size: 176, 272
+  orig: 176, 272
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00027
+  rotate: true
+  xy: 1079, 179
+  size: 176, 273
+  orig: 176, 273
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00028
+  rotate: true
+  xy: 1354, 179
+  size: 176, 273
+  orig: 176, 273
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00029
+  rotate: true
+  xy: 1629, 94
+  size: 176, 272
+  orig: 176, 272
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00030
+  rotate: true
+  xy: 2, 2
+  size: 176, 273
+  orig: 176, 273
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00031
+  rotate: true
+  xy: 277, 890
+  size: 175, 273
+  orig: 175, 273
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00032
+  rotate: true
+  xy: 552, 890
+  size: 175, 273
+  orig: 175, 273
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00033
+  rotate: true
+  xy: 827, 890
+  size: 175, 273
+  orig: 175, 273
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00034
+  rotate: true
+  xy: 1102, 890
+  size: 175, 273
+  orig: 175, 273
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00035
+  rotate: true
+  xy: 1377, 890
+  size: 175, 274
+  orig: 175, 274
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00036
+  rotate: true
+  xy: 1653, 890
+  size: 175, 274
+  orig: 175, 274
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00037
+  rotate: true
+  xy: 277, 2
+  size: 176, 274
+  orig: 176, 274
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00038
+  rotate: true
+  xy: 277, 713
+  size: 175, 274
+  orig: 175, 274
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00039
+  rotate: true
+  xy: 553, 713
+  size: 175, 274
+  orig: 175, 274
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00040
+  rotate: true
+  xy: 829, 713
+  size: 175, 274
+  orig: 175, 274
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00041
+  rotate: true
+  xy: 2, 747
+  size: 175, 273
+  orig: 175, 273
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00042
+  rotate: true
+  xy: 1105, 713
+  size: 175, 273
+  orig: 175, 273
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00043
+  rotate: true
+  xy: 1380, 713
+  size: 175, 274
+  orig: 175, 274
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00044
+  rotate: true
+  xy: 1656, 713
+  size: 175, 273
+  orig: 175, 273
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00045
+  rotate: true
+  xy: 2, 570
+  size: 175, 273
+  orig: 175, 273
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00046
+  rotate: true
+  xy: 277, 536
+  size: 175, 273
+  orig: 175, 273
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00047
+  rotate: true
+  xy: 552, 536
+  size: 175, 273
+  orig: 175, 273
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00048
+  rotate: true
+  xy: 827, 536
+  size: 175, 273
+  orig: 175, 273
+  offset: 0, 0
+  index: -1
+thor_anim_huozhu_00049
+  rotate: true
+  xy: 1102, 536
+  size: 175, 274
+  orig: 175, 274
+  offset: 0, 0
+  index: -1
+左小
+  rotate: true
+  xy: 2, 1278
+  size: 141, 520
+  orig: 141, 520
+  offset: 0, 0
+  index: -1

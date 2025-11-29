@@ -1,0 +1,187 @@
+
+tang_super.png
+size: 1931,1863
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+aixin
+  rotate: false
+  xy: 123, 1738
+  size: 123, 123
+  orig: 128, 129
+  offset: 3, 3
+  index: -1
+bbt
+  rotate: true
+  xy: 1449, 1633
+  size: 228, 285
+  orig: 240, 294
+  offset: 5, 4
+  index: -1
+big_00000
+  rotate: false
+  xy: 652, 1167
+  size: 960, 231
+  orig: 965, 232
+  offset: 5, 1
+  index: -1
+big_00002
+  rotate: false
+  xy: 2, 934
+  size: 960, 231
+  orig: 965, 232
+  offset: 5, 1
+  index: -1
+big_00004
+  rotate: false
+  xy: 964, 934
+  size: 965, 231
+  orig: 965, 232
+  offset: 0, 1
+  index: -1
+big_00006
+  rotate: false
+  xy: 2, 701
+  size: 960, 231
+  orig: 965, 232
+  offset: 5, 1
+  index: -1
+big_00008
+  rotate: false
+  xy: 964, 701
+  size: 960, 231
+  orig: 965, 232
+  offset: 5, 1
+  index: -1
+big_00010
+  rotate: false
+  xy: 2, 468
+  size: 960, 231
+  orig: 965, 232
+  offset: 5, 1
+  index: -1
+big_00012
+  rotate: false
+  xy: 964, 468
+  size: 960, 231
+  orig: 965, 232
+  offset: 5, 1
+  index: -1
+big_00014
+  rotate: false
+  xy: 2, 235
+  size: 960, 231
+  orig: 965, 232
+  offset: 5, 1
+  index: -1
+big_00016
+  rotate: false
+  xy: 964, 235
+  size: 960, 231
+  orig: 965, 232
+  offset: 5, 1
+  index: -1
+big_00018
+  rotate: false
+  xy: 2, 2
+  size: 960, 231
+  orig: 965, 232
+  offset: 5, 1
+  index: -1
+big_00020
+  rotate: false
+  xy: 964, 2
+  size: 960, 231
+  orig: 965, 232
+  offset: 5, 1
+  index: -1
+big_00024
+  rotate: false
+  xy: 802, 1400
+  size: 960, 231
+  orig: 965, 232
+  offset: 5, 1
+  index: -1
+ch0
+  rotate: false
+  xy: 2, 1217
+  size: 648, 319
+  orig: 666, 346
+  offset: 9, 23
+  index: -1
+g1
+  rotate: false
+  xy: 28, 1776
+  size: 93, 85
+  orig: 96, 89
+  offset: 1, 0
+  index: -1
+g2
+  rotate: false
+  xy: 2, 1838
+  size: 24, 23
+  orig: 29, 29
+  offset: 3, 4
+  index: -1
+kuang
+  rotate: false
+  xy: 2, 1538
+  size: 798, 184
+  orig: 800, 186
+  offset: 1, 1
+  index: -1
+tang
+  rotate: true
+  xy: 1264, 1722
+  size: 139, 183
+  orig: 141, 186
+  offset: 1, 1
+  index: -1
+yun1
+  rotate: false
+  xy: 248, 1724
+  size: 506, 137
+  orig: 508, 139
+  offset: 1, 1
+  index: -1
+yun2
+  rotate: false
+  xy: 756, 1724
+  size: 506, 137
+  orig: 508, 139
+  offset: 1, 1
+  index: -1
+
+tang_super2.png
+size: 1806,772
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+big_00022
+  rotate: false
+  xy: 2, 2
+  size: 960, 231
+  orig: 965, 232
+  offset: 5, 1
+  index: -1
+caidai
+  rotate: false
+  xy: 2, 235
+  size: 1064, 535
+  orig: 1066, 553
+  offset: 1, 17
+  index: -1
+ch
+  rotate: true
+  xy: 1464, 177
+  size: 593, 340
+  orig: 596, 343
+  offset: 1, 2
+  index: -1
+yunduo
+  rotate: true
+  xy: 1068, 22
+  size: 748, 394
+  orig: 760, 405
+  offset: 6, 5
+  index: -1

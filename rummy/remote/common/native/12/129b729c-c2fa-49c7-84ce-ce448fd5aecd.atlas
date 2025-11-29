@@ -1,0 +1,55 @@
+
+liulian.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+liulian
+  rotate: false
+  xy: 2, 55
+  size: 94, 102
+  orig: 94, 102
+  offset: 0, 0
+  index: -1
+z_0000_xing
+  rotate: false
+  xy: 145, 45
+  size: 32, 33
+  orig: 32, 33
+  offset: 0, 0
+  index: -1
+z_0001_xing1
+  rotate: false
+  xy: 2, 2
+  size: 52, 51
+  orig: 52, 51
+  offset: 0, 0
+  index: -1
+z_0002_peng
+  rotate: true
+  xy: 98, 56
+  size: 22, 38
+  orig: 22, 38
+  offset: 0, 0
+  index: -1
+z_0008_quan1
+  rotate: false
+  xy: 56, 3
+  size: 87, 50
+  orig: 87, 50
+  offset: 0, 0
+  index: -1
+z_0009_quan2
+  rotate: false
+  xy: 98, 80
+  size: 83, 37
+  orig: 83, 37
+  offset: 0, 0
+  index: -1
+z_0010_quan3
+  rotate: false
+  xy: 98, 119
+  size: 86, 38
+  orig: 86, 38
+  offset: 0, 0
+  index: -1

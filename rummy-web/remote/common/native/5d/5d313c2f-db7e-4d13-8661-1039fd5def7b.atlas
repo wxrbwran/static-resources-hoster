@@ -1,0 +1,62 @@
+
+zhuaji.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+j_0000_4
+  rotate: false
+  xy: 1171, 2
+  size: 165, 152
+  orig: 165, 152
+  offset: 0, 0
+  index: -1
+j_0001_1
+  rotate: false
+  xy: 2, 2
+  size: 165, 152
+  orig: 165, 152
+  offset: 0, 0
+  index: -1
+j_0002_2
+  rotate: false
+  xy: 169, 2
+  size: 165, 152
+  orig: 165, 152
+  offset: 0, 0
+  index: -1
+j_0003_3
+  rotate: false
+  xy: 336, 2
+  size: 165, 152
+  orig: 165, 152
+  offset: 0, 0
+  index: -1
+j_0004_shou
+  rotate: false
+  xy: 503, 2
+  size: 165, 152
+  orig: 165, 152
+  offset: 0, 0
+  index: -1
+j_0005_mao3
+  rotate: false
+  xy: 670, 2
+  size: 165, 152
+  orig: 165, 152
+  offset: 0, 0
+  index: -1
+j_0006_mao2
+  rotate: false
+  xy: 837, 2
+  size: 165, 152
+  orig: 165, 152
+  offset: 0, 0
+  index: -1
+j_0007_mao1
+  rotate: false
+  xy: 1004, 2
+  size: 165, 152
+  orig: 165, 152
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: atlas_ocean_mermaidbg_change
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 0
+      compressionQuality: 0
+      maxTextureSize: 0
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Standalone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 51
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 4096
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 51
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300000, guid: 680befa781fafcf4c8d85835c3c66498, type: 3}
+    - {fileID: 21300000, guid: ce03769973f77d84989d1082264a8484, type: 3}
+    - {fileID: 21300000, guid: afc33ecec3c78a84d89cab6e8c590933, type: 3}
+    - {fileID: 21300000, guid: 8c31a9946aab1264492e42a27bfef186, type: 3}
+    - {fileID: 21300000, guid: 5a0310629eaaf874780a420f31b84881, type: 3}
+    - {fileID: 21300000, guid: 2443c2a8dad0345418704f5bc4cf4fe6, type: 3}
+    - {fileID: 21300000, guid: 4f2e1e843932b8040b2ca5e6dfdbc7fe, type: 3}
+    - {fileID: 21300000, guid: ba357217e4ccf9b4d82c5f0aac74f4a2, type: 3}
+    - {fileID: 21300000, guid: 7315b36a281f19141a56e5ecfc4475d8, type: 3}
+    - {fileID: 21300000, guid: 8235cb074df5b064a8242dc720476351, type: 3}
+    - {fileID: 21300000, guid: ecc4b2108616d69478ed2c0e2474c79c, type: 3}
+    - {fileID: 21300000, guid: 42cdc7594867f9f409de3fc83de33535, type: 3}
+    - {fileID: 21300000, guid: c5f7b9cfd44e26346846a5c1c8f76015, type: 3}
+    - {fileID: 21300000, guid: cbd9ea1d6175ec745925973c7eb36b2e, type: 3}
+    - {fileID: 21300000, guid: 66fca8814fcaa9f40acf08009b7b1309, type: 3}
+    - {fileID: 21300000, guid: 7704e26f76284af488bfba7f32f02579, type: 3}
+    - {fileID: 21300000, guid: 58fd490e6b82647449e426e6f0886526, type: 3}
+    - {fileID: 21300000, guid: a35219b8a29b5174e90813b7e723e362, type: 3}
+    - {fileID: 21300000, guid: 52767ce58093c8a4bb0649ddf70a4372, type: 3}
+    - {fileID: 21300000, guid: 228aa2644acb3cc4dbb8fd8b5909c07a, type: 3}
+    - {fileID: 21300000, guid: 9d40146f3d7aedb49a5316e3c9aecbd3, type: 3}
+    - {fileID: 21300000, guid: 00a0bd4386bcbc0428a2bb667f5820cf, type: 3}
+    - {fileID: 21300000, guid: 0adceb243b2f0604995fe6a58f6cb0e0, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: ecc4b2108616d69478ed2c0e2474c79c, type: 3}
+  - {fileID: 21300000, guid: 66fca8814fcaa9f40acf08009b7b1309, type: 3}
+  - {fileID: 21300000, guid: 5a0310629eaaf874780a420f31b84881, type: 3}
+  - {fileID: 21300000, guid: 00a0bd4386bcbc0428a2bb667f5820cf, type: 3}
+  - {fileID: 21300000, guid: 0adceb243b2f0604995fe6a58f6cb0e0, type: 3}
+  - {fileID: 21300000, guid: 228aa2644acb3cc4dbb8fd8b5909c07a, type: 3}
+  - {fileID: 21300000, guid: 4f2e1e843932b8040b2ca5e6dfdbc7fe, type: 3}
+  - {fileID: 21300000, guid: 8c31a9946aab1264492e42a27bfef186, type: 3}
+  - {fileID: 21300000, guid: 52767ce58093c8a4bb0649ddf70a4372, type: 3}
+  - {fileID: 21300000, guid: 8235cb074df5b064a8242dc720476351, type: 3}
+  - {fileID: 21300000, guid: ba357217e4ccf9b4d82c5f0aac74f4a2, type: 3}
+  - {fileID: 21300000, guid: 680befa781fafcf4c8d85835c3c66498, type: 3}
+  - {fileID: 21300000, guid: 2443c2a8dad0345418704f5bc4cf4fe6, type: 3}
+  - {fileID: 21300000, guid: a35219b8a29b5174e90813b7e723e362, type: 3}
+  - {fileID: 21300000, guid: 42cdc7594867f9f409de3fc83de33535, type: 3}
+  - {fileID: 21300000, guid: ce03769973f77d84989d1082264a8484, type: 3}
+  - {fileID: 21300000, guid: 7315b36a281f19141a56e5ecfc4475d8, type: 3}
+  - {fileID: 21300000, guid: cbd9ea1d6175ec745925973c7eb36b2e, type: 3}
+  - {fileID: 21300000, guid: 58fd490e6b82647449e426e6f0886526, type: 3}
+  - {fileID: 21300000, guid: afc33ecec3c78a84d89cab6e8c590933, type: 3}
+  - {fileID: 21300000, guid: 7704e26f76284af488bfba7f32f02579, type: 3}
+  - {fileID: 21300000, guid: 9d40146f3d7aedb49a5316e3c9aecbd3, type: 3}
+  - {fileID: 21300000, guid: c5f7b9cfd44e26346846a5c1c8f76015, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - ocean_mermaidbg_change_11
+  - ocean_mermaidbg_change_15
+  - ocean_mermaidbg_change_05
+  - ocean_mermaidbg_change_22
+  - ocean_mermaidbg_change_23
+  - ocean_mermaidbg_change_20
+  - ocean_mermaidbg_change_07
+  - ocean_mermaidbg_change_04
+  - ocean_mermaidbg_change_19
+  - ocean_mermaidbg_change_10
+  - ocean_mermaidbg_change_08
+  - ocean_mermaidbg_change_01
+  - ocean_mermaidbg_change_06
+  - ocean_mermaidbg_change_18
+  - ocean_mermaidbg_change_12
+  - ocean_mermaidbg_change_02
+  - ocean_mermaidbg_change_09
+  - ocean_mermaidbg_change_14
+  - ocean_mermaidbg_change_17
+  - ocean_mermaidbg_change_03
+  - ocean_mermaidbg_change_16
+  - ocean_mermaidbg_change_21
+  - ocean_mermaidbg_change_13
+  m_RenderDataMap: {}
+  m_Tag: atlas_ocean_mermaidbg_change
+  m_IsVariant: 0

@@ -1,0 +1,34 @@
+
+start_bet.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+LH_HD
+  rotate: false
+  xy: 896, 187
+  size: 332, 162
+  orig: 332, 162
+  offset: 0, 0
+  index: -1
+LH_HH2
+  rotate: false
+  xy: 555, 193
+  size: 339, 156
+  orig: 339, 156
+  offset: 0, 0
+  index: -1
+LH_K8
+  rotate: false
+  xy: 2, 2
+  size: 1190, 183
+  orig: 1190, 183
+  offset: 0, 0
+  index: -1
+START_BET
+  rotate: false
+  xy: 2, 233
+  size: 551, 116
+  orig: 551, 116
+  offset: 0, 0
+  index: -1

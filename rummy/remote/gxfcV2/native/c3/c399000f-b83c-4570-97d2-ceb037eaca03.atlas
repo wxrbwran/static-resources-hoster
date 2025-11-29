@@ -1,0 +1,55 @@
+
+baifa.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baifa1
+  rotate: false
+  xy: 2, 2
+  size: 160, 146
+  orig: 160, 146
+  offset: 0, 0
+  index: -1
+baifa2
+  rotate: false
+  xy: 164, 2
+  size: 160, 146
+  orig: 160, 146
+  offset: 0, 0
+  index: -1
+baifa3
+  rotate: false
+  xy: 326, 2
+  size: 160, 146
+  orig: 160, 146
+  offset: 0, 0
+  index: -1
+baifa4
+  rotate: false
+  xy: 488, 2
+  size: 160, 146
+  orig: 160, 146
+  offset: 0, 0
+  index: -1
+baifa5
+  rotate: false
+  xy: 650, 2
+  size: 160, 146
+  orig: 160, 146
+  offset: 0, 0
+  index: -1
+baifa6
+  rotate: false
+  xy: 812, 2
+  size: 160, 146
+  orig: 160, 146
+  offset: 0, 0
+  index: -1
+baifa8
+  rotate: false
+  xy: 974, 2
+  size: 160, 146
+  orig: 160, 146
+  offset: 0, 0
+  index: -1

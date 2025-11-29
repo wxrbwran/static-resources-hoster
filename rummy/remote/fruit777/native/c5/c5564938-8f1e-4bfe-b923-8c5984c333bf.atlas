@@ -1,0 +1,34 @@
+
++2tubiaodonghua.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
++2
+  rotate: false
+  xy: 2, 2
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+PICK
+  rotate: false
+  xy: 124, 35
+  size: 84, 31
+  orig: 84, 31
+  offset: 0, 0
+  index: -1
+dikuang
+  rotate: false
+  xy: 303, 20
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+saoguang
+  rotate: true
+  xy: 124, 68
+  size: 54, 177
+  orig: 54, 177
+  offset: 0, 0
+  index: -1

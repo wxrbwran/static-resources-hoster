@@ -1,0 +1,62 @@
+
+lanzitubiaodonghua.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SGJtubiaolanzi2
+  rotate: false
+  xy: 2, 58
+  size: 150, 130
+  orig: 150, 130
+  offset: 0, 0
+  index: -1
+SGJtubiaolanziboluo
+  rotate: false
+  xy: 154, 58
+  size: 150, 130
+  orig: 150, 130
+  offset: 0, 0
+  index: -1
+SGJtubiaolanzilanzi1
+  rotate: true
+  xy: 914, 75
+  size: 113, 37
+  orig: 113, 37
+  offset: 0, 0
+  index: -1
+SGJtubiaolanzinanmei
+  rotate: false
+  xy: 306, 58
+  size: 150, 130
+  orig: 150, 130
+  offset: 0, 0
+  index: -1
+SGJtubiaolanziputao
+  rotate: false
+  xy: 458, 58
+  size: 150, 130
+  orig: 150, 130
+  offset: 0, 0
+  index: -1
+SGJtubiaolanzixiangjiao
+  rotate: false
+  xy: 610, 58
+  size: 150, 130
+  orig: 150, 130
+  offset: 0, 0
+  index: -1
+SGJtubiaolanzixigua
+  rotate: false
+  xy: 762, 58
+  size: 150, 130
+  orig: 150, 130
+  offset: 0, 0
+  index: -1
+saoguang
+  rotate: true
+  xy: 2, 2
+  size: 54, 177
+  orig: 54, 177
+  offset: 0, 0
+  index: -1

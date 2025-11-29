@@ -1,0 +1,83 @@
+
+domino.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+boluo
+  rotate: false
+  xy: 446, 3
+  size: 92, 98
+  orig: 92, 98
+  offset: 0, 0
+  index: -1
+gp
+  rotate: false
+  xy: 267, 68
+  size: 141, 186
+  orig: 141, 186
+  offset: 0, 0
+  index: -1
+gp[2
+  rotate: false
+  xy: 410, 103
+  size: 114, 151
+  orig: 114, 151
+  offset: 0, 0
+  index: -1
+lv 拷贝
+  rotate: true
+  xy: 2, 19
+  size: 235, 263
+  orig: 235, 263
+  offset: 0, 0
+  index: -1
+ye1
+  rotate: false
+  xy: 410, 76
+  size: 34, 25
+  orig: 34, 25
+  offset: 0, 0
+  index: -1
+ye2
+  rotate: false
+  xy: 372, 46
+  size: 47, 20
+  orig: 47, 20
+  offset: 0, 0
+  index: -1
+ye3
+  rotate: false
+  xy: 339, 2
+  size: 47, 22
+  orig: 47, 22
+  offset: 0, 0
+  index: -1
+ye4
+  rotate: false
+  xy: 306, 20
+  size: 31, 46
+  orig: 31, 46
+  offset: 0, 0
+  index: -1
+ye5
+  rotate: true
+  xy: 339, 26
+  size: 40, 31
+  orig: 40, 31
+  offset: 0, 0
+  index: -1
+ye7
+  rotate: false
+  xy: 267, 22
+  size: 37, 44
+  orig: 37, 44
+  offset: 0, 0
+  index: -1
+ye8
+  rotate: true
+  xy: 388, 24
+  size: 20, 45
+  orig: 20, 45
+  offset: 0, 0
+  index: -1

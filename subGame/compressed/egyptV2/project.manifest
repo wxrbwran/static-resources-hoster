@@ -1,0 +1,15 @@
+{
+  "packageUrl": "https://hot.supfutce.com/static/subGame/compressed/egyptV2/",
+  "remoteManifestUrl": "https://hot.supfutce.com/static/subGame/compressed/egyptV2/project.manifest",
+  "remoteVersionUrl": "https://hot.supfutce.com/static/subGame/compressed/egyptV2/version.manifest",
+  "version": "7.4.150",
+  "assets": {
+    "egyptV2.zip": {
+      "size": 28395841,
+      "md5": "b2285fcf09cf0f97b1b8724780e97f3c",
+      "compressed": true
+    }
+  },
+  "searchPaths": [],
+  "compressed": false
+}

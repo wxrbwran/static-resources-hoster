@@ -1,0 +1,48 @@
+
+symbol_10x.png
+size: 497,232
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eft_bol_01
+  rotate: false
+  xy: 458, 3
+  size: 38, 38
+  orig: 40, 40
+  offset: 1, 1
+  index: -1
+eft_exp_04big
+  rotate: true
+  xy: 1, 13
+  size: 218, 215
+  orig: 232, 231
+  offset: 8, 7
+  index: -1
+eft_moon_01
+  rotate: false
+  xy: 1, 1
+  size: 25, 10
+  orig: 29, 12
+  offset: 2, 0
+  index: -1
+symbol_15_base
+  rotate: true
+  xy: 218, 1
+  size: 230, 164
+  orig: 234, 202
+  offset: 2, 14
+  index: -1
+symbol_15_num
+  rotate: true
+  xy: 384, 43
+  size: 188, 102
+  orig: 234, 202
+  offset: 28, 55
+  index: -1
+symbol_win
+  rotate: false
+  xy: 384, 11
+  size: 72, 30
+  orig: 72, 30
+  offset: 0, 0
+  index: -1

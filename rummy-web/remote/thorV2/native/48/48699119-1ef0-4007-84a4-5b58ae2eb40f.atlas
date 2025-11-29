@@ -1,0 +1,167 @@
+
+huangseshandian.png
+size: 2003,1358
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+huangseleidian_00001
+  rotate: false
+  xy: 989, 2
+  size: 71, 55
+  orig: 76, 60
+  offset: 1, 4
+  index: -1
+huangseleidian_00002
+  rotate: true
+  xy: 1903, 161
+  size: 76, 98
+  orig: 83, 103
+  offset: 4, 4
+  index: -1
+huangseleidian_00003
+  rotate: false
+  xy: 1903, 14
+  size: 95, 145
+  orig: 102, 150
+  offset: 4, 4
+  index: -1
+huangseleidian_00004
+  rotate: true
+  xy: 1468, 258
+  size: 139, 210
+  orig: 147, 215
+  offset: 4, 4
+  index: -1
+huangseleidian_00005
+  rotate: false
+  xy: 1468, 8
+  size: 158, 229
+  orig: 168, 237
+  offset: 4, 7
+  index: -1
+huangseleidian_00006
+  rotate: true
+  xy: 1628, 55
+  size: 182, 273
+  orig: 191, 277
+  offset: 4, 3
+  index: -1
+huangseleidian_00007
+  rotate: true
+  xy: 1684, 668
+  size: 215, 309
+  orig: 223, 314
+  offset: 4, 4
+  index: -1
+huangseleidian_00008
+  rotate: false
+  xy: 270, 47
+  size: 237, 347
+  orig: 246, 351
+  offset: 4, 3
+  index: -1
+huangseleidian_00009
+  rotate: false
+  xy: 2, 7
+  size: 266, 387
+  orig: 277, 392
+  offset: 5, 4
+  index: -1
+huangseleidian_00010
+  rotate: false
+  xy: 1684, 239
+  size: 282, 427
+  orig: 294, 433
+  offset: 6, 5
+  index: -1
+huangseleidian_00011
+  rotate: false
+  xy: 1670, 885
+  size: 310, 471
+  orig: 321, 477
+  offset: 4, 5
+  index: -1
+huangseleidian_00012
+  rotate: false
+  xy: 342, 396
+  size: 337, 479
+  orig: 344, 481
+  offset: 3, 1
+  index: -1
+huangseleidian_00013
+  rotate: true
+  xy: 509, 51
+  size: 343, 478
+  orig: 347, 481
+  offset: 3, 2
+  index: -1
+huangseleidian_00014
+  rotate: false
+  xy: 2, 877
+  size: 344, 479
+  orig: 347, 481
+  offset: 2, 1
+  index: -1
+huangseleidian_00015
+  rotate: false
+  xy: 2, 396
+  size: 338, 479
+  orig: 342, 481
+  offset: 3, 1
+  index: -1
+huangseleidian_00016
+  rotate: true
+  xy: 989, 59
+  size: 335, 477
+  orig: 340, 481
+  offset: 4, 3
+  index: -1
+huangseleidian_00017
+  rotate: false
+  xy: 348, 877
+  size: 334, 479
+  orig: 340, 481
+  offset: 5, 1
+  index: -1
+huangseleidian_00018
+  rotate: false
+  xy: 1350, 399
+  size: 332, 477
+  orig: 341, 481
+  offset: 8, 3
+  index: -1
+huangseleidian_00019
+  rotate: false
+  xy: 684, 877
+  size: 332, 479
+  orig: 340, 481
+  offset: 7, 1
+  index: -1
+huangseleidian_00020
+  rotate: false
+  xy: 1016, 396
+  size: 332, 479
+  orig: 340, 481
+  offset: 6, 1
+  index: -1
+huangseleidian_00021
+  rotate: false
+  xy: 681, 396
+  size: 333, 479
+  orig: 341, 481
+  offset: 7, 1
+  index: -1
+huangseleidian_00022
+  rotate: false
+  xy: 1342, 878
+  size: 326, 478
+  orig: 332, 481
+  offset: 5, 2
+  index: -1
+huangseleidian_00023
+  rotate: false
+  xy: 1018, 877
+  size: 322, 479
+  orig: 328, 481
+  offset: 5, 1
+  index: -1

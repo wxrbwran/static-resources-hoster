@@ -1,0 +1,34 @@
+
+yuwang-5.png
+size: 847,254
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+yuwang-5-1
+  rotate: false
+  xy: 2, 2
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1
+yuwang-5-2
+  rotate: true
+  xy: 444, 44
+  size: 208, 198
+  orig: 250, 250
+  offset: 20, 24
+  index: -1
+yuwang-5-3
+  rotate: true
+  xy: 644, 52
+  size: 200, 201
+  orig: 250, 250
+  offset: 21, 27
+  index: -1
+yuwang-5-4
+  rotate: true
+  xy: 254, 22
+  size: 230, 188
+  orig: 250, 250
+  offset: 13, 23
+  index: -1

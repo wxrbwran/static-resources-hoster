@@ -1,0 +1,27 @@
+
+tubiao_xyx_niao3.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+icon_fenghuang_tubiao_bianfu
+  rotate: true
+  xy: 321, 8
+  size: 140, 137
+  orig: 140, 137
+  offset: 0, 0
+  index: -1
+icon_fenghuang_tubiao_fenghuang2
+  rotate: false
+  xy: 162, 2
+  size: 157, 146
+  orig: 157, 146
+  offset: 0, 0
+  index: -1
+icon_fenghuang_tubiao_fenghuang3
+  rotate: false
+  xy: 2, 2
+  size: 158, 146
+  orig: 158, 146
+  offset: 0, 0
+  index: -1

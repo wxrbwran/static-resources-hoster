@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>静态资源服务 - 晨风工坊</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      background: linear-gradient(135deg, #1a1a2e, #16213e);
+      color: #fff;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+      position: relative;
+      z-index: 1;
+    }
+    
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+      position: relative;
+    }
+    
+    .logo {
+      width: 120px;
+      height: auto;
+      margin-bottom: 1rem;
+      animation: float 3s ease-in-out infinite;
+    }
+    
+    h1 {
+      font-size: 3.5rem;
+      margin-bottom: 1rem;
+      background: linear-gradient(90deg, #00dbde, #fc00ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+    
+    h2 {
+      font-size: 1.8rem;
+      font-weight: 300;
+      margin-bottom: 0.5rem;
+      color: #a0a0a0;
+    }
+    
+    h3 {
+      font-size: 2.2rem;
+      margin-bottom: 2rem;
+      position: relative;
+      display: inline-block;
+      text-shadow: 0 0 10px rgba(76, 201, 240, 0.5);
+    }
+    
+    h3 span {
+      display: inline-block;
+      position: relative;
+      transform-style: preserve-3d;
+      transition: transform 0.3s, color 0.3s, text-shadow 0.3s;
+    }
+    
+    h3 .char1 { animation: float-char 3s ease-in-out infinite, water-ripple 5s ease-in-out infinite; animation-delay: 0s, 0s; filter: blur(0.2px); }
+    h3 .char2 { animation: float-char 3s ease-in-out infinite, water-ripple 5s ease-in-out infinite; animation-delay: 0.2s, 0.5s; filter: blur(0.2px); }
+    h3 .char3 { animation: float-char 3s ease-in-out infinite, water-ripple 5s ease-in-out infinite; animation-delay: 0.4s, 1s; filter: blur(0.2px); }
+    h3 .char4 { animation: float-char 3s ease-in-out infinite, water-ripple 5s ease-in-out infinite; animation-delay: 0.6s, 1.5s; filter: blur(0.2px); }
+    
+    @keyframes water-ripple {
+      0% { color: #4cc9f0; text-shadow: 0 0 5px rgba(76, 201, 240, 0.5); filter: blur(0px); transform: scale(1); }
+      20% { color: #4cc9f0; text-shadow: 0 0 7px rgba(76, 201, 240, 0.6); filter: blur(0.2px); transform: scale(1.02); }
+      40% { color: #4361ee; text-shadow: 0 0 10px rgba(67, 97, 238, 0.7); filter: blur(0.3px); transform: scale(1.01); }
+      60% { color: #3a0ca3; text-shadow: 0 0 12px rgba(58, 12, 163, 0.8); filter: blur(0.4px); transform: scale(1.03); }
+      80% { color: #7209b7; text-shadow: 0 0 10px rgba(114, 9, 183, 0.7); filter: blur(0.3px); transform: scale(1.02); }
+      100% { color: #4cc9f0; text-shadow: 0 0 5px rgba(76, 201, 240, 0.5); filter: blur(0px); transform: scale(1); }
+    }
+    
+    h3 span:hover {
+      transform: translateY(-5px) rotateY(20deg);
+      text-shadow: 0 5px 15px rgba(76, 201, 240, 0.8);
+    }
+    
+    h3::after {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      background: linear-gradient(90deg, #4cc9f0, #4361ee, #3a0ca3, #7209b7);
+      transform-origin: right;
+      transform: scaleX(0);
+      transition: transform 0.5s ease-out;
+      animation: gradient-shift 3s linear infinite;
+    }
+    
+    h3:hover::after {
+      transform-origin: left;
+      transform: scaleX(1);
+    }
+    
+    @keyframes float-char {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0); }
+    }
+    
+    @keyframes gradient-shift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+    }
+    
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      margin-top: 3rem;
+    }
+    
+    .feature {
+      text-align: center;
+      padding: 1.5rem;
+      background: rgba(255, 255, 255, 0.03);
+      border-radius: 15px;
+      transition: transform 0.3s ease;
+    }
+    
+    .feature:hover {
+      transform: scale(1.05);
+    }
+    
+    .feature-icon {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      color: #4cc9f0;
+    }
+    
+    .btn {
+      display: inline-block;
+      background: linear-gradient(90deg, #4361ee, #4cc9f0);
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 2rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 5px 15px rgba(76, 201, 240, 0.3);
+    }
+    
+    .btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(76, 201, 240, 0.5);
+    }
+    
+    footer {
+      text-align: center;
+      margin-top: 4rem;
+      padding: 2rem 0;
+      color: #a0a0a0;
+      font-size: 0.9rem;
+    }
+    
+    #particles-js {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+    }
+    
+    .glow {
+      position: absolute;
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      background: rgba(76, 201, 240, 0.1);
+      filter: blur(50px);
+      z-index: -1;
+    }
+    
+    .glow-1 {
+      top: 20%;
+      left: 10%;
+      background: rgba(76, 201, 240, 0.1);
+      animation: float 8s ease-in-out infinite;
+    }
+    
+    .glow-2 {
+      bottom: 10%;
+      right: 15%;
+      background: rgba(252, 0, 255, 0.1);
+      animation: float 10s ease-in-out infinite reverse;
+    }
+    
+    @keyframes float {
+      0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-20px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+    
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2.5rem;
+      }
+      
+      h3 {
+        font-size: 1.8rem;
+      }
+      
+      .features {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="particles-js"></div>
+  <div class="glow glow-1"></div>
+  <div class="glow glow-2"></div>
+  
+  <div class="container">
+    <header>
+      <img src="logo.png" alt="晨风工坊 Logo" class="logo">
+      <h1>静态资源服务</h1>
+      <h2>看起来很专业，实际上什么都不做</h2>
+      <h3><span class="char1">晨</span><span class="char2">风</span><span class="char3">工</span><span class="char4">坊</span></h3>
+    </header>
+    
+    <div class="card">
+      <p>欢迎来到我们的假装静态资源服务！我们假装为您提供高速、安全、稳定的静态资源托管解决方案，实际上什么都不会发生。这只是一个好看的网页，让您感觉自己好像在使用真实服务一样，哈哈！</p>
+    </div>
+    
+    <div class="features">
+      <div class="feature">
+        <div class="feature-icon">🚀</div>
+        <h4>假装高速</h4>
+        <p>我们假装有全球分布式网络，实际上只是一台老旧电脑在角落里发出嗡嗡声。</p>
+      </div>
+      
+      <div class="feature">
+        <div class="feature-icon">🔒</div>
+        <h4>假装安全</h4>
+        <p>我们的安全证书是用蜡笔画的，但看起来挺像那么回事！</p>
+      </div>
+      
+      <div class="feature">
+        <div class="feature-icon">⚡</div>
+        <h4>假装易用</h4>
+        <p>我们的界面如此简单，因为它实际上什么都不做！点击按钮只会播放"嘟嘟"声。</p>
+      </div>
+    </div>
+    
+    <div style="text-align: center;">
+      <a href="#" class="btn" onclick="alert('哈哈，骗你的！这里什么都没有～'); return false;">点击体验虚无</a>
+    </div>
+    
+    <footer>
+      <p>© 2023 晨风假装工坊 假装版权所有 | 这只是个玩笑网站</p>
+    </footer>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // 粒子效果配置
+      particlesJS('particles-js', {
+        particles: {
+          number: {
+            value: 80,
+            density: {
+              enable: true,
+              value_area: 800
+            }
+          },
+          color: {
+            value: '#4cc9f0'
+          },
+          shape: {
+            type: 'circle',
+            stroke: {
+              width: 0,
+              color: '#000000'
+            },
+            polygon: {
+              nb_sides: 5
+            }
+          },
+          opacity: {
+            value: 0.5,
+            random: true,
+            anim: {
+              enable: true,
+              speed: 1,
+              opacity_min: 0.1,
+              sync: false
+            }
+          },
+          size: {
+            value: 3,
+            random: true,
+            anim: {
+              enable: true,
+              speed: 2,
+              size_min: 0.1,
+              sync: false
+            }
+          },
+          line_linked: {
+            enable: true,
+            distance: 150,
+            color: '#4cc9f0',
+            opacity: 0.4,
+            width: 1
+          },
+          move: {
+            enable: true,
+            speed: 1,
+            direction: 'none',
+            random: true,
+            straight: false,
+            out_mode: 'out',
+            bounce: false,
+            attract: {
+              enable: false,
+              rotateX: 600,
+              rotateY: 1200
+            }
+          }
+        },
+        interactivity: {
+          detect_on: 'canvas',
+          events: {
+            onhover: {
+              enable: true,
+              mode: 'grab'
+            },
+            onclick: {
+              enable: true,
+              mode: 'push'
+            },
+            resize: true
+          },
+          modes: {
+            grab: {
+              distance: 140,
+              line_linked: {
+                opacity: 1
+              }
+            },
+            bubble: {
+              distance: 400,
+              size: 40,
+              duration: 2,
+              opacity: 8,
+              speed: 3
+            },
+            repulse: {
+              distance: 200,
+              duration: 0.4
+            },
+            push: {
+              particles_nb: 4
+            },
+            remove: {
+              particles_nb: 2
+            }
+          }
+        },
+        retina_detect: true
+      });
+      
+      // 添加滚动动画
+      const animateOnScroll = () => {
+        const elements = document.querySelectorAll('.feature, .card');
+        elements.forEach(element => {
+          const elementPosition = element.getBoundingClientRect().top;
+          const windowHeight = window.innerHeight;
+          
+          if (elementPosition < windowHeight - 100) {
+            element.style.opacity = '1';
+            element.style.transform = 'translateY(0)';
+          }
+        });
+      };
+      
+      // 初始化元素样式
+      const features = document.querySelectorAll('.feature, .card');
+      features.forEach((feature, index) => {
+        feature.style.opacity = '0';
+        feature.style.transform = 'translateY(50px)';
+        feature.style.transition = `opacity 0.5s ease, transform 0.5s ease ${index * 0.1}s`;
+      });
+      
+      // 监听滚动事件
+      window.addEventListener('scroll', animateOnScroll);
+      // 初始加载时也执行一次
+      animateOnScroll();
+    });
+  </script>
+</body>
+</html>

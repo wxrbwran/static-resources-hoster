@@ -1,0 +1,13 @@
+
+icon_10.png
+size: 170,132
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+a10
+  rotate: false
+  xy: 2, 2
+  size: 166, 128
+  orig: 170, 130
+  offset: 3, 1
+  index: -1

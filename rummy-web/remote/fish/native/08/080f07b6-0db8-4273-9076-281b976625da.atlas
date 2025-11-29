@@ -1,0 +1,62 @@
+
+bullet_pifu1.png
+size: 373,92
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pifu_1_1
+  rotate: true
+  xy: 2, 48
+  size: 42, 95
+  orig: 48, 98
+  offset: 2, 2
+  index: -1
+pifu_1_2
+  rotate: true
+  xy: 277, 2
+  size: 42, 88
+  orig: 48, 98
+  offset: 2, 9
+  index: -1
+pifu_1_3
+  rotate: true
+  xy: 2, 3
+  size: 43, 91
+  orig: 48, 98
+  offset: 2, 6
+  index: -1
+pifu_1_4
+  rotate: true
+  xy: 187, 3
+  size: 43, 88
+  orig: 48, 98
+  offset: 2, 9
+  index: -1
+pifu_1_5
+  rotate: true
+  xy: 285, 46
+  size: 44, 86
+  orig: 48, 98
+  offset: 2, 11
+  index: -1
+pifu_1_6
+  rotate: true
+  xy: 95, 2
+  size: 44, 90
+  orig: 48, 98
+  offset: 2, 7
+  index: -1
+pifu_1_7
+  rotate: true
+  xy: 99, 48
+  size: 42, 91
+  orig: 48, 98
+  offset: 2, 6
+  index: -1
+pifu_1_8
+  rotate: true
+  xy: 192, 48
+  size: 42, 91
+  orig: 48, 98
+  offset: 2, 6
+  index: -1

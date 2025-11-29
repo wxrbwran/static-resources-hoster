@@ -1,0 +1,76 @@
+
+bax.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_0000_1
+  rotate: true
+  xy: 205, 247
+  size: 247, 201
+  orig: 247, 201
+  offset: 0, 0
+  index: -1
+1_0001_2
+  rotate: false
+  xy: 2, 25
+  size: 247, 201
+  orig: 247, 201
+  offset: 0, 0
+  index: -1
+1_0002_3
+  rotate: true
+  xy: 2, 228
+  size: 266, 201
+  orig: 266, 201
+  offset: 0, 0
+  index: -1
+1_0003_4
+  rotate: true
+  xy: 611, 259
+  size: 235, 201
+  orig: 235, 201
+  offset: 0, 0
+  index: -1
+1_0004_5
+  rotate: true
+  xy: 251, 2
+  size: 243, 201
+  orig: 243, 201
+  offset: 0, 0
+  index: -1
+1_0005_6
+  rotate: true
+  xy: 454, 14
+  size: 237, 201
+  orig: 237, 201
+  offset: 0, 0
+  index: -1
+1_0006_7
+  rotate: true
+  xy: 657, 25
+  size: 232, 201
+  orig: 232, 201
+  offset: 0, 0
+  index: -1
+1_0007_8
+  rotate: true
+  xy: 814, 264
+  size: 230, 201
+  orig: 230, 201
+  offset: 0, 0
+  index: -1
+1_0008_9
+  rotate: true
+  xy: 408, 253
+  size: 241, 201
+  orig: 241, 201
+  offset: 0, 0
+  index: -1
+bax
+  rotate: false
+  xy: 860, 173
+  size: 124, 89
+  orig: 124, 89
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,15 @@
+{
+  "packageUrl": "https://hot.supfutce.com/static/subGame/compressed/godWealthV2/",
+  "remoteManifestUrl": "https://hot.supfutce.com/static/subGame/compressed/godWealthV2/project.manifest",
+  "remoteVersionUrl": "https://hot.supfutce.com/static/subGame/compressed/godWealthV2/version.manifest",
+  "version": "7.4.150",
+  "assets": {
+    "godWealthV2.zip": {
+      "size": 15706329,
+      "md5": "1f2de7a48e0242ab4838b0ec46f2c124",
+      "compressed": true
+    }
+  },
+  "searchPaths": [],
+  "compressed": false
+}

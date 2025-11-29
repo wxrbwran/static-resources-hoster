@@ -1,0 +1,15 @@
+{
+  "packageUrl": "https://hot.supfutce.com/static/subGame/compressed/dragonTiger/",
+  "remoteManifestUrl": "https://hot.supfutce.com/static/subGame/compressed/dragonTiger/project.manifest",
+  "remoteVersionUrl": "https://hot.supfutce.com/static/subGame/compressed/dragonTiger/version.manifest",
+  "version": "7.4.150",
+  "assets": {
+    "dragonTiger.zip": {
+      "size": 16569753,
+      "md5": "ccd6034a236aba653504f0e0424f17c8",
+      "compressed": true
+    }
+  },
+  "searchPaths": [],
+  "compressed": false
+}

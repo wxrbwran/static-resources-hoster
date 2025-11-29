@@ -1,0 +1,132 @@
+
+djs10_6.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_0001_1_0017_skeleton-djs-01
+  rotate: false
+  xy: 2, 301
+  size: 297, 209
+  orig: 297, 209
+  offset: 0, 0
+  index: -1
+1_0000_1_0018_skeleton-djs-00
+  rotate: false
+  xy: 2, 301
+  size: 297, 209
+  orig: 297, 209
+  offset: 0, 0
+  index: -1
+1_0002_1_0016_skeleton-djs-02
+  rotate: false
+  xy: 2, 301
+  size: 297, 209
+  orig: 297, 209
+  offset: 0, 0
+  index: -1
+1_0003_1_0015_skeleton-djs-03
+  rotate: true
+  xy: 2, 2
+  size: 297, 209
+  orig: 297, 209
+  offset: 0, 0
+  index: -1
+1_0004_1_0014_skeleton-djs-04
+  rotate: true
+  xy: 213, 2
+  size: 297, 209
+  orig: 297, 209
+  offset: 0, 0
+  index: -1
+1_0005_1_0013_skeleton-djs-05
+  rotate: true
+  xy: 213, 2
+  size: 297, 209
+  orig: 297, 209
+  offset: 0, 0
+  index: -1
+1_0006_1_0012_skeleton-djs-06
+  rotate: false
+  xy: 301, 301
+  size: 297, 209
+  orig: 297, 209
+  offset: 0, 0
+  index: -1
+1_0007_1_0011_skeleton-djs-07
+  rotate: true
+  xy: 424, 2
+  size: 297, 209
+  orig: 297, 209
+  offset: 0, 0
+  index: -1
+1_0008_1_0010_skeleton-djs-08
+  rotate: false
+  xy: 600, 301
+  size: 297, 209
+  orig: 297, 209
+  offset: 0, 0
+  index: -1
+1_0009_1_0009_skeleton-djs-09
+  rotate: false
+  xy: 600, 301
+  size: 297, 209
+  orig: 297, 209
+  offset: 0, 0
+  index: -1
+1_0010_1_0008_skeleton-djs-10
+  rotate: true
+  xy: 635, 2
+  size: 297, 209
+  orig: 297, 209
+  offset: 0, 0
+  index: -1
+1_0011_1_0007_skeleton-djs-11
+  rotate: true
+  xy: 846, 2
+  size: 297, 209
+  orig: 297, 209
+  offset: 0, 0
+  index: -1
+1_0012_1_0006_skeleton-djs-12
+  rotate: false
+  xy: 899, 301
+  size: 297, 209
+  orig: 297, 209
+  offset: 0, 0
+  index: -1
+1_0013_1_0005_skeleton-djs-13
+  rotate: false
+  xy: 899, 301
+  size: 297, 209
+  orig: 297, 209
+  offset: 0, 0
+  index: -1
+1_0014_1_0004_skeleton-djs-14
+  rotate: true
+  xy: 1057, 2
+  size: 297, 209
+  orig: 297, 209
+  offset: 0, 0
+  index: -1
+1_0015_1_0003_skeleton-djs-15
+  rotate: false
+  xy: 1198, 301
+  size: 297, 209
+  orig: 297, 209
+  offset: 0, 0
+  index: -1
+1_0016_1_0002_skeleton-djs-16
+  rotate: true
+  xy: 1268, 2
+  size: 297, 209
+  orig: 297, 209
+  offset: 0, 0
+  index: -1
+1_0017_1_0001_skeleton-djs-17
+  rotate: true
+  xy: 1268, 2
+  size: 297, 209
+  orig: 297, 209
+  offset: 0, 0
+  index: -1

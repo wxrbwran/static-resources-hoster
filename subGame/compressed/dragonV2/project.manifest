@@ -1,0 +1,15 @@
+{
+  "packageUrl": "https://hot.supfutce.com/static/subGame/compressed/dragonV2/",
+  "remoteManifestUrl": "https://hot.supfutce.com/static/subGame/compressed/dragonV2/project.manifest",
+  "remoteVersionUrl": "https://hot.supfutce.com/static/subGame/compressed/dragonV2/version.manifest",
+  "version": "7.4.150",
+  "assets": {
+    "dragonV2.zip": {
+      "size": 37591562,
+      "md5": "1f3772566584566c8ff34ce7907f5325",
+      "compressed": true
+    }
+  },
+  "searchPaths": [],
+  "compressed": false
+}

@@ -1,0 +1,20 @@
+
+hit_pifu2.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xing1
+  rotate: false
+  xy: 226, 185
+  size: 57, 39
+  orig: 57, 39
+  offset: 0, 0
+  index: -1
+yuwang
+  rotate: false
+  xy: 2, 2
+  size: 222, 222
+  orig: 222, 222
+  offset: 0, 0
+  index: -1

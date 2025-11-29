@@ -1,0 +1,82 @@
+
+st_icon_xs_tx.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+TB_xiaoshi_tx/TB_xiaoshi_tx_00
+  rotate: false
+  xy: 2, 564
+  size: 429, 445
+  orig: 483, 465
+  offset: 6, 20
+  index: -1
+TB_xiaoshi_tx/TB_xiaoshi_tx_02
+  rotate: false
+  xy: 2, 111
+  size: 416, 451
+  orig: 483, 465
+  offset: 6, 12
+  index: -1
+TB_xiaoshi_tx/TB_xiaoshi_tx_04
+  rotate: false
+  xy: 433, 587
+  size: 402, 422
+  orig: 483, 465
+  offset: 15, 22
+  index: -1
+TB_xiaoshi_tx/TB_xiaoshi_tx_06
+  rotate: true
+  xy: 433, 193
+  size: 392, 409
+  orig: 483, 465
+  offset: 22, 24
+  index: -1
+TB_xiaoshi_tx/TB_xiaoshi_tx_16
+  rotate: true
+  xy: 420, 2
+  size: 189, 253
+  orig: 483, 465
+  offset: 143, 101
+  index: -1
+TB_xiaoshi_tx/TB_xiaoshi_tx_18
+  rotate: false
+  xy: 837, 828
+  size: 181, 181
+  orig: 483, 465
+  offset: 151, 142
+  index: -1
+
+st_icon_xs_tx2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+TB_xiaoshi_tx/TB_xiaoshi_tx_08
+  rotate: false
+  xy: 2, 354
+  size: 371, 390
+  orig: 483, 465
+  offset: 34, 25
+  index: -1
+TB_xiaoshi_tx/TB_xiaoshi_tx_10
+  rotate: false
+  xy: 2, 2
+  size: 353, 350
+  orig: 483, 465
+  offset: 57, 38
+  index: -1
+TB_xiaoshi_tx/TB_xiaoshi_tx_12
+  rotate: false
+  xy: 375, 427
+  size: 331, 317
+  orig: 483, 465
+  offset: 77, 49
+  index: -1
+TB_xiaoshi_tx/TB_xiaoshi_tx_14
+  rotate: false
+  xy: 708, 448
+  size: 311, 296
+  orig: 483, 465
+  offset: 89, 61
+  index: -1

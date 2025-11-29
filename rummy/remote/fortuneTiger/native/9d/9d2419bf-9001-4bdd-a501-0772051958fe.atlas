@@ -1,0 +1,132 @@
+
+hu_zhongjiang.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+z1
+  rotate: false
+  xy: 2, 2
+  size: 216, 216
+  orig: 216, 216
+  offset: 0, 0
+  index: -1
+z10
+  rotate: false
+  xy: 874, 2
+  size: 216, 216
+  orig: 216, 216
+  offset: 0, 0
+  index: -1
+z11
+  rotate: false
+  xy: 1092, 220
+  size: 216, 216
+  orig: 216, 216
+  offset: 0, 0
+  index: -1
+z12
+  rotate: false
+  xy: 1092, 2
+  size: 216, 216
+  orig: 216, 216
+  offset: 0, 0
+  index: -1
+z13
+  rotate: false
+  xy: 1310, 220
+  size: 216, 216
+  orig: 216, 216
+  offset: 0, 0
+  index: -1
+z14
+  rotate: false
+  xy: 1310, 2
+  size: 216, 216
+  orig: 216, 216
+  offset: 0, 0
+  index: -1
+z15
+  rotate: false
+  xy: 1528, 220
+  size: 216, 216
+  orig: 216, 216
+  offset: 0, 0
+  index: -1
+z16
+  rotate: false
+  xy: 1528, 2
+  size: 216, 216
+  orig: 216, 216
+  offset: 0, 0
+  index: -1
+z17
+  rotate: false
+  xy: 1746, 220
+  size: 216, 216
+  orig: 216, 216
+  offset: 0, 0
+  index: -1
+z18
+  rotate: false
+  xy: 1746, 2
+  size: 216, 216
+  orig: 216, 216
+  offset: 0, 0
+  index: -1
+z2
+  rotate: false
+  xy: 220, 220
+  size: 216, 216
+  orig: 216, 216
+  offset: 0, 0
+  index: -1
+z3
+  rotate: false
+  xy: 220, 2
+  size: 216, 216
+  orig: 216, 216
+  offset: 0, 0
+  index: -1
+z4
+  rotate: false
+  xy: 438, 220
+  size: 216, 216
+  orig: 216, 216
+  offset: 0, 0
+  index: -1
+z5
+  rotate: false
+  xy: 438, 2
+  size: 216, 216
+  orig: 216, 216
+  offset: 0, 0
+  index: -1
+z6
+  rotate: false
+  xy: 656, 220
+  size: 216, 216
+  orig: 216, 216
+  offset: 0, 0
+  index: -1
+z7
+  rotate: false
+  xy: 656, 2
+  size: 216, 216
+  orig: 216, 216
+  offset: 0, 0
+  index: -1
+z8
+  rotate: false
+  xy: 874, 220
+  size: 216, 216
+  orig: 216, 216
+  offset: 0, 0
+  index: -1
+z9
+  rotate: false
+  xy: 2, 220
+  size: 216, 216
+  orig: 216, 216
+  offset: 0, 0
+  index: -1

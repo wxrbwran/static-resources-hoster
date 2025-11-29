@@ -1,0 +1,243 @@
+
+sweet_icon_bomb4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sweet_icon_11_1
+  rotate: false
+  xy: 2, 651
+  size: 347, 371
+  orig: 464, 476
+  offset: 42, 56
+  index: -1
+zd_bao/1
+  rotate: false
+  xy: 2, 286
+  size: 347, 363
+  orig: 464, 476
+  offset: 42, 56
+  index: -1
+zd_bao/zd_bao0001
+  rotate: false
+  xy: 281, 23
+  size: 108, 96
+  orig: 309, 320
+  offset: 89, 98
+  index: -1
+zd_bao/zd_bao0009
+  rotate: true
+  xy: 2, 2
+  size: 282, 277
+  orig: 309, 320
+  offset: 19, 3
+  index: -1
+zd_bao/zd_bao0012
+  rotate: false
+  xy: 653, 723
+  size: 296, 299
+  orig: 309, 320
+  offset: 8, 6
+  index: -1
+zd_bao/zd_bao0013
+  rotate: false
+  xy: 351, 404
+  size: 300, 298
+  orig: 309, 320
+  offset: 9, 4
+  index: -1
+zd_bao/zd_bao0014
+  rotate: false
+  xy: 351, 704
+  size: 300, 318
+  orig: 309, 320
+  offset: 0, 2
+  index: -1
+zd_bao/zd_bao0015
+  rotate: true
+  xy: 351, 121
+  size: 281, 303
+  orig: 309, 320
+  offset: 13, 2
+  index: -1
+zd_bao/zd_bao0016
+  rotate: false
+  xy: 653, 418
+  size: 289, 303
+  orig: 309, 320
+  offset: 15, 14
+  index: -1
+zd_bao/zd_bao0019
+  rotate: true
+  xy: 656, 114
+  size: 302, 287
+  orig: 309, 320
+  offset: 7, 12
+  index: -1
+zhadanyx02/zhadanyx02_00
+  rotate: false
+  xy: 281, 222
+  size: 56, 62
+  orig: 200, 200
+  offset: 111, 86
+  index: -1
+zhadanyx02/zhadanyx02_01
+  rotate: false
+  xy: 944, 641
+  size: 72, 80
+  orig: 200, 200
+  offset: 107, 82
+  index: -1
+zhadanyx02/zhadanyx02_02
+  rotate: false
+  xy: 909, 19
+  size: 94, 93
+  orig: 200, 200
+  offset: 106, 79
+  index: -1
+zhadanyx02/zhadanyx02_05
+  rotate: true
+  xy: 601, 19
+  size: 93, 102
+  orig: 200, 200
+  offset: 107, 44
+  index: -1
+zhadanyx02/zhadanyx02_10
+  rotate: true
+  xy: 705, 21
+  size: 91, 101
+  orig: 200, 200
+  offset: 87, 42
+  index: -1
+zhadanyx02/zhadanyx02_11
+  rotate: true
+  xy: 498, 19
+  size: 100, 101
+  orig: 200, 200
+  offset: 84, 60
+  index: -1
+zhadanyx02/zhadanyx02_13
+  rotate: true
+  xy: 808, 19
+  size: 93, 99
+  orig: 200, 200
+  offset: 84, 81
+  index: -1
+zhadanyx02/zhadanyx02_15
+  rotate: true
+  xy: 391, 24
+  size: 95, 105
+  orig: 200, 200
+  offset: 43, 70
+  index: -1
+
+sweet_icon_bomb42.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+yx00
+  rotate: false
+  xy: 824, 507
+  size: 91, 86
+  orig: 91, 86
+  offset: 0, 0
+  index: -1
+zd_bao/zd_bao0003
+  rotate: true
+  xy: 585, 526
+  size: 203, 237
+  orig: 309, 320
+  offset: 46, 44
+  index: -1
+zd_bao/zd_bao0005
+  rotate: false
+  xy: 585, 731
+  size: 256, 243
+  orig: 309, 320
+  offset: 32, 15
+  index: -1
+zd_bao/zd_bao0007
+  rotate: true
+  xy: 2, 102
+  size: 288, 262
+  orig: 309, 320
+  offset: 16, 9
+  index: -1
+zd_bao/zd_bao0011
+  rotate: true
+  xy: 2, 392
+  size: 292, 284
+  orig: 309, 320
+  offset: 9, 13
+  index: -1
+zd_bao/zd_bao0017
+  rotate: false
+  xy: 2, 686
+  size: 291, 288
+  orig: 309, 320
+  offset: 1, 7
+  index: -1
+zd_bao/zd_bao0018
+  rotate: false
+  xy: 295, 688
+  size: 288, 286
+  orig: 309, 320
+  offset: 12, 12
+  index: -1
+zhadanyx02/zhadanyx02_03
+  rotate: false
+  xy: 916, 597
+  size: 90, 91
+  orig: 200, 200
+  offset: 105, 69
+  index: -1
+zhadanyx02/zhadanyx02_04
+  rotate: true
+  xy: 843, 690
+  size: 86, 95
+  orig: 200, 200
+  offset: 107, 58
+  index: -1
+zhadanyx02/zhadanyx02_06
+  rotate: false
+  xy: 824, 595
+  size: 90, 93
+  orig: 200, 200
+  offset: 104, 44
+  index: -1
+zhadanyx02/zhadanyx02_07
+  rotate: false
+  xy: 843, 778
+  size: 94, 96
+  orig: 200, 200
+  offset: 94, 43
+  index: -1
+zhadanyx02/zhadanyx02_08
+  rotate: true
+  xy: 201, 3
+  size: 97, 92
+  orig: 200, 200
+  offset: 93, 39
+  index: -1
+zhadanyx02/zhadanyx02_09
+  rotate: false
+  xy: 102, 2
+  size: 97, 98
+  orig: 200, 200
+  offset: 89, 39
+  index: -1
+zhadanyx02/zhadanyx02_12
+  rotate: false
+  xy: 2, 2
+  size: 98, 98
+  orig: 200, 200
+  offset: 86, 71
+  index: -1
+zhadanyx02/zhadanyx02_14
+  rotate: false
+  xy: 843, 876
+  size: 98, 98
+  orig: 200, 200
+  offset: 60, 78
+  index: -1

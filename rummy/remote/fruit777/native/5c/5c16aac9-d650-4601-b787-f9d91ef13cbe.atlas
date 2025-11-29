@@ -1,0 +1,48 @@
+
+slots_common_game_ew_gold.png
+size: 203,203
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gold01
+  rotate: true
+  xy: 97, 25
+  size: 21, 100
+  orig: 21, 100
+  offset: 0, 0
+  index: -1
+gold03
+  rotate: false
+  xy: 1, 1
+  size: 56, 101
+  orig: 56, 101
+  offset: 0, 0
+  index: -1
+gold05
+  rotate: true
+  xy: 102, 116
+  size: 86, 100
+  orig: 86, 100
+  offset: 0, 0
+  index: -1
+gold07
+  rotate: false
+  xy: 1, 103
+  size: 100, 99
+  orig: 100, 99
+  offset: 0, 0
+  index: -1
+gold08
+  rotate: true
+  xy: 102, 47
+  size: 68, 100
+  orig: 68, 100
+  offset: 0, 0
+  index: -1
+gold10
+  rotate: false
+  xy: 58, 2
+  size: 38, 100
+  orig: 38, 100
+  offset: 0, 0
+  index: -1

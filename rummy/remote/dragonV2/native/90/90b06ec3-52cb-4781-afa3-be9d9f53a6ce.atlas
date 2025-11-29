@@ -1,0 +1,20 @@
+
+skeleton.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+icon_lztb_tubiao_jp
+  rotate: true
+  xy: 228, 12
+  size: 165, 135
+  orig: 165, 135
+  offset: 0, 0
+  index: -1
+icon_lztb_tubiao_jp_1
+  rotate: false
+  xy: 2, 2
+  size: 224, 175
+  orig: 224, 175
+  offset: 0, 0
+  index: -1

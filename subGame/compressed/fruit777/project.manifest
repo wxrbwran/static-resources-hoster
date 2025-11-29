@@ -1,0 +1,15 @@
+{
+  "packageUrl": "https://hot.supfutce.com/static/subGame/compressed/fruit777/",
+  "remoteManifestUrl": "https://hot.supfutce.com/static/subGame/compressed/fruit777/project.manifest",
+  "remoteVersionUrl": "https://hot.supfutce.com/static/subGame/compressed/fruit777/version.manifest",
+  "version": "7.4.150",
+  "assets": {
+    "fruit777.zip": {
+      "size": 12439672,
+      "md5": "ea9849d8062ae0d1739f388ecb084eb4",
+      "compressed": true
+    }
+  },
+  "searchPaths": [],
+  "compressed": false
+}

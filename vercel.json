@@ -1,0 +1,13 @@
+{
+  "headers": [
+    {
+      "source": "/(.*).(png|jpg|json|js|css|ico|svg|webp|woff|woff2|ttf|eot|otf|mp3|mp4|webm|ogg|wav|ico|svg|webp|woff|woff2|ttf|eot|otf|mp3|mp4|webm|ogg|wav|zip|pck|rar|7z|tar|gz|bz2|7z|tar|gz|bz2)",
+      "headers": [
+        { "key": "Access-Control-Allow-Credentials", "value": "true" },
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET,OPTIONS,PATCH,DELETE,POST,PUT" },
+        { "key": "Access-Control-Allow-Headers", "value": "X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version" }
+      ]
+    }
+  ]
+}

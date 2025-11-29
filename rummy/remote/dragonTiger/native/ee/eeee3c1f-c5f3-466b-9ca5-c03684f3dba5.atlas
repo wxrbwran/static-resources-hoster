@@ -1,0 +1,20 @@
+
+tiger_win.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+图层 5
+  rotate: true
+  xy: 347, 2
+  size: 179, 111
+  orig: 179, 111
+  offset: 0, 0
+  index: -1
+图层 6
+  rotate: false
+  xy: 2, 36
+  size: 343, 145
+  orig: 343, 145
+  offset: 0, 0
+  index: -1
