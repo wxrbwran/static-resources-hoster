@@ -1,7 +1,7 @@
 {
   "version": "1.0.150",
-  "remoteManifestUrl": "https://hot.supfutce.com/static/androidHotUpdate/Version1/project.manifest",
-  "remoteVersionUrl": "https://hot.supfutce.com/static/androidHotUpdate/Version1/version.manifest",
-  "packageUrl": "https://hot.supfutce.com/static/androidHotUpdate/Version1/",
+  "remoteManifestUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/androidHotUpdate/Version1/project.manifest",
+  "remoteVersionUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/androidHotUpdate/Version1/version.manifest",
+  "packageUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/androidHotUpdate/Version1/",
   "compressed": false
 }

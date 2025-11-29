@@ -1,12 +1,12 @@
 {
-  "packageUrl": "https://hot.supfutce.com/static/subGame/compressed/phoenixV2/",
-  "remoteManifestUrl": "https://hot.supfutce.com/static/subGame/compressed/phoenixV2/project.manifest",
-  "remoteVersionUrl": "https://hot.supfutce.com/static/subGame/compressed/phoenixV2/version.manifest",
+  "packageUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/phoenixV2/",
+  "remoteManifestUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/phoenixV2/project.manifest",
+  "remoteVersionUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/phoenixV2/version.manifest",
   "version": "7.4.150",
   "assets": {
     "phoenixV2.zip": {
       "size": 28531645,
-      "md5": "6c7fff39a3b6835f79acfeac967b3348",
+      "md5": "1ae22bcf047e8fd70c91d0e05b261903",
       "compressed": true
     }
   },
