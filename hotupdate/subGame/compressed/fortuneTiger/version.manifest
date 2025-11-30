@@ -1,7 +1,7 @@
 {
   "version": "7.4.150",
-  "remoteManifestUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/fortuneTiger/project.manifest",
-  "remoteVersionUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/fortuneTiger/version.manifest",
-  "packageUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/fortuneTiger/",
+  "remoteManifestUrl": "https://static-resources-hoster-snowy.vercel.app/subGame/compressed/fortuneTiger/project.manifest",
+  "remoteVersionUrl": "https://static-resources-hoster-snowy.vercel.app/subGame/compressed/fortuneTiger/version.manifest",
+  "packageUrl": "https://static-resources-hoster-snowy.vercel.app/subGame/compressed/fortuneTiger/",
   "compressed": false
 }
