@@ -2,11 +2,11 @@
   "packageUrl": "https://static-resources-hoster-snowy.vercel.app/subGame/compressed/gxfcV2/",
   "remoteManifestUrl": "https://static-resources-hoster-snowy.vercel.app/subGame/compressed/gxfcV2/project.manifest",
   "remoteVersionUrl": "https://static-resources-hoster-snowy.vercel.app/subGame/compressed/gxfcV2/version.manifest",
-  "version": "7.4.1764772464",
+  "version": "7.4.1764773643",
   "assets": {
     "gxfcV2.zip": {
       "size": 33660219,
-      "md5": "8fa7aea0ad76286aee1c7018a50e4f3a",
+      "md5": "3363faf294891b3b6f6cc635a87de457",
       "compressed": true
     }
   },
