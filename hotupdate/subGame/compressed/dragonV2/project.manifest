@@ -2,11 +2,11 @@
   "packageUrl": "https://static-resources-hoster-snowy.vercel.app/subGame/compressed/dragonV2/",
   "remoteManifestUrl": "https://static-resources-hoster-snowy.vercel.app/subGame/compressed/dragonV2/project.manifest",
   "remoteVersionUrl": "https://static-resources-hoster-snowy.vercel.app/subGame/compressed/dragonV2/version.manifest",
-  "version": "7.4.1764755930",
+  "version": "7.4.1764772464",
   "assets": {
     "dragonV2.zip": {
       "size": 37591562,
-      "md5": "d54ced999f53268b9969b5d3cbd2a40b",
+      "md5": "8b06bdeb8478960d5bd18a8c21661b8f",
       "compressed": true
     }
   },
