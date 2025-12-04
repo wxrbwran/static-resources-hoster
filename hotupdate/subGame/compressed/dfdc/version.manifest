@@ -1,7 +1,7 @@
 {
-  "version": "7.4.1764819223",
-  "remoteManifestUrl": "https://static-resources-hoster-snowy.vercel.app/subGame/compressed/dfdc/project.manifest",
-  "remoteVersionUrl": "https://static-resources-hoster-snowy.vercel.app/subGame/compressed/dfdc/version.manifest",
-  "packageUrl": "https://static-resources-hoster-snowy.vercel.app/subGame/compressed/dfdc/",
+  "version": "7.4.1764825369",
+  "remoteManifestUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/dfdc/project.manifest",
+  "remoteVersionUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/dfdc/version.manifest",
+  "packageUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/dfdc/",
   "compressed": false
 }
