@@ -2,11 +2,11 @@
   "packageUrl": "https://static-resources-hoster-snowy.vercel.app/subGame/compressed/egyptV2/",
   "remoteManifestUrl": "https://static-resources-hoster-snowy.vercel.app/subGame/compressed/egyptV2/project.manifest",
   "remoteVersionUrl": "https://static-resources-hoster-snowy.vercel.app/subGame/compressed/egyptV2/version.manifest",
-  "version": "7.4.1764777623",
+  "version": "7.4.1764807712",
   "assets": {
     "egyptV2.zip": {
       "size": 28395841,
-      "md5": "39c2a4e9975959a4db26dfe6c99c9f2c",
+      "md5": "34a3516afae841209c7b7c538c116262",
       "compressed": true
     }
   },
