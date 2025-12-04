@@ -2,11 +2,11 @@
   "packageUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/dfdc/",
   "remoteManifestUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/dfdc/project.manifest",
   "remoteVersionUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/dfdc/version.manifest",
-  "version": "7.4.1764839980",
+  "version": "7.4.1764840451",
   "assets": {
     "dfdc.zip": {
       "size": 32811732,
-      "md5": "28791765b8ebfcec5d8b969a1be05678",
+      "md5": "f24b75ad449a1cac9eb8ffa2081f5acd",
       "compressed": true
     }
   },

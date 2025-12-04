@@ -2,11 +2,11 @@
   "packageUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/dragonTiger/",
   "remoteManifestUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/dragonTiger/project.manifest",
   "remoteVersionUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/dragonTiger/version.manifest",
-  "version": "7.4.1764839980",
+  "version": "7.4.1764840451",
   "assets": {
     "dragonTiger.zip": {
       "size": 16569753,
-      "md5": "128cc6711ab244f29dc5043ac630edf0",
+      "md5": "f1f4435b8148e2ddd2bc01c6f7ef7948",
       "compressed": true
     }
   },
