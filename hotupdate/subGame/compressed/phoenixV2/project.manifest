@@ -2,11 +2,11 @@
   "packageUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/phoenixV2/",
   "remoteManifestUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/phoenixV2/project.manifest",
   "remoteVersionUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/phoenixV2/version.manifest",
-  "version": "7.4.1764829804",
+  "version": "7.4.1764832687",
   "assets": {
     "phoenixV2.zip": {
       "size": 28531645,
-      "md5": "b8dcd4c60382f39f39e9573ff11e265f",
+      "md5": "198829682ec786b9828d70ee2314b0e3",
       "compressed": true
     }
   },
