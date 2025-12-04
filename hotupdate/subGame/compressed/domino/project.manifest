@@ -2,11 +2,11 @@
   "packageUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/domino/",
   "remoteManifestUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/domino/project.manifest",
   "remoteVersionUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/domino/version.manifest",
-  "version": "7.4.1764825369",
+  "version": "7.4.1764827075",
   "assets": {
     "domino.zip": {
       "size": 2469212,
-      "md5": "5258c5fc237cccad54fbbb70cbe17baa",
+      "md5": "b4f3451e5728478f1fb70362bfb508a6",
       "compressed": true
     }
   },
