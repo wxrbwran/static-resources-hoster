@@ -2,11 +2,11 @@
   "packageUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/starlight/",
   "remoteManifestUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/starlight/project.manifest",
   "remoteVersionUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/starlight/version.manifest",
-  "version": "7.4.1764827587",
+  "version": "7.4.1764829804",
   "assets": {
     "starlight.zip": {
       "size": 18885048,
-      "md5": "34c76f7110e9db8a56ff7366fa9c6838",
+      "md5": "6edf085d579181794e68ab3ba5150ccb",
       "compressed": true
     }
   },
