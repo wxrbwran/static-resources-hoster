@@ -1,0 +1,159 @@
+
+LZTB_longwei.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+LZTB_longweiba000
+  rotate: false
+  xy: 2, 610
+  size: 197, 407
+  orig: 197, 407
+  offset: 0, 0
+  index: -1
+LZTB_longweiba001
+  rotate: false
+  xy: 2, 201
+  size: 197, 407
+  orig: 197, 407
+  offset: 0, 0
+  index: -1
+LZTB_longweiba002
+  rotate: false
+  xy: 201, 610
+  size: 197, 407
+  orig: 197, 407
+  offset: 0, 0
+  index: -1
+LZTB_longweiba003
+  rotate: false
+  xy: 201, 201
+  size: 197, 407
+  orig: 197, 407
+  offset: 0, 0
+  index: -1
+LZTB_longweiba004
+  rotate: false
+  xy: 400, 610
+  size: 197, 407
+  orig: 197, 407
+  offset: 0, 0
+  index: -1
+LZTB_longweiba005
+  rotate: false
+  xy: 400, 201
+  size: 197, 407
+  orig: 197, 407
+  offset: 0, 0
+  index: -1
+LZTB_longweiba006
+  rotate: true
+  xy: 2, 2
+  size: 197, 407
+  orig: 197, 407
+  offset: 0, 0
+  index: -1
+LZTB_longweiba007
+  rotate: false
+  xy: 599, 610
+  size: 197, 407
+  orig: 197, 407
+  offset: 0, 0
+  index: -1
+LZTB_longweiba008
+  rotate: false
+  xy: 599, 201
+  size: 197, 407
+  orig: 197, 407
+  offset: 0, 0
+  index: -1
+LZTB_longweiba009
+  rotate: false
+  xy: 798, 610
+  size: 197, 407
+  orig: 197, 407
+  offset: 0, 0
+  index: -1
+LZTB_longweiba010
+  rotate: false
+  xy: 798, 201
+  size: 197, 407
+  orig: 197, 407
+  offset: 0, 0
+  index: -1
+LZTB_longweiba011
+  rotate: true
+  xy: 411, 2
+  size: 197, 407
+  orig: 197, 407
+  offset: 0, 0
+  index: -1
+
+LZTB_longwei2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+LZTB_longweiba012
+  rotate: false
+  xy: 2, 610
+  size: 197, 407
+  orig: 197, 407
+  offset: 0, 0
+  index: -1
+LZTB_longweiba013
+  rotate: false
+  xy: 2, 201
+  size: 197, 407
+  orig: 197, 407
+  offset: 0, 0
+  index: -1
+LZTB_longweiba014
+  rotate: false
+  xy: 201, 610
+  size: 197, 407
+  orig: 197, 407
+  offset: 0, 0
+  index: -1
+LZTB_longweiba015
+  rotate: false
+  xy: 201, 201
+  size: 197, 407
+  orig: 197, 407
+  offset: 0, 0
+  index: -1
+LZTB_longweiba016
+  rotate: false
+  xy: 400, 610
+  size: 197, 407
+  orig: 197, 407
+  offset: 0, 0
+  index: -1
+LZTB_longweiba017
+  rotate: false
+  xy: 400, 201
+  size: 197, 407
+  orig: 197, 407
+  offset: 0, 0
+  index: -1
+LZTB_longweiba018
+  rotate: true
+  xy: 2, 2
+  size: 197, 407
+  orig: 197, 407
+  offset: 0, 0
+  index: -1
+LZTB_longweiba019
+  rotate: false
+  xy: 599, 610
+  size: 197, 407
+  orig: 197, 407
+  offset: 0, 0
+  index: -1
+LZTB_longweiba021
+  rotate: false
+  xy: 599, 201
+  size: 197, 407
+  orig: 197, 407
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,230 @@
+
+st_icon_1.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+g1
+  rotate: false
+  xy: 2, 1141
+  size: 407, 328
+  orig: 407, 328
+  offset: 0, 0
+  index: -1
+g2
+  rotate: false
+  xy: 374, 769
+  size: 407, 328
+  orig: 407, 328
+  offset: 0, 0
+  index: -1
+g3
+  rotate: false
+  xy: 746, 397
+  size: 407, 328
+  orig: 407, 328
+  offset: 0, 0
+  index: -1
+g4
+  rotate: false
+  xy: 1118, 25
+  size: 407, 328
+  orig: 407, 328
+  offset: 0, 0
+  index: -1
+taiyang/st_icon_1-animation_15
+  rotate: false
+  xy: 1527, 770
+  size: 91, 94
+  orig: 91, 94
+  offset: 0, 0
+  index: -1
+taiyang/st_icon_1-animation_16
+  rotate: false
+  xy: 1527, 674
+  size: 91, 94
+  orig: 91, 94
+  offset: 0, 0
+  index: -1
+taiyang/st_icon_1-animation_18
+  rotate: false
+  xy: 1527, 578
+  size: 91, 94
+  orig: 91, 94
+  offset: 0, 0
+  index: -1
+taiyang/st_icon_1-animation_20
+  rotate: false
+  xy: 1527, 482
+  size: 91, 94
+  orig: 91, 94
+  offset: 0, 0
+  index: -1
+taiyang/st_icon_1-animation_22
+  rotate: false
+  xy: 1527, 386
+  size: 91, 94
+  orig: 91, 94
+  offset: 0, 0
+  index: -1
+taiyang/st_icon_1-animation_24
+  rotate: false
+  xy: 1527, 290
+  size: 91, 94
+  orig: 91, 94
+  offset: 0, 0
+  index: -1
+taiyang/st_icon_1-animation_26
+  rotate: false
+  xy: 1527, 194
+  size: 91, 94
+  orig: 91, 94
+  offset: 0, 0
+  index: -1
+taiyang/st_icon_1-animation_28
+  rotate: false
+  xy: 1527, 98
+  size: 91, 94
+  orig: 91, 94
+  offset: 0, 0
+  index: -1
+taiyang/st_icon_1-animation_30
+  rotate: false
+  xy: 1527, 2
+  size: 91, 94
+  orig: 91, 94
+  offset: 0, 0
+  index: -1
+taiyang/st_icon_1-animation_32
+  rotate: false
+  xy: 1620, 770
+  size: 91, 94
+  orig: 91, 94
+  offset: 0, 0
+  index: -1
+taiyang/st_icon_1-animation_34
+  rotate: true
+  xy: 1659, 905
+  size: 91, 94
+  orig: 91, 94
+  offset: 0, 0
+  index: -1
+tx_lizi01/tx_lizi01_00
+  rotate: false
+  xy: 411, 1099
+  size: 370, 370
+  orig: 370, 370
+  offset: 0, 0
+  index: -1
+tx_lizi01/tx_lizi01_01
+  rotate: false
+  xy: 2, 769
+  size: 370, 370
+  orig: 370, 370
+  offset: 0, 0
+  index: -1
+tx_lizi01/tx_lizi01_02
+  rotate: false
+  xy: 783, 1099
+  size: 370, 370
+  orig: 370, 370
+  offset: 0, 0
+  index: -1
+tx_lizi01/tx_lizi01_03
+  rotate: false
+  xy: 783, 727
+  size: 370, 370
+  orig: 370, 370
+  offset: 0, 0
+  index: -1
+tx_lizi01/tx_lizi01_04
+  rotate: false
+  xy: 2, 397
+  size: 370, 370
+  orig: 370, 370
+  offset: 0, 0
+  index: -1
+tx_lizi01/tx_lizi01_05
+  rotate: false
+  xy: 374, 397
+  size: 370, 370
+  orig: 370, 370
+  offset: 0, 0
+  index: -1
+tx_lizi01/tx_lizi01_06
+  rotate: false
+  xy: 1155, 1099
+  size: 370, 370
+  orig: 370, 370
+  offset: 0, 0
+  index: -1
+tx_lizi01/tx_lizi01_07
+  rotate: false
+  xy: 1155, 727
+  size: 370, 370
+  orig: 370, 370
+  offset: 0, 0
+  index: -1
+tx_lizi01/tx_lizi01_08
+  rotate: false
+  xy: 1155, 355
+  size: 370, 370
+  orig: 370, 370
+  offset: 0, 0
+  index: -1
+tx_lizi01/tx_lizi01_09
+  rotate: false
+  xy: 2, 25
+  size: 370, 370
+  orig: 370, 370
+  offset: 0, 0
+  index: -1
+tx_lizi01/tx_lizi01_10
+  rotate: false
+  xy: 374, 25
+  size: 370, 370
+  orig: 370, 370
+  offset: 0, 0
+  index: -1
+tx_lizi01/tx_lizi01_11
+  rotate: false
+  xy: 746, 25
+  size: 370, 370
+  orig: 370, 370
+  offset: 0, 0
+  index: -1
+右耳朵
+  rotate: true
+  xy: 1733, 1188
+  size: 58, 62
+  orig: 58, 62
+  offset: 0, 0
+  index: -1
+左耳朵
+  rotate: true
+  xy: 1734, 1412
+  size: 57, 61
+  orig: 57, 61
+  offset: 0, 0
+  index: -1
+底板
+  rotate: true
+  xy: 1527, 998
+  size: 248, 204
+  orig: 248, 204
+  offset: 0, 0
+  index: -1
+底板光
+  rotate: true
+  xy: 1527, 1248
+  size: 221, 205
+  orig: 221, 205
+  offset: 0, 0
+  index: -1
+日光
+  rotate: false
+  xy: 1527, 866
+  size: 130, 130
+  orig: 130, 130
+  offset: 0, 0
+  index: -1

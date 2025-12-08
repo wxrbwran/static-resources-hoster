@@ -1,0 +1,34 @@
+
+static_vfx.png
+size: 102,141
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eft_bol_01
+  rotate: false
+  xy: 1, 1
+  size: 38, 38
+  orig: 40, 40
+  offset: 1, 1
+  index: -1
+eft_bol_01K
+  rotate: false
+  xy: 41, 20
+  size: 60, 15
+  orig: 65, 15
+  offset: 3, 0
+  index: -1
+eft_lig_02
+  rotate: false
+  xy: 1, 41
+  size: 69, 99
+  orig: 72, 102
+  offset: 2, 1
+  index: -1
+eft_lw_moon_07
+  rotate: true
+  xy: 72, 37
+  size: 103, 25
+  orig: 109, 29
+  offset: 2, 4
+  index: -1

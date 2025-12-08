@@ -1,0 +1,76 @@
+
+heguan_zc.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0
+  rotate: false
+  xy: 140, 6
+  size: 49, 23
+  orig: 49, 23
+  offset: 0, 0
+  index: -1
+1
+  rotate: false
+  xy: 191, 5
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+10
+  rotate: true
+  xy: 497, 64
+  size: 59, 48
+  orig: 59, 48
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 336, 86
+  size: 126, 37
+  orig: 126, 37
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 264, 10
+  size: 125, 43
+  orig: 125, 43
+  offset: 0, 0
+  index: -1
+4
+  rotate: true
+  xy: 224, 55
+  size: 68, 110
+  orig: 68, 110
+  offset: 0, 0
+  index: -1
+5
+  rotate: true
+  xy: 391, 13
+  size: 71, 104
+  orig: 71, 104
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 2, 2
+  size: 136, 121
+  orig: 136, 121
+  offset: 0, 0
+  index: -1
+8
+  rotate: false
+  xy: 140, 31
+  size: 82, 92
+  orig: 82, 92
+  offset: 0, 0
+  index: -1
+9
+  rotate: false
+  xy: 217, 18
+  size: 45, 11
+  orig: 45, 11
+  offset: 0, 0
+  index: -1

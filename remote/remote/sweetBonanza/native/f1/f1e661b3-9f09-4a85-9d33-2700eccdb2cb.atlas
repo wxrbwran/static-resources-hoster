@@ -1,0 +1,20 @@
+
+sweet_icon_2.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sweet_icon_2_01
+  rotate: false
+  xy: 2, 66
+  size: 176, 178
+  orig: 176, 178
+  offset: 0, 0
+  index: -1
+sweet_icon_2_02
+  rotate: false
+  xy: 2, 2
+  size: 114, 62
+  orig: 114, 62
+  offset: 0, 0
+  index: -1

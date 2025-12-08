@@ -1,0 +1,27 @@
+
+xyx_major.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+duofuduocai_icon_fen
+  rotate: false
+  xy: 206, 2
+  size: 279, 279
+  orig: 279, 279
+  offset: 0, 0
+  index: -1
+duofuduocai_icon_fenhui
+  rotate: false
+  xy: 487, 2
+  size: 279, 279
+  orig: 279, 279
+  offset: 0, 0
+  index: -1
+guang
+  rotate: false
+  xy: 2, 79
+  size: 202, 202
+  orig: 202, 202
+  offset: 0, 0
+  index: -1

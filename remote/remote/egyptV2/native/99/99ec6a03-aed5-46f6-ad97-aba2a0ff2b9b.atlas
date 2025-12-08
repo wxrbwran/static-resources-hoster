@@ -1,0 +1,41 @@
+
+shuaige3.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baitian
+  rotate: false
+  xy: 2, 196
+  size: 404, 258
+  orig: 404, 258
+  offset: 0, 0
+  index: -1
+bg1
+  rotate: false
+  xy: 412, 99
+  size: 500, 95
+  orig: 500, 95
+  offset: 0, 0
+  index: -1
+bg2
+  rotate: false
+  xy: 412, 2
+  size: 500, 95
+  orig: 500, 95
+  offset: 0, 0
+  index: -1
+heiye
+  rotate: false
+  xy: 408, 196
+  size: 404, 258
+  orig: 404, 258
+  offset: 0, 0
+  index: -1
+waikuang
+  rotate: false
+  xy: 2, 5
+  size: 408, 189
+  orig: 408, 189
+  offset: 0, 0
+  index: -1

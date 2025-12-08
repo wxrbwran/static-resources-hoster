@@ -1,0 +1,62 @@
+
+jiasukuang.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jiasukuang_1
+  rotate: false
+  xy: 266, 266
+  size: 262, 542
+  orig: 262, 542
+  offset: 0, 0
+  index: -1
+jiasukuang_2
+  rotate: false
+  xy: 530, 266
+  size: 262, 542
+  orig: 262, 542
+  offset: 0, 0
+  index: -1
+jiasukuang_3
+  rotate: true
+  xy: 2, 2
+  size: 262, 542
+  orig: 262, 542
+  offset: 0, 0
+  index: -1
+jiasukuang_4
+  rotate: false
+  xy: 794, 266
+  size: 262, 542
+  orig: 262, 542
+  offset: 0, 0
+  index: -1
+jiasukuang_5
+  rotate: false
+  xy: 1058, 266
+  size: 262, 542
+  orig: 262, 542
+  offset: 0, 0
+  index: -1
+jiasukuang_6
+  rotate: true
+  xy: 546, 2
+  size: 262, 542
+  orig: 262, 542
+  offset: 0, 0
+  index: -1
+jiasukuang_7
+  rotate: false
+  xy: 1322, 266
+  size: 262, 542
+  orig: 262, 542
+  offset: 0, 0
+  index: -1
+jiasukuang_8
+  rotate: false
+  xy: 2, 266
+  size: 262, 542
+  orig: 262, 542
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,152 @@
+
+jackpot.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bgt
+  rotate: false
+  xy: 2, 124
+  size: 473, 214
+  orig: 473, 214
+  offset: 0, 0
+  index: -1
+goutou
+  rotate: true
+  xy: 556, 21
+  size: 474, 402
+  orig: 474, 402
+  offset: 0, 0
+  index: -1
+jackpot
+  rotate: false
+  xy: 2, 2
+  size: 470, 120
+  orig: 470, 120
+  offset: 0, 0
+  index: -1
+light1
+  rotate: true
+  xy: 556, 497
+  size: 496, 451
+  orig: 496, 451
+  offset: 0, 0
+  index: -1
+light2
+  rotate: false
+  xy: 2, 340
+  size: 552, 653
+  orig: 552, 653
+  offset: 0, 0
+  index: -1
+saoguang_1
+  rotate: true
+  xy: 477, 244
+  size: 94, 69
+  orig: 94, 69
+  offset: 0, 0
+  index: -1
+
+jackpot2.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+card_1
+  rotate: false
+  xy: 474, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+fire/fire (1)
+  rotate: true
+  xy: 2, 98
+  size: 228, 119
+  orig: 228, 119
+  offset: 0, 0
+  index: -1
+fire/fire (10)
+  rotate: false
+  xy: 224, 374
+  size: 228, 119
+  orig: 228, 119
+  offset: 0, 0
+  index: -1
+fire/fire (11)
+  rotate: false
+  xy: 454, 374
+  size: 228, 119
+  orig: 228, 119
+  offset: 0, 0
+  index: -1
+fire/fire (12)
+  rotate: false
+  xy: 684, 374
+  size: 228, 119
+  orig: 228, 119
+  offset: 0, 0
+  index: -1
+fire/fire (2)
+  rotate: true
+  xy: 123, 98
+  size: 228, 119
+  orig: 228, 119
+  offset: 0, 0
+  index: -1
+fire/fire (3)
+  rotate: false
+  xy: 244, 253
+  size: 228, 119
+  orig: 228, 119
+  offset: 0, 0
+  index: -1
+fire/fire (4)
+  rotate: false
+  xy: 244, 132
+  size: 228, 119
+  orig: 228, 119
+  offset: 0, 0
+  index: -1
+fire/fire (5)
+  rotate: false
+  xy: 474, 253
+  size: 228, 119
+  orig: 228, 119
+  offset: 0, 0
+  index: -1
+fire/fire (6)
+  rotate: false
+  xy: 474, 132
+  size: 228, 119
+  orig: 228, 119
+  offset: 0, 0
+  index: -1
+fire/fire (7)
+  rotate: true
+  xy: 704, 144
+  size: 228, 119
+  orig: 228, 119
+  offset: 0, 0
+  index: -1
+fire/fire (8)
+  rotate: true
+  xy: 825, 144
+  size: 228, 119
+  orig: 228, 119
+  offset: 0, 0
+  index: -1
+fire/fire (9)
+  rotate: false
+  xy: 244, 11
+  size: 228, 119
+  orig: 228, 119
+  offset: 0, 0
+  index: -1
+xx
+  rotate: false
+  xy: 2, 328
+  size: 220, 165
+  orig: 220, 165
+  offset: 0, 0
+  index: -1

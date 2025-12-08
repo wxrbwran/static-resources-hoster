@@ -1,0 +1,187 @@
+
+thor_shandian.png
+size: 978,976
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+thor_shandian-animation_0
+  rotate: true
+  xy: 0, 397
+  size: 443, 488
+  orig: 608, 648
+  offset: 92, 79
+  index: -1
+thor_shandian-animation_1
+  rotate: true
+  xy: 490, 397
+  size: 443, 488
+  orig: 608, 648
+  offset: 92, 79
+  index: -1
+thor_shandian-animation_2
+  rotate: true
+  xy: 490, 397
+  size: 443, 488
+  orig: 608, 648
+  offset: 92, 79
+  index: -1
+thor_shandian-animation_3
+  rotate: false
+  xy: 0, 936
+  size: 86, 40
+  orig: 608, 648
+  offset: 233, 607
+  index: -1
+thor_shandian-animation_4
+  rotate: false
+  xy: 88, 924
+  size: 91, 52
+  orig: 608, 648
+  offset: 233, 595
+  index: -1
+thor_shandian-animation_5
+  rotate: true
+  xy: 181, 866
+  size: 110, 111
+  orig: 608, 648
+  offset: 232, 536
+  index: -1
+thor_shandian-animation_6
+  rotate: true
+  xy: 294, 842
+  size: 134, 474
+  orig: 608, 648
+  offset: 214, 173
+  index: -1
+
+thor_shandian2.png
+size: 647,647
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+thor_shandian-animation_7
+  rotate: false
+  xy: 0, 0
+  size: 605, 647
+  orig: 608, 648
+  offset: 0, 0
+  index: -1
+
+thor_shandian3.png
+size: 646,646
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+thor_shandian-animation_8
+  rotate: false
+  xy: 0, 0
+  size: 605, 646
+  orig: 608, 648
+  offset: 0, 0
+  index: -1
+
+thor_shandian4.png
+size: 624,624
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+thor_shandian-animation_11
+  rotate: false
+  xy: 0, 0
+  size: 577, 624
+  orig: 608, 648
+  offset: 5, 11
+  index: -1
+
+thor_shandian5.png
+size: 606,606
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+thor_shandian-animation_12
+  rotate: false
+  xy: 0, 0
+  size: 551, 606
+  orig: 608, 648
+  offset: 18, 40
+  index: -1
+thor_shandian-animation_13
+  rotate: false
+  xy: 0, 0
+  size: 551, 606
+  orig: 608, 648
+  offset: 18, 40
+  index: -1
+
+thor_shandian6.png
+size: 585,583
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+thor_shandian-animation_15
+  rotate: false
+  xy: 0, 21
+  size: 585, 562
+  orig: 608, 648
+  offset: 1, 42
+  index: -1
+thor_shandian-animation_16
+  rotate: false
+  xy: 0, 21
+  size: 585, 562
+  orig: 608, 648
+  offset: 1, 42
+  index: -1
+
+thor_shandian7.png
+size: 581,581
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+thor_shandian-animation_9
+  rotate: false
+  xy: 0, 0
+  size: 548, 581
+  orig: 608, 648
+  offset: 0, 0
+  index: -1
+thor_shandian-animation_10
+  rotate: false
+  xy: 0, 0
+  size: 548, 581
+  orig: 608, 648
+  offset: 0, 0
+  index: -1
+
+thor_shandian8.png
+size: 570,570
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+thor_shandian-animation_14
+  rotate: false
+  xy: 0, 0
+  size: 545, 570
+  orig: 608, 648
+  offset: 21, 38
+  index: -1
+
+thor_shandian9.png
+size: 581,579
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+thor_shandian-animation_17
+  rotate: false
+  xy: 0, 53
+  size: 581, 526
+  orig: 608, 648
+  offset: 3, 60
+  index: -1
+thor_shandian-animation_18
+  rotate: false
+  xy: 0, 53
+  size: 581, 526
+  orig: 608, 648
+  offset: 3, 60
+  index: -1

@@ -1,0 +1,96 @@
+
+skeleton.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+8A
+  rotate: false
+  xy: 865, 202
+  size: 91, 91
+  orig: 91, 91
+  offset: 0, 0
+  index: -1
+9A
+  rotate: true
+  xy: 865, 137
+  size: 63, 60
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Slots_Starlight_game33
+  rotate: false
+  xy: 836, 743
+  size: 173, 276
+  orig: 173, 276
+  offset: 0, 0
+  index: -1
+Slots_Starlight_game34
+  rotate: true
+  xy: 2, 2
+  size: 54, 303
+  orig: 54, 303
+  offset: 0, 0
+  index: -1
+Slots_Starlight_game35
+  rotate: false
+  xy: 2, 379
+  size: 344, 640
+  orig: 344, 640
+  offset: 0, 0
+  index: -1
+bg_btxx
+  rotate: false
+  xy: 865, 76
+  size: 60, 59
+  orig: 60, 59
+  offset: 0, 0
+  index: -1
+bg_btxx2
+  rotate: false
+  xy: 865, 29
+  size: 52, 45
+  orig: 52, 45
+  offset: 0, 0
+  index: -1
+bj_yfg01
+  rotate: true
+  xy: 2, 58
+  size: 319, 324
+  orig: 319, 324
+  offset: 0, 0
+  index: -1
+bj_yfg02
+  rotate: false
+  xy: 348, 57
+  size: 515, 425
+  orig: 515, 425
+  offset: 0, 0
+  index: -1
+bj_yfg03
+  rotate: true
+  xy: 348, 484
+  size: 535, 486
+  orig: 535, 486
+  offset: 0, 0
+  index: -1
+yw8A
+  rotate: true
+  xy: 865, 295
+  size: 446, 101
+  orig: 446, 101
+  offset: 0, 0
+  index: -1
+
+skeleton2.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+yun06
+  rotate: false
+  xy: 2, 2
+  size: 344, 101
+  orig: 344, 101
+  offset: 0, 0
+  index: -1

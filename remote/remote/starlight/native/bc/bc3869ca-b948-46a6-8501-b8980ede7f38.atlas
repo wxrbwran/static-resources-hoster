@@ -1,0 +1,181 @@
+
+st_icon_3.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+di
+  rotate: false
+  xy: 1019, 909
+  size: 310, 274
+  orig: 310, 274
+  offset: 0, 0
+  index: -1
+tx_lizi01/tx_lizi01_00
+  rotate: false
+  xy: 1331, 813
+  size: 370, 370
+  orig: 370, 370
+  offset: 0, 0
+  index: -1
+tx_lizi01/tx_lizi01_01
+  rotate: false
+  xy: 2, 746
+  size: 370, 370
+  orig: 370, 370
+  offset: 0, 0
+  index: -1
+tx_lizi01/tx_lizi01_02
+  rotate: false
+  xy: 374, 655
+  size: 370, 370
+  orig: 370, 370
+  offset: 0, 0
+  index: -1
+tx_lizi01/tx_lizi01_03
+  rotate: false
+  xy: 746, 537
+  size: 370, 370
+  orig: 370, 370
+  offset: 0, 0
+  index: -1
+tx_lizi01/tx_lizi01_04
+  rotate: false
+  xy: 1118, 441
+  size: 370, 370
+  orig: 370, 370
+  offset: 0, 0
+  index: -1
+tx_lizi01/tx_lizi01_05
+  rotate: false
+  xy: 1490, 441
+  size: 370, 370
+  orig: 370, 370
+  offset: 0, 0
+  index: -1
+tx_lizi01/tx_lizi01_06
+  rotate: false
+  xy: 2, 374
+  size: 370, 370
+  orig: 370, 370
+  offset: 0, 0
+  index: -1
+tx_lizi01/tx_lizi01_07
+  rotate: false
+  xy: 374, 283
+  size: 370, 370
+  orig: 370, 370
+  offset: 0, 0
+  index: -1
+tx_lizi01/tx_lizi01_08
+  rotate: false
+  xy: 746, 165
+  size: 370, 370
+  orig: 370, 370
+  offset: 0, 0
+  index: -1
+tx_lizi01/tx_lizi01_09
+  rotate: false
+  xy: 1118, 69
+  size: 370, 370
+  orig: 370, 370
+  offset: 0, 0
+  index: -1
+tx_lizi01/tx_lizi01_10
+  rotate: false
+  xy: 1490, 69
+  size: 370, 370
+  orig: 370, 370
+  offset: 0, 0
+  index: -1
+tx_lizi01/tx_lizi01_11
+  rotate: false
+  xy: 2, 2
+  size: 370, 370
+  orig: 370, 370
+  offset: 0, 0
+  index: -1
+光
+  rotate: false
+  xy: 780, 949
+  size: 237, 234
+  orig: 237, 234
+  offset: 0, 0
+  index: -1
+底座
+  rotate: true
+  xy: 610, 1027
+  size: 156, 168
+  orig: 156, 168
+  offset: 0, 0
+  index: -1
+底座1
+  rotate: true
+  xy: 280, 1118
+  size: 65, 120
+  orig: 65, 120
+  offset: 0, 0
+  index: -1
+底座2
+  rotate: true
+  xy: 402, 1107
+  size: 76, 121
+  orig: 76, 121
+  offset: 0, 0
+  index: -1
+底座3
+  rotate: false
+  xy: 202, 1122
+  size: 76, 61
+  orig: 76, 61
+  offset: 0, 0
+  index: -1
+月亮
+  rotate: false
+  xy: 525, 1101
+  size: 83, 82
+  orig: 83, 82
+  offset: 0, 0
+  index: -1
+火苗1
+  rotate: true
+  xy: 162, 1152
+  size: 31, 38
+  orig: 31, 38
+  offset: 0, 0
+  index: -1
+火苗2
+  rotate: true
+  xy: 82, 1153
+  size: 30, 38
+  orig: 30, 38
+  offset: 0, 0
+  index: -1
+火苗3
+  rotate: true
+  xy: 122, 1153
+  size: 30, 38
+  orig: 30, 38
+  offset: 0, 0
+  index: -1
+蜡烛1
+  rotate: true
+  xy: 26, 1165
+  size: 18, 23
+  orig: 18, 23
+  offset: 0, 0
+  index: -1
+蜡烛2
+  rotate: true
+  xy: 51, 1164
+  size: 19, 29
+  orig: 19, 29
+  offset: 0, 0
+  index: -1
+蜡烛3
+  rotate: true
+  xy: 2, 1168
+  size: 15, 22
+  orig: 15, 22
+  offset: 0, 0
+  index: -1

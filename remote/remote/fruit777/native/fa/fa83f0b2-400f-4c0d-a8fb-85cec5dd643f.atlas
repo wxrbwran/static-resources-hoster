@@ -1,0 +1,34 @@
+
+lingdangtubiao.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 458, 2
+  size: 150, 130
+  orig: 150, 130
+  offset: 0, 0
+  index: -1
+SGJtubiaolingdang1
+  rotate: false
+  xy: 2, 2
+  size: 150, 130
+  orig: 150, 130
+  offset: 0, 0
+  index: -1
+SGJtubiaolingdang2
+  rotate: false
+  xy: 154, 2
+  size: 150, 130
+  orig: 150, 130
+  offset: 0, 0
+  index: -1
+SGJtubiaolingdang3
+  rotate: false
+  xy: 306, 2
+  size: 150, 130
+  orig: 150, 130
+  offset: 0, 0
+  index: -1

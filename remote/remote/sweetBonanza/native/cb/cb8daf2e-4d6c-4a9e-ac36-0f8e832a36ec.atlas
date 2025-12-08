@@ -1,0 +1,96 @@
+
+Scene_free_enter.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bbtguochang_00
+  rotate: false
+  xy: 2, 1128
+  size: 645, 561
+  orig: 645, 561
+  offset: 0, 0
+  index: -1
+bbtguochang_01
+  rotate: false
+  xy: 2, 565
+  size: 645, 561
+  orig: 645, 561
+  offset: 0, 0
+  index: -1
+bbtguochang_02
+  rotate: false
+  xy: 649, 1128
+  size: 645, 561
+  orig: 645, 561
+  offset: 0, 0
+  index: -1
+bbtguochang_03
+  rotate: false
+  xy: 2, 2
+  size: 645, 561
+  orig: 645, 561
+  offset: 0, 0
+  index: -1
+bbtguochang_04
+  rotate: false
+  xy: 649, 565
+  size: 645, 561
+  orig: 645, 561
+  offset: 0, 0
+  index: -1
+bbtguochang_05
+  rotate: false
+  xy: 1296, 1128
+  size: 645, 561
+  orig: 645, 561
+  offset: 0, 0
+  index: -1
+bbtguochang_06
+  rotate: false
+  xy: 649, 2
+  size: 645, 561
+  orig: 645, 561
+  offset: 0, 0
+  index: -1
+bbtguochang_07
+  rotate: false
+  xy: 1296, 565
+  size: 645, 561
+  orig: 645, 561
+  offset: 0, 0
+  index: -1
+bbtguochang_08
+  rotate: false
+  xy: 1296, 2
+  size: 645, 561
+  orig: 645, 561
+  offset: 0, 0
+  index: -1
+
+Scene_free_enter2.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bbtguochang_09
+  rotate: false
+  xy: 2, 2
+  size: 645, 561
+  orig: 645, 561
+  offset: 0, 0
+  index: -1
+bbtguochang_10
+  rotate: false
+  xy: 649, 2
+  size: 645, 561
+  orig: 645, 561
+  offset: 0, 0
+  index: -1
+bbtguochang_11
+  rotate: false
+  xy: 1296, 2
+  size: 645, 561
+  orig: 645, 561
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,278 @@
+
+thor_huojuranshao.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+huoju_byg_00000
+  rotate: false
+  xy: 172, 326
+  size: 226, 227
+  orig: 311, 290
+  offset: 45, 23
+  index: -1
+huoju_byg_00001
+  rotate: false
+  xy: 688, 568
+  size: 225, 226
+  orig: 311, 290
+  offset: 45, 23
+  index: -1
+huoju_byg_00005
+  rotate: false
+  xy: 642, 202
+  size: 229, 228
+  orig: 311, 290
+  offset: 44, 23
+  index: -1
+huoju_byg_00006
+  rotate: false
+  xy: 400, 428
+  size: 232, 226
+  orig: 311, 290
+  offset: 43, 23
+  index: -1
+huoju_byg_00007
+  rotate: true
+  xy: 172, 555
+  size: 233, 226
+  orig: 311, 290
+  offset: 43, 23
+  index: -1
+huoju_byg_00008
+  rotate: false
+  xy: 403, 796
+  size: 233, 226
+  orig: 311, 290
+  offset: 43, 23
+  index: -1
+huoju_byg_00009
+  rotate: false
+  xy: 638, 796
+  size: 233, 226
+  orig: 311, 290
+  offset: 43, 23
+  index: -1
+huoju_byg_00010
+  rotate: true
+  xy: 414, 195
+  size: 231, 226
+  orig: 311, 290
+  offset: 44, 23
+  index: -1
+huoju_byg_00013
+  rotate: false
+  xy: 172, 790
+  size: 229, 232
+  orig: 311, 290
+  offset: 45, 23
+  index: -1
+huoju_sg_00000
+  rotate: true
+  xy: 873, 112
+  size: 187, 147
+  orig: 425, 298
+  offset: 58, 100
+  index: -1
+huoju_sg_00002
+  rotate: false
+  xy: 143, 179
+  size: 269, 145
+  orig: 425, 298
+  offset: 59, 100
+  index: -1
+huoju_sg_00003
+  rotate: true
+  xy: 2, 170
+  size: 282, 139
+  orig: 425, 298
+  offset: 64, 100
+  index: -1
+huoju_sg_00004
+  rotate: false
+  xy: 403, 656
+  size: 283, 138
+  orig: 425, 298
+  offset: 70, 100
+  index: -1
+huoju_sg_00005
+  rotate: true
+  xy: 873, 301
+  size: 265, 143
+  orig: 425, 298
+  offset: 81, 100
+  index: -1
+huoju_sg_00006
+  rotate: false
+  xy: 634, 432
+  size: 237, 134
+  orig: 425, 298
+  offset: 100, 100
+  index: -1
+huoju_sg_00009
+  rotate: true
+  xy: 2, 17
+  size: 151, 135
+  orig: 425, 298
+  offset: 192, 100
+  index: -1
+huojuranshao_00000
+  rotate: true
+  xy: 873, 883
+  size: 139, 149
+  orig: 240, 213
+  offset: 49, 35
+  index: -1
+huojuranshao_00003
+  rotate: false
+  xy: 680, 24
+  size: 170, 176
+  orig: 240, 213
+  offset: 37, 25
+  index: -1
+huojuranshao_00004
+  rotate: true
+  xy: 143, 2
+  size: 175, 174
+  orig: 240, 213
+  offset: 27, 27
+  index: -1
+huojuranshao_00005
+  rotate: true
+  xy: 509, 4
+  size: 189, 169
+  orig: 240, 213
+  offset: 24, 28
+  index: -1
+huojuranshao_00006
+  rotate: false
+  xy: 319, 4
+  size: 188, 173
+  orig: 240, 213
+  offset: 20, 30
+  index: -1
+huojuranshao_00011
+  rotate: true
+  xy: 852, 2
+  size: 108, 113
+  orig: 240, 213
+  offset: 44, 38
+  index: -1
+huojuranshao_00012
+  rotate: true
+  xy: 873, 804
+  size: 77, 122
+  orig: 240, 213
+  offset: 59, 29
+  index: -1
+hw_thor_img2
+  rotate: false
+  xy: 2, 454
+  size: 168, 568
+  orig: 168, 568
+  offset: 0, 0
+  index: -1
+
+thor_huojuranshao2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+huoju_byg_00002
+  rotate: false
+  xy: 460, 710
+  size: 224, 227
+  orig: 311, 290
+  offset: 46, 23
+  index: -1
+huoju_byg_00003
+  rotate: false
+  xy: 2, 247
+  size: 225, 228
+  orig: 311, 290
+  offset: 46, 23
+  index: -1
+huoju_byg_00004
+  rotate: false
+  xy: 2, 477
+  size: 226, 229
+  orig: 311, 290
+  offset: 45, 23
+  index: -1
+huoju_byg_00011
+  rotate: false
+  xy: 232, 709
+  size: 226, 228
+  orig: 311, 290
+  offset: 45, 23
+  index: -1
+huoju_byg_00012
+  rotate: false
+  xy: 2, 708
+  size: 228, 229
+  orig: 311, 290
+  offset: 45, 23
+  index: -1
+huoju_sg_00001
+  rotate: true
+  xy: 2, 2
+  size: 243, 148
+  orig: 425, 298
+  offset: 58, 99
+  index: -1
+huoju_sg_00007
+  rotate: true
+  xy: 152, 39
+  size: 206, 129
+  orig: 425, 298
+  offset: 126, 99
+  index: -1
+huoju_sg_00008
+  rotate: false
+  xy: 686, 644
+  size: 172, 130
+  orig: 425, 298
+  offset: 164, 100
+  index: -1
+huojuranshao_00001
+  rotate: false
+  xy: 860, 614
+  size: 158, 153
+  orig: 240, 213
+  offset: 37, 37
+  index: -1
+huojuranshao_00002
+  rotate: false
+  xy: 230, 538
+  size: 150, 168
+  orig: 240, 213
+  offset: 46, 30
+  index: -1
+huojuranshao_00007
+  rotate: false
+  xy: 686, 776
+  size: 178, 161
+  orig: 240, 213
+  offset: 24, 28
+  index: -1
+huojuranshao_00008
+  rotate: true
+  xy: 866, 769
+  size: 168, 156
+  orig: 240, 213
+  offset: 28, 31
+  index: -1
+huojuranshao_00009
+  rotate: false
+  xy: 382, 553
+  size: 146, 154
+  orig: 240, 213
+  offset: 33, 30
+  index: -1
+huojuranshao_00010
+  rotate: false
+  xy: 530, 592
+  size: 126, 116
+  orig: 240, 213
+  offset: 46, 33
+  index: -1

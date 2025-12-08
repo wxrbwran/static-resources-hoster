@@ -1,0 +1,55 @@
+
+symbol_10.png
+size: 309,171
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+syb_1c1
+  rotate: false
+  xy: 274, 90
+  size: 34, 80
+  orig: 34, 80
+  offset: 0, 0
+  index: -1
+syb_1c2
+  rotate: false
+  xy: 232, 1
+  size: 28, 67
+  orig: 28, 67
+  offset: 0, 0
+  index: -1
+syb_1c3
+  rotate: false
+  xy: 270, 12
+  size: 37, 76
+  orig: 39, 77
+  offset: 1, 0
+  index: -1
+syb_3c1
+  rotate: true
+  xy: 191, 121
+  size: 49, 81
+  orig: 49, 81
+  offset: 0, 0
+  index: -1
+syb_3c2
+  rotate: false
+  xy: 191, 2
+  size: 39, 66
+  orig: 39, 66
+  offset: 0, 0
+  index: -1
+syb_3c3
+  rotate: true
+  xy: 191, 70
+  size: 49, 77
+  orig: 50, 78
+  offset: 0, 0
+  index: -1
+symbol_5
+  rotate: false
+  xy: 1, 2
+  size: 188, 168
+  orig: 238, 197
+  offset: 29, 14
+  index: -1
