@@ -1,0 +1,15 @@
+{
+  "packageUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/hall/",
+  "remoteManifestUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/hall/project.manifest",
+  "remoteVersionUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/hall/version.manifest",
+  "version": "7.4.1765175603",
+  "assets": {
+    "hall.zip": {
+      "size": 59968959,
+      "md5": "4b1badf349465e55b5760cd1f7daf384",
+      "compressed": true
+    }
+  },
+  "searchPaths": [],
+  "compressed": false
+}
