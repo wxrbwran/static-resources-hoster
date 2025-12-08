@@ -1,0 +1,48 @@
+
+vipshengji.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+box
+  rotate: false
+  xy: 661, 212
+  size: 261, 292
+  orig: 261, 292
+  offset: 0, 0
+  index: -1
+bu
+  rotate: false
+  xy: 344, 2
+  size: 1013, 180
+  orig: 1013, 180
+  offset: 0, 0
+  index: -1
+cb_you
+  rotate: false
+  xy: 1151, 240
+  size: 224, 264
+  orig: 224, 264
+  offset: 0, 0
+  index: -1
+cb_zuo
+  rotate: false
+  xy: 924, 240
+  size: 225, 264
+  orig: 225, 264
+  offset: 0, 0
+  index: -1
+g1
+  rotate: true
+  xy: 2, 163
+  size: 341, 340
+  orig: 341, 340
+  offset: 0, 0
+  index: -1
+g2
+  rotate: true
+  xy: 344, 184
+  size: 320, 315
+  orig: 320, 315
+  offset: 0, 0
+  index: -1

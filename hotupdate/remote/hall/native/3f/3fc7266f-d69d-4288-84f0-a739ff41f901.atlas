@@ -1,0 +1,167 @@
+
+eff_spine_Higgsdominoo_js.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+armL
+  rotate: false
+  xy: 101, 19
+  size: 36, 83
+  orig: 36, 83
+  offset: 0, 0
+  index: -1
+armR
+  rotate: false
+  xy: 139, 25
+  size: 37, 77
+  orig: 37, 77
+  offset: 0, 0
+  index: -1
+biyanL
+  rotate: true
+  xy: 314, 139
+  size: 56, 33
+  orig: 56, 33
+  offset: 0, 0
+  index: -1
+biyanR
+  rotate: false
+  xy: 349, 160
+  size: 33, 35
+  orig: 33, 35
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 209, 7
+  size: 106, 111
+  orig: 106, 111
+  offset: 0, 0
+  index: -1
+erhuanL
+  rotate: true
+  xy: 101, 3
+  size: 14, 25
+  orig: 14, 25
+  offset: 0, 0
+  index: -1
+erhuanR
+  rotate: false
+  xy: 128, 4
+  size: 11, 13
+  orig: 11, 13
+  offset: 0, 0
+  index: -1
+hair
+  rotate: true
+  xy: 2, 104
+  size: 150, 142
+  orig: 150, 142
+  offset: 0, 0
+  index: -1
+hairR1
+  rotate: false
+  xy: 178, 72
+  size: 28, 31
+  orig: 28, 31
+  offset: 0, 0
+  index: -1
+hairR2
+  rotate: false
+  xy: 64, 13
+  size: 35, 89
+  orig: 35, 89
+  offset: 0, 0
+  index: -1
+hair_d
+  rotate: false
+  xy: 64, 2
+  size: 17, 9
+  orig: 17, 9
+  offset: 0, 0
+  index: -1
+hand
+  rotate: true
+  xy: 146, 118
+  size: 136, 38
+  orig: 136, 38
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 186, 120
+  size: 134, 126
+  orig: 134, 126
+  offset: 0, 0
+  index: -1
+hua
+  rotate: false
+  xy: 314, 197
+  size: 53, 57
+  orig: 53, 57
+  offset: 0, 0
+  index: -1
+huarui
+  rotate: true
+  xy: 317, 82
+  size: 37, 31
+  orig: 37, 31
+  offset: 0, 0
+  index: -1
+meimaoL
+  rotate: false
+  xy: 171, 105
+  size: 36, 11
+  orig: 36, 11
+  offset: 0, 0
+  index: -1
+meimaoR
+  rotate: false
+  xy: 146, 104
+  size: 23, 12
+  orig: 23, 12
+  offset: 0, 0
+  index: -1
+xianglian
+  rotate: false
+  xy: 2, 4
+  size: 60, 98
+  orig: 60, 98
+  offset: 0, 0
+  index: -1
+yanbaiL
+  rotate: false
+  xy: 141, 3
+  size: 30, 20
+  orig: 30, 20
+  offset: 0, 0
+  index: -1
+yanbaiR
+  rotate: true
+  xy: 178, 48
+  size: 22, 25
+  orig: 22, 25
+  offset: 0, 0
+  index: -1
+yanqiuL
+  rotate: true
+  xy: 173, 3
+  size: 20, 17
+  orig: 20, 17
+  offset: 0, 0
+  index: -1
+yanqiuR
+  rotate: false
+  xy: 178, 28
+  size: 16, 18
+  orig: 16, 18
+  offset: 0, 0
+  index: -1
+zuiba
+  rotate: false
+  xy: 314, 121
+  size: 31, 16
+  orig: 31, 16
+  offset: 0, 0
+  index: -1
