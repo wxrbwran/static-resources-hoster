@@ -2,11 +2,11 @@
   "packageUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/moneyComingScript/",
   "remoteManifestUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/moneyComingScript/project.manifest",
   "remoteVersionUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/moneyComingScript/version.manifest",
-  "version": "7.4.1765209332",
+  "version": "7.4.1765235066",
   "assets": {
     "moneyComingScript.zip": {
       "size": 20683,
-      "md5": "d85db4e98d0ff409f2e9a64bc2a1191b",
+      "md5": "ac3c1149e995f10fead9a7d4e18ebef0",
       "compressed": true
     }
   },
