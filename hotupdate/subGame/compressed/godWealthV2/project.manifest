@@ -2,11 +2,11 @@
   "packageUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/godWealthV2/",
   "remoteManifestUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/godWealthV2/project.manifest",
   "remoteVersionUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/godWealthV2/version.manifest",
-  "version": "7.4.1765206909",
+  "version": "7.4.1765207374",
   "assets": {
     "godWealthV2.zip": {
       "size": 15706329,
-      "md5": "453ad1d716b925d4bf845d2a915d1848",
+      "md5": "52ea9b0eac52419020dcc4698f231b28",
       "compressed": true
     }
   },
