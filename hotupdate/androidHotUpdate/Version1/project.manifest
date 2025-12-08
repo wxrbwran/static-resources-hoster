@@ -2,7 +2,7 @@
   "packageUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/androidHotUpdate/Version1/",
   "remoteManifestUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/androidHotUpdate/Version1/project.manifest",
   "remoteVersionUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/androidHotUpdate/Version1/version.manifest",
-  "version": "1.0.1765172039",
+  "version": "1.0.1765174323",
   "assets": {
     "application.js": {
       "size": 1269,
@@ -21,8 +21,8 @@
       "md5": "cfec173a654f557700a224a8c94adb40"
     },
     "assets/main/cc.config.json": {
-      "size": 5736,
-      "md5": "838009b836a9abe2aa7f34a06d9a1c0f"
+      "size": 5794,
+      "md5": "893962d00da6df42665e429f57dcff3d"
     },
     "assets/main/import/04/0497d903-c0e6-4852-aa78-aae9629950ad.json": {
       "size": 72,
@@ -39,6 +39,10 @@
     "assets/main/import/06/066cefdd0.json": {
       "size": 25254,
       "md5": "020fabcc0a07df9961194628ad4a2de4"
+    },
+    "assets/main/import/08/085837c95.json": {
+      "size": 15166,
+      "md5": "ab9df3ba849fbba12e14196454b5fc01"
     },
     "assets/main/import/0a/0a64734bc.json": {
       "size": 3250,
@@ -177,8 +181,8 @@
       "md5": "731f44a39ce9377ee6de8ba34edaf039"
     },
     "assets/main/index.js": {
-      "size": 2540195,
-      "md5": "ece65bacc0b1230d666c33ea9820a904"
+      "size": 2540397,
+      "md5": "4af8ab3d42be9053cba51fb017c2c9df"
     },
     "assets/main/native/04/0497d903-c0e6-4852-aa78-aae9629950ad.png": {
       "size": 16131,
@@ -212,6 +216,10 @@
       "size": 50868,
       "md5": "5a6029e290b6897800da5d041aab0bfe"
     },
+    "assets/main/native/68/68eb3f46-92ee-4933-8544-949e6307f327.manifest": {
+      "size": 11935,
+      "md5": "429c5cd418eec45452af2d5fadbc665f"
+    },
     "assets/main/native/6f/6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0@40c10.png": {
       "size": 54213,
       "md5": "6f2aff3dbb37bc738ef8702c01c4d4ee"
@@ -235,6 +243,10 @@
     "assets/main/native/6f/6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0@e9a6d.png": {
       "size": 48101,
       "md5": "9e6582188657cb9b81e78d242207f431"
+    },
+    "assets/main/native/7c/7cada4b4-a3e9-48e2-84b9-96f0d3926675.manifest": {
+      "size": 416,
+      "md5": "45b19ffe61c55396f072a644239d9d9b"
     },
     "assets/main/native/7d/7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca.png": {
       "size": 82,
