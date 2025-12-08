@@ -1,0 +1,83 @@
+
+shoujibangding_ruchang.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0
+  rotate: false
+  xy: 280, 115
+  size: 482, 353
+  orig: 482, 353
+  offset: 0, 0
+  index: -1
+1
+  rotate: true
+  xy: 438, 548
+  size: 474, 203
+  orig: 474, 203
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 968, 709
+  size: 114, 116
+  orig: 114, 116
+  offset: 0, 0
+  index: -1
+3
+  rotate: true
+  xy: 643, 549
+  size: 473, 189
+  orig: 473, 189
+  offset: 0, 0
+  index: -1
+6
+  rotate: true
+  xy: 2, 470
+  size: 552, 434
+  orig: 552, 434
+  offset: 0, 0
+  index: -1
+7
+  rotate: false
+  xy: 2, 34
+  size: 276, 434
+  orig: 276, 434
+  offset: 0, 0
+  index: -1
+9
+  rotate: false
+  xy: 764, 198
+  size: 241, 349
+  orig: 241, 349
+  offset: 0, 0
+  index: -1
+fr_1
+  rotate: true
+  xy: 834, 827
+  size: 195, 143
+  orig: 195, 143
+  offset: 0, 0
+  index: -1
+fr_2
+  rotate: true
+  xy: 764, 2
+  size: 194, 148
+  orig: 194, 148
+  offset: 0, 0
+  index: -1
+fr_3
+  rotate: true
+  xy: 914, 2
+  size: 194, 139
+  orig: 194, 139
+  offset: 0, 0
+  index: -1
+fr_4
+  rotate: true
+  xy: 834, 631
+  size: 194, 132
+  orig: 194, 132
+  offset: 0, 0
+  index: -1

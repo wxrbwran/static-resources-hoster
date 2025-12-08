@@ -1,0 +1,27 @@
+
+rk_longhu_da.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg_longhu_chagn
+  rotate: true
+  xy: 2, 8
+  size: 206, 420
+  orig: 206, 420
+  offset: 0, 0
+  index: -1
+hu
+  rotate: true
+  xy: 681, 13
+  size: 201, 218
+  orig: 201, 218
+  offset: 0, 0
+  index: -1
+long
+  rotate: true
+  xy: 424, 2
+  size: 212, 255
+  orig: 212, 255
+  offset: 0, 0
+  index: -1

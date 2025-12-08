@@ -1,0 +1,27 @@
+
+qd.png
+size: 193,91
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+di
+  rotate: true
+  xy: 2, 2
+  size: 87, 94
+  orig: 99, 98
+  offset: 9, 2
+  index: -1
+dib
+  rotate: false
+  xy: 98, 12
+  size: 72, 77
+  orig: 76, 80
+  offset: 2, 2
+  index: -1
+gou
+  rotate: true
+  xy: 172, 60
+  size: 29, 19
+  orig: 31, 21
+  offset: 1, 1
+  index: -1

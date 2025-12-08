@@ -1,0 +1,62 @@
+
+pdg.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+g_0000_3
+  rotate: false
+  xy: 1206, 2
+  size: 170, 130
+  orig: 170, 130
+  offset: 0, 0
+  index: -1
+g_0001_1
+  rotate: false
+  xy: 2, 2
+  size: 170, 130
+  orig: 170, 130
+  offset: 0, 0
+  index: -1
+g_0002_2
+  rotate: false
+  xy: 174, 2
+  size: 170, 130
+  orig: 170, 130
+  offset: 0, 0
+  index: -1
+g_0003_4
+  rotate: false
+  xy: 346, 2
+  size: 170, 130
+  orig: 170, 130
+  offset: 0, 0
+  index: -1
+g_0004_peng1
+  rotate: false
+  xy: 518, 2
+  size: 170, 130
+  orig: 170, 130
+  offset: 0, 0
+  index: -1
+g_0005_peng2
+  rotate: false
+  xy: 690, 2
+  size: 170, 130
+  orig: 170, 130
+  offset: 0, 0
+  index: -1
+g_0006_hui
+  rotate: false
+  xy: 862, 2
+  size: 170, 130
+  orig: 170, 130
+  offset: 0, 0
+  index: -1
+g_0007_xing
+  rotate: false
+  xy: 1034, 2
+  size: 170, 130
+  orig: 170, 130
+  offset: 0, 0
+  index: -1
