@@ -1,0 +1,174 @@
+
+rummy_xiao.png
+size: 1555,347
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Cs_xiao
+  rotate: true
+  xy: 2, 101
+  size: 244, 171
+  orig: 246, 171
+  offset: 1, 0
+  index: -1
+cm
+  rotate: true
+  xy: 589, 2
+  size: 169, 159
+  orig: 171, 161
+  offset: 1, 1
+  index: -1
+cm/cm_00000
+  rotate: true
+  xy: 589, 2
+  size: 169, 159
+  orig: 171, 161
+  offset: 1, 1
+  index: -1
+cm/cm_00002
+  rotate: true
+  xy: 589, 2
+  size: 169, 159
+  orig: 171, 161
+  offset: 1, 1
+  index: -1
+cm/cm_00004
+  rotate: true
+  xy: 589, 2
+  size: 169, 159
+  orig: 171, 161
+  offset: 1, 1
+  index: -1
+cm/cm_00006
+  rotate: true
+  xy: 726, 176
+  size: 169, 159
+  orig: 171, 161
+  offset: 1, 1
+  index: -1
+cm/cm_00008
+  rotate: true
+  xy: 750, 5
+  size: 169, 159
+  orig: 171, 161
+  offset: 1, 1
+  index: -1
+cm/cm_00010
+  rotate: true
+  xy: 887, 176
+  size: 169, 159
+  orig: 171, 161
+  offset: 1, 1
+  index: -1
+cm/cm_00012
+  rotate: true
+  xy: 911, 5
+  size: 169, 159
+  orig: 171, 161
+  offset: 1, 1
+  index: -1
+cm/cm_00014
+  rotate: true
+  xy: 1048, 176
+  size: 169, 159
+  orig: 171, 161
+  offset: 1, 1
+  index: -1
+cm/cm_00016
+  rotate: true
+  xy: 1072, 5
+  size: 169, 159
+  orig: 171, 161
+  offset: 1, 1
+  index: -1
+cm/cm_00018
+  rotate: true
+  xy: 1209, 176
+  size: 169, 159
+  orig: 171, 161
+  offset: 1, 1
+  index: -1
+cm/cm_00020
+  rotate: true
+  xy: 1233, 5
+  size: 169, 159
+  orig: 171, 161
+  offset: 1, 1
+  index: -1
+cm/cm_00022
+  rotate: true
+  xy: 1370, 176
+  size: 169, 159
+  orig: 171, 161
+  offset: 1, 1
+  index: -1
+cm/cm_00024
+  rotate: true
+  xy: 1394, 5
+  size: 169, 159
+  orig: 171, 161
+  offset: 1, 1
+  index: -1
+di
+  rotate: true
+  xy: 175, 133
+  size: 212, 201
+  orig: 212, 201
+  offset: 0, 0
+  index: -1
+guang
+  rotate: false
+  xy: 2, 15
+  size: 84, 84
+  orig: 86, 86
+  offset: 1, 1
+  index: -1
+hongtao
+  rotate: false
+  xy: 88, 21
+  size: 70, 78
+  orig: 72, 80
+  offset: 1, 1
+  index: -1
+jb1
+  rotate: false
+  xy: 160, 34
+  size: 197, 65
+  orig: 199, 67
+  offset: 1, 1
+  index: -1
+jb2
+  rotate: false
+  xy: 359, 26
+  size: 184, 105
+  orig: 195, 110
+  offset: 10, 3
+  index: -1
+puke
+  rotate: true
+  xy: 581, 173
+  size: 172, 143
+  orig: 174, 145
+  offset: 1, 1
+  index: -1
+puke1
+  rotate: true
+  xy: 545, 70
+  size: 61, 42
+  orig: 63, 44
+  offset: 1, 1
+  index: -1
+puke2
+  rotate: false
+  xy: 545, 26
+  size: 42, 42
+  orig: 44, 46
+  offset: 1, 2
+  index: -1
+rummy_xiao
+  rotate: true
+  xy: 378, 133
+  size: 212, 201
+  orig: 212, 201
+  offset: 0, 0
+  index: -1

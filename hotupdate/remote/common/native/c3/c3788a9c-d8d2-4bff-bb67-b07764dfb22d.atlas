@@ -1,0 +1,41 @@
+
+tuoxie.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tuoxie_0000_1
+  rotate: false
+  xy: 906, 2
+  size: 224, 208
+  orig: 224, 208
+  offset: 0, 0
+  index: -1
+tuoxie_0001_2
+  rotate: false
+  xy: 228, 2
+  size: 224, 208
+  orig: 224, 208
+  offset: 0, 0
+  index: -1
+tuoxie_0002_xing3
+  rotate: false
+  xy: 454, 2
+  size: 224, 208
+  orig: 224, 208
+  offset: 0, 0
+  index: -1
+tuoxie_0003_xing2
+  rotate: false
+  xy: 2, 2
+  size: 224, 208
+  orig: 224, 208
+  offset: 0, 0
+  index: -1
+tuoxie_0004_xing1
+  rotate: false
+  xy: 680, 2
+  size: 224, 208
+  orig: 224, 208
+  offset: 0, 0
+  index: -1

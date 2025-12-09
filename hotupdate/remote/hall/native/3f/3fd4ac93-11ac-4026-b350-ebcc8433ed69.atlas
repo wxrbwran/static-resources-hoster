@@ -1,0 +1,62 @@
+
+rk_shuiguo_da.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+d7
+  rotate: false
+  xy: 678, 62
+  size: 74, 84
+  orig: 74, 84
+  offset: 0, 0
+  index: -1
+d71
+  rotate: false
+  xy: 651, 148
+  size: 92, 106
+  orig: 92, 106
+  offset: 0, 0
+  index: -1
+hua
+  rotate: false
+  xy: 546, 37
+  size: 130, 86
+  orig: 130, 86
+  offset: 0, 0
+  index: -1
+jq
+  rotate: true
+  xy: 424, 53
+  size: 201, 120
+  orig: 201, 120
+  offset: 0, 0
+  index: -1
+shuiguo_bg_da
+  rotate: true
+  xy: 2, 48
+  size: 206, 420
+  orig: 206, 420
+  offset: 0, 0
+  index: -1
+x7
+  rotate: false
+  xy: 678, 2
+  size: 51, 58
+  orig: 51, 58
+  offset: 0, 0
+  index: -1
+x71
+  rotate: true
+  xy: 2, 5
+  size: 41, 46
+  orig: 41, 46
+  offset: 0, 0
+  index: -1
+xigua
+  rotate: true
+  xy: 546, 125
+  size: 129, 103
+  orig: 129, 103
+  offset: 0, 0
+  index: -1

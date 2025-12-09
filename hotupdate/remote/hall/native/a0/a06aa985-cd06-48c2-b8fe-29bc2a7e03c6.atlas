@@ -1,0 +1,41 @@
+
+rk_yxx_da.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0
+  rotate: true
+  xy: 2, 2
+  size: 217, 234
+  orig: 217, 234
+  offset: 0, 0
+  index: -1
+2
+  rotate: true
+  xy: 660, 122
+  size: 97, 143
+  orig: 97, 143
+  offset: 0, 0
+  index: -1
+4
+  rotate: true
+  xy: 805, 21
+  size: 198, 68
+  orig: 198, 68
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 660, 57
+  size: 42, 63
+  orig: 42, 63
+  offset: 0, 0
+  index: -1
+bg_yxx_da
+  rotate: true
+  xy: 238, 13
+  size: 206, 420
+  orig: 206, 420
+  offset: 0, 0
+  index: -1
