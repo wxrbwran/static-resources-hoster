@@ -2,7 +2,7 @@
   "packageUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/androidHotUpdate/Version1/",
   "remoteManifestUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/androidHotUpdate/Version1/project.manifest",
   "remoteVersionUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/androidHotUpdate/Version1/version.manifest",
-  "version": "1.0.1765264275",
+  "version": "1.0.1765466761",
   "assets": {
     "application.js": {
       "size": 1269,
@@ -21,8 +21,8 @@
       "md5": "cfec173a654f557700a224a8c94adb40"
     },
     "assets/main/cc.config.json": {
-      "size": 5794,
-      "md5": "893962d00da6df42665e429f57dcff3d"
+      "size": 5823,
+      "md5": "24103f41df220918b19ead56555a9b8a"
     },
     "assets/main/import/04/0497d903-c0e6-4852-aa78-aae9629950ad.json": {
       "size": 72,
@@ -36,10 +36,6 @@
       "size": 25254,
       "md5": "020fabcc0a07df9961194628ad4a2de4"
     },
-    "assets/main/import/08/085837c95.json": {
-      "size": 15166,
-      "md5": "ab9df3ba849fbba12e14196454b5fc01"
-    },
     "assets/main/import/0a/0a64734bc.json": {
       "size": 3250,
       "md5": "1fb799b7afd25b8808478d4c248e7635"
@@ -51,6 +47,10 @@
     "assets/main/import/0b/0b80bd966.json": {
       "size": 4153,
       "md5": "211759503dd8163563765e06d543a058"
+    },
+    "assets/main/import/0d/0da3b7461.json": {
+      "size": 20327,
+      "md5": "58737b4b32d12c0bb32820779e409632"
     },
     "assets/main/import/0e/0ee37d628.json": {
       "size": 2699,
@@ -177,8 +177,8 @@
       "md5": "731f44a39ce9377ee6de8ba34edaf039"
     },
     "assets/main/index.js": {
-      "size": 2542673,
-      "md5": "6694fb26610cfcf194e1cd58c94922c1"
+      "size": 2559163,
+      "md5": "bcde27aefe659e56e0d1c38a2b8ac5c1"
     },
     "assets/main/native/04/0497d903-c0e6-4852-aa78-aae9629950ad.png": {
       "size": 16131,
@@ -1505,8 +1505,8 @@
       "md5": "b29bc3880d6993e8764e0299e317976b"
     },
     "remote/hall/cc.config.json": {
-      "size": 148166,
-      "md5": "0157fa7f5c85d41893ac2dcfe9414dd3"
+      "size": 148382,
+      "md5": "402a7300c9d052c3bdc46e7e503666c5"
     },
     "remote/hall/import/00/0072fde9-460e-4336-8840-5003d3926a7f.json": {
       "size": 136,
@@ -1772,6 +1772,10 @@
       "size": 3267,
       "md5": "ac3501365e240c9d5640fccf2c358197"
     },
+    "remote/hall/import/09/09d6a1a6a.json": {
+      "size": 125892,
+      "md5": "0d98ae600eb9b3b18376e2456e3df26a"
+    },
     "remote/hall/import/0a/0a2e47191.json": {
       "size": 12005,
       "md5": "6e99bd6cf17c8dc0321c0eabfc3c554f"
@@ -1789,8 +1793,8 @@
       "md5": "cd64dff47cb769ca0da2a738baee8779"
     },
     "remote/hall/import/0a/0ad36eb49.json": {
-      "size": 43854,
-      "md5": "d3079523ef0ebc129180383587e2bc4d"
+      "size": 43916,
+      "md5": "d2f3dfdff6f39fd719c6082353c1b74d"
     },
     "remote/hall/import/0a/0ae80813e.json": {
       "size": 5908,
@@ -1832,17 +1836,9 @@
       "size": 20904,
       "md5": "36fc9f349198df837c4d4e3cc5cdf397"
     },
-    "remote/hall/import/0c/0c097f050.json": {
-      "size": 754,
-      "md5": "48d15c6088c34ba2dfca01b016f467c6"
-    },
     "remote/hall/import/0c/0c2f74c8e.json": {
       "size": 11554,
       "md5": "5b912f1f86f32a704459e8bbf2a7b27c"
-    },
-    "remote/hall/import/0c/0c7f23f08.json": {
-      "size": 122099,
-      "md5": "d0d2eaf217f56c883c38491fc2eca811"
     },
     "remote/hall/import/0c/0c976496a.json": {
       "size": 4918,
@@ -1927,6 +1923,10 @@
     "remote/hall/import/0e/0e2d148dc.json": {
       "size": 5245,
       "md5": "3d26f662059b343173944baec76bdc77"
+    },
+    "remote/hall/import/0e/0e30bf14d.json": {
+      "size": 5458,
+      "md5": "9b7bccd4b64b50e6c0b97e3ca3e94fe7"
     },
     "remote/hall/import/0e/0e35a85c-b348-4f53-84f9-80c774eb5328.json": {
       "size": 1169,
@@ -2996,6 +2996,10 @@
       "size": 72,
       "md5": "a253314ec7107d95345d7fc89b8d7bb5"
     },
+    "remote/hall/import/79/79a7f677-b41e-4189-94a0-30641b44f408.json": {
+      "size": 34249,
+      "md5": "74cf1b13322e3b16cdecb0f6754273b1"
+    },
     "remote/hall/import/79/79c13784-b28a-4cbb-9228-243ae55bc585.json": {
       "size": 3088,
       "md5": "f93d323af7f8fd85bd492456e64976aa"
@@ -3388,6 +3392,10 @@
       "size": 72,
       "md5": "a253314ec7107d95345d7fc89b8d7bb5"
     },
+    "remote/hall/import/a5/a525c9ba-d6c7-46d9-bc1f-ec65bc4ab0bb.json": {
+      "size": 5690,
+      "md5": "e13f5a75c4a01e9e2260e267a10a771d"
+    },
     "remote/hall/import/a5/a56a9d24-5f03-4e19-8229-b926ee21ead4.json": {
       "size": 72,
       "md5": "a253314ec7107d95345d7fc89b8d7bb5"
@@ -3433,8 +3441,8 @@
       "md5": "36f2f382bbf787e8fef94c297b73bf85"
     },
     "remote/hall/import/ad/ad959570-114b-424b-8956-5f59023f224d.json": {
-      "size": 8618,
-      "md5": "2b4b64ca6fd48f7263cf633a7056e5c3"
+      "size": 8642,
+      "md5": "ad89380b674586e4a9a39343ae6c3714"
     },
     "remote/hall/import/ae/ae84045f-b68d-4c18-8c48-10509df0ff46.json": {
       "size": 8695,
@@ -3869,8 +3877,8 @@
       "md5": "0fe1db1b9202c44b7ba30b40747b5cdd"
     },
     "remote/hall/import/ed/ed59e7a7-f75a-4517-83d2-6c4aa8fb0775.json": {
-      "size": 12733,
-      "md5": "75922b312f2ba344a06cc7435c7e5992"
+      "size": 12788,
+      "md5": "86278daf69c8f335d962461f1e8d517b"
     },
     "remote/hall/import/ed/ed8935bf-ec48-476d-a440-e91f30dd3eee.bin": {
       "size": 144,
@@ -3953,8 +3961,8 @@
       "md5": "c2fa683151bf663659ab9bb7742ab277"
     },
     "remote/hall/import/f6/f62e82f8-bb14-498b-8b47-b26b4f5dbff2.json": {
-      "size": 4685,
-      "md5": "9b0474aab11a37a44696552d2d312534"
+      "size": 4804,
+      "md5": "45bd54b5390a372abeaf3baa4dffdfb7"
     },
     "remote/hall/import/f7/f70646b2-70dd-4de8-abac-535fe96cb5fb.json": {
       "size": 72,
@@ -5646,7 +5654,7 @@
     },
     "src/settings.json": {
       "size": 22479,
-      "md5": "5d8af0ad671d12ef35f2b4d26a67f2d7"
+      "md5": "e1ef7d8c70def26e8bbb64064a8b0e69"
     },
     "src/system.bundle.js": {
       "size": 8319,
