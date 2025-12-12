@@ -2,7 +2,7 @@
   "packageUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/androidHotUpdate/Version1/",
   "remoteManifestUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/androidHotUpdate/Version1/project.manifest",
   "remoteVersionUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/androidHotUpdate/Version1/version.manifest",
-  "version": "1.0.1765522897",
+  "version": "1.0.1765523279",
   "assets": {
     "application.js": {
       "size": 1269,
@@ -49,8 +49,8 @@
       "md5": "211759503dd8163563765e06d543a058"
     },
     "assets/main/import/0d/0da3b7461.json": {
-      "size": 20327,
-      "md5": "58737b4b32d12c0bb32820779e409632"
+      "size": 20429,
+      "md5": "4c669837e7dd55c9e8a74a7d23a06e5e"
     },
     "assets/main/import/0e/0ee37d628.json": {
       "size": 2699,
@@ -177,8 +177,8 @@
       "md5": "731f44a39ce9377ee6de8ba34edaf039"
     },
     "assets/main/index.js": {
-      "size": 2559264,
-      "md5": "c6ddc7ecf9db26c178f4916742bc5c8b"
+      "size": 2559268,
+      "md5": "303a853edde1e8a01269afa4b1c64c5e"
     },
     "assets/main/native/04/0497d903-c0e6-4852-aa78-aae9629950ad.png": {
       "size": 16131,
@@ -300,17 +300,9 @@
       "size": 2169,
       "md5": "aed3169b2b18c323fee52ec9639bd16d"
     },
-    "remote/common/.DS_Store": {
-      "size": 6148,
-      "md5": "6232ad32a992ef72dffd00974256a792"
-    },
     "remote/common/cc.config.json": {
       "size": 32158,
       "md5": "8b46974df727d12c6b687eedb9bfd245"
-    },
-    "remote/common/import/.DS_Store": {
-      "size": 18436,
-      "md5": "13c0828e472f2fc72e7fd9bf06117bd6"
     },
     "remote/common/import/01/0104183ce.json": {
       "size": 5178,
@@ -1015,10 +1007,6 @@
     "remote/common/index.js": {
       "size": 596,
       "md5": "7792f60d6c4dd534909044977853c767"
-    },
-    "remote/common/native/.DS_Store": {
-      "size": 18436,
-      "md5": "c86b7d3089478956c33606999d7c022c"
     },
     "remote/common/native/06/06dd3253-219c-478a-bd68-95b4e737ac9f.atlas": {
       "size": 1238,
@@ -1785,8 +1773,8 @@
       "md5": "ac3501365e240c9d5640fccf2c358197"
     },
     "remote/hall/import/09/09d6a1a6a.json": {
-      "size": 125857,
-      "md5": "f5c02781b7949237fea06bc8b3c2524a"
+      "size": 125880,
+      "md5": "7c4a4380cc30583af82256c64e9712d7"
     },
     "remote/hall/import/0a/0a2e47191.json": {
       "size": 12005,
@@ -5666,7 +5654,7 @@
     },
     "src/settings.json": {
       "size": 22479,
-      "md5": "e1ef7d8c70def26e8bbb64064a8b0e69"
+      "md5": "f40a288edcf6d65e333846cb9b8b7161"
     },
     "src/system.bundle.js": {
       "size": 8319,
