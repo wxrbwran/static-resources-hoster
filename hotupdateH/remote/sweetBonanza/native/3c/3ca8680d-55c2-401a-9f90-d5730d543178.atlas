@@ -1,0 +1,187 @@
+
+tang_mega.png
+size: 1940,2042
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+aixin
+  rotate: false
+  xy: 2, 2
+  size: 123, 123
+  orig: 128, 129
+  offset: 3, 3
+  index: -1
+bbt
+  rotate: false
+  xy: 2, 312
+  size: 228, 285
+  orig: 240, 294
+  offset: 5, 4
+  index: -1
+big_00000
+  rotate: true
+  xy: 232, 4
+  size: 904, 228
+  orig: 906, 229
+  offset: 1, 1
+  index: -1
+big_00002
+  rotate: false
+  xy: 462, 625
+  size: 904, 228
+  orig: 906, 229
+  offset: 1, 1
+  index: -1
+big_00004
+  rotate: false
+  xy: 1034, 1062
+  size: 904, 228
+  orig: 906, 229
+  offset: 1, 1
+  index: -1
+big_00006
+  rotate: false
+  xy: 462, 395
+  size: 904, 228
+  orig: 906, 229
+  offset: 1, 1
+  index: -1
+big_00008
+  rotate: false
+  xy: 462, 165
+  size: 904, 228
+  orig: 906, 229
+  offset: 1, 1
+  index: -1
+big_00024
+  rotate: true
+  xy: 2, 599
+  size: 904, 228
+  orig: 906, 229
+  offset: 1, 1
+  index: -1
+caidai
+  rotate: false
+  xy: 2, 1505
+  size: 1064, 535
+  orig: 1066, 553
+  offset: 1, 17
+  index: -1
+ch
+  rotate: true
+  xy: 232, 910
+  size: 593, 340
+  orig: 596, 343
+  offset: 1, 2
+  index: -1
+ch0
+  rotate: true
+  xy: 574, 855
+  size: 648, 319
+  orig: 666, 346
+  offset: 9, 23
+  index: -1
+g1
+  rotate: true
+  xy: 127, 32
+  size: 93, 85
+  orig: 96, 89
+  offset: 1, 0
+  index: -1
+g2
+  rotate: false
+  xy: 127, 7
+  size: 24, 23
+  orig: 29, 29
+  offset: 3, 4
+  index: -1
+kuang
+  rotate: false
+  xy: 1034, 876
+  size: 798, 184
+  orig: 800, 186
+  offset: 1, 1
+  index: -1
+tang
+  rotate: false
+  xy: 2, 127
+  size: 139, 183
+  orig: 141, 186
+  offset: 1, 1
+  index: -1
+yun1
+  rotate: true
+  xy: 895, 997
+  size: 506, 137
+  orig: 508, 139
+  offset: 1, 1
+  index: -1
+yun2
+  rotate: true
+  xy: 1464, 1534
+  size: 506, 137
+  orig: 508, 139
+  offset: 1, 1
+  index: -1
+yunduo
+  rotate: true
+  xy: 1068, 1292
+  size: 748, 394
+  orig: 760, 405
+  offset: 6, 5
+  index: -1
+
+tang_mega2.png
+size: 1612,908
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+big_00010
+  rotate: true
+  xy: 2, 2
+  size: 904, 228
+  orig: 906, 229
+  offset: 1, 1
+  index: -1
+big_00012
+  rotate: true
+  xy: 232, 2
+  size: 904, 228
+  orig: 906, 229
+  offset: 1, 1
+  index: -1
+big_00014
+  rotate: true
+  xy: 462, 2
+  size: 904, 228
+  orig: 906, 229
+  offset: 1, 1
+  index: -1
+big_00016
+  rotate: true
+  xy: 692, 2
+  size: 904, 228
+  orig: 906, 229
+  offset: 1, 1
+  index: -1
+big_00018
+  rotate: true
+  xy: 922, 2
+  size: 904, 228
+  orig: 906, 229
+  offset: 1, 1
+  index: -1
+big_00020
+  rotate: true
+  xy: 1152, 2
+  size: 904, 228
+  orig: 906, 229
+  offset: 1, 1
+  index: -1
+big_00022
+  rotate: true
+  xy: 1382, 2
+  size: 904, 228
+  orig: 906, 229
+  offset: 1, 1
+  index: -1

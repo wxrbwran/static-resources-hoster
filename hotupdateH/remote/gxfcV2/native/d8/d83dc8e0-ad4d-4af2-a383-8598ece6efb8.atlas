@@ -1,0 +1,82 @@
+
+fxgz_zhongjiang.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fxgz_zhongjiang_00000
+  rotate: false
+  xy: 2, 264
+  size: 260, 260
+  orig: 260, 260
+  offset: 0, 0
+  index: -1
+fxgz_zhongjiang_00001
+  rotate: false
+  xy: 264, 526
+  size: 260, 260
+  orig: 260, 260
+  offset: 0, 0
+  index: -1
+fxgz_zhongjiang_00002
+  rotate: false
+  xy: 2, 2
+  size: 260, 260
+  orig: 260, 260
+  offset: 0, 0
+  index: -1
+fxgz_zhongjiang_00003
+  rotate: false
+  xy: 264, 264
+  size: 260, 260
+  orig: 260, 260
+  offset: 0, 0
+  index: -1
+fxgz_zhongjiang_00004
+  rotate: false
+  xy: 526, 526
+  size: 260, 260
+  orig: 260, 260
+  offset: 0, 0
+  index: -1
+fxgz_zhongjiang_00005
+  rotate: false
+  xy: 264, 2
+  size: 260, 260
+  orig: 260, 260
+  offset: 0, 0
+  index: -1
+fxgz_zhongjiang_00006
+  rotate: false
+  xy: 526, 264
+  size: 260, 260
+  orig: 260, 260
+  offset: 0, 0
+  index: -1
+fxgz_zhongjiang_00007
+  rotate: false
+  xy: 526, 2
+  size: 260, 260
+  orig: 260, 260
+  offset: 0, 0
+  index: -1
+fxgz_zhongjiang_00009
+  rotate: false
+  xy: 2, 526
+  size: 260, 260
+  orig: 260, 260
+  offset: 0, 0
+  index: -1
+
+fxgz_zhongjiang2.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fxgz_zhongjiang_00008
+  rotate: false
+  xy: 2, 2
+  size: 260, 260
+  orig: 260, 260
+  offset: 0, 0
+  index: -1

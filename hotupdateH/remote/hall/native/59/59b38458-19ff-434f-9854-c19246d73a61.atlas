@@ -1,0 +1,55 @@
+
+Crash_da.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Cs_da
+  rotate: true
+  xy: 612, 27
+  size: 246, 207
+  orig: 246, 207
+  offset: 0, 0
+  index: -1
+bg_barqiu_da
+  rotate: false
+  xy: 2, 27
+  size: 206, 420
+  orig: 206, 420
+  offset: 0, 0
+  index: -1
+bg_barqiuhui_da
+  rotate: false
+  xy: 210, 27
+  size: 206, 420
+  orig: 206, 420
+  offset: 0, 0
+  index: -1
+crash-bg1
+  rotate: true
+  xy: 418, 30
+  size: 417, 192
+  orig: 417, 192
+  offset: 0, 0
+  index: -1
+crash-xing
+  rotate: false
+  xy: 612, 275
+  size: 389, 172
+  orig: 389, 172
+  offset: 0, 0
+  index: -1
+crash_guang
+  rotate: true
+  xy: 821, 2
+  size: 129, 122
+  orig: 129, 122
+  offset: 0, 0
+  index: -1
+huojian_hj
+  rotate: false
+  xy: 821, 133
+  size: 147, 140
+  orig: 147, 140
+  offset: 0, 0
+  index: -1

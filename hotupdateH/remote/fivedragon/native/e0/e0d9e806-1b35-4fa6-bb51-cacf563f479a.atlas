@@ -1,0 +1,62 @@
+
+eff_spine_slot_wlzb_bdj.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+coin_001
+  rotate: false
+  xy: 2, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+coin_002
+  rotate: false
+  xy: 104, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+coin_003
+  rotate: false
+  xy: 206, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+coin_004
+  rotate: false
+  xy: 308, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+coin_005
+  rotate: false
+  xy: 410, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+coin_006
+  rotate: false
+  xy: 512, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+coin_007
+  rotate: false
+  xy: 614, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+coin_008
+  rotate: false
+  xy: 716, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

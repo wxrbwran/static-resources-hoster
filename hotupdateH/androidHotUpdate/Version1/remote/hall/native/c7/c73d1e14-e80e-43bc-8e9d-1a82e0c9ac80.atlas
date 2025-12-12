@@ -1,0 +1,69 @@
+
+sc.png
+size: 290,98
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 255, 64
+  size: 33, 32
+  orig: 39, 39
+  offset: 3, 4
+  index: -1
+2
+  rotate: false
+  xy: 210, 5
+  size: 25, 24
+  orig: 30, 30
+  offset: 3, 4
+  index: -1
+3
+  rotate: true
+  xy: 182, 4
+  size: 25, 26
+  orig: 31, 31
+  offset: 3, 3
+  index: -1
+4
+  rotate: false
+  xy: 255, 32
+  size: 30, 30
+  orig: 37, 35
+  offset: 4, 3
+  index: -1
+5
+  rotate: false
+  xy: 237, 6
+  size: 23, 23
+  orig: 29, 29
+  offset: 3, 3
+  index: -1
+di
+  rotate: false
+  xy: 2, 2
+  size: 87, 94
+  orig: 99, 98
+  offset: 9, 2
+  index: -1
+guan
+  rotate: false
+  xy: 91, 6
+  size: 89, 90
+  orig: 96, 94
+  offset: 2, 2
+  index: -1
+jb
+  rotate: false
+  xy: 182, 31
+  size: 71, 65
+  orig: 88, 69
+  offset: 13, 1
+  index: -1
+jb01
+  rotate: false
+  xy: 262, 14
+  size: 23, 16
+  orig: 25, 20
+  offset: 1, 1
+  index: -1

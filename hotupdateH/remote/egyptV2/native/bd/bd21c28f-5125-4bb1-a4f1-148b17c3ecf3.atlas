@@ -1,0 +1,27 @@
+
+shizijia.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 2
+  size: 272, 200
+  orig: 272, 200
+  offset: 0, 0
+  index: -1
+guangxiao
+  rotate: false
+  xy: 459, 112
+  size: 101, 90
+  orig: 101, 90
+  offset: 0, 0
+  index: -1
+shizijia
+  rotate: false
+  xy: 276, 12
+  size: 181, 190
+  orig: 181, 190
+  offset: 0, 0
+  index: -1

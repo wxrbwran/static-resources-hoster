@@ -1,0 +1,13 @@
+
+yaoqianshu.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+yaoqianshu
+  rotate: false
+  xy: 2, 2
+  size: 133, 118
+  orig: 133, 118
+  offset: 0, 0
+  index: -1

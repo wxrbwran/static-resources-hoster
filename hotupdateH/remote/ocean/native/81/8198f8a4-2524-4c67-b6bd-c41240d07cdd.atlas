@@ -1,0 +1,41 @@
+
+spine_ocean_peral_big.png
+size: 10262,516
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+frame_0
+  rotate: false
+  xy: 2, 2
+  size: 1024, 512
+  orig: 1024, 512
+  offset: 0, 0
+  index: -1
+frame_1
+  rotate: false
+  xy: 1028, 2
+  size: 1024, 512
+  orig: 1024, 512
+  offset: 0, 0
+  index: -1
+frame_2
+  rotate: false
+  xy: 2054, 2
+  size: 1024, 512
+  orig: 1024, 512
+  offset: 0, 0
+  index: -1
+frame_3
+  rotate: false
+  xy: 3080, 2
+  size: 1024, 512
+  orig: 1024, 512
+  offset: 0, 0
+  index: -1
+frame_4
+  rotate: false
+  xy: 4106, 2
+  size: 1024, 512
+  orig: 1024, 512
+  offset: 0, 0
+  index: -1

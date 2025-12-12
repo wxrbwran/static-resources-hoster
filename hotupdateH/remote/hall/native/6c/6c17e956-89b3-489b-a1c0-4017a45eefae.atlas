@@ -1,0 +1,118 @@
+
+csrukou.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cs_bg
+  rotate: false
+  xy: 2, 89
+  size: 206, 420
+  orig: 206, 420
+  offset: 0, 0
+  index: -1
+jb1
+  rotate: true
+  xy: 2, 2
+  size: 85, 52
+  orig: 85, 52
+  offset: 0, 0
+  index: -1
+jb2
+  rotate: false
+  xy: 56, 5
+  size: 103, 82
+  orig: 103, 82
+  offset: 0, 0
+  index: -1
+jb3
+  rotate: true
+  xy: 752, 74
+  size: 149, 139
+  orig: 149, 139
+  offset: 0, 0
+  index: -1
+jb4
+  rotate: false
+  xy: 807, 225
+  size: 163, 141
+  orig: 163, 141
+  offset: 0, 0
+  index: -1
+jb5
+  rotate: false
+  xy: 807, 368
+  size: 177, 141
+  orig: 177, 141
+  offset: 0, 0
+  index: -1
+jb6
+  rotate: true
+  xy: 656, 316
+  size: 193, 149
+  orig: 193, 149
+  offset: 0, 0
+  index: -1
+jb7
+  rotate: true
+  xy: 476, 62
+  size: 213, 158
+  orig: 213, 158
+  offset: 0, 0
+  index: -1
+jb8
+  rotate: true
+  xy: 476, 277
+  size: 232, 178
+  orig: 232, 178
+  offset: 0, 0
+  index: -1
+jbdui
+  rotate: false
+  xy: 217, 3
+  size: 187, 106
+  orig: 187, 106
+  offset: 0, 0
+  index: -1
+ren
+  rotate: false
+  xy: 210, 111
+  size: 264, 398
+  orig: 264, 398
+  offset: 0, 0
+  index: -1
+shou
+  rotate: true
+  xy: 636, 62
+  size: 213, 114
+  orig: 213, 114
+  offset: 0, 0
+  index: -1
+you
+  rotate: false
+  xy: 406, 63
+  size: 42, 46
+  orig: 42, 46
+  offset: 0, 0
+  index: -1
+youmm
+  rotate: true
+  xy: 406, 8
+  size: 25, 14
+  orig: 25, 14
+  offset: 0, 0
+  index: -1
+zuo
+  rotate: true
+  xy: 161, 10
+  size: 77, 54
+  orig: 77, 54
+  offset: 0, 0
+  index: -1
+zuomm
+  rotate: true
+  xy: 406, 35
+  size: 26, 21
+  orig: 26, 21
+  offset: 0, 0
+  index: -1

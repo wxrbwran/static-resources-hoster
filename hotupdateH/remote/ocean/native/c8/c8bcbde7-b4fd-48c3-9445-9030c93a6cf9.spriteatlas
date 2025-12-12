@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: atlas_ocean_collect
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 0
+      compressionQuality: 0
+      maxTextureSize: 0
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Standalone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 50
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 4096
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 50
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300000, guid: 48e4f20357e57a74b9cca0b2ce721dd9, type: 3}
+    - {fileID: 21300000, guid: 84b75de759a3a2149988fb835e812e3a, type: 3}
+    - {fileID: 21300000, guid: 8cbb84bd765ffe2429dfa8b428f9cb56, type: 3}
+    - {fileID: 21300000, guid: 093c6654986a7dd48adf8b02c10cb95b, type: 3}
+    - {fileID: 21300000, guid: d61a93ca5ec07b64ca55b08e73098129, type: 3}
+    - {fileID: 21300000, guid: 1939f8a7f31b6f34cb0746491b1a9fbe, type: 3}
+    - {fileID: 21300000, guid: 9d2c6269b0624744f8ffc3321d24ea06, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 48e4f20357e57a74b9cca0b2ce721dd9, type: 3}
+  - {fileID: 21300000, guid: 093c6654986a7dd48adf8b02c10cb95b, type: 3}
+  - {fileID: 21300000, guid: 1939f8a7f31b6f34cb0746491b1a9fbe, type: 3}
+  - {fileID: 21300000, guid: 84b75de759a3a2149988fb835e812e3a, type: 3}
+  - {fileID: 21300000, guid: 9d2c6269b0624744f8ffc3321d24ea06, type: 3}
+  - {fileID: 21300000, guid: d61a93ca5ec07b64ca55b08e73098129, type: 3}
+  - {fileID: 21300000, guid: 8cbb84bd765ffe2429dfa8b428f9cb56, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - collect_pearl_1
+  - collect_pearl_bar_2
+  - collect_pearl_box
+  - collect_pearl_2
+  - line
+  - collect_pearl_bar_locked
+  - collect_pearl_bar_1
+  m_RenderDataMap: {}
+  m_Tag: atlas_ocean_collect
+  m_IsVariant: 0

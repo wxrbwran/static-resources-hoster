@@ -1,0 +1,48 @@
+
+qiuqiu.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chouma
+  rotate: true
+  xy: 408, 2
+  size: 111, 108
+  orig: 111, 108
+  offset: 0, 0
+  index: -1
+choumaguang
+  rotate: false
+  xy: 408, 115
+  size: 132, 132
+  orig: 132, 132
+  offset: 0, 0
+  index: -1
+gp1
+  rotate: true
+  xy: 518, 25
+  size: 88, 120
+  orig: 88, 120
+  offset: 0, 0
+  index: -1
+gp2
+  rotate: false
+  xy: 542, 127
+  size: 88, 120
+  orig: 88, 120
+  offset: 0, 0
+  index: -1
+qiuqiubg
+  rotate: true
+  xy: 2, 35
+  size: 212, 201
+  orig: 212, 201
+  offset: 0, 0
+  index: -1
+shafa
+  rotate: false
+  xy: 205, 45
+  size: 201, 202
+  orig: 201, 202
+  offset: 0, 0
+  index: -1

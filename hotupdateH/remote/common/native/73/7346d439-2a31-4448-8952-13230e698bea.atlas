@@ -1,0 +1,69 @@
+
+zhuantou.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+z_0000_xing
+  rotate: false
+  xy: 118, 78
+  size: 32, 33
+  orig: 32, 33
+  offset: 0, 0
+  index: -1
+z_0001_xing1
+  rotate: true
+  xy: 94, 113
+  size: 52, 51
+  orig: 52, 51
+  offset: 0, 0
+  index: -1
+z_0002_peng
+  rotate: false
+  xy: 94, 73
+  size: 22, 38
+  orig: 22, 38
+  offset: 0, 0
+  index: -1
+z_0003_4_b
+  rotate: false
+  xy: 2, 2
+  size: 70, 61
+  orig: 70, 61
+  offset: 0, 0
+  index: -1
+z_0004_5_b
+  rotate: false
+  xy: 74, 7
+  size: 67, 57
+  orig: 67, 57
+  offset: 0, 0
+  index: -1
+z_0005_2
+  rotate: false
+  xy: 2, 154
+  size: 82, 96
+  orig: 82, 96
+  offset: 0, 0
+  index: -1
+z_0008_quan1
+  rotate: true
+  xy: 2, 65
+  size: 87, 50
+  orig: 87, 50
+  offset: 0, 0
+  index: -1
+z_0009_quan2
+  rotate: true
+  xy: 86, 167
+  size: 83, 37
+  orig: 83, 37
+  offset: 0, 0
+  index: -1
+z_0010_quan3
+  rotate: true
+  xy: 54, 66
+  size: 86, 38
+  orig: 86, 38
+  offset: 0, 0
+  index: -1

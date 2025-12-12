@@ -1,0 +1,118 @@
+
+qiuqiu_paixing.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mat/bandarqq_1_00000
+  rotate: false
+  xy: 2, 289
+  size: 316, 100
+  orig: 450, 144
+  offset: 15, 37
+  index: -1
+mat/bandarqq_1_00001
+  rotate: false
+  xy: 2, 391
+  size: 411, 118
+  orig: 450, 144
+  offset: 38, 23
+  index: -1
+mat/bandarqq_1_00002
+  rotate: false
+  xy: 415, 391
+  size: 258, 118
+  orig: 450, 144
+  offset: 189, 23
+  index: -1
+mat/bandarqq_1_00003
+  rotate: false
+  xy: 2, 169
+  size: 255, 118
+  orig: 450, 144
+  offset: 183, 23
+  index: -1
+mat/bandarqq_1_00004
+  rotate: false
+  xy: 675, 395
+  size: 251, 114
+  orig: 450, 144
+  offset: 178, 23
+  index: -1
+mat/bandarqq_1_00005
+  rotate: false
+  xy: 2, 67
+  size: 241, 100
+  orig: 450, 144
+  offset: 172, 37
+  index: -1
+mat/bandarqq_1_00006
+  rotate: false
+  xy: 259, 159
+  size: 241, 100
+  orig: 450, 144
+  offset: 163, 37
+  index: -1
+mat/bandarqq_1_00007
+  rotate: false
+  xy: 245, 58
+  size: 240, 99
+  orig: 450, 144
+  offset: 155, 38
+  index: -1
+牌型/qiu
+  rotate: true
+  xy: 617, 182
+  size: 207, 56
+  orig: 209, 56
+  offset: 2, 0
+  index: -1
+牌型/six
+  rotate: false
+  xy: 675, 221
+  size: 208, 56
+  orig: 209, 56
+  offset: 1, 0
+  index: -1
+牌型/six_es
+  rotate: false
+  xy: 2, 2
+  size: 231, 63
+  orig: 232, 63
+  offset: 1, 0
+  index: -1
+牌型/twin
+  rotate: false
+  xy: 675, 279
+  size: 209, 56
+  orig: 210, 56
+  offset: 1, 0
+  index: -1
+牌型/twin_78
+  rotate: false
+  xy: 675, 337
+  size: 238, 56
+  orig: 238, 56
+  offset: 0, 0
+  index: -1
+牌型/twin_es
+  rotate: false
+  xy: 320, 261
+  size: 274, 63
+  orig: 274, 63
+  offset: 0, 0
+  index: -1
+牌型/twins
+  rotate: false
+  xy: 675, 163
+  size: 208, 56
+  orig: 209, 56
+  offset: 1, 0
+  index: -1
+牌型/twins_es
+  rotate: false
+  xy: 320, 326
+  size: 295, 63
+  orig: 295, 63
+  offset: 0, 0
+  index: -1

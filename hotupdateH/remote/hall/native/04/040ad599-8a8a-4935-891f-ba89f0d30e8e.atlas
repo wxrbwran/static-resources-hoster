@@ -1,0 +1,125 @@
+
+bangding.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 89, 270
+  size: 159, 132
+  orig: 159, 132
+  offset: 0, 0
+  index: -1
+10
+  rotate: false
+  xy: 485, 136
+  size: 159, 132
+  orig: 159, 132
+  offset: 0, 0
+  index: -1
+11
+  rotate: false
+  xy: 646, 136
+  size: 159, 132
+  orig: 159, 132
+  offset: 0, 0
+  index: -1
+12
+  rotate: false
+  xy: 807, 136
+  size: 159, 132
+  orig: 159, 132
+  offset: 0, 0
+  index: -1
+13
+  rotate: false
+  xy: 2, 2
+  size: 159, 132
+  orig: 159, 132
+  offset: 0, 0
+  index: -1
+14
+  rotate: false
+  xy: 163, 2
+  size: 159, 132
+  orig: 159, 132
+  offset: 0, 0
+  index: -1
+15
+  rotate: false
+  xy: 324, 2
+  size: 159, 132
+  orig: 159, 132
+  offset: 0, 0
+  index: -1
+16
+  rotate: false
+  xy: 485, 2
+  size: 159, 132
+  orig: 159, 132
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 250, 270
+  size: 159, 132
+  orig: 159, 132
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 411, 270
+  size: 159, 132
+  orig: 159, 132
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 572, 270
+  size: 159, 132
+  orig: 159, 132
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 733, 270
+  size: 159, 132
+  orig: 159, 132
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 2, 136
+  size: 159, 132
+  orig: 159, 132
+  offset: 0, 0
+  index: -1
+7
+  rotate: false
+  xy: 163, 136
+  size: 159, 132
+  orig: 159, 132
+  offset: 0, 0
+  index: -1
+8
+  rotate: false
+  xy: 324, 136
+  size: 159, 132
+  orig: 159, 132
+  offset: 0, 0
+  index: -1
+9
+  rotate: false
+  xy: 646, 2
+  size: 159, 132
+  orig: 159, 132
+  offset: 0, 0
+  index: -1
+di
+  rotate: true
+  xy: 2, 328
+  size: 74, 85
+  orig: 74, 85
+  offset: 0, 0
+  index: -1

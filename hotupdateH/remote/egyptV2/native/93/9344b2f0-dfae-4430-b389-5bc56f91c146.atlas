@@ -1,0 +1,41 @@
+
+shuaige.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 373, 133
+  size: 383, 356
+  orig: 383, 356
+  offset: 0, 0
+  index: -1
+circle/light40000
+  rotate: false
+  xy: 373, 2
+  size: 138, 129
+  orig: 138, 129
+  offset: 0, 0
+  index: -1
+guandian
+  rotate: false
+  xy: 513, 5
+  size: 119, 126
+  orig: 119, 126
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 2, 85
+  size: 369, 404
+  orig: 369, 404
+  offset: 0, 0
+  index: -1
+waikuang
+  rotate: true
+  xy: 758, 81
+  size: 408, 189
+  orig: 408, 189
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,188 @@
+
+st_bigwin.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 1349
+  size: 1309, 691
+  orig: 1311, 693
+  offset: 1, 1
+  index: -1
+bh_lizi01
+  rotate: false
+  xy: 1313, 1707
+  size: 480, 333
+  orig: 480, 347
+  offset: 0, 0
+  index: -1
+bigwin
+  rotate: false
+  xy: 1192, 376
+  size: 454, 108
+  orig: 456, 110
+  offset: 1, 1
+  index: -1
+bj_lizi2
+  rotate: false
+  xy: 1310, 1159
+  size: 536, 176
+  orig: 536, 178
+  offset: 0, 0
+  index: -1
+daixin_liuguang01/daixin_liuguang01_00
+  rotate: false
+  xy: 432, 427
+  size: 395, 368
+  orig: 428, 368
+  offset: 13, 0
+  index: -1
+daixin_liuguang01/daixin_liuguang01_01
+  rotate: false
+  xy: 2, 857
+  size: 428, 368
+  orig: 428, 368
+  offset: 0, 0
+  index: -1
+daixin_liuguang01/daixin_liuguang01_02
+  rotate: false
+  xy: 428, 96
+  size: 428, 329
+  orig: 428, 368
+  offset: 0, 39
+  index: -1
+daixin_liuguang01/daixin_liuguang01_03
+  rotate: true
+  xy: 858, 42
+  size: 428, 332
+  orig: 428, 368
+  offset: 0, 36
+  index: -1
+daixin_liuguang01/daixin_liuguang01_04
+  rotate: false
+  xy: 1313, 1337
+  size: 422, 368
+  orig: 428, 368
+  offset: 0, 0
+  index: -1
+daixin_liuguang01/daixin_liuguang01_05
+  rotate: false
+  xy: 774, 853
+  size: 404, 368
+  orig: 428, 368
+  offset: 16, 0
+  index: -1
+daixin_liuguang01/daixin_liuguang01_06
+  rotate: false
+  xy: 2, 487
+  size: 428, 368
+  orig: 428, 368
+  offset: 0, 0
+  index: -1
+daixin_liuguang01/daixin_liuguang01_07
+  rotate: false
+  xy: 1180, 828
+  size: 428, 329
+  orig: 428, 368
+  offset: 0, 39
+  index: -1
+daixin_liuguang01/daixin_liuguang01_08
+  rotate: true
+  xy: 432, 797
+  size: 428, 340
+  orig: 428, 368
+  offset: 0, 28
+  index: -1
+daixin_liuguang01/daixin_liuguang01_09
+  rotate: false
+  xy: 2, 117
+  size: 424, 368
+  orig: 428, 368
+  offset: 1, 0
+  index: -1
+epicwin
+  rotate: false
+  xy: 1164, 486
+  size: 496, 110
+  orig: 496, 110
+  offset: 0, 0
+  index: -1
+megawin
+  rotate: false
+  xy: 1164, 712
+  size: 579, 114
+  orig: 579, 114
+  offset: 0, 0
+  index: -1
+superwin
+  rotate: false
+  xy: 1164, 598
+  size: 605, 112
+  orig: 605, 112
+  offset: 0, 0
+  index: -1
+ultimatewin
+  rotate: false
+  xy: 2, 1227
+  size: 779, 120
+  orig: 779, 120
+  offset: 0, 0
+  index: -1
+xx
+  rotate: true
+  xy: 2, 2
+  size: 113, 130
+  orig: 115, 132
+  offset: 1, 1
+  index: -1
+右翅膀内
+  rotate: true
+  xy: 1795, 1728
+  size: 312, 235
+  orig: 314, 237
+  offset: 1, 1
+  index: -1
+右翅膀外
+  rotate: true
+  xy: 1610, 856
+  size: 301, 227
+  orig: 303, 229
+  offset: 1, 1
+  index: -1
+右装饰D1
+  rotate: false
+  xy: 134, 31
+  size: 121, 84
+  orig: 123, 86
+  offset: 1, 1
+  index: -1
+大爱心
+  rotate: true
+  xy: 829, 472
+  size: 379, 333
+  orig: 381, 335
+  offset: 1, 1
+  index: -1
+数字底
+  rotate: false
+  xy: 783, 1223
+  size: 525, 124
+  orig: 527, 126
+  offset: 1, 1
+  index: -1
+皇冠
+  rotate: false
+  xy: 1192, 296
+  size: 155, 78
+  orig: 157, 80
+  offset: 1, 1
+  index: -1
+皇冠底
+  rotate: true
+  xy: 1737, 1580
+  size: 125, 29
+  orig: 127, 31
+  offset: 1, 1
+  index: -1

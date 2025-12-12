@@ -1,0 +1,275 @@
+
+hw_thor_tanchuag.png
+size: 1023,1021
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+beentriggered
+  rotate: true
+  xy: 946, 696
+  size: 325, 39
+  orig: 325, 39
+  offset: 0, 0
+  index: -1
+freespinshas
+  rotate: true
+  xy: 987, 727
+  size: 294, 36
+  orig: 294, 36
+  offset: 0, 0
+  index: -1
+hw_thor_frame_win
+  rotate: false
+  xy: 0, 549
+  size: 944, 472
+  orig: 944, 472
+  offset: 0, 0
+  index: -1
+number
+  rotate: false
+  xy: 501, 459
+  size: 520, 88
+  orig: 520, 88
+  offset: 0, 0
+  index: -1
+thor_zhong_2
+  rotate: true
+  xy: 871, 46
+  size: 411, 151
+  orig: 411, 151
+  offset: 0, 0
+  index: -1
+thor_zhong_4
+  rotate: true
+  xy: 703, 13
+  size: 444, 166
+  orig: 444, 166
+  offset: 0, 0
+  index: -1
+thor_zhong_5
+  rotate: true
+  xy: 501, 13
+  size: 444, 200
+  orig: 444, 200
+  offset: 0, 0
+  index: -1
+thor_zuo_4
+  rotate: true
+  xy: 0, 1
+  size: 546, 499
+  orig: 546, 499
+  offset: 0, 0
+  index: -1
+youwin
+  rotate: true
+  xy: 987, 552
+  size: 173, 36
+  orig: 173, 36
+  offset: 0, 0
+  index: -1
+
+hw_thor_tanchuag2.png
+size: 1023,1021
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+anypresstostart
+  rotate: true
+  xy: 985, 748
+  size: 273, 21
+  orig: 273, 21
+  offset: 0, 0
+  index: -1
+hw_thor_frame_win_2
+  rotate: false
+  xy: 0, 551
+  size: 943, 470
+  orig: 943, 470
+  offset: 0, 0
+  index: -1
+infreespins
+  rotate: true
+  xy: 945, 750
+  size: 271, 38
+  orig: 271, 38
+  offset: 0, 0
+  index: -1
+thor_zuo_1
+  rotate: true
+  xy: 0, 9
+  size: 540, 514
+  orig: 540, 514
+  offset: 0, 0
+  index: -1
+thor_zuo_3
+  rotate: true
+  xy: 516, 11
+  size: 538, 507
+  orig: 538, 507
+  offset: 0, 0
+  index: -1
+
+hw_thor_tanchuag3.png
+size: 1023,1023
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+anypresstocontineue
+  rotate: true
+  xy: 561, 165
+  size: 342, 20
+  orig: 342, 20
+  offset: 0, 0
+  index: -1
+guangxiao3
+  rotate: false
+  xy: 894, 174
+  size: 101, 114
+  orig: 101, 114
+  offset: 0, 0
+  index: -1
+guangxiao6
+  rotate: false
+  xy: 791, 173
+  size: 101, 115
+  orig: 101, 115
+  offset: 0, 0
+  index: -1
+guangxiao7
+  rotate: false
+  xy: 583, 173
+  size: 102, 115
+  orig: 102, 115
+  offset: 0, 0
+  index: -1
+guangxiao8
+  rotate: false
+  xy: 687, 174
+  size: 102, 114
+  orig: 102, 114
+  offset: 0, 0
+  index: -1
+hw_thor_frame_img2x_2 
+  rotate: true
+  xy: 602, 290
+  size: 733, 388
+  orig: 944, 532
+  offset: 89, 72
+  index: -1
+thor_you_1
+  rotate: false
+  xy: 0, 509
+  size: 600, 514
+  orig: 600, 514
+  offset: 0, 0
+  index: -1
+thor_you_3
+  rotate: false
+  xy: 0, 0
+  size: 559, 507
+  orig: 559, 507
+  offset: 0, 0
+  index: -1
+thor_zhong_1
+  rotate: false
+  xy: 561, 36
+  size: 382, 127
+  orig: 382, 127
+  offset: 0, 0
+  index: -1
+
+hw_thor_tanchuag4.png
+size: 1017,1015
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guangxiao2
+  rotate: false
+  xy: 537, 54
+  size: 145, 138
+  orig: 145, 138
+  offset: 0, 0
+  index: -1
+guangxiao4
+  rotate: false
+  xy: 891, 228
+  size: 101, 114
+  orig: 101, 114
+  offset: 0, 0
+  index: -1
+guangxiao5
+  rotate: false
+  xy: 891, 112
+  size: 101, 114
+  orig: 101, 114
+  offset: 0, 0
+  index: -1
+hw_thor_frame_img2x
+  rotate: false
+  xy: 0, 627
+  size: 732, 388
+  orig: 944, 532
+  offset: 89, 72
+  index: -1
+hw_thor_frame_win_frame1
+  rotate: true
+  xy: 891, 344
+  size: 671, 126
+  orig: 672, 126
+  offset: 1, 0
+  index: -1
+hw_thor_frame_win_frame2
+  rotate: false
+  xy: 0, 20
+  size: 535, 94
+  orig: 535, 94
+  offset: 0, 0
+  index: -1
+hw_thor_title_1
+  rotate: true
+  xy: 734, 127
+  size: 888, 155
+  orig: 888, 155
+  offset: 0, 0
+  index: -1
+thor_you_2
+  rotate: false
+  xy: 0, 116
+  size: 525, 509
+  orig: 525, 509
+  offset: 0, 0
+  index: -1
+thor_zhong_3
+  rotate: true
+  xy: 527, 194
+  size: 431, 177
+  orig: 431, 177
+  offset: 0, 0
+  index: -1
+
+hw_thor_tanchuag5.png
+size: 883,881
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guangxiao1
+  rotate: false
+  xy: 0, 79
+  size: 143, 138
+  orig: 143, 138
+  offset: 0, 0
+  index: -1
+hw_thor_title_2
+  rotate: false
+  xy: 0, 730
+  size: 883, 151
+  orig: 883, 151
+  offset: 0, 0
+  index: -1
+thor_zuo_2
+  rotate: false
+  xy: 0, 219
+  size: 525, 509
+  orig: 525, 509
+  offset: 0, 0
+  index: -1
