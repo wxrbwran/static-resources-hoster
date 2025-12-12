@@ -1,0 +1,118 @@
+
+eff_spine_slot_wlzb_kuang.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+frame_green_01
+  rotate: true
+  xy: 2, 90
+  size: 86, 256
+  orig: 86, 256
+  offset: 0, 0
+  index: -1
+frame_green_03
+  rotate: true
+  xy: 2, 2
+  size: 86, 256
+  orig: 86, 256
+  offset: 0, 0
+  index: -1
+frame_green_05
+  rotate: true
+  xy: 260, 90
+  size: 86, 256
+  orig: 86, 256
+  offset: 0, 0
+  index: -1
+frame_green_07
+  rotate: true
+  xy: 260, 2
+  size: 86, 256
+  orig: 86, 256
+  offset: 0, 0
+  index: -1
+frame_green_09
+  rotate: true
+  xy: 518, 90
+  size: 86, 256
+  orig: 86, 256
+  offset: 0, 0
+  index: -1
+frame_green_11
+  rotate: true
+  xy: 518, 2
+  size: 86, 256
+  orig: 86, 256
+  offset: 0, 0
+  index: -1
+frame_green_13
+  rotate: true
+  xy: 776, 90
+  size: 86, 256
+  orig: 86, 256
+  offset: 0, 0
+  index: -1
+frame_green_15
+  rotate: true
+  xy: 776, 2
+  size: 86, 256
+  orig: 86, 256
+  offset: 0, 0
+  index: -1
+gotf_00
+  rotate: false
+  xy: 1034, 96
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+gotf_01
+  rotate: false
+  xy: 1034, 14
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+gotf_03
+  rotate: false
+  xy: 1116, 96
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+gotf_05
+  rotate: false
+  xy: 1116, 14
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+gotf_07
+  rotate: false
+  xy: 1198, 96
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+gotf_09
+  rotate: false
+  xy: 1198, 14
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+gotf_11
+  rotate: false
+  xy: 1280, 96
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+gotf_13
+  rotate: false
+  xy: 1280, 14
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1

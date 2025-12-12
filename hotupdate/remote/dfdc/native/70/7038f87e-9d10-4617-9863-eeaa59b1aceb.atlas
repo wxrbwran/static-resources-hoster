@@ -1,0 +1,13 @@
+
+icon_a.png
+size: 103,106
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+aa
+  rotate: false
+  xy: 2, 2
+  size: 99, 102
+  orig: 101, 104
+  offset: 1, 1
+  index: -1

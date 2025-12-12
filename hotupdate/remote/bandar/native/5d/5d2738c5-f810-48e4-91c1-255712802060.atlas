@@ -1,0 +1,13 @@
+
+xiazhu_bandar.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+xiazhu
+  rotate: false
+  xy: 2, 2
+  size: 196, 197
+  orig: 196, 197
+  offset: 0, 0
+  index: -1

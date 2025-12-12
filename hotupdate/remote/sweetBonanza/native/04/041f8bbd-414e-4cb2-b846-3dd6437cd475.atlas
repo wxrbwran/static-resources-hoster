@@ -1,0 +1,111 @@
+
+jues.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+右腿
+  rotate: false
+  xy: 343, 69
+  size: 96, 95
+  orig: 98, 97
+  offset: 1, 1
+  index: -1
+头
+  rotate: false
+  xy: 2, 27
+  size: 203, 221
+  orig: 205, 223
+  offset: 1, 1
+  index: -1
+头发1
+  rotate: true
+  xy: 964, 206
+  size: 42, 58
+  orig: 44, 60
+  offset: 1, 1
+  index: -1
+头发2
+  rotate: true
+  xy: 841, 192
+  size: 56, 57
+  orig: 58, 59
+  offset: 1, 1
+  index: -1
+头发3
+  rotate: false
+  xy: 767, 194
+  size: 72, 54
+  orig: 74, 56
+  offset: 1, 1
+  index: -1
+左腿
+  rotate: false
+  xy: 569, 170
+  size: 95, 78
+  orig: 97, 80
+  offset: 1, 1
+  index: -1
+底座
+  rotate: false
+  xy: 207, 166
+  size: 240, 82
+  orig: 242, 84
+  offset: 1, 1
+  index: -1
+手臂1
+  rotate: false
+  xy: 449, 168
+  size: 118, 80
+  orig: 120, 82
+  offset: 1, 1
+  index: -1
+手臂2
+  rotate: false
+  xy: 666, 190
+  size: 99, 58
+  orig: 101, 60
+  offset: 1, 1
+  index: -1
+眼皮1
+  rotate: false
+  xy: 390, 36
+  size: 38, 31
+  orig: 40, 33
+  offset: 1, 1
+  index: -1
+眼皮2
+  rotate: false
+  xy: 343, 33
+  size: 45, 34
+  orig: 47, 36
+  offset: 1, 1
+  index: -1
+耳朵
+  rotate: false
+  xy: 2, 2
+  size: 15, 23
+  orig: 17, 25
+  offset: 1, 1
+  index: -1
+耳朵右
+  rotate: true
+  xy: 666, 158
+  size: 30, 37
+  orig: 32, 39
+  offset: 1, 1
+  index: -1
+蝴蝶结
+  rotate: false
+  xy: 900, 203
+  size: 62, 45
+  orig: 64, 47
+  offset: 1, 1
+  index: -1
+身体
+  rotate: false
+  xy: 207, 33
+  size: 134, 131
+  orig: 136, 133
+  offset: 1, 1
+  index: -1

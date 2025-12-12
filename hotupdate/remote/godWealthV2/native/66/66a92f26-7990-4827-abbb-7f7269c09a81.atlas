@@ -1,0 +1,13 @@
+
+baicai.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+w3
+  rotate: false
+  xy: 2, 2
+  size: 170, 170
+  orig: 170, 170
+  offset: 0, 0
+  index: -1

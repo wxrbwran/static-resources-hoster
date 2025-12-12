@@ -1,0 +1,27 @@
+
+end_vfx.png
+size: 298,124
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+LWs_eft_01
+  rotate: false
+  xy: 41, 3
+  size: 126, 120
+  orig: 128, 128
+  offset: 2, 5
+  index: -1
+LWs_eft_02
+  rotate: true
+  xy: 169, 1
+  size: 122, 128
+  orig: 128, 128
+  offset: 3, 0
+  index: -1
+eft_bol_01
+  rotate: false
+  xy: 1, 85
+  size: 38, 38
+  orig: 40, 40
+  offset: 1, 1
+  index: -1

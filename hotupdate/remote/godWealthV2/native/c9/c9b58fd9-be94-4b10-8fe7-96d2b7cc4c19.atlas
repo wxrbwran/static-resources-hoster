@@ -1,0 +1,222 @@
+
+caisheng.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+texture/s1
+  rotate: false
+  xy: 837, 8
+  size: 131, 131
+  orig: 131, 131
+  offset: 0, 0
+  index: -1
+texture/s2
+  rotate: false
+  xy: 698, 2
+  size: 137, 137
+  orig: 137, 137
+  offset: 0, 0
+  index: -1
+texture/s3
+  rotate: false
+  xy: 698, 141
+  size: 170, 170
+  orig: 170, 170
+  offset: 0, 0
+  index: -1
+texture/s_k_00000
+  rotate: false
+  xy: 2, 777
+  size: 250, 230
+  orig: 250, 230
+  offset: 0, 0
+  index: -1
+texture/s_k_00001
+  rotate: false
+  xy: 254, 777
+  size: 250, 230
+  orig: 250, 230
+  offset: 0, 0
+  index: -1
+texture/s_k_00002
+  rotate: false
+  xy: 506, 777
+  size: 250, 230
+  orig: 250, 230
+  offset: 0, 0
+  index: -1
+texture/s_k_00003
+  rotate: false
+  xy: 758, 777
+  size: 250, 230
+  orig: 250, 230
+  offset: 0, 0
+  index: -1
+texture/s_k_00004
+  rotate: true
+  xy: 2, 525
+  size: 250, 230
+  orig: 250, 230
+  offset: 0, 0
+  index: -1
+texture/s_k_00005
+  rotate: true
+  xy: 2, 273
+  size: 250, 230
+  orig: 250, 230
+  offset: 0, 0
+  index: -1
+texture/s_k_00006
+  rotate: true
+  xy: 2, 21
+  size: 250, 230
+  orig: 250, 230
+  offset: 0, 0
+  index: -1
+texture/s_k_00007
+  rotate: false
+  xy: 234, 545
+  size: 250, 230
+  orig: 250, 230
+  offset: 0, 0
+  index: -1
+texture/s_k_00008
+  rotate: false
+  xy: 486, 545
+  size: 250, 230
+  orig: 250, 230
+  offset: 0, 0
+  index: -1
+texture/s_k_00009
+  rotate: false
+  xy: 738, 545
+  size: 250, 230
+  orig: 250, 230
+  offset: 0, 0
+  index: -1
+texture/s_k_00010
+  rotate: true
+  xy: 234, 293
+  size: 250, 230
+  orig: 250, 230
+  offset: 0, 0
+  index: -1
+texture/s_k_00011
+  rotate: true
+  xy: 234, 41
+  size: 250, 230
+  orig: 250, 230
+  offset: 0, 0
+  index: -1
+texture/s_k_00012
+  rotate: false
+  xy: 466, 313
+  size: 250, 230
+  orig: 250, 230
+  offset: 0, 0
+  index: -1
+texture/s_k_00013
+  rotate: false
+  xy: 718, 313
+  size: 250, 230
+  orig: 250, 230
+  offset: 0, 0
+  index: -1
+texture/s_k_00014
+  rotate: true
+  xy: 466, 61
+  size: 250, 230
+  orig: 250, 230
+  offset: 0, 0
+  index: -1
+texture/scatter/a
+  rotate: true
+  xy: 870, 209
+  size: 102, 120
+  orig: 102, 120
+  offset: 0, 0
+  index: -1
+
+caisheng2.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+texture/scatter/a1
+  rotate: false
+  xy: 2, 124
+  size: 102, 120
+  orig: 102, 120
+  offset: 0, 0
+  index: -1
+texture/scatter/c
+  rotate: false
+  xy: 2, 2
+  size: 102, 120
+  orig: 102, 120
+  offset: 0, 0
+  index: -1
+texture/scatter/c1
+  rotate: false
+  xy: 106, 124
+  size: 102, 120
+  orig: 102, 120
+  offset: 0, 0
+  index: -1
+texture/scatter/e
+  rotate: false
+  xy: 106, 2
+  size: 102, 120
+  orig: 102, 120
+  offset: 0, 0
+  index: -1
+texture/scatter/e1
+  rotate: false
+  xy: 210, 2
+  size: 102, 120
+  orig: 102, 120
+  offset: 0, 0
+  index: -1
+texture/scatter/r
+  rotate: false
+  xy: 210, 124
+  size: 102, 120
+  orig: 102, 120
+  offset: 0, 0
+  index: -1
+texture/scatter/r1
+  rotate: false
+  xy: 314, 124
+  size: 102, 120
+  orig: 102, 120
+  offset: 0, 0
+  index: -1
+texture/scatter/s
+  rotate: false
+  xy: 314, 2
+  size: 102, 120
+  orig: 102, 120
+  offset: 0, 0
+  index: -1
+texture/scatter/s1
+  rotate: false
+  xy: 418, 124
+  size: 102, 120
+  orig: 102, 120
+  offset: 0, 0
+  index: -1
+texture/scatter/t
+  rotate: false
+  xy: 418, 2
+  size: 102, 120
+  orig: 102, 120
+  offset: 0, 0
+  index: -1
+texture/scatter/t1
+  rotate: false
+  xy: 522, 124
+  size: 102, 120
+  orig: 102, 120
+  offset: 0, 0
+  index: -1

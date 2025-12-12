@@ -1,0 +1,111 @@
+
+pao-7.png
+size: 2896,187
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cannon_pifu7_0
+  rotate: false
+  xy: 652, 2
+  size: 185, 183
+  orig: 211, 247
+  offset: 0, 31
+  index: -1
+cannon_pifu7_0001
+  rotate: false
+  xy: 1026, 2
+  size: 185, 183
+  orig: 211, 247
+  offset: 0, 26
+  index: -1
+cannon_pifu7_0002
+  rotate: true
+  xy: 2, 22
+  size: 163, 230
+  orig: 211, 247
+  offset: 0, 2
+  index: -1
+cannon_pifu7_0003
+  rotate: false
+  xy: 234, 21
+  size: 211, 164
+  orig: 211, 247
+  offset: 0, 36
+  index: -1
+cannon_pifu7_0004
+  rotate: true
+  xy: 447, 10
+  size: 175, 203
+  orig: 211, 247
+  offset: 0, 15
+  index: -1
+cannon_pifu7_0005
+  rotate: false
+  xy: 1961, 2
+  size: 185, 183
+  orig: 211, 247
+  offset: 0, 26
+  index: -1
+cannon_pifu7_1
+  rotate: false
+  xy: 839, 2
+  size: 185, 183
+  orig: 211, 247
+  offset: 0, 31
+  index: -1
+cannon_pifu7_2
+  rotate: false
+  xy: 1213, 2
+  size: 185, 183
+  orig: 211, 247
+  offset: 0, 31
+  index: -1
+cannon_pifu7_3
+  rotate: false
+  xy: 1400, 2
+  size: 185, 183
+  orig: 211, 247
+  offset: 0, 31
+  index: -1
+cannon_pifu7_4
+  rotate: false
+  xy: 1587, 2
+  size: 185, 183
+  orig: 211, 247
+  offset: 0, 31
+  index: -1
+cannon_pifu7_5
+  rotate: false
+  xy: 1774, 2
+  size: 185, 183
+  orig: 211, 247
+  offset: 0, 31
+  index: -1
+cannon_pifu7_6
+  rotate: false
+  xy: 2148, 2
+  size: 185, 183
+  orig: 211, 247
+  offset: 0, 31
+  index: -1
+cannon_pifu7_7
+  rotate: false
+  xy: 2335, 2
+  size: 185, 183
+  orig: 211, 247
+  offset: 0, 31
+  index: -1
+cannon_pifu7_8
+  rotate: false
+  xy: 2522, 2
+  size: 185, 183
+  orig: 211, 247
+  offset: 0, 31
+  index: -1
+cannon_pifu7_9
+  rotate: false
+  xy: 2709, 2
+  size: 185, 183
+  orig: 211, 247
+  offset: 0, 31
+  index: -1

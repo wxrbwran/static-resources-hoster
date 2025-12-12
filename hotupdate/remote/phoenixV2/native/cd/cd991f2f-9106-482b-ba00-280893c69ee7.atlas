@@ -1,0 +1,90 @@
+
+free_box_guang.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+freebox_1
+  rotate: false
+  xy: 2, 2
+  size: 237, 507
+  orig: 237, 507
+  offset: 0, 0
+  index: -1
+freebox_10
+  rotate: false
+  xy: 958, 2
+  size: 237, 507
+  orig: 237, 507
+  offset: 0, 0
+  index: -1
+freebox_11
+  rotate: false
+  xy: 1197, 511
+  size: 237, 507
+  orig: 237, 507
+  offset: 0, 0
+  index: -1
+freebox_12
+  rotate: false
+  xy: 1197, 2
+  size: 237, 507
+  orig: 237, 507
+  offset: 0, 0
+  index: -1
+freebox_2
+  rotate: false
+  xy: 241, 511
+  size: 237, 507
+  orig: 237, 507
+  offset: 0, 0
+  index: -1
+freebox_3
+  rotate: false
+  xy: 241, 2
+  size: 237, 507
+  orig: 237, 507
+  offset: 0, 0
+  index: -1
+freebox_4
+  rotate: false
+  xy: 480, 511
+  size: 237, 507
+  orig: 237, 507
+  offset: 0, 0
+  index: -1
+freebox_5
+  rotate: false
+  xy: 480, 2
+  size: 237, 507
+  orig: 237, 507
+  offset: 0, 0
+  index: -1
+freebox_6
+  rotate: false
+  xy: 719, 511
+  size: 237, 507
+  orig: 237, 507
+  offset: 0, 0
+  index: -1
+freebox_7
+  rotate: false
+  xy: 719, 2
+  size: 237, 507
+  orig: 237, 507
+  offset: 0, 0
+  index: -1
+freebox_8
+  rotate: false
+  xy: 958, 511
+  size: 237, 507
+  orig: 237, 507
+  offset: 0, 0
+  index: -1
+freebox_9
+  rotate: false
+  xy: 2, 511
+  size: 237, 507
+  orig: 237, 507
+  offset: 0, 0
+  index: -1
