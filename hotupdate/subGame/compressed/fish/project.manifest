@@ -2,11 +2,11 @@
   "packageUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/fish/",
   "remoteManifestUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/fish/project.manifest",
   "remoteVersionUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/fish/version.manifest",
-  "version": "1.0.1765616055",
+  "version": "1.0.1765616707",
   "assets": {
     "fish.zip": {
       "size": 36886022,
-      "md5": "0f330082004a9329a0d7aafff660639c",
+      "md5": "4dde83205d781ee21e3b8a561c39e6f6",
       "compressed": true
     }
   },
