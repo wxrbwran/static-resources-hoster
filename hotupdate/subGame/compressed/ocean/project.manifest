@@ -2,11 +2,11 @@
   "packageUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/ocean/",
   "remoteManifestUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/ocean/project.manifest",
   "remoteVersionUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/ocean/version.manifest",
-  "version": "1.0.1765607481",
+  "version": "1.0.1765608116",
   "assets": {
     "ocean.zip": {
       "size": 60370895,
-      "md5": "a265fe31153c16cd145de4f6965d5fa5",
+      "md5": "449c384dfb809a0966fadfe591d4ff55",
       "compressed": true
     }
   },
