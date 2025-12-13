@@ -2,11 +2,11 @@
   "packageUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/fruit777/",
   "remoteManifestUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/fruit777/project.manifest",
   "remoteVersionUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/fruit777/version.manifest",
-  "version": "1.0.1765614314",
+  "version": "1.0.1765616055",
   "assets": {
     "fruit777.zip": {
       "size": 12439672,
-      "md5": "542ef7da0de9774bda4f936b4a87ccde",
+      "md5": "00d5406f9a4f7af2584e5717f5e3a282",
       "compressed": true
     }
   },
