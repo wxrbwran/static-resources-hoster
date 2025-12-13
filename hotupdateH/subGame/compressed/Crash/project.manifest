@@ -2,11 +2,11 @@
   "packageUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/Crash/",
   "remoteManifestUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/Crash/project.manifest",
   "remoteVersionUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/Crash/version.manifest",
-  "version": "1.0.1765592389",
+  "version": "1.0.1765592864",
   "assets": {
     "Crash.zip": {
       "size": 2975013,
-      "md5": "5afcd0700d2b3a8d313264601bdac268",
+      "md5": "1669c78e1a2f2d9f20816c4ed85839e1",
       "compressed": true
     }
   },
