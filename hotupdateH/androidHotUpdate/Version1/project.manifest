@@ -2,7 +2,7 @@
   "packageUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdateH/androidHotUpdate/Version1/",
   "remoteManifestUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdateH/androidHotUpdate/Version1/project.manifest",
   "remoteVersionUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdateH/androidHotUpdate/Version1/version.manifest",
-  "version": "1.0.1765528348",
+  "version": "1.0.1765590196",
   "assets": {
     "application.js": {
       "size": 1269,
@@ -12,9 +12,21 @@
       "size": 3122,
       "md5": "90ceacb6f83a3ae72460fe7b71a60223"
     },
+    "assets/internal/import/05/051d7a877.json": {
+      "size": 839684,
+      "md5": "d9a879e7d782e51e9b4583db51674a42"
+    },
     "assets/internal/import/0b/0b2bbb7a0.json": {
       "size": 1038236,
       "md5": "b6135229e39bc4e41603460f4199e341"
+    },
+    "assets/internal/import/0c/0c64e8912.json": {
+      "size": 839502,
+      "md5": "fbb7edaf700e0104a1b727e04eff035e"
+    },
+    "assets/internal/import/0c/0c7b6316e.json": {
+      "size": 1038054,
+      "md5": "56c9ace7070e2daf675f0183117d12d7"
     },
     "assets/internal/index.js": {
       "size": 602,
@@ -140,6 +152,10 @@
       "size": 2209,
       "md5": "6f78a1cec5259e55729ab75ad2677052"
     },
+    "assets/main/import/ba/ba21476f-2866-4f81-9c4d-6e359316e448.json": {
+      "size": 192,
+      "md5": "8bce784945efd554512e8520ec9caccb"
+    },
     "assets/main/import/c5/c56a1b44-a4b7-4dcb-8bab-80c34ddfae9b.json": {
       "size": 1960,
       "md5": "f31d400bc78e9b1c963bac3379c8f72c"
@@ -177,8 +193,8 @@
       "md5": "731f44a39ce9377ee6de8ba34edaf039"
     },
     "assets/main/index.js": {
-      "size": 2557990,
-      "md5": "ddfe3421390b4956342866d384899aa3"
+      "size": 2556479,
+      "md5": "c346dbe69f9ca64034c2cfe3c2eff312"
     },
     "assets/main/native/04/0497d903-c0e6-4852-aa78-aae9629950ad.png": {
       "size": 16131,
@@ -1789,8 +1805,8 @@
       "md5": "cd64dff47cb769ca0da2a738baee8779"
     },
     "remote/hall/import/0a/0ad36eb49.json": {
-      "size": 43854,
-      "md5": "d3079523ef0ebc129180383587e2bc4d"
+      "size": 44788,
+      "md5": "03556e8a78ea87deb3dfecf58e6ab678"
     },
     "remote/hall/import/0a/0ae80813e.json": {
       "size": 5908,
@@ -1841,8 +1857,8 @@
       "md5": "5b912f1f86f32a704459e8bbf2a7b27c"
     },
     "remote/hall/import/0c/0c7f23f08.json": {
-      "size": 122099,
-      "md5": "d0d2eaf217f56c883c38491fc2eca811"
+      "size": 122070,
+      "md5": "99d911aa8be2fd350ebe8fc22d1bc750"
     },
     "remote/hall/import/0c/0c976496a.json": {
       "size": 4918,
@@ -5612,41 +5628,21 @@
       "size": 104586,
       "md5": "d0bf34cd0053d890f3f465175fdddaac"
     },
-    "src/cocos-js/_virtual_cc-d835e197.js": {
-      "size": 2554446,
-      "md5": "8e4af01bb027804c3cabc33b61f6a1c8"
-    },
-    "src/cocos-js/assets/bullet.release.wasm-10f8cbd4.wasm": {
-      "size": 468807,
-      "md5": "6f584388fb93476c721a12bd46cfaa16"
-    },
     "src/cocos-js/assets/spine-59f406dc.wasm": {
       "size": 453850,
       "md5": "ffea2d245aa9592e6949bb55445959df"
     },
-    "src/cocos-js/bullet.release.asm-d4a3f7e0.js": {
-      "size": 105,
-      "md5": "fa0e842bdf019244291d8960f7c35f8d"
-    },
-    "src/cocos-js/bullet.release.wasm-e702f478.js": {
-      "size": 133,
-      "md5": "86322b612c079c53803665769f2fcabb"
-    },
-    "src/cocos-js/bullet.release.wasm-f38fb7e4.js": {
-      "size": 26184,
-      "md5": "96b2c14858fd65ecd7a88c58da1281fa"
-    },
     "src/cocos-js/cc.js": {
-      "size": 10717,
-      "md5": "78fef87832794e3c52d6094e05767951"
+      "size": 2459509,
+      "md5": "7e84c4a479a1fac52115efdaaa18dc77"
     },
     "src/import-map.json": {
       "size": 37,
       "md5": "fc840d99cbb3732367a93c054d1200d4"
     },
     "src/settings.json": {
-      "size": 22480,
-      "md5": "948e75a1827f55db5c15efc894c3d579"
+      "size": 22483,
+      "md5": "bd59c0a1a2e8943a60423f53288650f2"
     },
     "src/system.bundle.js": {
       "size": 8319,
