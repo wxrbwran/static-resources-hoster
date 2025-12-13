@@ -1,0 +1,162 @@
+{
+  "appDumpUrl": "https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox",
+  "appleAppDumpUrl": "",
+  "appOnlineVersion": "V1.0.1765610267",
+  "upgradeDesc": "版本更新说明",
+  "forceUpgrade": false,
+  "bankHelpUrl": "https://www.google.com",
+  "buryPoint": true,
+  "gameBundleUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdateH",
+  "hotUpdateUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdateH",
+  "httpBaseUrl": "http://api.rummycdn.com",
+  "socketBaseUrl": "ws://192.168.110.248:10000/socket",
+  "goldRecordUrl": "",
+  "maintenanceStatus": false,
+  "isCheckHotUpdate": true,
+  "shareUrl": "http://11game.com",
+  "agentPageUrl": "http://11game.com",
+  "customerUrl": "",
+  "customerOutUrl": "https://www.google.com",
+  "relief": 1000,
+  "gameSort": "{\"domino\": [[2]], \"slots\": [[6], [14, 15], [8, 7], [10, 9], [3, 18]], \"other\": [[12], [17], [11, 5], [4, 13], [16, 19]]}",
+  "backwaterHelpUrl": "",
+  "faceSwitch": true,
+  "fristLogin": {
+    "main": false
+  },
+  "wsList": [
+    {
+      "id": 3,
+      "ws": "ws://192.168.110.248:10000/socket",
+      "name": "水果777",
+      "md5": "7.4.1765610267",
+      "isHot": false,
+      "isNew": false,
+      "vip": 0,
+      "status": 0,
+      "agreement": ""
+    },
+    {
+      "id": 5,
+      "ws": "ws://192.168.110.248:10000/socket",
+      "name": "小火箭",
+      "md5": "7.4.1765610267",
+      "isHot": false,
+      "isNew": false,
+      "vip": 0,
+      "status": 0,
+      "agreement": ""
+    },
+    {
+      "id": 6,
+      "ws": "ws://192.168.110.248:10000/socket",
+      "name": "财神",
+      "md5": "7.4.1765610267",
+      "isHot": false,
+      "isNew": false,
+      "vip": 0,
+      "status": 0,
+      "agreement": ""
+    },
+    {
+      "id": 9,
+      "ws": "ws://192.168.110.248:10000/socket",
+      "name": "追龙",
+      "md5": "0.0.0",
+      "isHot": false,
+      "isNew": false,
+      "vip": 0,
+      "status": 0,
+      "agreement": ""
+    },
+    {
+      "id": 10,
+      "ws": "ws://192.168.110.248:10000/socket",
+      "name": "凤凰",
+      "md5": "0.0.0",
+      "isHot": false,
+      "isNew": false,
+      "vip": 0,
+      "status": 0,
+      "agreement": ""
+    },
+    {
+      "id": 11,
+      "ws": "ws://192.168.110.248:10000/socket",
+      "name": "鱼虾蟹",
+      "md5": "0.0.0",
+      "isHot": false,
+      "isNew": false,
+      "vip": 0,
+      "status": 0,
+      "agreement": ""
+    },
+    {
+      "id": 14,
+      "ws": "ws://192.168.110.248:10000/socket",
+      "name": "雷神",
+      "md5": "7.4.1765610267",
+      "isHot": false,
+      "isNew": false,
+      "vip": 0,
+      "status": 0,
+      "agreement": ""
+    },
+    {
+      "id": 15,
+      "ws": "ws://192.168.110.248:10000/socket",
+      "name": "星光公主",
+      "md5": "7.4.1765610267",
+      "isHot": false,
+      "isNew": false,
+      "vip": 0,
+      "status": 0,
+      "agreement": ""
+    },
+    {
+      "id": 17,
+      "ws": "ws://192.168.110.248:10000/socket",
+      "name": "Fish",
+      "md5": "7.4.1765610267",
+      "isHot": false,
+      "isNew": false,
+      "vip": 0,
+      "status": 0,
+      "agreement": ""
+    },
+    {
+      "id": 19,
+      "ws": "ws://192.168.110.248:10000/socket",
+      "name": "RUMMY",
+      "md5": "0.0.0",
+      "isHot": false,
+      "isNew": false,
+      "vip": 0,
+      "status": 0,
+      "agreement": ""
+    },
+    {
+      "id": 22,
+      "ws": "ws://192.168.110.248:10000/socket",
+      "name": "MoneyComing",
+      "md5": "7.4.1765610267",
+      "isHot": false,
+      "isNew": false,
+      "vip": 0,
+      "status": 0,
+      "agreement": ""
+    },
+    {
+      "id": 23,
+      "ws": "ws://192.168.110.248:10000/socket",
+      "name": "Ocean",
+      "md5": "0.0.0",
+      "isHot": false,
+      "isNew": false,
+      "vip": 0,
+      "status": 0,
+      "agreement": ""
+    }
+  ],
+  "country": 0
+}
