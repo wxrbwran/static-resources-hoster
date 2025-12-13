@@ -2,11 +2,11 @@
   "packageUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/oceanScript/",
   "remoteManifestUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/oceanScript/project.manifest",
   "remoteVersionUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/oceanScript/version.manifest",
-  "version": "1.0.1765616707",
+  "version": "1.0.1765617630",
   "assets": {
     "oceanScript.zip": {
-      "size": 19575,
-      "md5": "b6c7553c2944158644e4153820702372",
+      "size": 19683,
+      "md5": "9e108a0e2cdd8c90b83c24fd5c6b5152",
       "compressed": true
     }
   },
