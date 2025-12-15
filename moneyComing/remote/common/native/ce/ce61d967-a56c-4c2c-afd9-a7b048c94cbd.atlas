@@ -1,0 +1,83 @@
+
+jidan.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jidan_0000_qing4
+  rotate: true
+  xy: 172, 8
+  size: 18, 33
+  orig: 18, 33
+  offset: 0, 0
+  index: -1
+jidan_0001_1
+  rotate: true
+  xy: 116, 117
+  size: 52, 62
+  orig: 52, 62
+  offset: 0, 0
+  index: -1
+jidan_0002_3
+  rotate: true
+  xy: 118, 3
+  size: 49, 52
+  orig: 49, 52
+  offset: 0, 0
+  index: -1
+jidan_0003_2
+  rotate: true
+  xy: 207, 204
+  size: 50, 47
+  orig: 50, 47
+  offset: 0, 0
+  index: -1
+jidan_0004_peng
+  rotate: false
+  xy: 207, 177
+  size: 32, 25
+  orig: 32, 25
+  offset: 0, 0
+  index: -1
+jidan_0005_dan1
+  rotate: false
+  xy: 118, 54
+  size: 59, 61
+  orig: 59, 61
+  offset: 0, 0
+  index: -1
+jidan_0006_dan2
+  rotate: true
+  xy: 179, 28
+  size: 62, 67
+  orig: 62, 67
+  offset: 0, 0
+  index: -1
+jidan_0007_dan3
+  rotate: false
+  xy: 180, 92
+  size: 70, 77
+  orig: 70, 77
+  offset: 0, 0
+  index: -1
+jidan_0008_qing1
+  rotate: false
+  xy: 116, 171
+  size: 89, 83
+  orig: 89, 83
+  offset: 0, 0
+  index: -1
+jidan_0009_qing2
+  rotate: true
+  xy: 2, 2
+  size: 112, 114
+  orig: 112, 114
+  offset: 0, 0
+  index: -1
+jidan_0010_qing3
+  rotate: false
+  xy: 2, 116
+  size: 112, 138
+  orig: 112, 138
+  offset: 0, 0
+  index: -1
