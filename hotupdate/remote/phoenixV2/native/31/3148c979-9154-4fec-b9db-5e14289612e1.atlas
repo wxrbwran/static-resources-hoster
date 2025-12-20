@@ -1,0 +1,159 @@
+
+megawin.png
+size: 1850,1765
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: false
+  xy: 2, 1628
+  size: 167, 135
+  orig: 172, 135
+  offset: 0, 0
+  index: -1
+02
+  rotate: false
+  xy: 1127, 1562
+  size: 205, 201
+  orig: 205, 201
+  offset: 0, 0
+  index: -1
+03
+  rotate: false
+  xy: 1334, 1562
+  size: 205, 201
+  orig: 205, 201
+  offset: 0, 0
+  index: -1
+04
+  rotate: false
+  xy: 171, 1628
+  size: 172, 135
+  orig: 172, 135
+  offset: 0, 0
+  index: -1
+bigwin1_1
+  rotate: false
+  xy: 2, 1201
+  size: 614, 388
+  orig: 615, 536
+  offset: 1, 74
+  index: -1
+bigwin1_2
+  rotate: false
+  xy: 2, 1201
+  size: 614, 388
+  orig: 615, 536
+  offset: 1, 74
+  index: -1
+bigwin1_10
+  rotate: false
+  xy: 1234, 392
+  size: 614, 388
+  orig: 615, 536
+  offset: 1, 74
+  index: -1
+bigwin1_11
+  rotate: false
+  xy: 2, 31
+  size: 614, 388
+  orig: 615, 536
+  offset: 1, 74
+  index: -1
+bigwin1_12
+  rotate: false
+  xy: 618, 2
+  size: 614, 388
+  orig: 615, 536
+  offset: 1, 74
+  index: -1
+bigwin1_13
+  rotate: false
+  xy: 1234, 2
+  size: 614, 388
+  orig: 615, 536
+  offset: 1, 74
+  index: -1
+bigwin1_3
+  rotate: false
+  xy: 618, 1172
+  size: 614, 388
+  orig: 615, 536
+  offset: 1, 74
+  index: -1
+bigwin1_4
+  rotate: false
+  xy: 1234, 1172
+  size: 614, 388
+  orig: 615, 536
+  offset: 1, 74
+  index: -1
+bigwin1_5
+  rotate: false
+  xy: 2, 811
+  size: 614, 388
+  orig: 615, 536
+  offset: 1, 74
+  index: -1
+bigwin1_6
+  rotate: false
+  xy: 618, 782
+  size: 614, 388
+  orig: 615, 536
+  offset: 1, 74
+  index: -1
+bigwin1_7
+  rotate: false
+  xy: 1234, 782
+  size: 614, 388
+  orig: 615, 536
+  offset: 1, 74
+  index: -1
+bigwin1_8
+  rotate: false
+  xy: 2, 421
+  size: 614, 388
+  orig: 615, 536
+  offset: 1, 74
+  index: -1
+bigwin1_9
+  rotate: false
+  xy: 618, 392
+  size: 614, 388
+  orig: 615, 536
+  offset: 1, 74
+  index: -1
+di
+  rotate: false
+  xy: 345, 1591
+  size: 780, 172
+  orig: 782, 174
+  offset: 1, 1
+  index: -1
+
+megawin2.png
+size: 1784,615
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bigwin
+  rotate: true
+  xy: 806, 43
+  size: 570, 514
+  orig: 615, 536
+  offset: 35, 0
+  index: -1
+g
+  rotate: false
+  xy: 2, 2
+  size: 802, 611
+  orig: 1336, 752
+  offset: 283, 55
+  index: -1
+g1
+  rotate: true
+  xy: 1322, 2
+  size: 611, 460
+  orig: 683, 502
+  offset: 39, 19
+  index: -1

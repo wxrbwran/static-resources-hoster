@@ -1,0 +1,251 @@
+
+sangemeinv.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bra
+  rotate: true
+  xy: 215, 50
+  size: 244, 212
+  orig: 244, 212
+  offset: 0, 0
+  index: -1
+Earring_right
+  rotate: true
+  xy: 297, 300
+  size: 38, 64
+  orig: 38, 64
+  offset: 0, 0
+  index: -1
+hair2
+  rotate: true
+  xy: 297, 300
+  size: 38, 64
+  orig: 38, 64
+  offset: 0, 0
+  index: -1
+arm
+  rotate: false
+  xy: 970, 452
+  size: 165, 226
+  orig: 165, 226
+  offset: 0, 0
+  index: -1
+arm_z
+  rotate: true
+  xy: 1640, 636
+  size: 179, 213
+  orig: 179, 213
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 587, 327
+  size: 381, 351
+  orig: 381, 351
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 297, 340
+  size: 288, 676
+  orig: 288, 676
+  offset: 0, 0
+  index: -1
+chest_x
+  rotate: true
+  xy: 970, 331
+  size: 119, 135
+  orig: 119, 135
+  offset: 0, 0
+  index: -1
+chest_y
+  rotate: false
+  xy: 1137, 558
+  size: 122, 132
+  orig: 122, 132
+  offset: 0, 0
+  index: -1
+decorate
+  rotate: false
+  xy: 429, 75
+  size: 79, 104
+  orig: 79, 104
+  offset: 0, 0
+  index: -1
+decorate2
+  rotate: false
+  xy: 1710, 817
+  size: 289, 199
+  orig: 289, 199
+  offset: 0, 0
+  index: -1
+decorate3
+  rotate: false
+  xy: 997, 692
+  size: 301, 324
+  orig: 301, 324
+  offset: 0, 0
+  index: -1
+decorate4
+  rotate: false
+  xy: 1283, 516
+  size: 186, 65
+  orig: 186, 65
+  offset: 0, 0
+  index: -1
+decorate5
+  rotate: false
+  xy: 1471, 533
+  size: 74, 48
+  orig: 74, 48
+  offset: 0, 0
+  index: -1
+decorate6
+  rotate: false
+  xy: 1990, 712
+  size: 56, 88
+  orig: 56, 88
+  offset: 0, 0
+  index: -1
+decorate_Bracelet
+  rotate: false
+  xy: 684, 247
+  size: 92, 78
+  orig: 92, 78
+  offset: 0, 0
+  index: -1
+decorate_Bracelety
+  rotate: false
+  xy: 778, 247
+  size: 92, 78
+  orig: 92, 78
+  offset: 0, 0
+  index: -1
+decorate_Bracelety2
+  rotate: true
+  xy: 578, 246
+  size: 79, 104
+  orig: 79, 104
+  offset: 0, 0
+  index: -1
+eye
+  rotate: false
+  xy: 1550, 596
+  size: 31, 21
+  orig: 31, 21
+  offset: 0, 0
+  index: -1
+eye_y
+  rotate: false
+  xy: 1990, 689
+  size: 31, 21
+  orig: 31, 21
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 1855, 676
+  size: 133, 139
+  orig: 133, 139
+  offset: 0, 0
+  index: -1
+finger_y
+  rotate: false
+  xy: 1283, 431
+  size: 157, 83
+  orig: 157, 83
+  offset: 0, 0
+  index: -1
+finger_z
+  rotate: true
+  xy: 429, 181
+  size: 157, 83
+  orig: 157, 83
+  offset: 0, 0
+  index: -1
+hair
+  rotate: false
+  xy: 2, 2
+  size: 211, 292
+  orig: 211, 292
+  offset: 0, 0
+  index: -1
+hair1
+  rotate: false
+  xy: 2001, 802
+  size: 45, 214
+  orig: 45, 214
+  offset: 0, 0
+  index: -1
+hair3
+  rotate: true
+  xy: 215, 3
+  size: 45, 214
+  orig: 45, 214
+  offset: 0, 0
+  index: -1
+horse
+  rotate: true
+  xy: 1550, 619
+  size: 206, 88
+  orig: 206, 88
+  offset: 0, 0
+  index: -1
+horse2
+  rotate: true
+  xy: 514, 233
+  size: 105, 62
+  orig: 105, 62
+  offset: 0, 0
+  index: -1
+mengbang
+  rotate: false
+  xy: 2, 296
+  size: 293, 720
+  orig: 293, 720
+  offset: 0, 0
+  index: -1
+saoguang_1
+  rotate: false
+  xy: 872, 256
+  size: 94, 69
+  orig: 94, 69
+  offset: 0, 0
+  index: -1
+shangyi
+  rotate: true
+  xy: 1300, 583
+  size: 242, 248
+  orig: 242, 248
+  offset: 0, 0
+  index: -1
+top
+  rotate: false
+  xy: 1137, 462
+  size: 144, 94
+  orig: 144, 94
+  offset: 0, 0
+  index: -1
+waikuang
+  rotate: false
+  xy: 1300, 827
+  size: 408, 189
+  orig: 408, 189
+  offset: 0, 0
+  index: -1
+waikuang3
+  rotate: false
+  xy: 587, 680
+  size: 408, 336
+  orig: 408, 336
+  offset: 0, 0
+  index: -1
+wild
+  rotate: false
+  xy: 1855, 636
+  size: 100, 38
+  orig: 100, 38
+  offset: 0, 0
+  index: -1

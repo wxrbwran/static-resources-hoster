@@ -1,0 +1,13 @@
+
+icon_q.png
+size: 120,132
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+aq
+  rotate: false
+  xy: 2, 2
+  size: 116, 128
+  orig: 118, 130
+  offset: 1, 1
+  index: -1

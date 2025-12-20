@@ -1,0 +1,62 @@
+
+offloading.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 149
+  size: 1334, 750
+  orig: 1334, 750
+  offset: 0, 0
+  index: -1
+clian
+  rotate: false
+  xy: 1338, 149
+  size: 679, 750
+  orig: 679, 750
+  offset: 0, 0
+  index: -1
+halo
+  rotate: false
+  xy: 274, 18
+  size: 170, 129
+  orig: 170, 129
+  offset: 0, 0
+  index: -1
+jinbi
+  rotate: false
+  xy: 795, 53
+  size: 260, 94
+  orig: 260, 94
+  offset: 0, 0
+  index: -1
+jinbixiao
+  rotate: false
+  xy: 1383, 72
+  size: 106, 75
+  orig: 106, 75
+  offset: 0, 0
+  index: -1
+pai
+  rotate: false
+  xy: 2, 2
+  size: 270, 145
+  orig: 270, 145
+  offset: 0, 0
+  index: -1
+rummy1
+  rotate: false
+  xy: 1057, 63
+  size: 324, 84
+  orig: 324, 84
+  offset: 0, 0
+  index: -1
+rummy2
+  rotate: false
+  xy: 446, 34
+  size: 347, 113
+  orig: 347, 113
+  offset: 0, 0
+  index: -1

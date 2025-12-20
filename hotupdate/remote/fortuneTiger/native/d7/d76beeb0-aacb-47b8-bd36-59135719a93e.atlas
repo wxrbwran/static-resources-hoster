@@ -1,0 +1,13 @@
+
+zz_guang.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+zhuanpanguang
+  rotate: false
+  xy: 2, 2
+  size: 688, 646
+  orig: 688, 646
+  offset: 0, 0
+  index: -1

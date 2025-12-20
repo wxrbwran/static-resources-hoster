@@ -1,0 +1,13 @@
+
+icon_9.png
+size: 116,132
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+a9
+  rotate: false
+  xy: 2, 2
+  size: 112, 128
+  orig: 114, 130
+  offset: 1, 1
+  index: -1

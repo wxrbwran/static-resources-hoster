@@ -1,0 +1,13 @@
+
+icon_lvniao.png
+size: 158,132
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lvniao
+  rotate: false
+  xy: 2, 2
+  size: 154, 128
+  orig: 156, 130
+  offset: 1, 1
+  index: -1

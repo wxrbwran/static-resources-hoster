@@ -1,0 +1,27 @@
+
+st_icon_8.png
+size: 643,235
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+TB_tx_t1
+  rotate: true
+  xy: 251, 9
+  size: 224, 220
+  orig: 232, 228
+  offset: 4, 5
+  index: -1
+TB_tx_t2
+  rotate: false
+  xy: 2, 2
+  size: 247, 231
+  orig: 252, 243
+  offset: 0, 6
+  index: -1
+八边形
+  rotate: false
+  xy: 473, 53
+  size: 168, 180
+  orig: 168, 180
+  offset: 0, 0
+  index: -1

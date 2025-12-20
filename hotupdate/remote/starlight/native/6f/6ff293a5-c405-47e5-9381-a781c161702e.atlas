@@ -1,0 +1,87 @@
+
+msn_qiehuan_tx.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/rw_qihuandonzhuo_tx/rw_qihuandonzhuo_tx_00
+  rotate: false
+  xy: 2, 2
+  size: 500, 796
+  orig: 500, 796
+  offset: 0, 0
+  index: -1
+images/rw_qihuandonzhuo_tx/rw_qihuandonzhuo_tx_01
+  rotate: false
+  xy: 504, 2
+  size: 500, 796
+  orig: 500, 796
+  offset: 0, 0
+  index: -1
+
+msn_qiehuan_tx2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/rw_qihuandonzhuo_tx/rw_qihuandonzhuo_tx_02
+  rotate: false
+  xy: 2, 2
+  size: 500, 796
+  orig: 500, 796
+  offset: 0, 0
+  index: -1
+images/rw_qihuandonzhuo_tx/rw_qihuandonzhuo_tx_03
+  rotate: false
+  xy: 504, 2
+  size: 500, 796
+  orig: 500, 796
+  offset: 0, 0
+  index: -1
+
+msn_qiehuan_tx3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/rw_qihuandonzhuo_tx/rw_qihuandonzhuo_tx_04
+  rotate: false
+  xy: 2, 223
+  size: 500, 796
+  orig: 500, 796
+  offset: 0, 0
+  index: -1
+images/rw_qihuandonzhuo_tx/rw_qihuandonzhuo_tx_06
+  rotate: false
+  xy: 504, 371
+  size: 481, 648
+  orig: 500, 796
+  offset: 0, 148
+  index: -1
+images/rw_qihuandonzhuo_tx/rw_qihuandonzhuo_tx_08
+  rotate: true
+  xy: 504, 2
+  size: 367, 459
+  orig: 500, 796
+  offset: 0, 337
+  index: -1
+
+msn_qiehuan_tx4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/rw_qihuandonzhuo_tx/rw_qihuandonzhuo_tx_05
+  rotate: false
+  xy: 2, 2
+  size: 467, 633
+  orig: 500, 796
+  offset: 0, 163
+  index: -1
+images/rw_qihuandonzhuo_tx/rw_qihuandonzhuo_tx_07
+  rotate: false
+  xy: 471, 39
+  size: 499, 596
+  orig: 500, 796
+  offset: 0, 200
+  index: -1

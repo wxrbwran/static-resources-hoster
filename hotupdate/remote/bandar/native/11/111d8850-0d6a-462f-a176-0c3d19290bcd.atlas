@@ -1,0 +1,138 @@
+
+qiuqiu_jack.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+brqq_fjm_jpkj_2
+  rotate: true
+  xy: 463, 525
+  size: 98, 101
+  orig: 98, 101
+  offset: 0, 0
+  index: -1
+brqq_fjm_jpkj_3
+  rotate: false
+  xy: 252, 2
+  size: 465, 80
+  orig: 465, 80
+  offset: 0, 0
+  index: -1
+brqq_fjm_jpkj_4
+  rotate: true
+  xy: 575, 333
+  size: 568, 389
+  orig: 568, 389
+  offset: 0, 0
+  index: -1
+brqq_fjm_jpkj_5
+  rotate: false
+  xy: 575, 903
+  size: 392, 119
+  orig: 392, 119
+  offset: 0, 0
+  index: -1
+brqq_fjm_jpkj_6
+  rotate: false
+  xy: 2, 875
+  size: 571, 147
+  orig: 571, 147
+  offset: 0, 0
+  index: -1
+brqq_fjm_jpkj_7
+  rotate: false
+  xy: 2, 334
+  size: 459, 231
+  orig: 459, 231
+  offset: 0, 0
+  index: -1
+dengguang_00000
+  rotate: false
+  xy: 969, 992
+  size: 37, 30
+  orig: 40, 30
+  offset: 2, 0
+  index: -1
+guang
+  rotate: true
+  xy: 560, 204
+  size: 127, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+序列/bgg_00000
+  rotate: true
+  xy: 2, 25
+  size: 306, 248
+  orig: 320, 280
+  offset: 9, 13
+  index: -1
+序列/bgg_00002
+  rotate: false
+  xy: 252, 625
+  size: 306, 248
+  orig: 320, 280
+  offset: 9, 13
+  index: -1
+序列/bgg_00004
+  rotate: true
+  xy: 2, 567
+  size: 306, 248
+  orig: 320, 280
+  offset: 9, 13
+  index: -1
+序列/bgg_00006
+  rotate: false
+  xy: 252, 84
+  size: 306, 248
+  orig: 320, 280
+  offset: 9, 13
+  index: -1
+序列/bgg_00008
+  rotate: true
+  xy: 719, 25
+  size: 306, 248
+  orig: 320, 280
+  offset: 9, 13
+  index: -1
+
+qiuqiu_jack2.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+序列/bgg_00010
+  rotate: false
+  xy: 2, 252
+  size: 306, 248
+  orig: 320, 280
+  offset: 9, 13
+  index: -1
+序列/bgg_00012
+  rotate: false
+  xy: 2, 2
+  size: 306, 248
+  orig: 320, 280
+  offset: 9, 13
+  index: -1
+序列/bgg_00014
+  rotate: false
+  xy: 310, 252
+  size: 306, 248
+  orig: 320, 280
+  offset: 9, 13
+  index: -1
+序列/bgg_00016
+  rotate: false
+  xy: 310, 2
+  size: 306, 248
+  orig: 320, 280
+  offset: 9, 13
+  index: -1
+序列/bgg_00018
+  rotate: false
+  xy: 618, 252
+  size: 306, 248
+  orig: 320, 280
+  offset: 9, 13
+  index: -1

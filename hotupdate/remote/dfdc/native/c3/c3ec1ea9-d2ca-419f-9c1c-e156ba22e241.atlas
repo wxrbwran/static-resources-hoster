@@ -1,0 +1,13 @@
+
+icon_jinyuanbao.png
+size: 138,132
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jinyuanbao
+  rotate: false
+  xy: 2, 2
+  size: 134, 128
+  orig: 136, 130
+  offset: 1, 1
+  index: -1
