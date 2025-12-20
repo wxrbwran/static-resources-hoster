@@ -2,11 +2,11 @@
   "packageUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/thorV2/",
   "remoteManifestUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/thorV2/project.manifest",
   "remoteVersionUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/thorV2/version.manifest",
-  "version": "1.0.1766213456",
+  "version": "1.0.1766214247",
   "assets": {
     "thorV2.zip": {
       "size": 34267887,
-      "md5": "190c870c1606307c8be7415bfcaadb46",
+      "md5": "243e81a0b13edfecdbf1dde7610a7faf",
       "compressed": true
     }
   },
