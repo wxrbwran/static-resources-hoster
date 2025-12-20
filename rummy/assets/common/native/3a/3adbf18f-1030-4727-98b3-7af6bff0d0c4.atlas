@@ -1,0 +1,55 @@
+
+xihongshi.png
+size: 741,177
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+西红柿_0000_1
+  rotate: true
+  xy: 676, 21
+  size: 62, 63
+  orig: 168, 166
+  offset: 55, 69
+  index: -1
+西红柿_0001_7
+  rotate: false
+  xy: 614, 85
+  size: 93, 90
+  orig: 168, 166
+  offset: 39, 51
+  index: -1
+西红柿_0002_2
+  rotate: true
+  xy: 614, 2
+  size: 81, 60
+  orig: 168, 166
+  offset: 42, 68
+  index: -1
+西红柿_0003_6
+  rotate: true
+  xy: 2, 7
+  size: 168, 166
+  orig: 168, 166
+  offset: 0, 0
+  index: -1
+西红柿_0004_5
+  rotate: false
+  xy: 170, 12
+  size: 163, 163
+  orig: 168, 166
+  offset: 2, 0
+  index: -1
+西红柿_0005_4
+  rotate: false
+  xy: 335, 15
+  size: 152, 160
+  orig: 168, 166
+  offset: 6, 1
+  index: -1
+西红柿_0006_3
+  rotate: false
+  xy: 489, 32
+  size: 123, 143
+  orig: 168, 166
+  offset: 24, 6
+  index: -1
