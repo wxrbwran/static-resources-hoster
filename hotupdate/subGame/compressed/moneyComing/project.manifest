@@ -2,11 +2,11 @@
   "packageUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/moneyComing/",
   "remoteManifestUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/moneyComing/project.manifest",
   "remoteVersionUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/subGame/compressed/moneyComing/version.manifest",
-  "version": "1.0.1766647481",
+  "version": "1.0.1766665719",
   "assets": {
     "moneyComing.zip": {
-      "size": 9744059,
-      "md5": "067ad5c26ddb4ae811c44cef848ba3c2",
+      "size": 9745575,
+      "md5": "89bdbfb940c837e5a662242776e87346",
       "compressed": true
     }
   },

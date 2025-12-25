@@ -2,7 +2,7 @@
   "packageUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/androidHotUpdate/Version1/",
   "remoteManifestUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/androidHotUpdate/Version1/project.manifest",
   "remoteVersionUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/androidHotUpdate/Version1/version.manifest",
-  "version": "1.0.1766647481",
+  "version": "1.0.1766665719",
   "assets": {
     "application.js": {
       "size": 1269,
@@ -121,8 +121,8 @@
       "md5": "731f44a39ce9377ee6de8ba34edaf039"
     },
     "assets/main/index.js": {
-      "size": 1408508,
-      "md5": "94eaca483235a4cf45bdfa8987070892"
+      "size": 1408012,
+      "md5": "e2444dded25325f83b31836c4c08b4c7"
     },
     "assets/main/native/12/120733f3-ab5c-4443-8b8f-218aac5e09f2.png": {
       "size": 11200,
@@ -11189,8 +11189,8 @@
       "md5": "d81fbbc8be7014e3928b6a160011c6cb"
     },
     "src/chunks/bundle.js": {
-      "size": 77896,
-      "md5": "6a3ee1223466d19d73dfd49b2015af5b"
+      "size": 78589,
+      "md5": "677549cb4fc700e18ddee5aaf72ece04"
     },
     "src/cocos-js/cc.js": {
       "size": 2333579,
