@@ -1,8 +1,4 @@
-System.register("chunks:///_virtual/resources", [], function () {
-  return {
-    execute: function () {}
-  };
-});
+System.register("chunks:///_virtual/resources",[],(function(){return{execute:function(){}}}));
 
 (function(r) {
   r('virtual:///prerequisite-imports/resources', 'chunks:///_virtual/resources'); 
@@ -22,4 +18,3 @@ System.register("chunks:///_virtual/resources", [], function () {
     };
     });
 });
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhbGwuanMifQ==

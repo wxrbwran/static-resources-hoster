@@ -1,0 +1,556 @@
+
+freespine_js.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg1
+  rotate: false
+  xy: 2, 1448
+  size: 1075, 595
+  orig: 1077, 597
+  offset: 1, 1
+  index: -1
+bg2
+  rotate: true
+  xy: 1079, 1087
+  size: 956, 626
+  orig: 958, 628
+  offset: 1, 1
+  index: -1
+hg
+  rotate: false
+  xy: 1330, 101
+  size: 154, 90
+  orig: 156, 92
+  offset: 1, 1
+  index: -1
+jieshuan_m_tx2/jieshuan_m_tx2_03
+  rotate: false
+  xy: 1783, 20
+  size: 227, 176
+  orig: 500, 395
+  offset: 147, 154
+  index: -1
+jieshuan_m_tx2/jieshuan_m_tx2_05
+  rotate: true
+  xy: 1707, 1266
+  size: 343, 304
+  orig: 500, 395
+  offset: 86, 69
+  index: -1
+jieshuan_m_tx2/jieshuan_m_tx2_13
+  rotate: true
+  xy: 1707, 1611
+  size: 432, 313
+  orig: 500, 395
+  offset: 44, 1
+  index: -1
+jieshuan_mfb_tx/jieshuan_mfb_tx_00
+  rotate: false
+  xy: 892, 231
+  size: 88, 171
+  orig: 328, 500
+  offset: 120, 14
+  index: -1
+jieshuan_mfb_tx/jieshuan_mfb_tx_01
+  rotate: true
+  xy: 1096, 38
+  size: 153, 232
+  orig: 328, 500
+  offset: 113, 14
+  index: -1
+jieshuan_mfb_tx/jieshuan_mfb_tx_02
+  rotate: true
+  xy: 1546, 7
+  size: 189, 235
+  orig: 328, 500
+  offset: 87, 11
+  index: -1
+jieshuan_mfb_tx/jieshuan_mfb_tx_13
+  rotate: true
+  xy: 892, 31
+  size: 160, 202
+  orig: 328, 500
+  offset: 90, 265
+  index: -1
+jieshuan_mfb_tx/jieshuan_mfb_tx_14
+  rotate: false
+  xy: 1330, 2
+  size: 147, 97
+  orig: 328, 500
+  offset: 90, 359
+  index: -1
+k2
+  rotate: true
+  xy: 2, 520
+  size: 926, 536
+  orig: 928, 538
+  offset: 1, 1
+  index: -1
+m2
+  rotate: true
+  xy: 1707, 1106
+  size: 158, 326
+  orig: 160, 328
+  offset: 1, 1
+  index: -1
+m3
+  rotate: true
+  xy: 1479, 31
+  size: 68, 62
+  orig: 70, 64
+  offset: 1, 1
+  index: -1
+特效/1
+  rotate: true
+  xy: 892, 404
+  size: 150, 148
+  orig: 892, 503
+  offset: 370, 177
+  index: -1
+特效/11
+  rotate: false
+  xy: 2, 16
+  size: 888, 502
+  orig: 892, 503
+  offset: 2, 1
+  index: -1
+特效/4
+  rotate: true
+  xy: 1044, 193
+  size: 892, 500
+  orig: 892, 503
+  offset: 0, 1
+  index: -1
+特效/7
+  rotate: true
+  xy: 1546, 198
+  size: 887, 500
+  orig: 892, 503
+  offset: 1, 1
+  index: -1
+特效/8
+  rotate: true
+  xy: 540, 556
+  size: 890, 502
+  orig: 892, 503
+  offset: 0, 0
+  index: -1
+
+freespine_js2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jieshuan_mbj_tx23/jieshuan_mbj_tx23_07
+  rotate: true
+  xy: 1787, 1461
+  size: 225, 246
+  orig: 250, 250
+  offset: 21, 2
+  index: -1
+jieshuan_mbj_tx23/jieshuan_mbj_tx23_08
+  rotate: true
+  xy: 1782, 283
+  size: 229, 245
+  orig: 250, 250
+  offset: 19, 2
+  index: -1
+jieshuan_mfb_tx/jieshuan_mfb_tx_03
+  rotate: true
+  xy: 1782, 59
+  size: 222, 244
+  orig: 328, 500
+  offset: 54, 14
+  index: -1
+jieshuan_mfb_tx/jieshuan_mfb_tx_04
+  rotate: false
+  xy: 1782, 514
+  size: 245, 345
+  orig: 328, 500
+  offset: 54, 12
+  index: -1
+jieshuan_mfb_tx/jieshuan_mfb_tx_05
+  rotate: false
+  xy: 1784, 861
+  size: 245, 374
+  orig: 328, 500
+  offset: 55, 13
+  index: -1
+jieshuan_mfb_tx/jieshuan_mfb_tx_11
+  rotate: false
+  xy: 1784, 1237
+  size: 262, 222
+  orig: 328, 500
+  offset: 26, 244
+  index: -1
+m1
+  rotate: true
+  xy: 1787, 1688
+  size: 318, 258
+  orig: 320, 260
+  offset: 1, 1
+  index: -1
+特效/10
+  rotate: false
+  xy: 894, 1004
+  size: 888, 499
+  orig: 892, 503
+  offset: 2, 2
+  index: -1
+特效/12
+  rotate: false
+  xy: 2, 507
+  size: 888, 499
+  orig: 892, 503
+  offset: 2, 2
+  index: -1
+特效/13
+  rotate: false
+  xy: 892, 503
+  size: 888, 499
+  orig: 892, 503
+  offset: 2, 2
+  index: -1
+特效/14
+  rotate: false
+  xy: 2, 6
+  size: 888, 499
+  orig: 892, 503
+  offset: 2, 2
+  index: -1
+特效/15
+  rotate: false
+  xy: 892, 2
+  size: 888, 499
+  orig: 892, 503
+  offset: 2, 2
+  index: -1
+特效/3
+  rotate: false
+  xy: 2, 1509
+  size: 891, 497
+  orig: 892, 503
+  offset: 0, 2
+  index: -1
+特效/6
+  rotate: false
+  xy: 895, 1505
+  size: 890, 501
+  orig: 892, 503
+  offset: 0, 0
+  index: -1
+特效/9
+  rotate: false
+  xy: 2, 1008
+  size: 890, 499
+  orig: 892, 503
+  offset: 0, 1
+  index: -1
+
+freespine_js3.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jieshuan_m_tx2/jieshuan_m_tx2_02
+  rotate: false
+  xy: 1286, 35
+  size: 150, 106
+  orig: 500, 395
+  offset: 183, 193
+  index: -1
+jieshuan_m_tx2/jieshuan_m_tx2_04
+  rotate: true
+  xy: 485, 2
+  size: 293, 243
+  orig: 500, 395
+  offset: 113, 110
+  index: -1
+jieshuan_m_tx2/jieshuan_m_tx2_06
+  rotate: true
+  xy: 1288, 1102
+  size: 384, 361
+  orig: 500, 395
+  offset: 63, 28
+  index: -1
+jieshuan_m_tx2/jieshuan_m_tx2_07
+  rotate: false
+  xy: 1286, 717
+  size: 408, 383
+  orig: 500, 395
+  offset: 52, 12
+  index: -1
+jieshuan_m_tx2/jieshuan_m_tx2_08
+  rotate: false
+  xy: 428, 661
+  size: 413, 393
+  orig: 500, 395
+  offset: 47, 2
+  index: -1
+jieshuan_m_tx2/jieshuan_m_tx2_09
+  rotate: false
+  xy: 2, 659
+  size: 424, 395
+  orig: 500, 395
+  offset: 43, 0
+  index: -1
+jieshuan_m_tx2/jieshuan_m_tx2_10
+  rotate: true
+  xy: 2, 226
+  size: 431, 387
+  orig: 500, 395
+  offset: 40, 3
+  index: -1
+jieshuan_m_tx2/jieshuan_m_tx2_11
+  rotate: false
+  xy: 851, 1110
+  size: 435, 376
+  orig: 500, 395
+  offset: 38, 0
+  index: -1
+jieshuan_m_tx2/jieshuan_m_tx2_12
+  rotate: true
+  xy: 1651, 1173
+  size: 438, 356
+  orig: 500, 395
+  offset: 37, 2
+  index: -1
+jieshuan_m_tx2/jieshuan_m_tx2_14
+  rotate: true
+  xy: 1730, 1613
+  size: 433, 269
+  orig: 500, 395
+  offset: 43, 0
+  index: -1
+jieshuan_m_tx2/jieshuan_m_tx2_15
+  rotate: false
+  xy: 851, 869
+  size: 433, 239
+  orig: 500, 395
+  offset: 41, 3
+  index: -1
+jieshuan_mbj_tx23/jieshuan_mbj_tx23_03
+  rotate: true
+  xy: 246, 2
+  size: 222, 237
+  orig: 250, 250
+  offset: 14, 2
+  index: -1
+jieshuan_mbj_tx23/jieshuan_mbj_tx23_09
+  rotate: false
+  xy: 1826, 282
+  size: 215, 244
+  orig: 250, 250
+  offset: 32, 2
+  index: -1
+jieshuan_mbj_tx23/jieshuan_mbj_tx23_10
+  rotate: false
+  xy: 1826, 36
+  size: 214, 244
+  orig: 250, 250
+  offset: 31, 2
+  index: -1
+jieshuan_mbj_tx23/jieshuan_mbj_tx23_12
+  rotate: true
+  xy: 2, 2
+  size: 222, 242
+  orig: 250, 250
+  offset: 20, 2
+  index: -1
+jieshuan_mfb_tx/jieshuan_mfb_tx_06
+  rotate: false
+  xy: 1696, 796
+  size: 273, 375
+  orig: 328, 500
+  offset: 27, 12
+  index: -1
+jieshuan_mfb_tx/jieshuan_mfb_tx_07
+  rotate: true
+  xy: 843, 593
+  size: 274, 423
+  orig: 328, 500
+  offset: 26, 17
+  index: -1
+jieshuan_mfb_tx/jieshuan_mfb_tx_08
+  rotate: true
+  xy: 1268, 441
+  size: 274, 368
+  orig: 328, 500
+  offset: 26, 99
+  index: -1
+jieshuan_mfb_tx/jieshuan_mfb_tx_09
+  rotate: false
+  xy: 391, 297
+  size: 273, 360
+  orig: 328, 500
+  offset: 27, 107
+  index: -1
+jieshuan_mfb_tx/jieshuan_mfb_tx_10
+  rotate: true
+  xy: 972, 318
+  size: 273, 292
+  orig: 328, 500
+  offset: 27, 175
+  index: -1
+k1
+  rotate: false
+  xy: 892, 1614
+  size: 836, 432
+  orig: 838, 434
+  offset: 1, 1
+  index: -1
+m4
+  rotate: false
+  xy: 1500, 1489
+  size: 112, 123
+  orig: 114, 125
+  offset: 1, 1
+  index: -1
+szd
+  rotate: false
+  xy: 892, 1488
+  size: 606, 124
+  orig: 608, 126
+  offset: 1, 1
+  index: -1
+特效/2
+  rotate: false
+  xy: 2, 1056
+  size: 847, 490
+  orig: 892, 503
+  offset: 21, 6
+  index: -1
+特效/5
+  rotate: false
+  xy: 2, 1548
+  size: 888, 498
+  orig: 892, 503
+  offset: 1, 2
+  index: -1
+特效2/01
+  rotate: false
+  xy: 1559, 149
+  size: 265, 290
+  orig: 314, 306
+  offset: 41, 8
+  index: -1
+特效2/02
+  rotate: false
+  xy: 1012, 20
+  size: 272, 296
+  orig: 314, 306
+  offset: 38, 5
+  index: -1
+特效2/03
+  rotate: false
+  xy: 1286, 143
+  size: 271, 296
+  orig: 314, 306
+  offset: 39, 5
+  index: -1
+特效2/04
+  rotate: true
+  xy: 1696, 528
+  size: 266, 290
+  orig: 314, 306
+  offset: 40, 8
+  index: -1
+特效2/06
+  rotate: true
+  xy: 666, 311
+  size: 280, 304
+  orig: 314, 306
+  offset: 34, 2
+  index: -1
+特效2/07
+  rotate: false
+  xy: 730, 6
+  size: 280, 303
+  orig: 314, 306
+  offset: 34, 2
+  index: -1
+
+freespine_js4.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jieshuan_mbj_tx23/jieshuan_mbj_tx23_00
+  rotate: false
+  xy: 513, 256
+  size: 231, 239
+  orig: 250, 250
+  offset: 5, 2
+  index: -1
+jieshuan_mbj_tx23/jieshuan_mbj_tx23_01
+  rotate: true
+  xy: 1233, 268
+  size: 227, 236
+  orig: 250, 250
+  offset: 8, 2
+  index: -1
+jieshuan_mbj_tx23/jieshuan_mbj_tx23_02
+  rotate: true
+  xy: 1471, 272
+  size: 223, 236
+  orig: 250, 250
+  offset: 11, 2
+  index: -1
+jieshuan_mbj_tx23/jieshuan_mbj_tx23_04
+  rotate: true
+  xy: 276, 31
+  size: 221, 234
+  orig: 250, 250
+  offset: 18, 2
+  index: -1
+jieshuan_mbj_tx23/jieshuan_mbj_tx23_05
+  rotate: true
+  xy: 1709, 273
+  size: 222, 235
+  orig: 250, 250
+  offset: 19, 2
+  index: -1
+jieshuan_mbj_tx23/jieshuan_mbj_tx23_06
+  rotate: true
+  xy: 746, 42
+  size: 221, 228
+  orig: 250, 250
+  offset: 23, 20
+  index: -1
+jieshuan_mbj_tx23/jieshuan_mbj_tx23_11
+  rotate: true
+  xy: 988, 270
+  size: 225, 243
+  orig: 250, 250
+  offset: 18, 2
+  index: -1
+jieshuan_mbj_tx23/jieshuan_mbj_tx23_13
+  rotate: false
+  xy: 276, 254
+  size: 235, 241
+  orig: 250, 250
+  offset: 5, 2
+  index: -1
+jieshuan_mbj_tx23/jieshuan_mbj_tx23_14
+  rotate: true
+  xy: 746, 265
+  size: 230, 240
+  orig: 250, 250
+  offset: 8, 2
+  index: -1
+jieshuan_mfb_tx/jieshuan_mfb_tx_12
+  rotate: false
+  xy: 2, 2
+  size: 222, 205
+  orig: 328, 500
+  offset: 29, 261
+  index: -1
+特效2/05
+  rotate: false
+  xy: 2, 209
+  size: 272, 286
+  orig: 314, 306
+  offset: 38, 16
+  index: -1

@@ -1,0 +1,27 @@
+
+cs_bw.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BIGWIN
+  rotate: false
+  xy: 606, 242
+  size: 298, 82
+  orig: 298, 82
+  offset: 0, 0
+  index: -1
+box
+  rotate: false
+  xy: 606, 326
+  size: 755, 133
+  orig: 755, 133
+  offset: 0, 0
+  index: -1
+caishen
+  rotate: true
+  xy: 2, 2
+  size: 457, 602
+  orig: 457, 602
+  offset: 0, 0
+  index: -1
