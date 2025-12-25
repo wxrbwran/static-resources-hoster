@@ -1,4 +1,8 @@
-System.register("chunks:///_virtual/godWealthV2",[],(function(){return{execute:function(){}}}));
+System.register("chunks:///_virtual/godWealthV2", [], function () {
+  return {
+    execute: function () {}
+  };
+});
 
 (function(r) {
   r('virtual:///prerequisite-imports/godWealthV2', 'chunks:///_virtual/godWealthV2'); 
@@ -18,3 +22,4 @@ System.register("chunks:///_virtual/godWealthV2",[],(function(){return{execute:f
     };
     });
 });
+//# sourceMappingURL=index.js.map

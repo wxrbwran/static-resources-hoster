@@ -1,4 +1,8 @@
-System.register("chunks:///_virtual/moneyComing",[],(function(){return{execute:function(){}}}));
+System.register("chunks:///_virtual/moneyComing", [], function () {
+  return {
+    execute: function () {}
+  };
+});
 
 (function(r) {
   r('virtual:///prerequisite-imports/moneyComing', 'chunks:///_virtual/moneyComing'); 
@@ -18,3 +22,4 @@ System.register("chunks:///_virtual/moneyComing",[],(function(){return{execute:f
     };
     });
 });
+//# sourceMappingURL=index.js.map

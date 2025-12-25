@@ -1,4 +1,8 @@
-System.register("chunks:///_virtual/common",[],(function(){return{execute:function(){}}}));
+System.register("chunks:///_virtual/common", [], function () {
+  return {
+    execute: function () {}
+  };
+});
 
 (function(r) {
   r('virtual:///prerequisite-imports/common', 'chunks:///_virtual/common'); 
@@ -18,3 +22,4 @@ System.register("chunks:///_virtual/common",[],(function(){return{execute:functi
     };
     });
 });
+//# sourceMappingURL=index.js.map

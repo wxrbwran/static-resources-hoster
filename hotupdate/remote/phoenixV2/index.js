@@ -1,4 +1,8 @@
-System.register("chunks:///_virtual/phoenixV2",[],(function(){return{execute:function(){}}}));
+System.register("chunks:///_virtual/phoenixV2", [], function () {
+  return {
+    execute: function () {}
+  };
+});
 
 (function(r) {
   r('virtual:///prerequisite-imports/phoenixV2', 'chunks:///_virtual/phoenixV2'); 
@@ -18,3 +22,4 @@ System.register("chunks:///_virtual/phoenixV2",[],(function(){return{execute:fun
     };
     });
 });
+//# sourceMappingURL=index.js.map

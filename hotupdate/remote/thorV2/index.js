@@ -1,4 +1,8 @@
-System.register("chunks:///_virtual/thorV2",[],(function(){return{execute:function(){}}}));
+System.register("chunks:///_virtual/thorV2", [], function () {
+  return {
+    execute: function () {}
+  };
+});
 
 (function(r) {
   r('virtual:///prerequisite-imports/thorV2', 'chunks:///_virtual/thorV2'); 
@@ -18,3 +22,4 @@ System.register("chunks:///_virtual/thorV2",[],(function(){return{execute:functi
     };
     });
 });
+//# sourceMappingURL=index.js.map

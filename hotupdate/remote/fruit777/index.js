@@ -1,4 +1,8 @@
-System.register("chunks:///_virtual/fruit777",[],(function(){return{execute:function(){}}}));
+System.register("chunks:///_virtual/fruit777", [], function () {
+  return {
+    execute: function () {}
+  };
+});
 
 (function(r) {
   r('virtual:///prerequisite-imports/fruit777', 'chunks:///_virtual/fruit777'); 
@@ -18,3 +22,4 @@ System.register("chunks:///_virtual/fruit777",[],(function(){return{execute:func
     };
     });
 });
+//# sourceMappingURL=index.js.map

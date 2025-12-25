@@ -1,4 +1,8 @@
-System.register("chunks:///_virtual/starlight",[],(function(){return{execute:function(){}}}));
+System.register("chunks:///_virtual/starlight", [], function () {
+  return {
+    execute: function () {}
+  };
+});
 
 (function(r) {
   r('virtual:///prerequisite-imports/starlight', 'chunks:///_virtual/starlight'); 
@@ -18,3 +22,4 @@ System.register("chunks:///_virtual/starlight",[],(function(){return{execute:fun
     };
     });
 });
+//# sourceMappingURL=index.js.map
