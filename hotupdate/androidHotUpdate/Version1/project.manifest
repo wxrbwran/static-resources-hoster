@@ -2,7 +2,7 @@
   "packageUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/androidHotUpdate/Version1/",
   "remoteManifestUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/androidHotUpdate/Version1/project.manifest",
   "remoteVersionUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/androidHotUpdate/Version1/version.manifest",
-  "version": "1.0.1766625981",
+  "version": "1.0.1766631200",
   "assets": {
     "application.js": {
       "size": 1267,
@@ -17,12 +17,8 @@
       "md5": "c29d2fd15bb0873d4eba78bed9cf07e9"
     },
     "assets/internal/index.js": {
-      "size": 14448,
-      "md5": "2ce24d2e210c0011de84e65c54a5e064"
-    },
-    "assets/internal/index.js.map": {
-      "size": 25550,
-      "md5": "5ff26bd114115d141fee1787d0ff5e87"
+      "size": 48547,
+      "md5": "1d92a0fa8b051dc1d4d748aec2919cb2"
     },
     "assets/main/cc.config.json": {
       "size": 7358,
@@ -125,12 +121,8 @@
       "md5": "731f44a39ce9377ee6de8ba34edaf039"
     },
     "assets/main/index.js": {
-      "size": 1053017,
-      "md5": "5233b2b01b7545dcb1c4dd88e136ddf7"
-    },
-    "assets/main/index.js.map": {
-      "size": 1678583,
-      "md5": "c97edd58cc1bb4f34f82141534dbb2fe"
+      "size": 3291160,
+      "md5": "c506aca5e91d96bf3171856bf8f602a2"
     },
     "assets/main/native/12/120733f3-ab5c-4443-8b8f-218aac5e09f2.png": {
       "size": 11200,
@@ -1257,12 +1249,8 @@
       "md5": "475e82caff147a970ae30005e4c5cf00"
     },
     "remote/common/index.js": {
-      "size": 649,
-      "md5": "ec926502ee71008f3136d0e3d9cfa67b"
-    },
-    "remote/common/index.js.map": {
-      "size": 67,
-      "md5": "9b87883753b71ad390fdd28156e743bc"
+      "size": 772,
+      "md5": "8c214e8d92aeec7e162f5b274dd80877"
     },
     "remote/common/native/06/06dd3253-219c-478a-bd68-95b4e737ac9f.atlas": {
       "size": 1238,
@@ -7081,12 +7069,8 @@
       "md5": "a253314ec7107d95345d7fc89b8d7bb5"
     },
     "remote/hall/index.js": {
-      "size": 643,
-      "md5": "a2c5586d63c77ff9d7f12b2989eb7bad"
-    },
-    "remote/hall/index.js.map": {
-      "size": 67,
-      "md5": "9b87883753b71ad390fdd28156e743bc"
+      "size": 766,
+      "md5": "f4f9ed8544424750cc16afa6cba7f8a6"
     },
     "remote/hall/native/00/003f7c61-ef6c-464d-92e9-d0f980ac774a.png": {
       "size": 85156,
@@ -11161,12 +11145,8 @@
       "md5": "97c653ad1adca037d1a63bbcdbdcfc6e"
     },
     "remote/resources/index.js": {
-      "size": 658,
-      "md5": "d0f0d02837a552b93fc62a6d6c3b18bb"
-    },
-    "remote/resources/index.js.map": {
-      "size": 67,
-      "md5": "9b87883753b71ad390fdd28156e743bc"
+      "size": 781,
+      "md5": "604e7f3cea8c46a99e2ce70046edeeac"
     },
     "remote/resources/native/05/05b13f00-efbf-4ffd-af44-0d3180f30c9a.png": {
       "size": 3083,
@@ -11209,36 +11189,24 @@
       "md5": "d81fbbc8be7014e3928b6a160011c6cb"
     },
     "src/chunks/bundle.js": {
-      "size": 216081,
-      "md5": "3c06bb9b5173047a3b044064792ea852"
-    },
-    "src/chunks/bundle.js.map": {
-      "size": 473042,
-      "md5": "e97c65d3b46ac52c81ec7942300cc417"
+      "size": 846835,
+      "md5": "66c17dba78300a36d4a96ffe36906044"
     },
     "src/cocos-js/cc.js": {
-      "size": 5152596,
-      "md5": "0ea0d30d930fddfef20ac8dfb869d52f"
-    },
-    "src/cocos-js/cc.js.map": {
-      "size": 15270377,
-      "md5": "dfeeb201600b3c968f1687283404a030"
+      "size": 25513134,
+      "md5": "ac0b03d3841924bc2a910e1e0cf30208"
     },
     "src/import-map.json": {
       "size": 51,
       "md5": "0a4b903dc20b74fe4a5a977a98b9d094"
     },
     "src/settings.json": {
-      "size": 23649,
-      "md5": "7438f6beb85ec87871b434e253fa76b3"
+      "size": 23267,
+      "md5": "01431fdd94c48cbffccad7c7ec56f6d7"
     },
     "src/system.bundle.js": {
-      "size": 27345,
-      "md5": "9539a220275bf025421d5cdb382d8b10"
-    },
-    "src/system.bundle.js.map": {
-      "size": 63323,
-      "md5": "90a34b2324ea2cdeab4a701c90ba45dd"
+      "size": 111800,
+      "md5": "d4dfe9e4eba168be0986547a28491eab"
     }
   },
   "searchPaths": [],

@@ -48,15 +48,7 @@
         "remoteBundles": [
             "resources",
             "common",
-            "Crash",
-            "fish",
-            "fruit777",
-            "godWealthV2",
-            "hall",
-            "moneyComing",
-            "phoenixV2",
-            "starlight",
-            "thorV2"
+            "hall"
         ],
         "subpackages": [],
         "preloadBundles": [
@@ -74,15 +66,7 @@
             "resources",
             "main",
             "common",
-            "Crash",
-            "fish",
-            "fruit777",
-            "godWealthV2",
-            "hall",
-            "moneyComing",
-            "phoenixV2",
-            "starlight",
-            "thorV2"
+            "hall"
         ],
         "downloadMaxConcurrency": 15
     },
