@@ -2,7 +2,7 @@
   "packageUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/androidHotUpdate/Version1/",
   "remoteManifestUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/androidHotUpdate/Version1/project.manifest",
   "remoteVersionUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/androidHotUpdate/Version1/version.manifest",
-  "version": "1.0.1766743214",
+  "version": "1.0.1766802990",
   "assets": {
     "application.js": {
       "size": 1269,
@@ -22,7 +22,7 @@
     },
     "assets/main/cc.config.json": {
       "size": 2695,
-      "md5": "2118f6eab1199a4da7e6bcf043674536"
+      "md5": "4f8ef9ba3105d9d1d7a1e1b6d9b861e9"
     },
     "assets/main/import/06/066cefdd0.json": {
       "size": 25254,
@@ -32,13 +32,13 @@
       "size": 2992,
       "md5": "4f556e040fc0abef840aaf8ca92cc65f"
     },
-    "assets/main/import/0f/0f36d2036.json": {
-      "size": 15858,
-      "md5": "44a864f9f69bad4fad8f5550e1fe75a4"
-    },
     "assets/main/import/0f/0f899bc5b.json": {
       "size": 493,
       "md5": "9c9e1886ed30288cb56d6f3ea4caab0b"
+    },
+    "assets/main/import/0f/0fa9b882b.json": {
+      "size": 15858,
+      "md5": "a61cf1bf25a3b53bc45e2f685522da35"
     },
     "assets/main/import/12/120733f3-ab5c-4443-8b8f-218aac5e09f2.json": {
       "size": 72,
@@ -121,8 +121,8 @@
       "md5": "731f44a39ce9377ee6de8ba34edaf039"
     },
     "assets/main/index.js": {
-      "size": 1378634,
-      "md5": "f77a4bb588cbc55de8d381447a90b8be"
+      "size": 1383632,
+      "md5": "f09fae3790cb5a61ff6e296dcd250f80"
     },
     "assets/main/native/12/120733f3-ab5c-4443-8b8f-218aac5e09f2.png": {
       "size": 11200,
@@ -172,21 +172,17 @@
       "size": 3840,
       "md5": "aff380fe95c7f9ced5bf6599a908ae24"
     },
+    "assets/main/native/72/72a73a5e-8f3f-4d0d-9842-e77587bc9e2a.manifest": {
+      "size": 416,
+      "md5": "7ccc6edb786eef860d9365463506424e"
+    },
     "assets/main/native/7d/7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca.png": {
       "size": 82,
       "md5": "cea68f0d7cba38440224f6f74531e2d8"
     },
-    "assets/main/native/8e/8e6990fd-c3ca-482d-a43b-febb72e1c9c9.manifest": {
-      "size": 407253,
-      "md5": "7b6bfd2f5ce319509dbd68861c51e699"
-    },
     "assets/main/native/9f/9fd900dd-221b-4f89-8f2c-fba34243c835.png": {
       "size": 1177,
       "md5": "d1118d133683bb4227d5e60c79c846b7"
-    },
-    "assets/main/native/b4/b418dd5b-95ba-44d5-b35b-4c35cfd94b69.manifest": {
-      "size": 416,
-      "md5": "69758defd6ed2cc8fc3e877bffec4ca7"
     },
     "assets/main/native/bc/bc766d9b-17cc-4b25-af93-2b219f70e7c1.png": {
       "size": 6454,
@@ -203,6 +199,10 @@
     "assets/main/native/e1/e1efc2ea-85ef-4161-9aec-253926c9de9a.png": {
       "size": 9556,
       "md5": "da18fa37989e05dc54bed472eed9f4fe"
+    },
+    "assets/main/native/fb/fbd9df98-4305-402d-8aa9-99b84e2a5618.manifest": {
+      "size": 406948,
+      "md5": "ac4d38305d8b457f063e03a8f4d03b7c"
     },
     "assets/main/native/fc/fc5b7751-b182-44c0-856b-fbf695984d5c.png": {
       "size": 1090,
@@ -11201,8 +11201,8 @@
       "md5": "fc840d99cbb3732367a93c054d1200d4"
     },
     "src/settings.json": {
-      "size": 22091,
-      "md5": "4adf39643fa678163b0d1b9e295faa40"
+      "size": 22090,
+      "md5": "0b2656863e3adc2a0a75bb705ab22dd0"
     },
     "src/system.bundle.js": {
       "size": 8319,
