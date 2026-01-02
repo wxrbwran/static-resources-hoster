@@ -2,7 +2,7 @@
   "packageUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/androidHotUpdate/Version1/",
   "remoteManifestUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/androidHotUpdate/Version1/project.manifest",
   "remoteVersionUrl": "https://static-resources-hoster-snowy.vercel.app/hotupdate/androidHotUpdate/Version1/version.manifest",
-  "version": "1.0.1767324545",
+  "version": "1.0.1767325938",
   "assets": {
     "application.js": {
       "size": 1269,
@@ -1192,6 +1192,14 @@
       "size": 1235,
       "md5": "1f4148ef3bca7f801bbc172db19f583b"
     },
+    "remote/common/native/11/11004ec61.png": {
+      "size": 125116,
+      "md5": "6f726b2acc02a3b8f562729a656b676b"
+    },
+    "remote/common/native/11/114ff35ab.png": {
+      "size": 55498,
+      "md5": "5d05fde996277b1fb81aa54f9066b6c0"
+    },
     "remote/common/native/12/129b729c-c2fa-49c7-84ce-ce448fd5aecd.atlas": {
       "size": 819,
       "md5": "1b762d0474863dbebd2ffddcce7d7ad2"
@@ -1236,9 +1244,25 @@
       "size": 3163145,
       "md5": "390333ce57d6d7e77b7d382822a0c46b"
     },
+    "remote/common/native/1b/1b1198072.png": {
+      "size": 64390,
+      "md5": "237f46446de089272d0df8e7eacf675b"
+    },
+    "remote/common/native/1b/1b191506d.png": {
+      "size": 143410,
+      "md5": "c5ee1f0792098f0d8f8755d6e2f7a4cc"
+    },
     "remote/common/native/1c/1ca3f599-ac61-4578-a556-56e69efcfa22.png": {
       "size": 674,
       "md5": "0a0b1c73fcd31bec8a8a05e4452a16b0"
+    },
+    "remote/common/native/1c/1cb8435fc.png": {
+      "size": 326610,
+      "md5": "f1bb1967ae1262516dc8827c4742b709"
+    },
+    "remote/common/native/1d/1da78d76e.png": {
+      "size": 380218,
+      "md5": "98a2b8a7e2867901eec1cb62efbd21bf"
     },
     "remote/common/native/1e/1e63c321-0d0b-414a-ae46-92c186909ac3.png": {
       "size": 3647,
@@ -7192,6 +7216,22 @@
       "size": 7923,
       "md5": "59c66a75d3fc2d6019fca712418d46b7"
     },
+    "remote/hall/native/11/11004ec61.png": {
+      "size": 125116,
+      "md5": "6f726b2acc02a3b8f562729a656b676b"
+    },
+    "remote/hall/native/11/111444c3f.png": {
+      "size": 837530,
+      "md5": "02a51cd0271b4423afafcf7723137180"
+    },
+    "remote/hall/native/11/114ff35ab.png": {
+      "size": 55498,
+      "md5": "5d05fde996277b1fb81aa54f9066b6c0"
+    },
+    "remote/hall/native/11/11dd664e9.png": {
+      "size": 366609,
+      "md5": "929a3cb7b59810c6c19fd5797e2f99ee"
+    },
     "remote/hall/native/11/11ee52d1-e402-4f92-aff4-86dc20d2d336.png": {
       "size": 5855,
       "md5": "9146e1274776c65f24f2dc870f0a7668"
@@ -7212,9 +7252,25 @@
       "size": 139716,
       "md5": "50d750caf6eeb8697744cbaf37d00498"
     },
+    "remote/hall/native/13/132623ce2.png": {
+      "size": 469978,
+      "md5": "70ebef013a1d41d3271e2ce6efad7c02"
+    },
+    "remote/hall/native/13/13a9dc837.png": {
+      "size": 65269,
+      "md5": "fdeaf1d86483fe24c6c936e1ea6c0b7e"
+    },
     "remote/hall/native/13/13e78baa-f5b3-4b69-9160-9fcff4889439.png": {
       "size": 34928,
       "md5": "2fb60406852a6076158aafcd7266bf6a"
+    },
+    "remote/hall/native/14/140815f57.png": {
+      "size": 57261,
+      "md5": "a63e24e742376e72945491d0f63d012f"
+    },
+    "remote/hall/native/14/141b042a7.png": {
+      "size": 740034,
+      "md5": "dbfc49ae3a1d561fca3f12b992dbc7bc"
     },
     "remote/hall/native/14/141bc976-5868-49c7-b9f7-f23032e28859.png": {
       "size": 1767,
@@ -7231,6 +7287,10 @@
     "remote/hall/native/14/149a8832-ca6e-49af-b2b1-3f21b6b39324.png": {
       "size": 5781,
       "md5": "d794a6d0fc8a29ad101d25bd89fe6214"
+    },
+    "remote/hall/native/15/150be7457.png": {
+      "size": 168041,
+      "md5": "3504f1019bda1db5e6bd24cd01d6c41d"
     },
     "remote/hall/native/15/150c8b45-46f0-413b-b8d2-3ad3f915c92a.png": {
       "size": 7244,
@@ -7255,6 +7315,10 @@
     "remote/hall/native/15/15cf7a8a-fcd0-46bf-ac42-3eea2bfa213e.png": {
       "size": 9379,
       "md5": "138b984e5ba65f24ca444c141634341b"
+    },
+    "remote/hall/native/15/15dfadd6a.png": {
+      "size": 426996,
+      "md5": "cd5b5be37f52ef294f3d682a85f0843b"
     },
     "remote/hall/native/15/15e20663-8b5b-46ad-9d0c-9d01e4b6a597.atlas": {
       "size": 200,
@@ -7287,6 +7351,10 @@
     "remote/hall/native/17/1778b590-05f8-4487-bc5f-c90564ac7cb1.png": {
       "size": 1592,
       "md5": "a2c2d8dee7a96060d38d87ad6c174eb1"
+    },
+    "remote/hall/native/17/178554358.png": {
+      "size": 397876,
+      "md5": "4c767cef1cbe7edd8ae38e501d9f19ef"
     },
     "remote/hall/native/17/17ae7ccb-5e35-47b2-bcfe-fc8a26493913.png": {
       "size": 91339,
@@ -7344,6 +7412,10 @@
       "size": 270618,
       "md5": "e9c27057d4706bb4e61c431bf0b5dc5d"
     },
+    "remote/hall/native/19/19824eff5.png": {
+      "size": 144717,
+      "md5": "a1a6323aa170e0d494a284b54c53d0e5"
+    },
     "remote/hall/native/19/19a8a082-fecd-4053-a51d-7f981a7299b5.png": {
       "size": 3228,
       "md5": "0af70264277a34ed00e5369e68c44218"
@@ -7352,6 +7424,10 @@
       "size": 10889,
       "md5": "bcbc9dc60bdd88e4e2544f7556f12889"
     },
+    "remote/hall/native/19/19d3c9f38.png": {
+      "size": 682673,
+      "md5": "662906592c5438b88c6b4a46cdcda671"
+    },
     "remote/hall/native/19/19f41b81-c54d-472b-9ee3-83080666fcd6.png": {
       "size": 1029,
       "md5": "893ca8c7062c4345e3cbb14b58c5982e"
@@ -7359,6 +7435,10 @@
     "remote/hall/native/19/19f4dc6e-d7b0-4063-82db-e686ddd1c2ae.png": {
       "size": 1745,
       "md5": "eec93d0483d6207a64a43fd6995c4226"
+    },
+    "remote/hall/native/1a/1a0e650d7.png": {
+      "size": 418969,
+      "md5": "6a9fafdd496d90d30a2be5edb2b83618"
     },
     "remote/hall/native/1a/1a3d8133-fc29-47a6-a459-8a3ae73dec75.png": {
       "size": 188434,
@@ -7376,6 +7456,10 @@
       "size": 3163145,
       "md5": "390333ce57d6d7e77b7d382822a0c46b"
     },
+    "remote/hall/native/1a/1ac5d6488.png": {
+      "size": 79198,
+      "md5": "015423b7e43aa241ed7827335d88dedc"
+    },
     "remote/hall/native/1a/1aebae04-b647-405e-902a-9f10ac631f77.png": {
       "size": 2055,
       "md5": "b453e344b03d4166390ed4916d3206c4"
@@ -7383,6 +7467,14 @@
     "remote/hall/native/1b/1b0650ae-0fae-48b9-bd9a-a46520e76173.png": {
       "size": 78767,
       "md5": "a5c596e73701b28c3944c17e76784fc0"
+    },
+    "remote/hall/native/1b/1b1198072.png": {
+      "size": 64390,
+      "md5": "237f46446de089272d0df8e7eacf675b"
+    },
+    "remote/hall/native/1b/1b191506d.png": {
+      "size": 143410,
+      "md5": "c5ee1f0792098f0d8f8755d6e2f7a4cc"
     },
     "remote/hall/native/1b/1b19e402-91db-458e-9380-3f131bff695a.png": {
       "size": 3325,
@@ -7396,9 +7488,29 @@
       "size": 11427,
       "md5": "cc009d105607d5981488319755034a72"
     },
+    "remote/hall/native/1b/1b7f860e4.png": {
+      "size": 122305,
+      "md5": "ff3ab78b3080e393388edc27a47eaafb"
+    },
+    "remote/hall/native/1b/1bb30a594.png": {
+      "size": 186495,
+      "md5": "4d681f298300d0552a65852f13b58944"
+    },
     "remote/hall/native/1b/1bbe55a0-9744-46d2-ae52-7934f45acb36.png": {
       "size": 120459,
       "md5": "27687974ca1872f7b2bf2d20f5e89dd5"
+    },
+    "remote/hall/native/1c/1c009b2e1.png": {
+      "size": 170100,
+      "md5": "b0f9b7e3f767caefabfac3298cab70ad"
+    },
+    "remote/hall/native/1c/1c05a3684.png": {
+      "size": 1350636,
+      "md5": "c47bae060f4bd4f64f236bd16c7da0dd"
+    },
+    "remote/hall/native/1c/1c1ce178f.png": {
+      "size": 1635784,
+      "md5": "74d2793757d018e25f95b415b1d3f25b"
     },
     "remote/hall/native/1c/1c26061f-9a28-4770-8075-23432a3683c7.png": {
       "size": 1091,
@@ -7408,9 +7520,17 @@
       "size": 189614,
       "md5": "5006e571be1325f516a990a8b5bd3105"
     },
+    "remote/hall/native/1c/1c5dd5b00.png": {
+      "size": 606553,
+      "md5": "ae8a10c0adccd2ffe96f8a70597a4205"
+    },
     "remote/hall/native/1c/1c5ed9c8-94af-43f8-8ba8-8dc30d8596ff.png": {
       "size": 3052,
       "md5": "012c35f05a2e091ecac6b9b9750812d9"
+    },
+    "remote/hall/native/1c/1c71ad667.png": {
+      "size": 177928,
+      "md5": "bb9e0970db0e159783ef1363df366cbd"
     },
     "remote/hall/native/1c/1c9ca6d7e.png": {
       "size": 408946,
@@ -7420,9 +7540,21 @@
       "size": 6890,
       "md5": "10facb7a6cfe028fce0b9c103600ee6a"
     },
+    "remote/hall/native/1c/1cb8435fc.png": {
+      "size": 326610,
+      "md5": "f1bb1967ae1262516dc8827c4742b709"
+    },
+    "remote/hall/native/1d/1d0f426bb.png": {
+      "size": 538916,
+      "md5": "bde08f16e6bc9feeaa62c106879e88e2"
+    },
     "remote/hall/native/1d/1d105d13-6205-4ae0-9944-f634cdfa7158.png": {
       "size": 771,
       "md5": "93739d6e73545e3a0ac236719ad60fd4"
+    },
+    "remote/hall/native/1d/1da78d76e.png": {
+      "size": 380218,
+      "md5": "98a2b8a7e2867901eec1cb62efbd21bf"
     },
     "remote/hall/native/1d/1dc685a6-44d3-4590-87fd-d33ec152fe67.png": {
       "size": 201185,
@@ -7432,13 +7564,29 @@
       "size": 1570,
       "md5": "2bb2f23ecbc15dc2ced920b7d4afb328"
     },
+    "remote/hall/native/1d/1dfc53a42.png": {
+      "size": 193735,
+      "md5": "8ed8ee28d65e2c4567a7869a6f3d5666"
+    },
+    "remote/hall/native/1e/1e15fb8f0.png": {
+      "size": 356203,
+      "md5": "d86b3182ae75a8c0cd88f8c411f440ab"
+    },
     "remote/hall/native/1e/1e2f2a2b-e6b7-4ac5-9703-96e60412585f.png": {
       "size": 2622,
       "md5": "7498c687788b10a9d69057f09293ac2e"
     },
+    "remote/hall/native/1e/1e4df5025.png": {
+      "size": 781452,
+      "md5": "bd03eef67df3a94bf828dd8145bfac28"
+    },
     "remote/hall/native/1e/1e97d752-581c-4237-966f-737ea0976b19.png": {
       "size": 4271,
       "md5": "f74dcdafa42b949f58299bb8d2f05b8c"
+    },
+    "remote/hall/native/1e/1ead5ac9f.png": {
+      "size": 415141,
+      "md5": "c6df0f54fc0090b5e62d524acc40cffc"
     },
     "remote/hall/native/1e/1ec84d82-1d02-451e-b4b6-9e7cfa824ea3.png": {
       "size": 9874,
@@ -7464,9 +7612,17 @@
       "size": 1840,
       "md5": "2dbb322eed518684e406e30f0d5d2a21"
     },
+    "remote/hall/native/1f/1f51abcbc.png": {
+      "size": 229630,
+      "md5": "de7cb94c07321d13d7ccddd082002463"
+    },
     "remote/hall/native/1f/1f765ad0-3cae-42d6-9712-197c65499aef.png": {
       "size": 39191,
       "md5": "8800e1df3f31cf897e90c9c86c1ec5e7"
+    },
+    "remote/hall/native/1f/1fa2f0917.png": {
+      "size": 605966,
+      "md5": "362df207a93272df6aa3bbc9d214ce3b"
     },
     "remote/hall/native/1f/1faef472-0ebd-450d-a3e5-cfc980844ffd.png": {
       "size": 952067,
@@ -10945,8 +11101,8 @@
       "md5": "fc840d99cbb3732367a93c054d1200d4"
     },
     "src/settings.json": {
-      "size": 22091,
-      "md5": "4adf39643fa678163b0d1b9e295faa40"
+      "size": 22115,
+      "md5": "8926a1daec46be8bbc88f2ca6f084b67"
     },
     "src/system.bundle.js": {
       "size": 8319,
