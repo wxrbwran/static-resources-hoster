@@ -3,7 +3,7 @@
   "cdnBase": "https://static-resources-hoster-snowy.vercel.app/hot-update-packages",
   "minAppVersion": "1.0.0",
   "platform": "android",
-  "buildTime": "2026-03-13T03:43:33.565Z",
+  "buildTime": "2026-03-13T03:53:00.960Z",
   "bundles": [
     {
       "name": "lobby-casino",
