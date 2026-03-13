@@ -3385,23 +3385,39 @@ System.register("chunks:///_virtual/PopupManager.ts", ['cc', './MEvent.ts', './P
             if (bundle) {
               loadAsset(bundle);
             } else {
-              // 解析 bundle 的实际加载 URL（原生平台使用热更目录）
-              let bundleUrl = bundleName;
+              // 原生平台：先确保 bundle 已下载/更新，再 loadBundle
               const hotUpdate = globalThis.__hotUpdate;
-              if (sys.isNative && hotUpdate && typeof hotUpdate.getBundleUrl === 'function') {
-                bundleUrl = hotUpdate.getBundleUrl(bundleName);
+              if (sys.isNative && hotUpdate && typeof hotUpdate.ensureBundleReady === 'function') {
+                console.log("[PopupManager] ensureBundleReady:", bundleName);
+                hotUpdate.ensureBundleReady(bundleName).then(bundleUrl => {
+                  console.log("[PopupManager] bundleReady, loadBundle:", bundleUrl);
+                  assetManager.loadBundle(bundleUrl, (err, loadedBundle) => {
+                    if (err) {
+                      console.error("[PopupManager] loadBundle error:", bundleName, err);
+                      loadAsset(resources);
+                      return;
+                    }
+                    console.log("[PopupManager] loadBundle success:", bundleName);
+                    loadAsset(loadedBundle);
+                  });
+                }).catch(e => {
+                  console.error("[PopupManager] ensureBundleReady failed:", bundleName, e);
+                  let idx = popupStack.indexOf(args);
+                  if (idx >= 0) popupStack.splice(idx, 1);
+                });
+              } else {
+                let bundleUrl = bundleName;
+                console.log("[PopupManager] loadBundle bundleUrl:", bundleUrl);
+                assetManager.loadBundle(bundleUrl, (err, loadedBundle) => {
+                  if (err) {
+                    console.error("[PopupManager] loadBundle error:", bundleName, err);
+                    loadAsset(resources);
+                    return;
+                  }
+                  console.log("[PopupManager] loadBundle success:", bundleName);
+                  loadAsset(loadedBundle);
+                });
               }
-              console.log("[PopupManager] loadBundle bundleUrl:", bundleUrl);
-              assetManager.loadBundle(bundleUrl, (err, loadedBundle) => {
-                if (err) {
-                  console.error("[PopupManager] loadBundle error:", bundleName, err);
-                  // 降级尝试 resources
-                  loadAsset(resources);
-                  return;
-                }
-                console.log("[PopupManager] loadBundle success:", bundleName);
-                loadAsset(loadedBundle);
-              });
             }
           } else if (path instanceof Prefab) {
             let node = instantiate(path);
