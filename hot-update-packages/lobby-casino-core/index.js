@@ -3366,6 +3366,7 @@ System.register("chunks:///_virtual/PopupManager.ts", ['cc', './MEvent.ts', './P
                   loadAsset(resources);
                   return;
                 }
+                console.log("[PopupManager] loadBundle success:", bundleName);
                 loadAsset(loadedBundle);
               });
             }
