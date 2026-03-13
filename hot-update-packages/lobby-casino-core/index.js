@@ -626,12 +626,13 @@ System.register("chunks:///_virtual/lobby-casino-core", ['./Config.ts', './Enum.
 });
 
 System.register("chunks:///_virtual/MAb.ts", ['cc'], function (exports) {
-  var cclegacy, assetManager, director;
+  var cclegacy, assetManager, director, sys;
   return {
     setters: [function (module) {
       cclegacy = module.cclegacy;
       assetManager = module.assetManager;
       director = module.director;
+      sys = module.sys;
     }],
     execute: function () {
       exports('MAb', void 0);
@@ -655,6 +656,28 @@ System.register("chunks:///_virtual/MAb.ts", ['cc'], function (exports) {
         /** 有效的 Bundle 列表（防止加载不存在的 bundle 导致 404） */
         const VALID_BUNDLES = ["lobby-casino-core", "lobby-casino", "lobby-casino-email"];
 
+        /**
+         * 解析 bundle 的加载 URL
+         * 原生平台：优先使用热更目录（通过全局 __hotUpdate），fallback 到包名
+         * Web：直接返回包名
+         */
+        function resolveBundleUrl(bundleName) {
+          const hotUpdate = globalThis.__hotUpdate;
+          if (sys.isNative && hotUpdate && typeof hotUpdate.getBundleUrl === 'function') {
+            return hotUpdate.getBundleUrl(bundleName);
+          }
+          if (sys.isNative) {
+            var _jsb$fileUtils, _jsb$fileUtils2;
+            const jsb = globalThis.jsb;
+            const writablePath = (jsb == null || (_jsb$fileUtils = jsb.fileUtils) == null ? void 0 : _jsb$fileUtils.getWritablePath()) || '/';
+            const storagePath = `${writablePath}remote-asset/${bundleName}`;
+            if (jsb != null && (_jsb$fileUtils2 = jsb.fileUtils) != null && _jsb$fileUtils2.isFileExist(`${storagePath}/project.manifest`)) {
+              return storagePath;
+            }
+          }
+          return bundleName;
+        }
+
         /**获取bundle */
         function getBundle(bundleName, callback, onError) {
           let name = bundleName;
@@ -676,9 +699,11 @@ System.register("chunks:///_virtual/MAb.ts", ['cc'], function (exports) {
               onError == null || onError(error);
             }
           } else {
-            assetManager.loadBundle(name, (e, bundle) => {
+            // 原生平台：优先从热更目录加载
+            let bundleUrl = resolveBundleUrl(name);
+            assetManager.loadBundle(bundleUrl, (e, bundle) => {
               if (e) {
-                console.warn(`[MAb] Bundle ${name} load failed:`, e.message);
+                console.warn(`[MAb] Bundle ${bundleUrl} load failed:`, e.message);
                 onError == null || onError(e);
                 return;
               }
@@ -3255,13 +3280,14 @@ System.register("chunks:///_virtual/PopupLifeCmp.ts", ['cc'], function (exports)
 });
 
 System.register("chunks:///_virtual/PopupManager.ts", ['cc', './MEvent.ts', './PopupLifeCmp.ts'], function (exports) {
-  var cclegacy, director, Director, assetManager, Prefab, instantiate, v3, find, tween, view, isValid, Node, UITransform, BlockInputEvents, Graphics, Color, Button, resources, MEvent, PopupLifeCmp;
+  var cclegacy, director, Director, assetManager, sys, Prefab, instantiate, v3, find, tween, view, isValid, Node, UITransform, BlockInputEvents, Graphics, Color, Button, resources, MEvent, PopupLifeCmp;
   return {
     setters: [function (module) {
       cclegacy = module.cclegacy;
       director = module.director;
       Director = module.Director;
       assetManager = module.assetManager;
+      sys = module.sys;
       Prefab = module.Prefab;
       instantiate = module.instantiate;
       v3 = module.v3;
@@ -3359,7 +3385,13 @@ System.register("chunks:///_virtual/PopupManager.ts", ['cc', './MEvent.ts', './P
             if (bundle) {
               loadAsset(bundle);
             } else {
-              assetManager.loadBundle(bundleName, (err, loadedBundle) => {
+              // 解析 bundle 的实际加载 URL（原生平台使用热更目录）
+              let bundleUrl = bundleName;
+              const hotUpdate = globalThis.__hotUpdate;
+              if (sys.isNative && hotUpdate && typeof hotUpdate.getBundleUrl === 'function') {
+                bundleUrl = hotUpdate.getBundleUrl(bundleName);
+              }
+              assetManager.loadBundle(bundleUrl, (err, loadedBundle) => {
                 if (err) {
                   console.error("[PopupManager] loadBundle error:", bundleName, err);
                   // 降级尝试 resources
@@ -3653,34 +3685,45 @@ System.register("chunks:///_virtual/SubSystemManager.ts", ['cc'], function (expo
           console.log(`[MSubSystem] 注册子系统: ${bundleName} (${displayName})`);
         }
         _MSubSystem.register = register;
-        function load(bundleName) {
-          return new Promise((resolve, reject) => {
-            const info = _systems.get(bundleName);
-            if (!info) {
-              reject(new Error(`子系统未注册: ${bundleName}`));
-              return;
-            }
+        async function load(bundleName) {
+          const info = _systems.get(bundleName);
+          if (!info) {
+            throw new Error(`子系统未注册: ${bundleName}`);
+          }
 
-            // 已加载直接返回
-            const existing = assetManager.getBundle(bundleName);
-            if (existing) {
-              info.loaded = true;
-              console.log(`[MSubSystem] Bundle 已加载: ${bundleName}`);
-              resolve();
-              return;
-            }
+          // 已加载直接返回
+          const existing = assetManager.getBundle(bundleName);
+          if (existing) {
+            info.loaded = true;
+            console.log(`[MSubSystem] Bundle 已加载: ${bundleName}`);
+            return;
+          }
 
-            // 构建 Bundle URL
-            let bundleUrl;
-            if (sys.isNative) {
-              const writablePath = jsb.fileUtils.getWritablePath();
-              bundleUrl = `${writablePath}remote-asset/${bundleName}`;
+          // 确定 bundle URL
+          let bundleUrl;
+          const hotUpdate = globalThis.__hotUpdate;
+          if (sys.isNative && hotUpdate && typeof hotUpdate.ensureBundleReady === 'function') {
+            // 原生平台：先确保 bundle 已下载/更新，返回正确的加载路径
+            console.log(`[MSubSystem] 确保 ${bundleName} 就绪...`);
+            bundleUrl = await hotUpdate.ensureBundleReady(bundleName);
+          } else if (sys.isNative) {
+            var _jsb$fileUtils, _jsb$fileUtils2;
+            // 原生平台但无 hotUpdate：尝试热更目录，fallback 到包名
+            const jsb = globalThis.jsb;
+            const writablePath = (jsb == null || (_jsb$fileUtils = jsb.fileUtils) == null ? void 0 : _jsb$fileUtils.getWritablePath()) || '/';
+            const storagePath = `${writablePath}remote-asset/${bundleName}`;
+            if (jsb != null && (_jsb$fileUtils2 = jsb.fileUtils) != null && _jsb$fileUtils2.isFileExist(`${storagePath}/project.manifest`)) {
+              bundleUrl = storagePath;
             } else {
-              // Web/开发环境: 从 CDN 或本地服务器加载
-              const cdnBase = globalThis.__cdnBase || '';
-              bundleUrl = cdnBase ? `${cdnBase}/${bundleName}` : bundleName;
+              bundleUrl = bundleName;
             }
-            console.log(`[MSubSystem] 加载 Bundle: ${bundleUrl}`);
+          } else {
+            // Web：从 CDN 或本地服务器加载
+            const cdnBase = globalThis.__cdnBase || '';
+            bundleUrl = cdnBase ? `${cdnBase}/${bundleName}` : bundleName;
+          }
+          console.log(`[MSubSystem] 加载 Bundle: ${bundleUrl}`);
+          return new Promise((resolve, reject) => {
             assetManager.loadBundle(bundleUrl, error => {
               if (error) {
                 console.error(`[MSubSystem] 加载失败: ${bundleName}`, error);
