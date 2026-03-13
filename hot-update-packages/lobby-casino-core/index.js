@@ -1,78 +1,4372 @@
-System.register("chunks:///_virtual/BaseModel.ts",["cc"],(function(t){var e;return{setters:[function(t){e=t.cclegacy}],execute:function(){e._RF.push({},"33d25rj4jhCQbLeHyWaJTmo","BaseModel",void 0);t("BaseModel",class{constructor(){this.td=void 0}syncConfig(t){}syncData(t){for(let e in this){let n=e.toString();"td"!=n&&"function"!=typeof this[n]&&null!=t[n]&&(this[n]=t[n])}return!0}getData(){let t=new Object;for(let e in this){let n=e.toString();"td"!=n&&"function"!=typeof this[n]&&(t[n]=this[n])}return t}}),e._RF.pop()}}}));
+System.register("chunks:///_virtual/BaseModel.ts", ['cc'], function (exports) {
+  var cclegacy;
+  return {
+    setters: [function (module) {
+      cclegacy = module.cclegacy;
+    }],
+    execute: function () {
+      cclegacy._RF.push({}, "33d25rj4jhCQbLeHyWaJTmo", "BaseModel", undefined);
+      class BaseModel {
+        constructor() {
+          /**临时数据(不存储的数据) */
+          this.td = void 0;
+        }
+        /**同步配置 */
+        syncConfig(param) {}
 
-System.register("chunks:///_virtual/Config.ts",["cc"],(function(t){var s;return{setters:[function(t){s=t.cclegacy}],execute:function(){s._RF.push({},"dbda7RG7ktMgqrzpkCWeS3V","Config",void 0);t("ConfigLocal",class{constructor(){this.version="1.0.0",this.maxWidth=1167,this.bgmVolume=.2}});t("ConfigServer",class{}),s._RF.pop()}}}));
+        /**同步数据 */
+        syncData(data) {
+          for (let key in this) {
+            let keyName = key.toString();
+            if (keyName != "td" && typeof this[keyName] != "function" && data[keyName] != null) {
+              this[keyName] = data[keyName];
+            }
+          }
+          return true;
+        }
 
-System.register("chunks:///_virtual/CopSkeleton.ts",["cc","./MAb.ts"],(function(t){var e,n,l,o,s;return{setters:[function(t){e=t.cclegacy,n=t.Component,l=t.sp,o=t._decorator},function(t){s=t.MAb}],execute:function(){var a;e._RF.push({},"1ff2clUuu1PLoJgri+BNXbK","CopSkeleton",void 0);const{ccclass:i,property:c}=o;t("CopSkeleton",i("CopSkeleton")(a=class extends n{init(t){return new Promise((async e=>{let n=await s.asyncLoad({bundle:t.bundle,path:t.path,type:l.SkeletonData});if(!this.isValid)return;let o=this.getComponent(l.Skeleton);null!=o&&o.isValid&&(o.skeletonData=n,e(o))}))}getSktleton(){return this.getComponent(l.Skeleton)}clear(){var t;let e=null==this||null==(t=this.getComponent)?void 0:t.call(this,l.Skeleton);null!=e&&e.isValid&&null!=e&&e.skeletonData&&(e.skeletonData=null)}})||a);e._RF.pop()}}}));
+        /**获取数据 */
+        getData() {
+          let data = new Object();
+          for (let key in this) {
+            let keyName = key.toString();
+            if (keyName != "td" && typeof this[keyName] != "function") {
+              data[keyName] = this[keyName];
+            }
+          }
+          return data;
+        }
+      }
+      exports('BaseModel', BaseModel);
+      cclegacy._RF.pop();
+    }
+  };
+});
 
-System.register("chunks:///_virtual/CopSprite.ts",["cc","./MAb.ts"],(function(t){var e,i,l,n,r,s;return{setters:[function(t){e=t.cclegacy,i=t.Component,l=t.SpriteFrame,n=t.Sprite,r=t._decorator},function(t){s=t.MAb}],execute:function(){var a;e._RF.push({},"d39bfO63J1OUoQwbu22GevF","CopSprite",void 0);const{ccclass:o,property:p}=r;t("CopSprite",o("CopSprite")(a=class extends i{init(t){return new Promise((async e=>{let i=await s.asyncLoad({bundle:t.bundle,path:t.path,type:l});if(!this.isValid)return;let r=this.getComponent(n);null!=r&&r.isValid&&(r.spriteFrame=i,e())}))}setSpriteFrame(t){var e;let i=null==this||null==(e=this.getComponent)?void 0:e.call(this,n);null!=i&&i.isValid&&(i.spriteFrame=t)}clear(){var t;let e=null==this||null==(t=this.getComponent)?void 0:t.call(this,n);null!=e&&e.isValid&&null!=e&&e.spriteFrame&&(e.spriteFrame=null)}})||a);e._RF.pop()}}}));
+System.register("chunks:///_virtual/Config.ts", ['cc'], function (exports) {
+  var cclegacy;
+  return {
+    setters: [function (module) {
+      cclegacy = module.cclegacy;
+    }],
+    execute: function () {
+      cclegacy._RF.push({}, "dbda7RG7ktMgqrzpkCWeS3V", "Config", undefined);
+      /**本地配置 */
+      class ConfigLocal {
+        constructor() {
+          this.version = "1.0.0";
+          /**屏幕最大宽度 */
+          this.maxWidth = 1167;
+          /**音量大小 */
+          this.bgmVolume = 0.2;
+        }
+      }
+      exports('ConfigLocal', ConfigLocal);
 
-System.register("chunks:///_virtual/Decorator.ts",["cc"],(function(t){var e;return{setters:[function(t){e=t.cclegacy}],execute:function(){t("ButtonLock",(function(t=100,e){return function(n,u,c){let r=c.value,o=!1;return c.value=function(...n){o?null==e||e():(o=!0,setTimeout((()=>{o=!1}),t),r.apply(this,n))},c}})),e._RF.push({},"3a423gyInlJbZAl89NRz1rw","Decorator",void 0),e._RF.pop()}}}));
+      /**服务器配置（由各业务模块扩展） */
+      class ConfigServer {}
+      exports('ConfigServer', ConfigServer);
+      cclegacy._RF.pop();
+    }
+  };
+});
 
-System.register("chunks:///_virtual/Enum.ts",["cc"],(function(e){var t;return{setters:[function(e){t=e.cclegacy}],execute:function(){t._RF.push({},"315abR+n9NPeZr6K6pYt09F","Enum",void 0);e("ENode",function(e){return e.Canvas="Canvas",e.GameUI="GameUI",e}({})),e("ESwitchStatus",function(e){return e[e.Close=0]="Close",e[e.Open=1]="Open",e}({})),e("EServerType",function(e){return e[e.Local=0]="Local",e[e.Test=1]="Test",e[e.Release=2]="Release",e}({})),e("EToast",function(e){return e.ExceedBalance="ExceedBalance",e.MiniBet="MiniBet",e.NoBet="NoBet",e}({})),e("ESelectStatus",function(e){return e[e.Selected=0]="Selected",e[e.UnSelected=1]="UnSelected",e}({})),e("EDirection",function(e){return e[e.Up=0]="Up",e[e.Down=1]="Down",e[e.Left=2]="Left",e[e.Right=3]="Right",e}({})),e("EAxis",function(e){return e[e.X=0]="X",e[e.Y=1]="Y",e}({}));t._RF.pop()}}}));
+System.register("chunks:///_virtual/CopSkeleton.ts", ['cc', './MAb.ts'], function (exports) {
+  var cclegacy, Component, sp, _decorator, MAb;
+  return {
+    setters: [function (module) {
+      cclegacy = module.cclegacy;
+      Component = module.Component;
+      sp = module.sp;
+      _decorator = module._decorator;
+    }, function (module) {
+      MAb = module.MAb;
+    }],
+    execute: function () {
+      var _dec, _class;
+      cclegacy._RF.push({}, "1ff2clUuu1PLoJgri+BNXbK", "CopSkeleton", undefined);
+      const {
+        ccclass,
+        property
+      } = _decorator;
+      let CopSkeleton = exports('CopSkeleton', (_dec = ccclass('CopSkeleton'), _dec(_class = class CopSkeleton extends Component {
+        init(param) {
+          return new Promise(async resolve => {
+            let skd = await MAb.asyncLoad({
+              bundle: param.bundle,
+              path: param.path,
+              type: sp.SkeletonData
+            });
+            if (!this.isValid) return;
+            let skt = this.getComponent(sp.Skeleton);
+            if (skt != null && skt.isValid) {
+              skt.skeletonData = skd;
+              resolve(skt);
+            }
+          });
+        }
+        getSktleton() {
+          return this.getComponent(sp.Skeleton);
+        }
+        clear() {
+          var _this$getComponent;
+          let skt = this == null || (_this$getComponent = this.getComponent) == null ? void 0 : _this$getComponent.call(this, sp.Skeleton);
+          if (skt != null && skt.isValid && skt != null && skt.skeletonData) {
+            skt.skeletonData = null;
+          }
+        }
+      }) || _class));
+      cclegacy._RF.pop();
+    }
+  };
+});
 
-System.register("chunks:///_virtual/IHttp.ts",["cc"],(function(){var t;return{setters:[function(c){t=c.cclegacy}],execute:function(){t._RF.push({},"0d203NCzZZKSovLCgWn7RHR","IHttp",void 0),t._RF.pop()}}}));
+System.register("chunks:///_virtual/CopSprite.ts", ['cc', './MAb.ts'], function (exports) {
+  var cclegacy, Component, SpriteFrame, Sprite, _decorator, MAb;
+  return {
+    setters: [function (module) {
+      cclegacy = module.cclegacy;
+      Component = module.Component;
+      SpriteFrame = module.SpriteFrame;
+      Sprite = module.Sprite;
+      _decorator = module._decorator;
+    }, function (module) {
+      MAb = module.MAb;
+    }],
+    execute: function () {
+      var _dec, _class;
+      cclegacy._RF.push({}, "d39bfO63J1OUoQwbu22GevF", "CopSprite", undefined);
+      const {
+        ccclass,
+        property
+      } = _decorator;
+      let CopSprite = exports('CopSprite', (_dec = ccclass('CopSprite'), _dec(_class = class CopSprite extends Component {
+        init(param) {
+          return new Promise(async resolve => {
+            let spf = await MAb.asyncLoad({
+              bundle: param.bundle,
+              path: param.path,
+              type: SpriteFrame
+            });
+            if (!this.isValid) return;
+            let spt = this.getComponent(Sprite);
+            if (spt != null && spt.isValid) {
+              spt.spriteFrame = spf;
+              resolve();
+            }
+          });
+        }
+        setSpriteFrame(spf) {
+          var _this$getComponent;
+          let spt = this == null || (_this$getComponent = this.getComponent) == null ? void 0 : _this$getComponent.call(this, Sprite);
+          if (spt != null && spt.isValid) {
+            spt.spriteFrame = spf;
+          }
+        }
+        clear() {
+          var _this$getComponent2;
+          let spt = this == null || (_this$getComponent2 = this.getComponent) == null ? void 0 : _this$getComponent2.call(this, Sprite);
+          if (spt != null && spt.isValid && spt != null && spt.spriteFrame) {
+            spt.spriteFrame = null;
+          }
+        }
+      }) || _class));
+      cclegacy._RF.pop();
+    }
+  };
+});
 
-System.register("chunks:///_virtual/InfiniteScroll.ts",["./rollupPluginModLoBabelHelpers.js","cc","./Enum.ts","./Tools.ts"],(function(t){var i,e,n,s,o,h,r,a,g,l,p,c,u,d,f;return{setters:[function(t){i=t.applyDecoratedDescriptor,e=t.initializerDefineProperty},function(t){n=t.cclegacy,s=t.ScrollView,o=t.Node,h=t.Prefab,r=t.Enum,a=t._decorator,g=t.Component,l=t.instantiate,p=t.UITransform,c=t.v3},function(t){u=t.EDirection,d=t.EAxis},function(t){f=t.Tools}],execute:function(){var m,b,x,w,A,N,D,y,v,_,I,L,P,C,S,V,X;n._RF.push({},"81935tXutVMCZPxerD6+ugS","InfiniteScroll",void 0);const{ccclass:R,property:T}=a;t("default",(m=R("InfiniteScroll"),b=T(s),x=T(o),w=T(o),A=T(h),N=T({type:r(u)}),m((v=i((y=class extends g{constructor(...t){super(...t),e(this,"scrollView",v,this),e(this,"view",_,this),e(this,"content",I,this),e(this,"prefab",L,this),e(this,"itemComponent",P,this),e(this,"spacing",C,this),e(this,"paddingTop",S,this),e(this,"paddingBottom",V,this),e(this,"direction",X,this),this.infos=[],this.items=[],this.limitMax=0,this.limitMin=0,this.lastPosition=null}init(t){if(!t)return;this.infos=t;let i=Math.ceil(this.getNodeLen(this.view)/(this.getNodeLen(this.prefab.data)+this.spacing));for(let t=0;t<i+1&&void 0!==this.infos[t];++t){let i=this.items[t];i||(i=l(this.prefab),this.items.push(i),this.getItemParent().addChild(i)),i.active=!0,this.items[t].__itemID=t,i.getComponent(this.itemComponent).init(this.infos[t]),i.setPosition(this.getPosition(t)),this.getAxis()==d.Y?i.setSiblingIndex(f.limitRange(i.position.y,0,999999999)):this.getAxis()==d.X&&i.setSiblingIndex(f.limitRange(i.position.x,0,999999999))}this.getAxis()==d.Y?this.content.getComponent(p).height=this.paddingTop+this.paddingBottom+this.infos.length*this.getNodeLen(this.prefab.data)+(this.infos.length-1)*this.spacing:this.getAxis()==d.X&&(this.content.getComponent(p).width=this.paddingTop+this.paddingBottom+this.infos.length*this.getNodeLen(this.prefab.data)+(this.infos.length-1)*this.spacing),this.limitMax=this.getNodeLen(this.view)*(1-this.getViewAnchor())+this.getNodeLen(this.prefab.data)/2+this.spacing/2,this.limitMin=-(this.getNodeLen(this.view)*this.getViewAnchor()+this.getNodeLen(this.prefab.data)/2+this.spacing/2),this.lastPosition=this.content.getPosition()}update(){if(!this.lastPosition)return;if(!this.scrollView.isScrolling()&&!this.scrollView.isAutoScrolling())return;let t=this.content.position.y>this.lastPosition.y&&this.getAxis()==d.Y||this.content.position.x<this.lastPosition.x&&this.getAxis()==d.X,i=this.items.length,e=this.infos.length;for(let n in this.items){let s=this.items[n];if(!s)break;let o=this.getItemParent().getComponent(p).convertToWorldSpaceAR(s.position);if(o=this.view.getComponent(p).convertToNodeSpaceAR(o),t){if(o.y>this.limitMax&&this.getAxis()==d.Y||o.x<this.limitMin&&this.getAxis()==d.X){if(this.getAxis()==d.Y){let t=s.__itemID-this.getDirectionNumber()*i;if(this.getDirectionNumber()<0){if(t>=e)return}else if(t<0)return;s.__itemID=t,s.position=c(s.position.x,s.position.y-i*this.getNodeLen(this.prefab.data)-i*this.spacing),s.setSiblingIndex(f.limitRange(s.position.y,0,999999999))}else if(this.getAxis()==d.X){let t=s.__itemID+this.getDirectionNumber()*i;if(this.getDirectionNumber()<0){if(t<0)return}else if(t>=e)return;s.__itemID=t,s.position=c(s.position.x+i*this.getNodeLen(this.prefab.data)+i*this.spacing,s.position.y),s.setSiblingIndex(f.limitRange(s.position.x,0,999999999))}s.getComponent(this.itemComponent).init(this.infos[s.__itemID])}}else if(o.y<this.limitMin&&this.getAxis()==d.Y||o.x>this.limitMax&&this.getAxis()==d.X){if(this.getAxis()==d.Y){let t=s.__itemID+this.getDirectionNumber()*i;if(this.getDirectionNumber()<0){if(t<0)return}else if(t>=e)return;s.__itemID=t,s.position=c(s.position.x,s.position.y+i*this.getNodeLen(this.prefab.data)+i*this.spacing),s.setSiblingIndex(f.limitRange(s.position.y,0,999999999))}else if(this.getAxis()==d.X){let t=s.__itemID-this.getDirectionNumber()*i;if(this.getDirectionNumber()<0){if(t>=e)return}else if(t<0)return;s.__itemID=t,s.position=c(s.position.x-i*this.getNodeLen(this.prefab.data)-i*this.spacing,s.position.y),s.setSiblingIndex(f.limitRange(s.position.x,0,999999999))}s.getComponent(this.itemComponent).init(this.infos[s.__itemID])}}this.lastPosition=this.content.getPosition()}show(){this.node.active=!0}hide(){this.node.active=!1}reset(){this.scrollView.stopAutoScroll(),this.setDefaultPosition(),this.items.forEach((t=>{t.active=!1}))}setDefaultPosition(){this.direction==u.Down?this.content.position=c(this.content.position.x,this.getNodeLen(this.view)*(1-this.getViewAnchor())):this.direction==u.Up?this.content.position=c(this.content.position.x,-this.getNodeLen(this.view)*this.getViewAnchor()):this.direction==u.Left?this.content.position=c(this.getNodeLen(this.view)*(1-this.getViewAnchor()),this.content.position.y):this.direction==u.Right&&(this.content.position=c(-this.getNodeLen(this.view)*this.getViewAnchor(),this.content.position.y))}getDirectionNumber(){switch(this.direction){case u.Up:case u.Right:return 1;case u.Down:case u.Left:return-1}}getAxis(){switch(this.direction){case u.Up:case u.Down:return d.Y;case u.Right:case u.Left:return d.X}}getViewAnchor(){return this.getAxis()==d.X?this.view.getComponent(p).anchorX:this.getAxis()==d.Y?this.view.getComponent(p).anchorY:void 0}getNodeLen(t){return this.getAxis()==d.X?t.getComponent(p).width:this.getAxis()==d.Y?t.getComponent(p).height:void 0}getSinglePosition(t){return this.getAxis()==d.X?t.x:this.getAxis()==d.Y?t.y:void 0}getPosition(t){return this.getAxis()==d.Y?c(0,this.getDirectionNumber()*(this.paddingTop+this.getNodeLen(this.prefab.data)/2+t*(this.getNodeLen(this.prefab.data)+this.spacing))):this.getAxis()==d.X?c(this.getDirectionNumber()*(this.paddingTop+this.getNodeLen(this.prefab.data)/2+t*(this.getNodeLen(this.prefab.data)+this.spacing)),0):void 0}getInfos(){return this.infos}getItemParent(){return this.content}getSpacing(){return this.spacing}getPaddingTop(){return this.paddingTop}getPaddingBottom(){return this.paddingBottom}getPrefab(){return this.prefab}}).prototype,"scrollView",[b],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return null}}),_=i(y.prototype,"view",[x],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return null}}),I=i(y.prototype,"content",[w],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return null}}),L=i(y.prototype,"prefab",[A],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return null}}),P=i(y.prototype,"itemComponent",[T],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return""}}),C=i(y.prototype,"spacing",[T],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return 0}}),S=i(y.prototype,"paddingTop",[T],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return 0}}),V=i(y.prototype,"paddingBottom",[T],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return 0}}),X=i(y.prototype,"direction",[N],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return u.Down}}),D=y))||D));n._RF.pop()}}}));
+System.register("chunks:///_virtual/Decorator.ts", ['cc'], function (exports) {
+  var cclegacy;
+  return {
+    setters: [function (module) {
+      cclegacy = module.cclegacy;
+    }],
+    execute: function () {
+      exports('ButtonLock', ButtonLock);
+      cclegacy._RF.push({}, "3a423gyInlJbZAl89NRz1rw", "Decorator", undefined);
+      function ButtonLock(lockTime = 100, callBackFun) {
+        return function (target, propertyKey, descriptor) {
+          let oldFun = descriptor.value;
+          let isLock = false;
+          descriptor.value = function (...args) {
+            if (isLock) {
+              callBackFun == null || callBackFun();
+              return;
+            }
+            isLock = true;
+            setTimeout(() => {
+              isLock = false;
+            }, lockTime);
+            oldFun.apply(this, args);
+          };
+          return descriptor;
+        };
+      }
+      cclegacy._RF.pop();
+    }
+  };
+});
 
-System.register("chunks:///_virtual/Interface.ts",["cc"],(function(){var e;return{setters:[function(t){e=t.cclegacy}],execute:function(){e._RF.push({},"23bb4zWQ1FPBaY6fdjniXts","Interface",void 0),e._RF.pop()}}}));
+System.register("chunks:///_virtual/Enum.ts", ['cc'], function (exports) {
+  var cclegacy;
+  return {
+    setters: [function (module) {
+      cclegacy = module.cclegacy;
+    }],
+    execute: function () {
+      cclegacy._RF.push({}, "315abR+n9NPeZr6K6pYt09F", "Enum", undefined);
+      /**
+       * Core 通用枚举
+       *
+       * 仅包含 core Manager 依赖的通用枚举
+       * 游戏专属枚举（EDiceColor、EFace、EChipLevel 等）留在游戏 bundle 中
+       */
 
-System.register("chunks:///_virtual/lobby-casino-core",["./Config.ts","./Enum.ts","./MApp.ts","./SubSystemManager.ts","./BaseModel.ts","./CopSkeleton.ts","./CopSprite.ts","./IHttp.ts","./Interface.ts","./MAb.ts","./MAudio.ts","./MConfig.ts","./MCopy.ts","./MDebug.ts","./MEvent.ts","./MHttp.ts","./MI18n.ts","./MModel.ts","./MNode.ts","./MPool.ts","./MSchedule.ts","./MSkeleton.ts","./MToast.ts","./MTween.ts","./MUi.ts","./MUrlParam.ts","./MWebSocket.ts","./PopupBtnCmp.ts","./PopupCloseBtnCmp.ts","./PopupLifeCmp.ts","./PopupManager.ts","./ModelSet.ts","./Decorator.ts","./InfiniteScroll.ts","./OnEnginLaunch.ts","./Tools.ts","./TouchClose.ts"],(function(){return{setters:[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],execute:function(){}}}));
+      /** Canvas 节点层级 */
+      let ENode = exports('ENode', /*#__PURE__*/function (ENode) {
+        ENode["Canvas"] = "Canvas";
+        ENode["GameUI"] = "GameUI";
+        return ENode;
+      }({}));
 
-System.register("chunks:///_virtual/MAb.ts",["cc"],(function(e){var o,n,l;return{setters:[function(e){o=e.cclegacy,n=e.assetManager,l=e.director}],execute:function(){e("MAb",void 0),o._RF.push({},"47189wBlpdB37AcKw4LI7mr","MAb",void 0);let r;e("EBundle",function(e){return e.resources="resources",e.Audio="audio",e.Game="game",e.Panel="panel",e.Dialog="dialog",e}({})),e("EScene",function(e){return e.LoadScene="LoadScene",e.GameScene="GameScene",e.Lobby="Lobby",e}({}));!function(e){const o=["lobby-casino-core","lobby-casino","lobby-casino-email"];function r(e,l,r){let t=e;if(o.includes(t)||("core"===t||"lobby-casino-core"===t?t="lobby-casino-core":"lobby"===t||"lobby-casino"===t?t="lobby-casino":"resources"!==t&&"dialog"!==t&&"audio"!==t&&"panel"!==t||(t="lobby-casino")),!o.includes(t))return void(null==r||r(new Error(`Bundle ${t} is not in VALID_BUNDLES list`)));let u=n.getBundle(t);if(u)try{l(u)}catch(e){console.log(e),null==r||r(e)}else n.loadBundle(t,((e,o)=>{if(e)return console.warn(`[MAb] Bundle ${t} load failed:`,e.message),void(null==r||r(e));try{l(o)}catch(e){console.log(e),null==r||r(e)}}))}e.getBundle=r,e.asyncPreload=function(e){return new Promise((o=>{!function(e){r(e.bundle,(o=>{o.preload(e.path,e.type,e.onProgress,e.onComplete)}))}({bundle:e.bundle,path:e.path,type:e.type,onProgress:e.onProgress,onComplete:()=>{o()}})}))},e.asyncPreloadDir=function(e){return new Promise((o=>{!function(e){r(e.bundle,(o=>{o.preloadDir(e.path,e.type,e.onProgress,e.onComplete)}))}({bundle:e.bundle,path:e.path,type:e.type,onProgress:e.onProgress,onComplete:()=>{o()}})}))},e.preloadScene=function(e){r(e.bundle,(o=>{o.preloadScene(e.scene,e.onProgress,(o=>{if(o)console.log(o);else try{null==e||null==e.onComplete||e.onComplete()}catch(e){}}))}))},e.asyncLoad=function(e){return new Promise(((o,n)=>{let l=e.bundle,t=setTimeout((()=>{console.warn(`[MAb] Load ${e.path} from ${l} timeout`),null==e||null==e.onTimeOut||e.onTimeOut(),n(new Error("Timeout"))}),1e4);!function(e){let o=setTimeout((()=>{null==e||null==e.onTimeOut||e.onTimeOut()}),6e4);r(e.bundle,(n=>{let l=(n,l)=>{if(n)return console.log("path:",e.path),console.log(n),void(null==e||null==e.onError||e.onError());try{clearTimeout(o),e.onComplete(l)}catch(e){}};e.type?n.load(e.path,e.type,e.onProgress,l):n.load(e.path,e.onProgress,l)}),(()=>{clearTimeout(o),null==e||null==e.onError||e.onError()}))}({bundle:e.bundle,path:e.path,type:e.type,onComplete:e=>{clearTimeout(t),o(e)},onError:()=>{clearTimeout(t),null==e||null==e.onError||e.onError(),n(new Error("Load failed"))},onTimeOut:()=>{}})}))},e.asyncLoadDir=function(e){return new Promise((o=>{!function(e){r(e.bundle,(o=>{o.loadDir(e.path,e.type,e.onProgress,((o,n)=>{if(o)console.log(o);else try{e.onComplete(n)}catch(e){}}))}))}({bundle:e.bundle,path:e.path,type:e.type,onComplete:e=>{o(e)},onProgress:e.onProgress})}))},e.loadScene=function(e){r(e.bundle,(o=>{o.loadScene(e.scene,e.onProgress,((o,n)=>{o?console.log(o):l.runScene(n,null==e?void 0:e.onBeforeLoadScene,null==e?void 0:e.onLaunched)}))}))}}(r||(r=e("MAb",{}))),o._RF.pop()}}}));
+      /** 开关状态 */
+      let ESwitchStatus = exports('ESwitchStatus', /*#__PURE__*/function (ESwitchStatus) {
+        ESwitchStatus[ESwitchStatus["Close"] = 0] = "Close";
+        ESwitchStatus[ESwitchStatus["Open"] = 1] = "Open";
+        return ESwitchStatus;
+      }({}));
 
-System.register("chunks:///_virtual/MApp.ts",["cc","./MAb.ts","./MUi.ts","./MEvent.ts","./MHttp.ts","./MWebSocket.ts","./MAudio.ts","./MModel.ts","./MConfig.ts","./MI18n.ts","./MSchedule.ts","./MTween.ts","./MSkeleton.ts","./MToast.ts","./MNode.ts","./MPool.ts","./MCopy.ts","./MDebug.ts","./MUrlParam.ts","./SubSystemManager.ts","./PopupManager.ts"],(function(n){var o,t,e,M,i,c,s,u,l,p,f,r,a,b,d,g,y,A,S,h,P;return{setters:[function(n){o=n.cclegacy},function(n){t=n.MAb},function(n){e=n.MUi},function(n){M=n.MEvent},function(n){i=n.MHttp},function(n){c=n.MWebSocket},function(n){s=n.MAudio},function(n){u=n.MModel},function(n){l=n.MConfig},function(n){p=n.MI18n},function(n){f=n.MSchedule},function(n){r=n.MTween},function(n){a=n.MSkeleton},function(n){b=n.MToast},function(n){d=n.MNode},function(n){g=n.MPool},function(n){y=n.MCopy},function(n){A=n.MDebug},function(n){S=n.MUrlParam},function(n){h=n.MSubSystem},function(n){P=n.PopupManager}],execute:function(){let T;n("MApp",void 0),o._RF.push({},"92db8MajOhII78QAdQBFqdi","MApp",void 0),function(n){let o=!1;const C={MAb:t,MUi:e,MEvent:M,MHttp:i,MWebSocket:c,MAudio:s,MModel:u,MConfig:l,MI18n:p,MSchedule:f,MTween:r,MSkeleton:a,MToast:b,MNode:d,MPool:g,MCopy:y,MDebug:A,MUrlParam:S,MSubSystem:h,MApp:null,PopupManager:P};n.init=async function(){if(o)console.warn("[MApp] 已初始化，跳过");else{console.log("[MApp] 初始化核心框架..."),C.MApp=T;for(const[n,o]of Object.entries(C))globalThis[n]=o;P.init(),o=!0,console.log("[MApp] 核心框架初始化完成，已注册",Object.keys(C).length,"个管理器")}},n.enterLobby=async function(){console.log("[MApp] 进入大厅");const n=globalThis.__lobbyController;if(!n||"function"!=typeof n.enter)return console.log("[MApp] LobbyController 未注册，加载 Lobby 场景..."),new Promise((n=>{t.loadScene({bundle:"lobby-casino",scene:"Lobby",onLaunched:()=>{const o=globalThis.__lobbyController;o&&"function"==typeof o.enter&&o.enter(),n()}})}));await n.enter()},n.isInitialized=function(){return o}}(T||(T=n("MApp",{}))),globalThis.MApp=T,o._RF.pop()}}}));
+      /** 服务器环境类型 */
+      let EServerType = exports('EServerType', /*#__PURE__*/function (EServerType) {
+        EServerType[EServerType["Local"] = 0] = "Local";
+        EServerType[EServerType["Test"] = 1] = "Test";
+        EServerType[EServerType["Release"] = 2] = "Release";
+        return EServerType;
+      }({}));
 
-System.register("chunks:///_virtual/MAudio.ts",["cc","./MAb.ts","./MModel.ts","./Enum.ts"],(function(t){var e,n,o,u,i,l,c,a;return{setters:[function(t){e=t.cclegacy,n=t.Node,o=t.director,u=t.AudioSource},function(t){i=t.MAb,l=t.EBundle},function(t){c=t.MModel},function(t){a=t.ESwitchStatus}],execute:function(){t("MAudio",void 0),e._RF.push({},"5c14daYAqJNPo17ZoftvPwP","MAudio",void 0);let s;t("EAudio",function(t){return t.BGM="BGM",t.Click="Click",t.Close="Close",t}({}));!function(t){let e=new Map,s=[],d=new Map;function r(t){let e=`__audioMgr__${t}`;if(!d.has(e)){let t=new n(e);o.getScene().addChild(t),o.addPersistRootNode(t),d.set(e,t.addComponent(u))}return d.get(e)}async function f(t){let n;if(e.has(t))n=e.get(t);else try{n=await i.asyncLoad({bundle:l.Audio,path:t}),e.set(t,n)}catch(n){return e.set(t,null),console.warn(`[MAudio] Failed to load audio: ${t}`),null}return n}async function p(t,e=!0,n=1){let o=r(t);o.stop(),o.loop=e;let u=await f(t);u&&(o.clip=u,o.volume=n,o.play())}t.playBGM=function(t,e=!0,n=1){c.Set.getBGMSwitch()!=a.Close&&p(t,e,n)},t.playOneShot=function(t,e=!1){if(c.Set.getSFXSwitch()==a.Close)return;let n=(new Date).getTime();s[t]&&n-s[t]<=100?s[t]=n:p(t,e)},t.isPlaying=function(t){return r(t).playing},t.stop=function(t){r(t).stop()},t.pause=function(t){r(t).pause()},t.resume=async function(t,e=!0,n=1){let o=r(t);o.loop=e,o.clip=await f(t),o.volume=n,o.play()},t.stopExclude=function(t){let e=[];null==t||null==t.forEach||t.forEach((t=>{e.push(`__audioMgr__${t}`)})),d.forEach(((t,n)=>{e.includes(`${n}`)||t.stop()}))}}(s||(s=t("MAudio",{}))),e._RF.pop()}}}));
+      /** Toast 提示类型 */
+      let EToast = exports('EToast', /*#__PURE__*/function (EToast) {
+        EToast["ExceedBalance"] = "ExceedBalance";
+        EToast["MiniBet"] = "MiniBet";
+        EToast["NoBet"] = "NoBet";
+        return EToast;
+      }({}));
 
-System.register("chunks:///_virtual/MConfig.ts",["cc","./Config.ts"],(function(n){var o,c,e;return{setters:[function(n){o=n.cclegacy},function(n){c=n.ConfigLocal,e=n.ConfigServer}],execute:function(){let i;var t;n("MConfig",void 0),o._RF.push({},"ccb70qX7alDmZ/vUGl9rOMJ","MConfig",void 0),(t=i||(i=n("MConfig",{}))).configLocal=new c,t.configServer=new e,o._RF.pop()}}}));
+      /** 选中状态 */
+      let ESelectStatus = exports('ESelectStatus', /*#__PURE__*/function (ESelectStatus) {
+        ESelectStatus[ESelectStatus["Selected"] = 0] = "Selected";
+        ESelectStatus[ESelectStatus["UnSelected"] = 1] = "UnSelected";
+        return ESelectStatus;
+      }({}));
 
-System.register("chunks:///_virtual/MCopy.ts",["cc","./MToast.ts"],(function(e){var t,o;return{setters:[function(e){t=e.cclegacy},function(e){o=e.MToast}],execute:function(){let c;e("MCopy",void 0),t._RF.push({},"1c4d8430lRMTLjIAWpbz4FG","MCopy",void 0),(c||(c=e("MCopy",{}))).copyToClipBoard=function(e){const t=document.createElement("textarea");t.value=e??"test",t.style.position="absolute",t.style.opacity="0",document.body.appendChild(t),t.select(),document.execCommand("copy"),document.body.removeChild(t),o.showCopied()},t._RF.pop()}}}));
+      /** 方向 */
+      let EDirection = exports('EDirection', /*#__PURE__*/function (EDirection) {
+        EDirection[EDirection["Up"] = 0] = "Up";
+        EDirection[EDirection["Down"] = 1] = "Down";
+        EDirection[EDirection["Left"] = 2] = "Left";
+        EDirection[EDirection["Right"] = 3] = "Right";
+        return EDirection;
+      }({}));
 
-System.register("chunks:///_virtual/MDebug.ts",["cc"],(function(e){var t;return{setters:[function(e){t=e.cclegacy}],execute:function(){let u;e("MDebug",void 0),t._RF.push({},"a9d05LvQ+xFAK3wU8qc7Hce","MDebug",void 0),function(e){let t=!1;e.setDebug=function(e){t=e},e.isDebug=function(){return t}}(u||(u=e("MDebug",{}))),t._RF.pop()}}}));
+      /** 轴 */
+      let EAxis = exports('EAxis', /*#__PURE__*/function (EAxis) {
+        EAxis[EAxis["X"] = 0] = "X";
+        EAxis[EAxis["Y"] = 1] = "Y";
+        return EAxis;
+      }({}));
+      cclegacy._RF.pop();
+    }
+  };
+});
 
-System.register("chunks:///_virtual/MEvent.ts",["cc"],(function(n){var t,e;return{setters:[function(n){t=n.cclegacy,e=n.EventTarget}],execute:function(){n("MEvent",void 0),t._RF.push({},"ae3d4h/oF9LnL2u4NDvTNfQ","MEvent",void 0);const o=new e;let c;var f;(f=c||(c=n("MEvent",{}))).on=function(n,t,e){o.on(n,t,e)},f.once=function(n,t,e){o.once(n,t,e)},f.off=function(n,t,e){o.off(n,t,e)},f.emit=function(n,...t){o.emit(n,...t)},f.hasEventListener=function(n,t,e){return o.hasEventListener(n,t,e)},f.targetOff=function(n){o.targetOff(n)},f.removeAll=function(n){o.removeAll(n)},t._RF.pop()}}}));
+System.register("chunks:///_virtual/IHttp.ts", ['cc'], function () {
+  var cclegacy;
+  return {
+    setters: [function (module) {
+      cclegacy = module.cclegacy;
+    }],
+    execute: function () {
+      cclegacy._RF.push({}, "0d203NCzZZKSovLCgWn7RHR", "IHttp", undefined);
+      /** 网络请求过程中一些调试信息 */
+      /** 接口调用结束的回调函数（调用成功、失败都会执行） */
+      /** 接口调用失败的回调函数 */
+      cclegacy._RF.pop();
+    }
+  };
+});
 
-System.register("chunks:///_virtual/MHttp.ts",["cc","./MUi.ts"],(function(t){var e,o,s,a,r;return{setters:[function(t){e=t.cclegacy,o=t.warn},function(t){s=t.MUi,a=t.EDialog,r=t.EUiAction}],execute:function(){let n;t("MHttp",void 0),e._RF.push({},"6ea36fFTIhBDbmpNqtOuygE","MHttp",void 0),function(t){let e="",n="";t.setToken=function(t){e=t},t.setThemekey=function(t){n=t},t.request=function t(l){const i=t=>{o(`request fail with url : "${l.url}"`),null==l||null==l.fail||l.fail(t)},u=t=>{null==l||null==l.complete||l.complete(t)};let c,d=new XMLHttpRequest;d.open(l.method,l.url,!0),d.setRequestHeader("Content-type","application/json;charset=utf-8"),n&&d.setRequestHeader("themeKey",n),e&&d.setRequestHeader("token",e);for(let t in l.header)d.setRequestHeader(t,l.header[t]);d.timeout=(null==l?void 0:l.timeout)??5e3,d.onload=()=>{let e=d.responseText,o={data:"",statusCode:d.status,header:{},errMsg:""};try{let t=JSON.parse(e);o.data=t}catch{o.data=d.responseText}var n;if(d.status>=200&&d.status<300)if("00000"==(null==(n=o.data)?void 0:n.code)){d.getAllResponseHeaders().replace(/\r/g,"").split("\n").forEach((t=>{var e;let s=t.split(": ");(null==(e=s[0])?void 0:e.length)>0&&(o.header[s[0]]=s[1])})),(t=>{null==l||null==l.success||l.success(t)})(o)}else{var f;c={title:"Tip",content:null==(f=o.data)?void 0:f.msg,confirmText:"OK ",showCancel:!0},null!=l&&l.forbidModal||s.showDialog(a.Modal,{data:c,action:r.BackOut}),i(o)}else c=408==d.status||429==d.status||d.status>=500&&d.status<600?{title:"Error",content:`Error Code:${d.status}!`,confirmText:"Try Again ",showCancel:!0,success:e=>{e.confirm&&t(l)}}:{title:"Error",content:`Error Code:${d.status}!`,confirmText:"OK ",showCancel:!0},null!=l&&l.forbidModal||s.showDialog(a.Modal,{data:c,action:r.BackOut}),i(o);u(o)},d.onerror=()=>{c={title:"Error",content:"Network request failed!",confirmText:"Try Again ",showCancel:!0,success:e=>{e.confirm&&t(l)}},null!=l&&l.forbidModal||s.showDialog(a.Modal,{data:c,action:r.BackOut}),i({errMsg:"Network request failed"}),u({errMsg:"Network request failed"})},d.ontimeout=()=>{c={title:"Error",content:"Request timed out!",confirmText:"Try Again ",showCancel:!0,success:e=>{e.confirm&&t(l)}},null!=l&&l.forbidModal||s.showDialog(a.Modal,{data:c,action:r.BackOut}),i({errMsg:"Request timed out"}),u({errMsg:"Request timed out"})},void 0===l.data?d.send():d.send(JSON.stringify(l.data))}}(n||(n=t("MHttp",{}))),e._RF.pop()}}}));
+System.register("chunks:///_virtual/InfiniteScroll.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc', './Enum.ts', './Tools.ts'], function (exports) {
+  var _applyDecoratedDescriptor, _initializerDefineProperty, cclegacy, ScrollView, Node, Prefab, Enum, _decorator, Component, instantiate, UITransform, v3, EDirection, EAxis, Tools;
+  return {
+    setters: [function (module) {
+      _applyDecoratedDescriptor = module.applyDecoratedDescriptor;
+      _initializerDefineProperty = module.initializerDefineProperty;
+    }, function (module) {
+      cclegacy = module.cclegacy;
+      ScrollView = module.ScrollView;
+      Node = module.Node;
+      Prefab = module.Prefab;
+      Enum = module.Enum;
+      _decorator = module._decorator;
+      Component = module.Component;
+      instantiate = module.instantiate;
+      UITransform = module.UITransform;
+      v3 = module.v3;
+    }, function (module) {
+      EDirection = module.EDirection;
+      EAxis = module.EAxis;
+    }, function (module) {
+      Tools = module.Tools;
+    }],
+    execute: function () {
+      var _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9;
+      cclegacy._RF.push({}, "81935tXutVMCZPxerD6+ugS", "InfiniteScroll", undefined);
+      const {
+        ccclass,
+        property
+      } = _decorator;
+      let InfiniteScroll = exports('default', (_dec = ccclass('InfiniteScroll'), _dec2 = property(ScrollView), _dec3 = property(Node), _dec4 = property(Node), _dec5 = property(Prefab), _dec6 = property({
+        type: Enum(EDirection)
+      }), _dec(_class = (_class2 = class InfiniteScroll extends Component {
+        constructor(...args) {
+          super(...args);
+          _initializerDefineProperty(this, "scrollView", _descriptor, this);
+          _initializerDefineProperty(this, "view", _descriptor2, this);
+          _initializerDefineProperty(this, "content", _descriptor3, this);
+          _initializerDefineProperty(this, "prefab", _descriptor4, this);
+          _initializerDefineProperty(this, "itemComponent", _descriptor5, this);
+          _initializerDefineProperty(this, "spacing", _descriptor6, this);
+          _initializerDefineProperty(this, "paddingTop", _descriptor7, this);
+          _initializerDefineProperty(this, "paddingBottom", _descriptor8, this);
+          _initializerDefineProperty(this, "direction", _descriptor9, this);
+          this.infos = [];
+          this.items = [];
+          this.limitMax = 0;
+          this.limitMin = 0;
+          this.lastPosition = null;
+        }
+        init(infos) {
+          if (!infos) {
+            return;
+          }
+          this.infos = infos;
+          let rowItemCounts = Math.ceil(this.getNodeLen(this.view) / (this.getNodeLen(this.prefab.data) + this.spacing));
+          for (let i = 0; i < rowItemCounts + 1; ++i) {
+            if (typeof this.infos[i] == 'undefined') {
+              break;
+            }
+            let item = this.items[i];
+            if (!item) {
+              item = instantiate(this.prefab);
+              this.items.push(item);
+              this.getItemParent().addChild(item);
+            }
+            item.active = true;
+            this.items[i].__itemID = i;
+            item.getComponent(this.itemComponent).init(this.infos[i]);
+            item.setPosition(this.getPosition(i));
+            if (this.getAxis() == EAxis.Y) {
+              item.setSiblingIndex(Tools.limitRange(item.position.y, 0, 999999999));
+            } else if (this.getAxis() == EAxis.X) {
+              item.setSiblingIndex(Tools.limitRange(item.position.x, 0, 999999999));
+            }
+          }
+          if (this.getAxis() == EAxis.Y) {
+            this.content.getComponent(UITransform).height = this.paddingTop + this.paddingBottom + this.infos.length * this.getNodeLen(this.prefab.data) + (this.infos.length - 1) * this.spacing;
+          } else if (this.getAxis() == EAxis.X) {
+            this.content.getComponent(UITransform).width = this.paddingTop + this.paddingBottom + this.infos.length * this.getNodeLen(this.prefab.data) + (this.infos.length - 1) * this.spacing;
+          }
+          this.limitMax = this.getNodeLen(this.view) * (1 - this.getViewAnchor()) + this.getNodeLen(this.prefab.data) / 2 + this.spacing / 2;
+          this.limitMin = -(this.getNodeLen(this.view) * this.getViewAnchor() + this.getNodeLen(this.prefab.data) / 2 + this.spacing / 2);
+          this.lastPosition = this.content.getPosition();
+        }
+        update() {
+          if (!this.lastPosition) return;
+          if (!(this.scrollView.isScrolling() || this.scrollView.isAutoScrolling())) return;
+          let isDown = this.content.position.y > this.lastPosition.y && this.getAxis() == EAxis.Y || this.content.position.x < this.lastPosition.x && this.getAxis() == EAxis.X;
+          let countOfItems = this.items.length;
+          let dataLen = this.infos.length;
+          for (let i in this.items) {
+            let item = this.items[i];
+            if (!item) break;
+            let itemPos = this.getItemParent().getComponent(UITransform).convertToWorldSpaceAR(item.position);
+            itemPos = this.view.getComponent(UITransform).convertToNodeSpaceAR(itemPos);
+            if (isDown) {
+              if (itemPos.y > this.limitMax && this.getAxis() == EAxis.Y || itemPos.x < this.limitMin && this.getAxis() == EAxis.X) {
+                if (this.getAxis() == EAxis.Y) {
+                  let newId = item.__itemID - this.getDirectionNumber() * countOfItems;
+                  if (this.getDirectionNumber() < 0) {
+                    if (newId >= dataLen) return;
+                  } else {
+                    if (newId < 0) return;
+                  }
+                  item.__itemID = newId;
+                  item.position = v3(item.position.x, item.position.y - countOfItems * this.getNodeLen(this.prefab.data) - countOfItems * this.spacing);
+                  item.setSiblingIndex(Tools.limitRange(item.position.y, 0, 999999999));
+                } else if (this.getAxis() == EAxis.X) {
+                  let newId = item.__itemID + this.getDirectionNumber() * countOfItems;
+                  if (this.getDirectionNumber() < 0) {
+                    if (newId < 0) return;
+                  } else {
+                    if (newId >= dataLen) return;
+                  }
+                  item.__itemID = newId;
+                  item.position = v3(item.position.x + countOfItems * this.getNodeLen(this.prefab.data) + countOfItems * this.spacing, item.position.y);
+                  item.setSiblingIndex(Tools.limitRange(item.position.x, 0, 999999999));
+                }
+                item.getComponent(this.itemComponent).init(this.infos[item.__itemID]);
+              }
+            } else {
+              if (itemPos.y < this.limitMin && this.getAxis() == EAxis.Y || itemPos.x > this.limitMax && this.getAxis() == EAxis.X) {
+                if (this.getAxis() == EAxis.Y) {
+                  let newId = item.__itemID + this.getDirectionNumber() * countOfItems;
+                  if (this.getDirectionNumber() < 0) {
+                    if (newId < 0) return;
+                  } else {
+                    if (newId >= dataLen) return;
+                  }
+                  item.__itemID = newId;
+                  item.position = v3(item.position.x, item.position.y + countOfItems * this.getNodeLen(this.prefab.data) + countOfItems * this.spacing);
+                  item.setSiblingIndex(Tools.limitRange(item.position.y, 0, 999999999));
+                } else if (this.getAxis() == EAxis.X) {
+                  let newId = item.__itemID - this.getDirectionNumber() * countOfItems;
+                  if (this.getDirectionNumber() < 0) {
+                    if (newId >= dataLen) return;
+                  } else {
+                    if (newId < 0) return;
+                  }
+                  item.__itemID = newId;
+                  item.position = v3(item.position.x - countOfItems * this.getNodeLen(this.prefab.data) - countOfItems * this.spacing, item.position.y);
+                  item.setSiblingIndex(Tools.limitRange(item.position.x, 0, 999999999));
+                }
+                item.getComponent(this.itemComponent).init(this.infos[item.__itemID]);
+              }
+            }
+          }
+          this.lastPosition = this.content.getPosition();
+        }
+        show() {
+          this.node.active = true;
+        }
+        hide() {
+          this.node.active = false;
+        }
+        reset() {
+          this.scrollView.stopAutoScroll();
+          this.setDefaultPosition();
+          this.items.forEach(element => {
+            element.active = false;
+          });
+        }
+        setDefaultPosition() {
+          if (this.direction == EDirection.Down) {
+            this.content.position = v3(this.content.position.x, this.getNodeLen(this.view) * (1 - this.getViewAnchor()));
+          } else if (this.direction == EDirection.Up) {
+            this.content.position = v3(this.content.position.x, -this.getNodeLen(this.view) * this.getViewAnchor());
+          } else if (this.direction == EDirection.Left) {
+            this.content.position = v3(this.getNodeLen(this.view) * (1 - this.getViewAnchor()), this.content.position.y);
+          } else if (this.direction == EDirection.Right) {
+            this.content.position = v3(-this.getNodeLen(this.view) * this.getViewAnchor(), this.content.position.y);
+          }
+        }
+        getDirectionNumber() {
+          switch (this.direction) {
+            case EDirection.Up:
+            case EDirection.Right:
+              return 1;
+            case EDirection.Down:
+            case EDirection.Left:
+              return -1;
+          }
+        }
+        getAxis() {
+          switch (this.direction) {
+            case EDirection.Up:
+            case EDirection.Down:
+              return EAxis.Y;
+            case EDirection.Right:
+            case EDirection.Left:
+              return EAxis.X;
+          }
+        }
+        getViewAnchor() {
+          if (this.getAxis() == EAxis.X) {
+            return this.view.getComponent(UITransform).anchorX;
+          } else if (this.getAxis() == EAxis.Y) {
+            return this.view.getComponent(UITransform).anchorY;
+          }
+        }
+        getNodeLen(node) {
+          if (this.getAxis() == EAxis.X) {
+            return node.getComponent(UITransform).width;
+          } else if (this.getAxis() == EAxis.Y) {
+            return node.getComponent(UITransform).height;
+          }
+        }
+        getSinglePosition(position) {
+          if (this.getAxis() == EAxis.X) {
+            return position.x;
+          } else if (this.getAxis() == EAxis.Y) {
+            return position.y;
+          }
+        }
+        getPosition(index) {
+          if (this.getAxis() == EAxis.Y) {
+            return v3(0, this.getDirectionNumber() * (this.paddingTop + this.getNodeLen(this.prefab.data) / 2 + index * (this.getNodeLen(this.prefab.data) + this.spacing)));
+          } else if (this.getAxis() == EAxis.X) {
+            return v3(this.getDirectionNumber() * (this.paddingTop + this.getNodeLen(this.prefab.data) / 2 + index * (this.getNodeLen(this.prefab.data) + this.spacing)), 0);
+          }
+        }
+        getInfos() {
+          return this.infos;
+        }
+        getItemParent() {
+          return this.content;
+        }
+        getSpacing() {
+          return this.spacing;
+        }
+        getPaddingTop() {
+          return this.paddingTop;
+        }
+        getPaddingBottom() {
+          return this.paddingBottom;
+        }
+        getPrefab() {
+          return this.prefab;
+        }
+      }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "scrollView", [_dec2], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return null;
+        }
+      }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "view", [_dec3], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return null;
+        }
+      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "content", [_dec4], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return null;
+        }
+      }), _descriptor4 = _applyDecoratedDescriptor(_class2.prototype, "prefab", [_dec5], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return null;
+        }
+      }), _descriptor5 = _applyDecoratedDescriptor(_class2.prototype, "itemComponent", [property], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return "";
+        }
+      }), _descriptor6 = _applyDecoratedDescriptor(_class2.prototype, "spacing", [property], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return 0;
+        }
+      }), _descriptor7 = _applyDecoratedDescriptor(_class2.prototype, "paddingTop", [property], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return 0;
+        }
+      }), _descriptor8 = _applyDecoratedDescriptor(_class2.prototype, "paddingBottom", [property], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return 0;
+        }
+      }), _descriptor9 = _applyDecoratedDescriptor(_class2.prototype, "direction", [_dec6], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return EDirection.Down;
+        }
+      })), _class2)) || _class));
+      cclegacy._RF.pop();
+    }
+  };
+});
 
-System.register("chunks:///_virtual/MI18n.ts",["cc"],(function(n){var e,t,a;return{setters:[function(n){e=n.cclegacy,t=n.sys,a=n.native}],execute:function(){let r;n("MI18n",void 0),e._RF.push({},"6fb1fIdfk1F4pHKnnfV38mY","MI18n",void 0),function(n){const e=["en"],r={"zh-cn":"zh","zh-tw":"zh","en-us":"en","en-gb":"en"};function o(){return new Promise((async n=>{const o=await new Promise((n=>{t.platform==t.Platform.ANDROID?a.reflection.callStaticMethod("org/cocos2dx/javascript/SystemHelper","getSystemLanguage","()Ljava/lang/String;",(e=>n(e))):t.platform==t.Platform.IOS?n(window.getIOSSystemLanguage()):n((navigator.language||navigator.userLanguage||"en").toLowerCase())})),c=o.split("-")[0];n(r[o]||r[c]||(e.includes(c)?c:"en"))}))}n.getLanguange=function(){return"en"},n.autoInit=function(n){return new Promise((async n=>{await o();n()}))},n.t=function(n,e){return"en"},n.updateSceneRenderers=function(){}}(r||(r=n("MI18n",{}))),e._RF.pop()}}}));
+System.register("chunks:///_virtual/Interface.ts", ['cc'], function () {
+  var cclegacy;
+  return {
+    setters: [function (module) {
+      cclegacy = module.cclegacy;
+    }],
+    execute: function () {
+      cclegacy._RF.push({}, "23bb4zWQ1FPBaY6fdjniXts", "Interface", undefined);
+      cclegacy._RF.pop();
+    }
+  };
+});
 
-System.register("chunks:///_virtual/MModel.ts",["cc","./ModelSet.ts"],(function(t){var e,n;return{setters:[function(t){e=t.cclegacy},function(t){n=t.ModelSet}],execute:function(){let c;t("MModel",void 0),e._RF.push({},"30eedctqzRJyrd2gZ+gdJyT","MModel",void 0),function(t){const e=t.Set=new n;t.getData=function(){const t={};return t.Set=e.getData(),JSON.stringify(t)},t.clear=function(){e.syncData({sfxSwitch:1,bgmSwitch:1})}}(c||(c=t("MModel",{}))),e._RF.pop()}}}));
+System.register("chunks:///_virtual/lobby-casino-core", ['./Config.ts', './Enum.ts', './MApp.ts', './SubSystemManager.ts', './BaseModel.ts', './CopSkeleton.ts', './CopSprite.ts', './IHttp.ts', './Interface.ts', './MAb.ts', './MAudio.ts', './MConfig.ts', './MCopy.ts', './MDebug.ts', './MEvent.ts', './MHttp.ts', './MI18n.ts', './MModel.ts', './MNode.ts', './MPool.ts', './MSchedule.ts', './MSkeleton.ts', './MToast.ts', './MTween.ts', './MUi.ts', './MUrlParam.ts', './MWebSocket.ts', './PopupBtnCmp.ts', './PopupCloseBtnCmp.ts', './PopupLifeCmp.ts', './PopupManager.ts', './ModelSet.ts', './Decorator.ts', './InfiniteScroll.ts', './OnEnginLaunch.ts', './Tools.ts', './TouchClose.ts'], function () {
+  return {
+    setters: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    execute: function () {}
+  };
+});
 
-System.register("chunks:///_virtual/MNode.ts",["cc","./Enum.ts"],(function(e){var t,n,o,i,a,s,l;return{setters:[function(e){t=e.cclegacy,n=e.Node,o=e.Layers,i=e.v3,a=e.UITransform,s=e.view},function(e){l=e.ENode}],execute:function(){let d;e("MNode",void 0),t._RF.push({},"c894ca9ZsBOGY34pEZ0s7bW","MNode",void 0),function(e){let t=null,u=null,c=null,r=null;e.setNodes=function(e){t=e.canvas,u=e.gameUI},e.getNode=function(e){switch(e){case l.Canvas:return t;case l.GameUI:return u}},e.getDialogRoot=function(){let e=d.getNode(l.Canvas);return c=e.getChildByName("dialogRoot"),c||(c=new n("dialogRoot"),c.layer=o.Enum.UI_2D,e.addChild(c),c.setPosition(i()),c.setSiblingIndex(999),c.addComponent(a).setContentSize(s.getVisibleSize())),c},e.getPanelRoot=function(){let e=d.getNode(l.Canvas);return r=e.getChildByName("panelRoot"),r||(r=new n("panelRoot"),r.layer=o.Enum.UI_2D,e.addChild(r),r.setPosition(i()),r.setSiblingIndex(0),r.addComponent(a).setContentSize(s.getVisibleSize())),r}}(d||(d=e("MNode",{}))),t._RF.pop()}}}));
+System.register("chunks:///_virtual/MAb.ts", ['cc'], function (exports) {
+  var cclegacy, assetManager, director;
+  return {
+    setters: [function (module) {
+      cclegacy = module.cclegacy;
+      assetManager = module.assetManager;
+      director = module.director;
+    }],
+    execute: function () {
+      exports('MAb', void 0);
+      cclegacy._RF.push({}, "47189wBlpdB37AcKw4LI7mr", "MAb", undefined);
+      let EBundle = exports('EBundle', /*#__PURE__*/function (EBundle) {
+        EBundle["resources"] = "resources";
+        EBundle["Audio"] = "audio";
+        EBundle["Game"] = "game";
+        EBundle["Panel"] = "panel";
+        EBundle["Dialog"] = "dialog";
+        return EBundle;
+      }({}));
+      let EScene = exports('EScene', /*#__PURE__*/function (EScene) {
+        EScene["LoadScene"] = "LoadScene";
+        EScene["GameScene"] = "GameScene";
+        EScene["Lobby"] = "Lobby";
+        return EScene;
+      }({}));
+      let MAb;
+      (function (_MAb) {
+        /** 有效的 Bundle 列表（防止加载不存在的 bundle 导致 404） */
+        const VALID_BUNDLES = ["lobby-casino-core", "lobby-casino", "lobby-casino-email"];
 
-System.register("chunks:///_virtual/ModelSet.ts",["cc","./BaseModel.ts","./Enum.ts"],(function(t){var e,s,i;return{setters:[function(t){e=t.cclegacy},function(t){s=t.BaseModel},function(t){i=t.ESwitchStatus}],execute:function(){e._RF.push({},"0465feSfoNAa5IlHiUPB7uS","ModelSet",void 0);t("ModelSet",class extends s{constructor(...t){super(...t),this.sfxSwitch=i.Open,this.bgmSwitch=i.Open}getSFXSwitch(){return this.sfxSwitch}setSFXSwith(t){this.sfxSwitch=t}getBGMSwitch(){return this.bgmSwitch}setBGMSwith(t){this.bgmSwitch=t}}),e._RF.pop()}}}));
+        /**获取bundle */
+        function getBundle(bundleName, callback, onError) {
+          let name = bundleName;
+          // 兼容性处理：如果请求 core, resources, dialog, audio, panel，但在 VALID_BUNDLES 中找不到，尝试重定向
+          if (!VALID_BUNDLES.includes(name)) {
+            if (name === "core" || name === "lobby-casino-core") name = "lobby-casino-core";else if (name === "lobby" || name === "lobby-casino") name = "lobby-casino";else if (name === "resources" || name === "dialog" || name === "audio" || name === "panel") name = "lobby-casino";
+          }
+          if (!VALID_BUNDLES.includes(name)) {
+            // 如果不是已知的 bundle，直接返回错误，避免产生 404 请求
+            onError == null || onError(new Error(`Bundle ${name} is not in VALID_BUNDLES list`));
+            return;
+          }
+          let bundle = assetManager.getBundle(name);
+          if (bundle) {
+            try {
+              callback(bundle);
+            } catch (error) {
+              console.log(error);
+              onError == null || onError(error);
+            }
+          } else {
+            assetManager.loadBundle(name, (e, bundle) => {
+              if (e) {
+                console.warn(`[MAb] Bundle ${name} load failed:`, e.message);
+                onError == null || onError(e);
+                return;
+              }
+              try {
+                callback(bundle);
+              } catch (error) {
+                console.log(error);
+                onError == null || onError(error);
+              }
+            });
+          }
+        }
+        _MAb.getBundle = getBundle;
+        /**预加载单个资源 */
+        function preload(param) {
+          getBundle(param.bundle, bundle => {
+            bundle.preload(param.path, param.type, param.onProgress, param.onComplete);
+          });
+        }
+        function asyncPreload(param) {
+          return new Promise(resolve => {
+            preload({
+              bundle: param.bundle,
+              path: param.path,
+              type: param.type,
+              onProgress: param.onProgress,
+              onComplete: () => {
+                resolve();
+              }
+            });
+          });
+        }
+        _MAb.asyncPreload = asyncPreload;
+        /**预加载文件夹 */
+        function preloadDir(param) {
+          getBundle(param.bundle, bundle => {
+            bundle.preloadDir(param.path, param.type, param.onProgress, param.onComplete);
+          });
+        }
+        function asyncPreloadDir(param) {
+          return new Promise(resolve => {
+            preloadDir({
+              bundle: param.bundle,
+              path: param.path,
+              type: param.type,
+              onProgress: param.onProgress,
+              onComplete: () => {
+                resolve();
+              }
+            });
+          });
+        }
+        _MAb.asyncPreloadDir = asyncPreloadDir;
+        function preloadScene(param) {
+          getBundle(param.bundle, bundle => {
+            bundle.preloadScene(param.scene, param.onProgress, e => {
+              if (e) {
+                console.log(e);
+                return;
+              }
+              try {
+                param == null || param.onComplete == null || param.onComplete();
+              } catch (error) {}
+            });
+          });
+        }
+        _MAb.preloadScene = preloadScene;
+        /**加载单个文件 */
+        function load(param) {
+          let overtime = setTimeout(() => {
+            param == null || param.onTimeOut == null || param.onTimeOut();
+          }, 60000);
+          getBundle(param.bundle, bundle => {
+            let onComplete = (e, asset) => {
+              if (e) {
+                console.log("path:", param.path);
+                console.log(e);
+                param == null || param.onError == null || param.onError();
+                return;
+              }
+              try {
+                clearTimeout(overtime);
+                param.onComplete(asset);
+              } catch (error) {}
+            };
+            if (param.type) {
+              bundle.load(param.path, param.type, param.onProgress, onComplete);
+            } else {
+              bundle.load(param.path, param.onProgress, onComplete);
+            }
+          }, () => {
+            clearTimeout(overtime);
+            param == null || param.onError == null || param.onError();
+          });
+        }
+        function asyncLoad(param) {
+          return new Promise((resolve, reject) => {
+            let name = param.bundle;
+            let overtime = setTimeout(() => {
+              console.warn(`[MAb] Load ${param.path} from ${name} timeout`);
+              param == null || param.onTimeOut == null || param.onTimeOut();
+              reject(new Error("Timeout"));
+            }, 10000); // 缩短超时时间以便快速失败
 
-System.register("chunks:///_virtual/MPool.ts",["cc","./MAb.ts"],(function(e){var t,o,n,r,a,s;return{setters:[function(e){t=e.cclegacy,o=e.Component,n=e.NodePool,r=e.instantiate},function(e){a=e.EBundle,s=e.MAb}],execute:function(){let u;e("MPool",void 0),t._RF.push({},"23d65u4GLpAK6Gw4AmCGU0y","MPool",void 0),function(e){class t extends o{constructor(...e){super(...e),this.path=""}}let u=new Map;async function c(e){if(u.has(e.path)||u.set(e.path,new n),u.get(e.path).size()>0)try{e.onComplete(u.get(e.path).get())}catch{}else{let o=await s.asyncLoad({bundle:e.bundle,path:e.path,onError:e.onError}),n=r(o);n.addComponent(t).path=e.path,e.onComplete(n)}}e.asyncLoad=function(e){return new Promise((t=>{c({path:e.path,bundle:e.bundle,onComplete:e=>{t(e)},onError:e.onError})}))},e.recovery=function(e){var o;let n=null==(o=e.getComponent(t))?void 0:o.path;n&&u.has(n)?u.get(n).put(e):null==e||e.destroy()},e.createAvater=function(){return new Promise((e=>{c({bundle:a.resources,path:"res/prefab/avater",onComplete:t=>{e(t)}})}))},e.creatTouchClose=function(){return new Promise((e=>{c({bundle:a.resources,path:"res/prefab/touchClose",onComplete:t=>{e(t)}})}))}}(u||(u=e("MPool",{}))),t._RF.pop()}}}));
+            load({
+              bundle: param.bundle,
+              path: param.path,
+              type: param.type,
+              onComplete: asset => {
+                clearTimeout(overtime);
+                resolve(asset);
+              },
+              onError: () => {
+                clearTimeout(overtime);
+                param == null || param.onError == null || param.onError();
+                reject(new Error("Load failed"));
+              },
+              onTimeOut: () => {
+                // load 内部已经有 setTimeout 了，但为了双重保险
+              }
+            });
+          });
+        }
+        _MAb.asyncLoad = asyncLoad;
+        /**加载文件夹 */
+        function loadDir(param) {
+          getBundle(param.bundle, bundle => {
+            bundle.loadDir(param.path, param.type, param.onProgress, (e, assets) => {
+              if (e) {
+                console.log(e);
+                return;
+              }
+              try {
+                param.onComplete(assets);
+              } catch (error) {}
+            });
+          });
+        }
+        function asyncLoadDir(param) {
+          return new Promise(resolve => {
+            loadDir({
+              bundle: param.bundle,
+              path: param.path,
+              type: param.type,
+              onComplete: asset => {
+                resolve(asset);
+              },
+              onProgress: param.onProgress
+            });
+          });
+        }
+        _MAb.asyncLoadDir = asyncLoadDir;
+        function loadScene(param) {
+          getBundle(param.bundle, bundle => {
+            bundle.loadScene(param.scene, param.onProgress, (e, sceneAsset) => {
+              if (e) {
+                console.log(e);
+                return;
+              }
+              director.runScene(sceneAsset, param == null ? void 0 : param.onBeforeLoadScene, param == null ? void 0 : param.onLaunched);
+            });
+          });
+        }
+        _MAb.loadScene = loadScene;
+      })(MAb || (MAb = exports('MAb', {})));
+      cclegacy._RF.pop();
+    }
+  };
+});
 
-System.register("chunks:///_virtual/MSchedule.ts",["cc","./Tools.ts"],(function(e){var t,n;return{setters:[function(e){t=e.cclegacy},function(e){n=e.Tools}],execute:function(){let l;e("MSchedule",void 0),t._RF.push({},"1777fC3ppVP67+nE4RySsB1","MSchedule",void 0),function(e){let t=[];function l(e,l,u){let r=n.genOrderSerialnumber();return t.push({serialnum:r,timer:0,interval:1/0,repeat:1,count:0,delay:l,callback:e,target:u}),r}e.update=function(e){for(let n=0;n<t.length;n++){let l=t[n];l.count>=l.repeat||(l.timer+=1e3*e,0==l.count?l.timer>=l.delay&&(l.timer=0,l.count++,l.callback()):l.timer>=l.interval&&(l.timer=0,l.count++,l.callback()))}},e.repeat=function(e,l,u,r,i){let a=n.genOrderSerialnumber();return t.push({serialnum:a,timer:0,interval:l,repeat:u,count:0,delay:r,callback:e,target:i}),a},e.delay=l,e.sleep=function(e,t,n){return new Promise((n=>{l((()=>{n()}),e,t)}))},e.targetOff=function(e){for(let l=0;l<t.length;l++){var n;let u=t[l];(null==u||null==(n=u.target)?void 0:n.uuid)==(null==e?void 0:e.uuid)&&(t.splice(l,1),l--)}},e.unschedule=function(e){let n=t.findIndex((t=>t.serialnum==e));n>-1&&t.splice(n,1)},e.updateInterval=function(e){let n=t.find((t=>t.serialnum==e.serialnum));n&&(n.interval=e.interval)},e.updateDelay=function(e){let n=t.find((t=>t.serialnum==e.serialnum));n&&(null!=e.floatAmount&&(n.delay+=e.floatAmount),null!=e.fixAmount&&(n.delay=e.fixAmount))},e.clear=function(){t=[]}}(l||(l=e("MSchedule",{}))),t._RF.pop()}}}));
+System.register("chunks:///_virtual/MApp.ts", ['cc', './MAb.ts', './MUi.ts', './MEvent.ts', './MHttp.ts', './MWebSocket.ts', './MAudio.ts', './MModel.ts', './MConfig.ts', './MI18n.ts', './MSchedule.ts', './MTween.ts', './MSkeleton.ts', './MToast.ts', './MNode.ts', './MPool.ts', './MCopy.ts', './MDebug.ts', './MUrlParam.ts', './SubSystemManager.ts', './PopupManager.ts'], function (exports) {
+  var cclegacy, MAb, MUi, MEvent, MHttp, MWebSocket, MAudio, MModel, MConfig, MI18n, MSchedule, MTween, MSkeleton, MToast, MNode, MPool, MCopy, MDebug, MUrlParam, MSubSystem, PopupManager;
+  return {
+    setters: [function (module) {
+      cclegacy = module.cclegacy;
+    }, function (module) {
+      MAb = module.MAb;
+    }, function (module) {
+      MUi = module.MUi;
+    }, function (module) {
+      MEvent = module.MEvent;
+    }, function (module) {
+      MHttp = module.MHttp;
+    }, function (module) {
+      MWebSocket = module.MWebSocket;
+    }, function (module) {
+      MAudio = module.MAudio;
+    }, function (module) {
+      MModel = module.MModel;
+    }, function (module) {
+      MConfig = module.MConfig;
+    }, function (module) {
+      MI18n = module.MI18n;
+    }, function (module) {
+      MSchedule = module.MSchedule;
+    }, function (module) {
+      MTween = module.MTween;
+    }, function (module) {
+      MSkeleton = module.MSkeleton;
+    }, function (module) {
+      MToast = module.MToast;
+    }, function (module) {
+      MNode = module.MNode;
+    }, function (module) {
+      MPool = module.MPool;
+    }, function (module) {
+      MCopy = module.MCopy;
+    }, function (module) {
+      MDebug = module.MDebug;
+    }, function (module) {
+      MUrlParam = module.MUrlParam;
+    }, function (module) {
+      MSubSystem = module.MSubSystem;
+    }, function (module) {
+      PopupManager = module.PopupManager;
+    }],
+    execute: function () {
+      exports('MApp', void 0);
+      cclegacy._RF.push({}, "92db8MajOhII78QAdQBFqdi", "MApp", undefined);
 
-System.register("chunks:///_virtual/MSkeleton.ts",["cc"],(function(e){var t;return{setters:[function(e){t=e.cclegacy}],execute:function(){let n;e("MSkeleton",void 0),t._RF.push({},"253e6Ys3ohHL5InhuL52crd","MSkeleton",void 0),function(e){let t=1,n=[];e.pause=function(e){n.forEach((t=>{var n;(null==t||null==(n=t.skt)?void 0:n.uuid)==e.uuid&&(t.skt.timeScale=0)}))},e.resume=function(e){n.forEach((n=>{var l;(null==n||null==(l=n.skt)?void 0:l.uuid)==e.uuid&&(n.skt.timeScale=t*n.timeScale)}))},e.updateTotalSkeletonSpeed=function(e){t=e,n.forEach((e=>{var n;null!=e&&null!=(n=e.skt)&&null!=(n=n.node)&&n.isValid&&(e.skt.timeScale=t*e.timeScale)}))},e.setAnimation=function(e){e.skeleton.setCompleteListener(null),e.skeleton.setEventListener(null),e.skeleton.timeScale=t*((null==e?void 0:e.timeScale)??1);let l=(null==e?void 0:e.skin)??e.skeleton.defaultSkin;l||(l="default"),e.skeleton.setSkin(l);let u=e.skeleton.setAnimation((null==e?void 0:e.trackIndex)??0,e.name,!(null==e||!e.loop));return n.push({skt:e.skeleton,target:null==e?void 0:e.target,timeScale:(null==e?void 0:e.timeScale)??1}),u},e.setCompleteListener=function(e,t){e.setCompleteListener((()=>{e.setCompleteListener(null),null==t||t()}))},e.setEventListener=function(e,t,n){e.setEventListener(((e,l)=>{t.indexOf(l.data.name)>-1&&(null==n||n())}))},e.targetOff=function(e){for(let i=0;i<n.length;i++){var t,l,u;null!=(t=n[i])&&null!=(t=t.skt)&&null!=(t=t.node)&&t.uuid&&(null==(l=n[i])||null==(l=l.skt)||null==(l=l.node)?void 0:l.uuid)!=e.node.uuid&&(null==(u=n[i])||null==(u=u.target)||null==(u=u.node)?void 0:u.uuid)!=e.node.uuid||(n[i].skt.setCompleteListener(null),n[i].skt.setEventListener(null),n.splice(i,1),i--)}},e.clear=function(){n=[]}}(n||(n=e("MSkeleton",{}))),t._RF.pop()}}}));
+      /**
+       * 核心框架入口
+       *
+       * 职责：
+       * 1. 将所有 Manager 注册到 globalThis，供大厅和游戏通过 globalThis 访问
+       * 2. 初始化各子系统
+       * 3. 提供进入大厅的入口
+       */
+      let MApp;
+      (function (_MApp) {
+        let _initialized = false;
 
-System.register("chunks:///_virtual/MToast.ts",["cc","./MAb.ts","./MPool.ts","./MSchedule.ts","./MNode.ts","./Enum.ts"],(function(t){var e,o,n,i,s,a,l,c,d,u;return{setters:[function(t){e=t.cclegacy,o=t.Label,n=t.v3,i=t.UIOpacity,s=t.tween},function(t){a=t.EBundle},function(t){l=t.MPool},function(t){c=t.MSchedule},function(t){d=t.MNode},function(t){u=t.ENode}],execute:function(){let p;t("MToast",void 0),e._RF.push({},"1c94d6BRvxF3IyBHAF+L7vC","MToast",void 0),function(t){let e=[],p=!1,r="",h=!1;t.showToast=async function t(c){if(p)return void(e.length>0?c.title!=e[e.length-1].title&&e.push(c):c.title!=r&&e.push(c));p=!0;let h=await l.asyncLoad({bundle:a.resources,path:"res/prefab/toast"});r=c.title,h.getComponentInChildren(o).string=c.title,d.getNode(u.Canvas).addChild(h),h.setPosition(n(0,0)),h.setSiblingIndex(9999);let y=h.getComponent(i);s(h).parallel(s().call((()=>{h.setPosition(n())})).to(.3,{position:n(0,100,0)}).delay(1.2).to(.3,{position:n(0,200,0)}),s(y).call((()=>{y.opacity=0})).to(.3,{opacity:255}).delay(1.2).to(.3,{opacity:0})).call((()=>{if(p=!1,e.length>0){t(e.shift())}else l.recovery(h)})).start()},t.showCopied=async function(){if(h)return;h=!0;let t=d.getNode(u.Canvas),e=t.getChildByName("copied");e||(e=await l.asyncLoad({bundle:a.resources,path:"res/prefab/copied"})),e.getComponent(i).opacity=255,t.addChild(e),e.setPosition(n()),c.delay((()=>{e.getComponent(i).opacity=0,h=!1}),1e3)}}(p||(p=t("MToast",{}))),e._RF.pop()}}}));
+        /** 所有需要暴露到 globalThis 的管理器 */
+        const _managers = {
+          MAb,
+          MUi,
+          MEvent,
+          MHttp,
+          MWebSocket,
+          MAudio,
+          // MCrypto,
+          MModel,
+          MConfig,
+          MI18n,
+          MSchedule,
+          MTween,
+          MSkeleton,
+          MToast,
+          MNode,
+          MPool,
+          MCopy,
+          MDebug,
+          MUrlParam,
+          MSubSystem,
+          MApp: null,
+          // MApp 自身在下方注册
+          PopupManager
+        };
 
-System.register("chunks:///_virtual/MTween.ts",["cc"],(function(e){var t,a,n,o,l;return{setters:[function(e){t=e.cclegacy,a=e.Tween,n=e.tween,o=e.v3,l=e.UIOpacity}],execute:function(){let s;var c;e("MTween",void 0),t._RF.push({},"d01c6ZBt11EBIpUrj9B84sn","MTween",void 0),(c=s||(s=e("MTween",{}))).jelly=function(e){let t;a.stopAllByTarget(e.node),t=null!=e.startScale?e.startScale:e.node.scale,n(e.node).set({scale:t}).to(.1,{scale:t.clone().add(o(.2,.2,1))}).to(.1,{scale:t}).to(.1,{scale:t.clone().add(o(.1,.1,1))}).to(.1,{scale:t}).to(.1,{scale:t.clone().add(o(.05,.05,1))}).to(.1,{scale:t}).delay((e.interval??1e3)/1e3).union().repeat(Math.min(999999999,e.repeat??999999999)).start()},c.breath=function(e){a.stopAllByTarget(e),n(e).set({scale:o(1,1,1)}).to(.18,{scale:o(1.05,1.05,1)}).to(.18,{scale:o(1,1,1)}).to(.18,{scale:o(.95,.95,1)}).to(.18,{scale:o(1,1,1)}).union().repeatForever().start()},c.swing=function(e){a.stopAllByTarget(e),n(e).set({angle:0}).to(.06,{angle:10}).to(.06,{angle:0}).to(.06,{angle:-10}).to(.06,{angle:0}).to(.06,{angle:10}).to(.06,{angle:0}).to(.06,{angle:-10}).to(.06,{angle:0}).to(.06,{angle:10}).to(.06,{angle:0}).to(.06,{angle:-10}).to(.06,{angle:0}).delay(1).union().repeatForever().start()},c.infiniteRotate=function(e){a.stopAllByTarget(e),n(e).set({angle:0}).to(5,{angle:-359}).union().repeatForever().start()},c.twinkle=function(e){a.stopAllByTarget(e),n(e.getComponent(l)).set({opacity:255}).to(.5,{opacity:50}).to(.5,{opacity:255}).union().repeatForever().start()},t._RF.pop()}}}));
+        /**
+         * 初始化核心框架
+         * 由 main-shell 在加载 core bundle 后调用
+         */
+        async function init() {
+          if (_initialized) {
+            console.warn('[MApp] 已初始化，跳过');
+            return;
+          }
+          console.log('[MApp] 初始化核心框架...');
 
-System.register("chunks:///_virtual/MUi.ts",["cc","./MAb.ts","./MAudio.ts","./MNode.ts","./Enum.ts","./MConfig.ts"],(function(e){var t,o,n,i,a,l,s,d,r,c,u,g,p,h,C,m,v,y,f,S,w,D,N;return{setters:[function(e){t=e.cclegacy,o=e.Node,n=e.Layers,i=e.v3,a=e.UITransform,l=e.view,s=e.instantiate,d=e.BlockInputEvents,r=e.UIOpacity,c=e.Component,u=e.Sprite,g=e.Label,p=e.Color,h=e.tween,C=e.Tween,m=e.easing},function(e){v=e.MAb,y=e.EBundle},function(e){f=e.MAudio,S=e.EAudio},function(e){w=e.MNode},function(e){D=e.ENode},function(e){N=e.MConfig}],execute:function(){e("MUi",void 0),t._RF.push({},"33984UnRsNNL5OJfxhQoVTG","MUi",void 0);e("EPanel",function(e){return e.Temp="",e}({}));let b=e("EDialog",function(e){return e.Loading="Loading/res/DialogLoading",e.Modal="Modal/res/DialogModal",e.Reconnect="Reconnect/res/DialogReconnect",e}({}));e("EDrawer",function(e){return{}}());var E=function(e){return e[e.None=0]="None",e[e.Loading=1]="Loading",e[e.Loaded=2]="Loaded",e}(E||{});let P,L=e("EUiAction",function(e){return e[e.None=0]="None",e[e.BackOut=1]="BackOut",e}({}));!function(e){let t=new Map,P=new Map,O=new Set,M=new Map,z=null,U=[];class T extends c{constructor(...e){super(...e),this.uiOption=void 0,this.covereState="none"}onEnable(){}init(){}covered(){}exposed(){}getCoverState(){return this.covereState}setCoverState(e){this.covereState=e}onDisable(){var e;null==(e=this.uiOption)||null==e.onHide||e.onHide()}}class B extends T{constructor(...e){super(...e),this.dialogName=void 0}init(){}setProperties(e){this.uiOption=null==e?void 0:e.uiOption,this.dialogName=e.dialogName}destroyDialog(){var e;if(M.has(this.dialogName)&&M.delete(this.dialogName),t.has(this.dialogName)&&t.delete(this.dialogName),0==t.size)P.forEach((e=>{let t=e.getComponent(k);t&&"exposed"!=t.getCoverState()&&(t.setCoverState("exposed"),t.exposed())}));else{let e=w.getDialogRoot().children[t.size-1];if(e){let t=e.getComponentInChildren(B);t&&"covered"!=t.getCoverState()&&(t.setCoverState("covered"),t.covered())}}null==(e=this.node)||null==(e=e.parent)||null==e.destroy||e.destroy()}onClickClose(){f.playOneShot(S.Close),this.destroyDialog()}attachClickClose(){let e=new o;e.layer=n.Enum.UI_2D,e.setParent(this.node.parent),e.setPosition(i()),e.addComponent(a).setContentSize(l.getVisibleSize()),e.setSiblingIndex(9999),e.on(o.EventType.TOUCH_END,(()=>{this.destroyDialog()}),this)}attachCustomClick(e){let t=new o;t.layer=n.Enum.UI_2D,t.setParent(this.node.parent),t.setPosition(i()),t.addComponent(a).setContentSize(l.getVisibleSize()),t.setSiblingIndex(9999),t.on(o.EventType.TOUCH_END,(()=>{e()}),this)}onDisable(){super.onDisable()}}e.BaseDialog=B;class k extends T{constructor(...e){super(...e),this.panelName=void 0}setProperties(e){this.uiOption=null==e?void 0:e.uiOption,this.panelName=e.panelName}destroyPanel(){var e;null==(e=this.node)||null==e.destroy||e.destroy(),P.delete(this.panelName)}onClickClose(){f.playOneShot(S.Close),this.destroyPanel()}onDisable(){super.onDisable()}}async function H(e,c){if(M.get(e)==E.Loading)return;M.set(e,E.Loading);let f=w.getNode(D.Canvas),S=null==f?void 0:f.getChildByName("DialogLoading");if(!S&&f)try{let e=await v.asyncLoad({bundle:y.Dialog,path:b.Loading});S=s(e),f.addChild(S),S.setPosition(i()),S.addComponent(a).setContentSize(l.getVisibleSize())}catch(e){S=new o("DialogLoading"),S.addComponent(d),S.addComponent(a).setContentSize(l.getVisibleSize()),f.addChild(S)}(e=>{if(!e)return;e.active=!0;let t=e.getComponent(r);t||(t=e.addComponent(r)),h(t).set({opacity:0}).to(.2,{opacity:255}).start()})(S),(async f=>{try{let S=await v.asyncLoad({bundle:(null==c?void 0:c.bundle)||y.Dialog,path:e,onTimeOut:()=>{console.warn("资源加载超时")}}),D=s(S),b=Math.min(N.configLocal.maxWidth,l.getVisibleSize().width),O=l.getVisibleSize().height;D.scale=i(b/780,b/780,1),D.getComponent(a).height=O/D.scale.y;let z=await function(e){return new Promise((async t=>{let s=new o("shell");if(s.layer=n.Enum.UI_2D,s.addComponent(a).setContentSize(l.getVisibleSize()),s.addComponent(d),e.customBg)try{let t=await v.asyncLoad({bundle:y.resources,path:e.customBg});s.addComponent(u).spriteFrame=t}catch(t){console.warn(`[MUi] Custom background load failed: ${e.customBg}`)}else{let e=new o("block");e.layer=n.Enum.UI_2D,e.setParent(s);let t=e.getComponent(r);t||(t=e.addComponent(r)),t.opacity=186,e.addComponent(a).setContentSize(l.getVisibleSize())}if(e.tapToClose&&(s.on(o.EventType.TOUCH_END,(()=>{let t=e.dialog.getComponent(B);t?t.onClickClose():s.destroy()}),this),!e.noCloseHit)){let e=new o("tap_close_tip");e.layer=n.Enum.UI_2D,s.addChild(e),e.setPosition(i(0,-905,0));let t=e.addComponent(r),a=e.addComponent(g);a.string="- Tap to close -",a.fontSize=36,a.lineHeight=40,a.color=p.WHITE,h(t).repeatForever(h().to(1,{opacity:100}).to(1,{opacity:255})).start()}e.dialog.setParent(s),t(s)}))}({dialog:D,customBg:null==c?void 0:c.customBg,tapToClose:null==c?void 0:c.tapToClose,noCloseHit:null==c?void 0:c.noCloseHit});t.set(e,z),z.setParent(w.getDialogRoot()),z.setPosition(i()),(o=>{M.set(e,E.Loaded);let n=o.getComponent(B);switch(n?(n.setProperties({uiOption:c,dialogName:e}),n.init()):console.warn(`[MUi] Node for ${e} does not have BaseDialog component.`),null==c||null==c.onShow||c.onShow(o.parent),null==c?void 0:c.action){case L.BackOut:h(o).set({scale:i(.72,.72,1)}).to(.3,{scale:i(1,1,1)},{easing:m.backOut}).start()}P.forEach((e=>{let t=e.getComponent(k);t&&"covered"!=t.getCoverState()&&(t.setCoverState("covered"),t.covered())})),t.forEach(((t,o)=>{if(o!=e){let e=t.getComponentInChildren(B);e&&"covered"!=e.getCoverState()&&(e.setCoverState("covered"),e.covered())}}))})(D)}catch(t){console.error(`[MUi] Failed to load dialog ${e}:`,t),M.delete(e)}finally{f&&(C.stopAllByTarget(f),f.active=!1)}})(S)}e.BasePanel=k,e.showDialog=H,e.showPanel=function(e,t){z=e;let o=o=>{let n=o.getComponent(k);switch(n.setProperties({uiOption:t,panelName:e}),n.init(),null==t||null==t.onShow||t.onShow(o),null==t?void 0:t.action){case L.BackOut:h(o).set({scale:i(.72,.72,1)}).to(.3,{scale:i(1,1,1)},{easing:m.backOut}).start()}let a=z.split("/");a[a.length-1]!=o.name&&o.destroy()};if(P.has(e)){let t=P.get(e);t.position=i(0,t.position.y);let n=t.getComponent(r);return n||(n=t.addComponent(r)),n.opacity=255,void o(t)}if(O.has(e))return;O.add(e),(async()=>{let t=await v.asyncLoad({bundle:y.Panel,path:e,onTimeOut:()=>{console.warn("资源加载超时")}}),n=s(t);n.addComponent(a).setContentSize(l.getVisibleSize()),P.set(e,n),n.setParent(w.getPanelRoot()),n.setPosition(i()),o(n)})()},e.showDialogs=function(e){U=e;let t=()=>{if(e.length>0){var o,n;let i=e.shift();H(i.dialogName,{data:null==i||null==(o=i.option)?void 0:o.data,action:null==i||null==(n=i.option)?void 0:n.action,onShow:()=>{var e;null==i||null==(e=i.option)||null==e.onShow||e.onShow(),null!=i&&i.onShowLoadAfter&&t()},onHide:()=>{var e;null==i||null==(e=i.option)||null==e.onHide||e.onHide(),null!=i&&i.onHideLoadAfter&&t()}})}};t()},e.unshiftShowDialog=function(e,t){0==U.length?H(e,t):U.unshift({dialogName:e,option:t})},e.pushShowDialog=function(e,t){0==U.length?H(e,t):U.push({dialogName:e,option:t})},e.destroyDialog=function(e){var o;t.has(e)&&t.get(e).isValid&&(null==(o=t.get(e))||null==o.destroy||o.destroy(),t.delete(e),M.has(e)&&M.delete(e))},e.destroyPanel=function(e){var t;P.has(e)&&P.get(e).isValid&&(null==(t=P.get(e))||null==t.destroy||t.destroy(),P.delete(e))},e.destroyAllDialog=function(){t.forEach((e=>{null==e||null==e.destroy||e.destroy()})),t.clear()},e.destroyAllPanel=function(){P.forEach((e=>{null==e||null==e.destroy||e.destroy()})),P.clear()},e.getCurrentPanel=function(){return z},e.isDialogShown=function(e){return M.has(e)},e.clear=function(){t.clear(),P.clear(),M.clear(),z=null,O=new Set,U=[]}}(P||(P=e("MUi",{}))),t._RF.pop()}}}));
+          // 注册所有 Manager 到 globalThis
+          _managers.MApp = MApp;
+          for (const [name, mgr] of Object.entries(_managers)) {
+            globalThis[name] = mgr;
+          }
 
-System.register("chunks:///_virtual/MUrlParam.ts",["cc"],(function(r){var a;return{setters:[function(r){a=r.cclegacy}],execute:function(){let t;r("MUrlParam",void 0),a._RF.push({},"7527cuoLKVOo5MPjV4cfl+u","MUrlParam",void 0),(t||(t=r("MUrlParam",{}))).get=function(r){return new URLSearchParams(window.location.search.split("params=")[1]).get(r)},a._RF.pop()}}}));
+          // 初始化 PopupManager
+          PopupManager.init();
+          _initialized = true;
+          console.log('[MApp] 核心框架初始化完成，已注册', Object.keys(_managers).length, '个管理器');
+        }
+        _MApp.init = init;
+        async function enterLobby() {
+          console.log('[MApp] 进入大厅');
+          const lobbyCtrl = globalThis.__lobbyController;
+          if (lobbyCtrl && typeof lobbyCtrl.enter === 'function') {
+            await lobbyCtrl.enter();
+          } else {
+            console.log('[MApp] LobbyController 未注册，加载 Lobby 场景...');
+            return new Promise(resolve => {
+              MAb.loadScene({
+                bundle: 'lobby-casino',
+                scene: 'Lobby',
+                onLaunched: () => {
+                  const ctrl = globalThis.__lobbyController;
+                  if (ctrl && typeof ctrl.enter === 'function') {
+                    ctrl.enter();
+                  }
+                  resolve();
+                }
+              });
+            });
+          }
+        }
+        _MApp.enterLobby = enterLobby;
+        function isInitialized() {
+          return _initialized;
+        }
+        _MApp.isInitialized = isInitialized;
+      })(MApp || (MApp = exports('MApp', {}))); // 立即注册到 globalThis（core bundle 加载时即可用）
+      globalThis.MApp = MApp;
+      cclegacy._RF.pop();
+    }
+  };
+});
 
-System.register("chunks:///_virtual/MWebSocket.ts",["cc","./socket.io.mjs_cjs=&original=.js","./socket.io.js"],(function(n){var e,c,o,t;return{setters:[function(n){e=n.cclegacy,c=n.game,o=n.Game},null,function(n){t=n.default}],execute:function(){let i;n("MWebSocket",void 0),e._RF.push({},"bc759dnavBHKJZeW3fn6LVk","MWebSocket",void 0),function(n){let e,i="";n.connect=function(n){i=n.url,!1!==n.autoReconnectOnResume&&(c.on(o.EVENT_PAUSE,(()=>{e&&e.connected&&e.disconnect()})),c.on(o.EVENT_RESUME,(()=>{e&&e.disconnected&&e.connect()}))),e=t(i,{withCredentials:!0,transports:["websocket","polling","flashsocket"]}),e.on("connect",(()=>{console.warn("[MWebSocket] 已连接"),null==n.onConnect||n.onConnect()})),e.on("disconnect",(()=>{console.warn("[MWebSocket] 已断开"),null==n.onDisconnect||n.onDisconnect()}))},n.on=function(n,c){e&&e.on(n,c)},n.off=function(n,c){e&&e.off(n,c)},n.send=function(n,c,o){if(e){let o=JSON.stringify(c);e.emit(n,o)}},n.getSocket=function(){return e},n.isConnected=function(){var n;return(null==(n=e)?void 0:n.connected)??!1},n.disconnect=function(){e&&e.connected&&e.disconnect()},n.reconnect=function(){e&&e.disconnected&&e.connect()}}(i||(i=n("MWebSocket",{}))),e._RF.pop()}}}));
+System.register("chunks:///_virtual/MAudio.ts", ['cc', './MAb.ts', './MModel.ts', './Enum.ts'], function (exports) {
+  var cclegacy, Node, director, AudioSource, MAb, EBundle, MModel, ESwitchStatus;
+  return {
+    setters: [function (module) {
+      cclegacy = module.cclegacy;
+      Node = module.Node;
+      director = module.director;
+      AudioSource = module.AudioSource;
+    }, function (module) {
+      MAb = module.MAb;
+      EBundle = module.EBundle;
+    }, function (module) {
+      MModel = module.MModel;
+    }, function (module) {
+      ESwitchStatus = module.ESwitchStatus;
+    }],
+    execute: function () {
+      exports('MAudio', void 0);
+      cclegacy._RF.push({}, "5c14daYAqJNPo17ZoftvPwP", "MAudio", undefined);
 
-System.register("chunks:///_virtual/OnEnginLaunch.ts",["cc"],(function(){var n,c,e,t;return{setters:[function(r){n=r.cclegacy,c=r.director,e=r.Director,t=r.macro}],execute:function(){n._RF.push({},"7e799jbwOFCoZF5ePA/zw7J","OnEnginLaunch",void 0),c.on(e.EVENT_AFTER_SCENE_LAUNCH,(()=>{t.ENABLE_MULTI_TOUCH=!1})),n._RF.pop()}}}));
+      /**
+       * 通用音频枚举
+       *
+       * 游戏特定音频在游戏 bundle 中定义：
+       *   const GameAudio = { Win: 'Win', Turntable: 'Turntable' } as const;
+       *   MAudio.playOneShot(GameAudio.Win as any);
+       */
+      let EAudio = exports('EAudio', /*#__PURE__*/function (EAudio) {
+        EAudio["BGM"] = "BGM";
+        EAudio["Click"] = "Click";
+        EAudio["Close"] = "Close";
+        return EAudio;
+      }({}));
+      let MAudio;
+      (function (_MAudio) {
+        let _audioClips = new Map();
+        let _playClipTimes = [];
+        let _audioSourceMap = new Map();
+        function getAudioSource(audioName) {
+          let audioMgrName = `__audioMgr__${audioName}`;
+          if (!_audioSourceMap.has(audioMgrName)) {
+            let audioMgr = new Node(audioMgrName);
+            director.getScene().addChild(audioMgr);
+            director.addPersistRootNode(audioMgr);
+            _audioSourceMap.set(audioMgrName, audioMgr.addComponent(AudioSource));
+          }
+          return _audioSourceMap.get(audioMgrName);
+        }
+        async function getAudioClip(audioName) {
+          let audioClip;
+          if (_audioClips.has(audioName)) {
+            audioClip = _audioClips.get(audioName);
+          } else {
+            try {
+              audioClip = await MAb.asyncLoad({
+                bundle: EBundle.Audio,
+                path: audioName
+              });
+              _audioClips.set(audioName, audioClip);
+            } catch (e) {
+              // 如果加载失败，缓存 null 以避免重复尝试加载不存在的 bundle
+              _audioClips.set(audioName, null);
+              console.warn(`[MAudio] Failed to load audio: ${audioName}`);
+              return null;
+            }
+          }
+          return audioClip;
+        }
 
-System.register("chunks:///_virtual/PopupBtnCmp.ts",["./rollupPluginModLoBabelHelpers.js","cc","./PopupManager.ts"],(function(e){var t,n,i,o,r,a,u,s,l,p,c,h;return{setters:[function(e){t=e.applyDecoratedDescriptor,n=e.initializerDefineProperty},function(e){i=e.cclegacy,o=e.Enum,r=e.Prefab,a=e._decorator,u=e.Component,s=e.Button,l=e.find,p=e.UITransform,c=e.v3},function(e){h=e.PopupManager}],execute:function(){var b,f,m,y,d,g,T,I,P,C,O,v,S,k,w,x,z,B,R,L,M,A;i._RF.push({},"83f8arxFC5MMrUesXfSKIK/","PopupBtnCmp",void 0);const{ccclass:N,property:H,menu:_}=a;let D=e("PopupType",function(e){return e[e.Prefab=1]="Prefab",e[e.Path=2]="Path",e}({})),F=e("AnimType",function(e){return e[e.None=1]="None",e[e.OpacityIn=2]="OpacityIn",e[e.ScaleIn=3]="ScaleIn",e[e.BottomIn=4]="BottomIn",e[e.RightIn=5]="RightIn",e[e.LeftIn=6]="LeftIn",e}({})),K=e("CloseAnimType",function(e){return e[e.None=1]="None",e[e.ScaleOut=2]="ScaleOut",e[e.BottomOut=4]="BottomOut",e[e.RightOut=5]="RightOut",e[e.LeftOut=6]="LeftOut",e}({}));o(D),o(F),o(K);e("PopupBtnCmp",(b=N("PopupBtnCmp"),f=_("弹窗相关/弹窗入口"),m=H({type:D}),y=H({visible:function(){return this.popupType===D.Path}}),d=H({type:r,visible:function(){return this.popupType===D.Prefab}}),g=H({visible:function(){return this.setTabIndex}}),T=H({visible:function(){return this.setTabIndex}}),I=H({type:F}),P=H({type:K}),b(C=f((v=t((O=class extends u{constructor(...e){super(...e),n(this,"popupType",v,this),n(this,"path",S,this),n(this,"prefab",k,this),n(this,"setTabIndex",w,this),n(this,"nodePath",x,this),n(this,"index",z,this),n(this,"animType",B,this),n(this,"closeAnimType",R,this),n(this,"noCloseHit",L,this),n(this,"noMask",M,this),n(this,"noTouchClose",A,this),this.initScale=null}onLoad(){this.initScale=this.node.getScale().clone(),this.node.getComponent(s)&&this.node.on(s.EventType.CLICK,this.onClick,this)}onClick(){var e;let t=null;if(this.popupType===D.Path?t=this.path:this.popupType===D.Prefab&&(t=this.prefab),!t)return;let n={noCloseHit:this.noCloseHit,noTouchClose:this.noTouchClose,noMask:this.noMask,onShow:e=>{if(this.setTabIndex){let t=l(this.nodePath,e);if(t){let e=t.getComponent("Tabbar");e&&e.setPage(this.index)}}}};switch(this.animType){case F.OpacityIn:n.opacityIn=!0;break;case F.ScaleIn:n.scaleIn=!0;break;case F.BottomIn:n.bottomIn=!0;break;case F.RightIn:n.rightIn=!0;break;case F.LeftIn:n.leftIn=!0}switch(this.closeAnimType){case K.ScaleOut:n.scaleOut=!0;let t=this.node.getComponent(p),i=(null==t?void 0:t.convertToWorldSpaceAR(c(0,0,0)))||c(0,0,0),o=null==(e=l("Canvas"))?void 0:e.getComponent(p),r=(null==o?void 0:o.convertToNodeSpaceAR(i))||c(0,0,0);n.scaleOutParm={toPos:c(r.x,r.y,0),node:this.node,scale:this.initScale};break;case K.BottomOut:n.bottomOut=!0;break;case K.RightOut:n.rightOut=!0;break;case K.LeftOut:n.leftOut=!0}h.addPopup(t,n)}}).prototype,"popupType",[m],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return D.Prefab}}),S=t(O.prototype,"path",[y],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return""}}),k=t(O.prototype,"prefab",[d],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return null}}),w=t(O.prototype,"setTabIndex",[H],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return!1}}),x=t(O.prototype,"nodePath",[g],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return""}}),z=t(O.prototype,"index",[T],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return""}}),B=t(O.prototype,"animType",[I],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return F.None}}),R=t(O.prototype,"closeAnimType",[P],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return K.None}}),L=t(O.prototype,"noCloseHit",[H],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return!1}}),M=t(O.prototype,"noMask",[H],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return!1}}),A=t(O.prototype,"noTouchClose",[H],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return!1}}),C=O))||C)||C));i._RF.pop()}}}));
+        /**播放音乐 */
+        async function play(audioName, loop = true, volume = 1) {
+          let audioSource = getAudioSource(audioName);
+          audioSource.stop();
+          audioSource.loop = loop;
+          let clip = await getAudioClip(audioName);
+          if (!clip) return;
+          audioSource.clip = clip;
+          audioSource.volume = volume;
+          audioSource.play();
+        }
+        function playBGM(audioName, loop = true, volume = 1) {
+          if (MModel.Set.getBGMSwitch() == ESwitchStatus.Close) {
+            return;
+          }
+          play(audioName, loop, volume);
+        }
+        _MAudio.playBGM = playBGM;
+        function playOneShot(audioName, loop = false) {
+          if (MModel.Set.getSFXSwitch() == ESwitchStatus.Close) {
+            return;
+          }
+          let nowDate = new Date().getTime();
+          if (_playClipTimes[audioName] && nowDate - _playClipTimes[audioName] <= 100) {
+            _playClipTimes[audioName] = nowDate;
+            return;
+          }
+          play(audioName, loop);
+        }
+        _MAudio.playOneShot = playOneShot;
+        function isPlaying(audioName) {
+          return getAudioSource(audioName).playing;
+        }
+        _MAudio.isPlaying = isPlaying;
+        function stop(audioName) {
+          getAudioSource(audioName).stop();
+        }
+        _MAudio.stop = stop;
+        function pause(audioName) {
+          getAudioSource(audioName).pause();
+        }
+        _MAudio.pause = pause;
+        async function resume(audioName, loop = true, volume = 1) {
+          let audioSource = getAudioSource(audioName);
+          audioSource.loop = loop;
+          audioSource.clip = await getAudioClip(audioName);
+          audioSource.volume = volume;
+          audioSource.play();
+        }
+        _MAudio.resume = resume;
+        function stopExclude(excludes) {
+          let newExcludes = [];
+          excludes == null || excludes.forEach == null || excludes.forEach(element => {
+            newExcludes.push(`__audioMgr__${element}`);
+          });
+          _audioSourceMap.forEach((value, key) => {
+            if (!newExcludes.includes(`${key}`)) {
+              value.stop();
+            }
+          });
+        }
+        _MAudio.stopExclude = stopExclude;
+      })(MAudio || (MAudio = exports('MAudio', {})));
+      cclegacy._RF.pop();
+    }
+  };
+});
 
-System.register("chunks:///_virtual/PopupCloseBtnCmp.ts",["cc","./PopupManager.ts"],(function(o){var t,e,n,p,s;return{setters:[function(o){t=o.cclegacy,e=o.Component,n=o.Button,p=o._decorator},function(o){s=o.PopupManager}],execute:function(){var c;t._RF.push({},"345a7jMDhVDCofQQxctQm1o","PopupCloseBtnCmp",void 0);const{ccclass:u,property:r,menu:a}=p;o("PopupCloseBtnCmp",u("PopupCloseBtnCmp")(c=a("弹窗相关/关闭按钮")(c=class extends e{onLoad(){this.node.getComponent(n)&&this.node.on(n.EventType.CLICK,(()=>{s.removeTop()}),this)}})||c)||c);t._RF.pop()}}}));
+System.register("chunks:///_virtual/MConfig.ts", ['cc', './Config.ts'], function (exports) {
+  var cclegacy, ConfigLocal, ConfigServer;
+  return {
+    setters: [function (module) {
+      cclegacy = module.cclegacy;
+    }, function (module) {
+      ConfigLocal = module.ConfigLocal;
+      ConfigServer = module.ConfigServer;
+    }],
+    execute: function () {
+      exports('MConfig', void 0);
+      cclegacy._RF.push({}, "ccb70qX7alDmZ/vUGl9rOMJ", "MConfig", undefined);
+      let MConfig;
+      (function (_MConfig) {
+        const configLocal = _MConfig.configLocal = new ConfigLocal();
+        const configServer = _MConfig.configServer = new ConfigServer();
+      })(MConfig || (MConfig = exports('MConfig', {})));
+      cclegacy._RF.pop();
+    }
+  };
+});
 
-System.register("chunks:///_virtual/PopupLifeCmp.ts",["cc"],(function(o){var t,p,e;return{setters:[function(o){t=o.cclegacy,p=o.Component,e=o._decorator}],execute:function(){var s;t._RF.push({},"6b82b2pjb1FGIjXyGVHHD0i","PopupLifeCmp",void 0);const{ccclass:r,property:n}=e;o("PopupLifeCmp",r("PopupLifeCmp")(s=class extends p{constructor(...o){super(...o),this.onPopupDestroy=null}setOnDestroy(o){this.onPopupDestroy=o}onDestroy(){this.onPopupDestroy&&this.onPopupDestroy()}})||s);t._RF.pop()}}}));
+System.register("chunks:///_virtual/MCopy.ts", ['cc', './MToast.ts'], function (exports) {
+  var cclegacy, MToast;
+  return {
+    setters: [function (module) {
+      cclegacy = module.cclegacy;
+    }, function (module) {
+      MToast = module.MToast;
+    }],
+    execute: function () {
+      exports('MCopy', void 0);
+      cclegacy._RF.push({}, "1c4d8430lRMTLjIAWpbz4FG", "MCopy", undefined);
+      let MCopy;
+      (function (_MCopy) {
+        function copyToClipBoard(value) {
+          const textarea = document.createElement("textarea");
+          textarea.value = value ?? "test";
+          textarea.style.position = "absolute";
+          textarea.style.opacity = "0";
+          document.body.appendChild(textarea);
+          textarea.select();
+          document.execCommand("copy");
+          document.body.removeChild(textarea);
+          MToast.showCopied();
+        }
+        _MCopy.copyToClipBoard = copyToClipBoard;
+      })(MCopy || (MCopy = exports('MCopy', {})));
+      cclegacy._RF.pop();
+    }
+  };
+});
 
-System.register("chunks:///_virtual/PopupManager.ts",["cc","./MEvent.ts","./PopupLifeCmp.ts"],(function(e){var t,n,o,i,a,l,s,c,p,r,d,u,f,g,h,m,C,y,S,I;return{setters:[function(e){t=e.cclegacy,n=e.director,o=e.Director,i=e.assetManager,a=e.Prefab,l=e.instantiate,s=e.v3,c=e.find,p=e.tween,r=e.view,d=e.isValid,u=e.Node,f=e.UITransform,g=e.BlockInputEvents,h=e.Graphics,m=e.Color,C=e.Button,y=e.resources},function(e){S=e.MEvent},function(e){I=e.PopupLifeCmp}],execute:function(){let v;e("PopupManager",void 0),t._RF.push({},"09edcZqWI1Du4CR/L0187X3","PopupManager",void 0),function(e){const t=e.baseZIndex=50;let v=[],E=[],w=null,O=null,T=null;function b(){if(v.length<=0&&E.length>0){let e=E.pop();P(e.path,e.args)}}function P(e,t){if(t.multiple||!function(e){for(let t=0;t<v.length;t++){let n=v[t].path;if("string"==typeof n){if(e==n)return!0}else if(n instanceof a&&e.name==n.name)return!0}return!1}(e))if(v.push(t),"string"==typeof e){let n=t.bundle||"resources",o=i.getBundle(n),s=n=>{n.load(e,a,((n,o)=>{if(n){console.error("[PopupManager] load error:",e,n);let o=v.indexOf(t);o>=0&&v.splice(o,1)}else if((!t.parent||d(t.parent,!0))&&v.indexOf(t)>=0){U(l(o),t)}}))};o?s(o):i.loadBundle(n,((e,t)=>{if(e)return console.error("[PopupManager] loadBundle error:",n,e),void s(y);s(t)}))}else if(e instanceof a){let n=l(e);n&&U(n,t)}else U(e,t);else console.log("[PopupManager] Popup already added:",e)}function U(e,t){t.node=e,t.name=e.name,e.popupArgs=t;let n=t.pos||s(0,0,0);e.addComponent(I).setOnDestroy((()=>{for(let t=0;t<v.length;t++)if(v[t].node==e){v.splice(t,1),L();break}})),t.addBeforeCall&&t.addBeforeCall(e);let o=c("Canvas");if(o&&(e.parent=o),t.closeInSound||S.emit("EVENT_BTN_CLICK_2_SOUNDS"),L(),e.setPosition(t.pos||s(0,0,0)),t.onShow&&t.onShow(e),t.scaleIn){let n=e.getScale();e.setScale(s(.4,.4,1));let o=e.getComponent("cc.UIOpacity")||e.addComponent("cc.UIOpacity");if(o.opacity=0,p(e).to(t.animTime||.3,{scale:n},{easing:"backOut"}).start(),p(o).to(t.animTime||.3,{opacity:255}).call((()=>{t.onShowEnd&&t.onShowEnd(e)})).start(),w){let e=w.getComponent("cc.UIOpacity")||w.addComponent("cc.UIOpacity");p(e).to(t.animTime||.3,{opacity:255}).start()}}else if(t.opacityIn){let n=e.getComponent("cc.UIOpacity")||e.addComponent("cc.UIOpacity");if(n.opacity=0,p(n).to(t.animTime||.3,{opacity:255},{easing:"quadOut"}).call((()=>{t.onShowEnd&&t.onShowEnd(e)})).start(),w){let e=w.getComponent("cc.UIOpacity")||w.addComponent("cc.UIOpacity");p(e).to(t.animTime||.3,{opacity:255}).start()}}else if(t.bottomIn){let o=n.clone().add(s(0,-r.getVisibleSize().height,0));e.setPosition(o),p(e).to(t.animTime||.3,{position:n},{easing:"quadOut"}).call((()=>{t.onShowEnd&&t.onShowEnd(e)})).start()}else{if(w){(w.getComponent("cc.UIOpacity")||w.addComponent("cc.UIOpacity")).opacity=255}t.onShowEnd&&t.onShowEnd(e)}}function B(){if(v.length<=0)return!1;let e=v[v.length-1];return!(!e||!e.node)&&(_(e.node),!0)}function _(e,t=!1){if(e&&d(e)){for(let n=0;n<v.length;n++)if(v[n].node==e){let e=v[n];e.closeOutSound||S.emit("EVENT_BTN_CLOSE_SOUNDS");let o=()=>{e.onClose&&e.onClose(e.node),V(e),e.node&&d(e.node,!0)&&e.node.destroy();let t=v.indexOf(e);t>=0&&v.splice(t,1),L()};!t&&e.onCloseBefore?e.onCloseBefore(e.node,o):o();break}L()}}function M(){for(let e=0;e<v.length;e++){let t=v[e];t&&t.node&&d(t.node)&&(t.onClose&&t.onClose(t.node),V(t),t.node.destroy())}v=[],E=[],O&&d(O)&&O.destroy(),w&&d(w)&&w.destroy(),w=null,O=null}function L(){let e=c("Canvas");if(!e)return;if(!w||!d(w)){w=new u("MaskLayer"),w.parent=e;let t=w.addComponent(f);t.setContentSize(3*r.getVisibleSize().width,3*r.getVisibleSize().height),w.addComponent(g);let n=w.addComponent(h);n.fillColor=new m(0,0,0,200),n.rect(-t.width/2,-t.height/2,t.width,t.height),n.fill(),w.addComponent("cc.UIOpacity")}let n=-1;for(let e=v.length-1;e>=0;e--)if(!v[e].noMask){n=e;break}if(n>=0?(w.active=!0,w.setSiblingIndex(t+3*n)):w.active=!1,!O||!d(O)){O=new u("TouchLayer"),O.parent=e,O.addComponent(f).setContentSize(3*r.getVisibleSize().width,3*r.getVisibleSize().height),O.addComponent(C),O.on(C.EventType.CLICK,(()=>{let e=v[v.length-1];e&&!e.noTouchClose&&B()})),y.load("BalootClient/BaseRes/prefabs/popup_close",a,((e,t)=>{e||(T=l(t),T.parent=O,T.setPosition(s(0,-905,0)),T.on(C.EventType.CLICK,(()=>{B()})),N())}))}if(v.length>0){let e=v.length-1,n=v[e];n.node.setSiblingIndex(t+3*e+2),n.touchThrough?O.active=!1:(O.active=!0,O.setSiblingIndex(t+3*e+1)),N()}else O.active=!1}function N(){T&&(v.length>0?T.active=!v[v.length-1].noCloseHit:T.active=!1)}function V(e){e&&e.node}e.init=function(){v=[],E=[],n.on(o.EVENT_BEFORE_SCENE_LAUNCH,(()=>{M()})),setInterval(b,100)},e.addPopup=function(e,t={}){e&&(t.path=e,t.weight=t.weight||1,t.multiple=t.multiple||!1,t.isWait?(E.push({path:e,args:t}),E.sort(((e,t)=>e.args.weight-t.args.weight))):P(e,t))},e.removeTop=B,e.removePopup=_,e.removeAll=M}(v||(v=e("PopupManager",{}))),t._RF.pop()}}}));
+System.register("chunks:///_virtual/MDebug.ts", ['cc'], function (exports) {
+  var cclegacy;
+  return {
+    setters: [function (module) {
+      cclegacy = module.cclegacy;
+    }],
+    execute: function () {
+      exports('MDebug', void 0);
+      cclegacy._RF.push({}, "a9d05LvQ+xFAK3wU8qc7Hce", "MDebug", undefined);
+      let MDebug;
+      (function (_MDebug) {
+        let _debug = false;
+        function setDebug(debug) {
+          _debug = debug;
+        }
+        _MDebug.setDebug = setDebug;
+        function isDebug() {
+          return _debug;
+        }
+        _MDebug.isDebug = isDebug;
+      })(MDebug || (MDebug = exports('MDebug', {})));
+      cclegacy._RF.pop();
+    }
+  };
+});
 
-System.register("chunks:///_virtual/SubSystemManager.ts",["cc"],(function(e){var t,n,o;return{setters:[function(e){t=e.cclegacy,n=e.assetManager,o=e.sys}],execute:function(){let s;e("MSubSystem",void 0),t._RF.push({},"64cdd892/1HdLF3pATtxC/5","SubSystemManager",void 0),function(e){const t=new Map;e.register=function(e,n,o){t.set(e,{bundleName:e,displayName:n,loaded:!1,entryComponent:o}),console.log(`[MSubSystem] 注册子系统: ${e} (${n})`)},e.load=function(e){return new Promise(((s,l)=>{const u=t.get(e);if(!u)return void l(new Error(`子系统未注册: ${e}`));if(n.getBundle(e))return u.loaded=!0,console.log(`[MSubSystem] Bundle 已加载: ${e}`),void s();let r;if(o.isNative){r=`${jsb.fileUtils.getWritablePath()}remote-asset/${e}`}else{const t=globalThis.__cdnBase||"";r=t?`${t}/${e}`:e}console.log(`[MSubSystem] 加载 Bundle: ${r}`),n.loadBundle(r,(t=>{if(t)return console.error(`[MSubSystem] 加载失败: ${e}`,t),void l(t);u.loaded=!0,console.log(`[MSubSystem] 加载成功: ${e}`),s()}))}))},e.unload=function(e){const o=t.get(e);if(!o)return;const s=n.getBundle(e);s&&(n.removeBundle(s),o.loaded=!1,console.log(`[MSubSystem] 已卸载: ${e}`))},e.isLoaded=function(e){var n;return(null==(n=t.get(e))?void 0:n.loaded)||!1},e.getAll=function(){return Array.from(t.values())},e.getDisplayName=function(e){var n;return(null==(n=t.get(e))?void 0:n.displayName)||e}}(s||(s=e("MSubSystem",{}))),globalThis.MSubSystem=s,t._RF.pop()}}}));
+System.register("chunks:///_virtual/MEvent.ts", ['cc'], function (exports) {
+  var cclegacy, EventTarget;
+  return {
+    setters: [function (module) {
+      cclegacy = module.cclegacy;
+      EventTarget = module.EventTarget;
+    }],
+    execute: function () {
+      exports('MEvent', void 0);
+      cclegacy._RF.push({}, "ae3d4h/oF9LnL2u4NDvTNfQ", "MEvent", undefined);
+      const eventTarget = new EventTarget();
 
-System.register("chunks:///_virtual/Tools.ts",["cc"],(function(e){var t,n,r,o,i,a,u,l,c,s,f,h;return{setters:[function(e){t=e.cclegacy,n=e.sys,r=e.Color,o=e.view,i=e.ResolutionPolicy,a=e.UIRenderer,u=e.Sprite,l=e.Label,c=e.Material,s=e.director,f=e.Canvas,h=e.Widget}],execute:function(){let g;e("Tools",void 0),t._RF.push({},"9a09dSGGIBBLpL470B3TULm","Tools",void 0),function(e){const t=e.DURATION_MS=1,g=e.DURATION_S=1e3*t,d=e.DURATION_M=60*g,m=e.DURATION_H=60*d;e.DURATION_D=24*m;function p(e){return new Date(e).setHours(0,0,0,0)}function w(e){let t=new Date(e).getDay();return 0==t&&(t=7),new Date(new Date(e).setHours(0,0,0,0)-24*(t-1)*60*60*1e3).getTime()}function y(e){let t=[];return e.forEach((e=>{"object"==typeof e?Array.isArray(e)?t.push(y(e)):t.push(b(e)):t.push(e)})),t}function b(e){if(e){let n=new Object;for(var t in e)"object"==typeof e[t]?Array.isArray(e[t])?n[t]=y(e[t]):n[t]=b(e[t]):n[t]=e[t];return n}return null}e.getItem=function(e){return n.localStorage.getItem(e)},e.setItem=function(e,t){n.localStorage.setItem(e,t)},e.removeItem=function(e){n.localStorage.removeItem(e)},e.now=function(){return Date.now()},e.rgbToHex=function(e,t,n){let r=(e<<16|t<<8|n).toString(16);return"#"+new Array(Math.abs(r.length-7)).join("0")+r},e.hexToRgb=function(e){return(new r).fromHEX(e)},e.dayStartTime=p,e.dayEndTime=function(e){return new Date(e).setHours(23,59,59,999)},e.weekStartTime=w,e.weekEndTime=function(e){let t=new Date(e).getDay();return 0==t&&(t=7),new Date(new Date(e).setHours(23,59,59,999)+24*(7-t)*60*60*1e3).getTime()},e.inSameDay=function(e,t){return p(e)==p(t)},e.inSameWeek=function(e,t){return w(e)==w(t)},e.isToday=function(e){let t=864e5,n=288e5;return Math.floor((e.currentTime+n)/t)==Math.floor((e.targetTime+n)/t)},e.offsetDay=function(e){let t=864e5,n=288e5;return Math.floor((e.endTime+n)/t)-Math.floor((e.startTime+n)/t)},e.fillZero=function(e,t){return(Array(t).join("0")+e).slice(-t)},e.copy=function(e){return"object"!=typeof e?e:Array.isArray(e)?y(e):b(e)},e.formatNumber=function(e,t=1e3,n){if(e<t)return e.toFixed(n??0);if(e<1e6)return(e/1e3).toFixed(e%1e3==0?0:2)+"K";if(e<1e9)return(e/1e3/1e3).toFixed(e%1e3==0?0:2)+"M";if(e<1e12)return(e/1e3/1e3/1e3).toFixed(e%1e3==0?0:2)+"B";if(e<1e15)return(e/1e3/1e3/1e3/1e3).toFixed(e%1e3==0?0:2)+"T";{let t=Math.round(e).toString(),n=t.indexOf("e+");if(n>0){let e=t.substr(n+2);return t.substr(0,4)+"E"+e}{let t=Math.round(e).toString().length-1;return(e/Math.pow(10,t)).toFixed(e%1e3==0?0:2)+"E"+t}}},e.scientificToNumber=function(e){var t;return Math.abs(e)<1?(t=parseInt(e.toString().split("e-")[1]))&&(e*=Math.pow(10,t-1),e="0."+new Array(t).join("0")+e.toString().substring(2)):(t=parseInt(e.toString().split("+")[1]))>20&&(t-=20,e/=Math.pow(10,t),e+=new Array(t+1).join("0")),e},e.genUid=function(e){let t=(null==e?void 0:e.soup)??"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_",n=(null==e?void 0:e.lUid)??30,r=t.length,o=[];for(let e=0;e<n;e++)o[e]=t.charAt(Math.random()*r);return o.join("")};var S=0;e.genOrderSerialnumber=function(){return++S},e.screenSize=function(){let e=o.getVisibleSize().height,t=o.getVisibleSize().width;return e>t?e/t>=2?"l":e/t>1.776?"m":"s":t/e>=2?"l":t/e>=1.775?"m":"s"};var T=["零","一","二","三","四","五","六","七","八","九"],D=["","万","亿","万亿","亿亿"],v=["","萬","億","萬億","億億"],M=["","十","百","千"];function I(e){for(var t="",n="",r=0,o=!0;e>0;){var i=e%10;0===i?o||(o=!0,n=T[i]+n):(o=!1,t=T[i],n=(t+=M[r])+n),r++,e=Math.floor(e/10)}return n}function R(e,t){let n=(e=(e=e.replace(/ /g,"")).replace(/，/g,",")).split(t);for(let e=0;e<n.length;e++)""==n[e]&&(n.splice(e,1),e--);return n}e.numberToChinese=function(e){let t=n.languageCode;var r=0,o="",i="",a=!1;if(0===e)return T[0];for(;e>0;){var u=e%1e4;a&&(i=T[0]+i),o=I(u),-1!=t.indexOf("zh-cn")||-1!=t.indexOf("zh_cn")||"zh"==t?o+=0!==u?D[r]:D[0]:o+=0!==u?v[r]:v[0],i=o+i,a=u<1e3&&u>0,e=Math.floor(e/1e4),r++}return i},e.numberToDay=function(e){switch(e){case 1:return"一";case 2:return"二";case 3:return"三";case 4:return"四";case 5:return"五";case 6:return"六";case 7:return"日"}},e.numberToRoman=function(e){switch(e){case 0:return"";case 1:return"Ⅰ";case 2:return"Ⅱ";case 3:return"Ⅲ";case 4:return"Ⅳ";case 5:return"Ⅴ";case 6:return"Ⅵ";case 7:return"Ⅶ";case 8:return"Ⅷ";case 9:return"Ⅸ";case 10:return"Ⅹ"}},e.intervalDay=function(e){let t=864e5;return Math.floor(Date.now()/t)-Math.floor(e/t)},e.getChars=R,e.getNumbers=function(e,t){let n=[];return R(e,t).forEach((e=>{n.push(parseInt(e))})),n},e.shuffle=function(e){for(var t,n,r=e.length;r>0;)t=Math.floor(Math.random()*r),n=e[r-1],e[r-1]=e[t],e[t]=n,r--;return e},e.adapter=function(){let e=o.getVisibleSize(),t=o.getDesignResolutionSize();e.height/e.width<t.height/t.width?o.setDesignResolutionSize(t.width,t.height,i.FIXED_HEIGHT):o.setDesignResolutionSize(t.width,t.height,i.FIXED_WIDTH)},e.checkProbable=function(e,t=100){return Math.random()*t<=e},e.setGray=function e(t,n){let o=t.getComponent(a);if(o instanceof u||o instanceof l){const e=new c;e.initialize({effectName:"builtin-unlit"}),e.setProperty("mainColor",new r(.3,.59,.11,1)),o.material=e}n&&t.children.length>0&&t.children.forEach((t=>{e(t,n)}))},e.setPrimaryColor=function e(t,n){let r=t.getComponent(a);if(r instanceof u||r instanceof l){const e=new c;e.initialize({effectName:"builtin-sprite"}),r.material=e}n&&t.children.length>0&&t.children.forEach((t=>{e(t,n)}))},e.setColor=function e(t,n,r){t.getComponent(a).color=n,r&&t.children.length>0&&t.children.forEach((t=>{e(t,n,r)}))},e.setNumberColor=function(e,t="#B1F520"){if(null!=e){let n=[],r=e;return e.match(/(\+|\-)?\d+%?/g).forEach((e=>{let o=r.split(e);n.push(o.shift()),n.push(`<color=${t}>${e}</c>`),r=o.join(e)})),n.push(r),n.join("")}return null},e.cutStr=function(e,t,n=""){let r=0,o=0,i="";o=e.length;for(var a=0;a<o;a++){let o=e.charAt(a),u=new RegExp("^[一-鿿]+$"),l=new RegExp("^[A-Za-z0-9]+$");if(u.test(o)?r+=2:l.test(o)?r+=1:" "!=o&&(r+=1.5)," "!=o&&(i=i.concat(o)),r>=t)return i+n}if(r<=t)return e},e.numberToString=function(e,t){let n="",r=[];if((e=parseFloat(e.toFixed(t??0)))%1==0){if(r=e.toString().split(""),t>0){n=".";for(let e=0;e<t;e++)n+="0"}}else{let o=e.toString().split(".");if(n="."+o[1],t>0&&o[1].length<t)for(let e=0;e<t-o[1].length;e++)n+="0";r=o[0].split("")}let o=0;for(;r.length>0;)o++,n=r.pop()+n,3==o&&(r.length>0&&(n=","+n),o=0);return n},e.saveJSONToLocal=function(e,t){const n=JSON.stringify(e),r=new Blob([n],{type:"application/json"}),o=document.createElement("a");o.href=URL.createObjectURL(r),o.download=t||"data.json",document.body.appendChild(o),o.click(),document.body.removeChild(o),URL.revokeObjectURL(o.href)},e.limitRange=function(e,t,n){return e<=t?t:e>=n?n:Math.floor(e)},e.updateAlignment=function e(t){s.getScene().getComponentInChildren(f).scheduleOnce((()=>{t.children.forEach((t=>{let n=t.getComponent(h);n&&n.updateAlignment(),e(t)}))}))}}(g||(g=e("Tools",{}))),t._RF.pop()}}}));
+      /**
+       * 通用事件系统
+       *
+       * 基于 Cocos EventTarget 封装，使用字符串事件名
+       *
+       * 原版通过 EventDefinitions 做编译时类型检查，但导致 MEvent 和游戏消息类型深度耦合。
+       * core 版改为通用字符串事件，由各业务模块自定义事件常量：
+       *
+       *   // 大厅事件
+       *   const LobbyMsg = { UpdateBalance: 'UpdateBalance', OpenGame: 'OpenGame' } as const;
+       *   MEvent.on(LobbyMsg.UpdateBalance, (balance: number) => { });
+       *
+       *   // 游戏事件（在游戏 bundle 中定义）
+       *   const GameMsg = { BET_STAGE: 'BET_STAGE', DRAW_PRIZE: 'DRAW_PRIZE' } as const;
+       *   MEvent.on(GameMsg.BET_STAGE, (data: IBetStage) => { });
+       */
+      let MEvent;
+      (function (_MEvent) {
+        function on(key, callback, target) {
+          eventTarget.on(key, callback, target);
+        }
+        _MEvent.on = on;
+        function once(key, callback, target) {
+          eventTarget.once(key, callback, target);
+        }
+        _MEvent.once = once;
+        function off(key, callback, target) {
+          eventTarget.off(key, callback, target);
+        }
+        _MEvent.off = off;
+        function emit(key, ...args) {
+          eventTarget.emit(key, ...args);
+        }
+        _MEvent.emit = emit;
+        function hasEventListener(key, callback, target) {
+          return eventTarget.hasEventListener(key, callback, target);
+        }
+        _MEvent.hasEventListener = hasEventListener;
+        function targetOff(typeOrTarget) {
+          eventTarget.targetOff(typeOrTarget);
+        }
+        _MEvent.targetOff = targetOff;
+        function removeAll(typeOrTarget) {
+          eventTarget.removeAll(typeOrTarget);
+        }
+        _MEvent.removeAll = removeAll;
+      })(MEvent || (MEvent = exports('MEvent', {})));
+      cclegacy._RF.pop();
+    }
+  };
+});
 
-System.register("chunks:///_virtual/TouchClose.ts",["cc","./MEvent.ts","./MPool.ts"],(function(e){var t,o,n,s,i,c,l,a,r,h;return{setters:[function(e){t=e.cclegacy,o=e.Component,n=e.Node,s=e.v3,i=e.UITransform,c=e.view,l=e.UIOpacity,a=e._decorator},function(e){r=e.MEvent},function(e){h=e.MPool}],execute:function(){var d;t._RF.push({},"6053dnYqEFGZ679mE9crCWZ","TouchClose",void 0);const{ccclass:u,property:p}=a;e("default",u("TouchClose")(d=class extends o{constructor(...e){super(...e),this.callback=void 0}onEnable(){this.node.on(n.EventType.TOUCH_START,(()=>{var e;null==(e=this.callback)||e.call(this)}),this),r.on("RecoveryTouchClose",(()=>{h.recovery(this.node)}),this)}init(e){this.callback=e.callback,this.node.setParent(e.excludeNode.getParent()),this.node.setPosition(s()),this.node.getComponent(i).setContentSize(c.getVisibleSize()),this.node.setSiblingIndex(e.excludeNode.getSiblingIndex()),e.showBg?this.node.getComponent(l).opacity=186:this.node.getComponent(l).opacity=0}onDisable(){this.node.targetOff(this),r.targetOff(this)}})||d);t._RF.pop()}}}));
+System.register("chunks:///_virtual/MHttp.ts", ['cc', './MUi.ts'], function (exports) {
+  var cclegacy, warn, MUi, EDialog, EUiAction;
+  return {
+    setters: [function (module) {
+      cclegacy = module.cclegacy;
+      warn = module.warn;
+    }, function (module) {
+      MUi = module.MUi;
+      EDialog = module.EDialog;
+      EUiAction = module.EUiAction;
+    }],
+    execute: function () {
+      exports('MHttp', void 0);
+      cclegacy._RF.push({}, "6ea36fFTIhBDbmpNqtOuygE", "MHttp", undefined);
+      let MHttp;
+      (function (_MHttp) {
+        let _token = "";
+        let _themeKey = "";
+        function setToken(token) {
+          _token = token;
+        }
+        _MHttp.setToken = setToken;
+        function setThemekey(themeKey) {
+          _themeKey = themeKey;
+        }
+        _MHttp.setThemekey = setThemekey;
+        function request(option) {
+          const success = res => {
+            option == null || option.success == null || option.success(res);
+          };
+          const fail = err => {
+            warn(`request fail with url : "${option.url}"`);
+            option == null || option.fail == null || option.fail(err);
+          };
+          const complete = res => {
+            option == null || option.complete == null || option.complete(res);
+          };
+          let modalOption;
+          let xhr = new XMLHttpRequest();
+          xhr.open(option.method, option.url, true);
+          xhr.setRequestHeader("Content-type", "application/json;charset=utf-8");
+          if (_themeKey) {
+            xhr.setRequestHeader("themeKey", _themeKey);
+          }
+          if (_token) {
+            xhr.setRequestHeader("token", _token);
+          }
+          for (let key in option.header) {
+            xhr.setRequestHeader(key, option.header[key]);
+          }
+          // 设置超时
+          xhr.timeout = (option == null ? void 0 : option.timeout) ?? 5000;
+          //请求完成的时候会触发
+          xhr.onload = () => {
+            let response = xhr.responseText;
+            let res = {
+              data: "",
+              statusCode: xhr.status,
+              header: {},
+              errMsg: ""
+            };
+            try {
+              let rsp = JSON.parse(response);
+              res.data = rsp;
+            } catch {
+              res.data = xhr.responseText;
+            }
+            if (xhr.status >= 200 && xhr.status < 300) {
+              var _res$data;
+              if (((_res$data = res.data) == null ? void 0 : _res$data.code) == "00000") {
+                let headers = xhr.getAllResponseHeaders().replace(/\r/g, "").split("\n");
+                headers.forEach(v => {
+                  var _kv$;
+                  let kv = v.split(": ");
+                  if (((_kv$ = kv[0]) == null ? void 0 : _kv$.length) > 0) {
+                    res.header[kv[0]] = kv[1];
+                  }
+                });
+                success(res);
+              } else {
+                var _res$data2;
+                modalOption = {
+                  title: "Tip",
+                  content: (_res$data2 = res.data) == null ? void 0 : _res$data2.msg,
+                  confirmText: "OK ",
+                  showCancel: true
+                };
+                if (!(option != null && option.forbidModal)) {
+                  MUi.showDialog(EDialog.Modal, {
+                    data: modalOption,
+                    action: EUiAction.BackOut
+                  });
+                }
+                fail(res);
+              }
+            } else {
+              if (xhr.status == 408 || xhr.status == 429 || xhr.status >= 500 && xhr.status < 600) {
+                modalOption = {
+                  title: "Error",
+                  content: `Error Code:${xhr.status}!`,
+                  confirmText: "Try Again ",
+                  showCancel: true,
+                  success: res => {
+                    if (res.confirm) {
+                      request(option);
+                    }
+                  }
+                };
+              } else {
+                modalOption = {
+                  title: "Error",
+                  content: `Error Code:${xhr.status}!`,
+                  confirmText: "OK ",
+                  showCancel: true
+                };
+              }
+              if (!(option != null && option.forbidModal)) {
+                MUi.showDialog(EDialog.Modal, {
+                  data: modalOption,
+                  action: EUiAction.BackOut
+                });
+              }
+              fail(res);
+            }
+            complete(res);
+          };
+          // 处理错误
+          xhr.onerror = () => {
+            modalOption = {
+              title: "Error",
+              content: `Network request failed!`,
+              confirmText: "Try Again ",
+              showCancel: true,
+              success: res => {
+                if (res.confirm) {
+                  request(option);
+                }
+              }
+            };
+            if (!(option != null && option.forbidModal)) {
+              MUi.showDialog(EDialog.Modal, {
+                data: modalOption,
+                action: EUiAction.BackOut
+              });
+            }
+            fail({
+              errMsg: 'Network request failed'
+            });
+            complete({
+              errMsg: 'Network request failed'
+            });
+          };
+          // 处理超时
+          xhr.ontimeout = () => {
+            modalOption = {
+              title: "Error",
+              content: `Request timed out!`,
+              confirmText: "Try Again ",
+              showCancel: true,
+              success: res => {
+                if (res.confirm) {
+                  request(option);
+                }
+              }
+            };
+            if (!(option != null && option.forbidModal)) {
+              MUi.showDialog(EDialog.Modal, {
+                data: modalOption,
+                action: EUiAction.BackOut
+              });
+            }
+            fail({
+              errMsg: 'Request timed out'
+            });
+            complete({
+              errMsg: 'Request timed out'
+            });
+          };
+          if (typeof option.data == "undefined") {
+            xhr.send();
+          } else {
+            xhr.send(JSON.stringify(option.data));
+          }
+        }
+        _MHttp.request = request;
+      })(MHttp || (MHttp = exports('MHttp', {})));
+      cclegacy._RF.pop();
+    }
+  };
+});
+
+System.register("chunks:///_virtual/MI18n.ts", ['cc'], function (exports) {
+  var cclegacy, sys, native;
+  return {
+    setters: [function (module) {
+      cclegacy = module.cclegacy;
+      sys = module.sys;
+      native = module.native;
+    }],
+    execute: function () {
+      exports('MI18n', void 0);
+      cclegacy._RF.push({}, "6fb1fIdfk1F4pHKnnfV38mY", "MI18n", undefined);
+      // import * as i18n from 'db://i18n/LanguageData';
+      let MI18n;
+      (function (_MI18n) {
+        // 项目支持的语言列表
+        const SUPPORTED_LANGS = ['en'];
+
+        // 语言代码映射表（系统语言 -> 项目语言）
+        const LANGUAGE_MAPPING = {
+          'zh-cn': 'zh',
+          // 简体中文
+          'zh-tw': 'zh',
+          // 繁体中文（如果项目未区分简繁体）
+          'en-us': 'en',
+          // 英语（美国）
+          'en-gb': 'en' // 英语（英国）
+        };
+
+        // 获取最终语言代码
+        function resolveSystemLanguage() {
+          return new Promise(async resolve => {
+            const systemLang = await getSystemLanguage(); // 例如："zh-CN"
+            const baseLang = systemLang.split('-')[0]; // 提取主代码："zh"
+            // 优先匹配完整代码，再匹配主代码
+            resolve(LANGUAGE_MAPPING[systemLang] || LANGUAGE_MAPPING[baseLang] || (SUPPORTED_LANGS.includes(baseLang) ? baseLang : 'en'));
+          });
+        }
+        function getLanguange() {
+          return 'en';
+        }
+        _MI18n.getLanguange = getLanguange;
+        function autoInit(customLang) {
+          return new Promise(async resolve => {
+            // if (i18n.ready) {
+            //     resolve();
+            //     return;
+            // }
+            // 步骤1：获取系统语言
+            const systemLang = await resolveSystemLanguage();
+            // 步骤3：初始化 i18next
+            // i18n.init(customLang ?? targetLang);
+            resolve();
+          });
+        }
+        _MI18n.autoInit = autoInit;
+        function t(key, params) {
+          return 'en';
+        }
+        _MI18n.t = t;
+        function updateSceneRenderers() {
+          // i18n.updateSceneRenderers();
+        }
+        _MI18n.updateSceneRenderers = updateSceneRenderers;
+        function getSystemLanguage() {
+          return new Promise(resolve => {
+            if (sys.platform == sys.Platform.ANDROID) {
+              native.reflection.callStaticMethod("org/cocos2dx/javascript/SystemHelper", "getSystemLanguage", "()Ljava/lang/String;", lang => resolve(lang));
+            } else if (sys.platform == sys.Platform.IOS) {
+              // 调用 Objective-C 方法（需绑定）
+              resolve(window['getIOSSystemLanguage']());
+            } else {
+              resolve((navigator.language ||
+              // 浏览器
+              navigator['userLanguage'] ||
+              // 旧版 IE
+              'en' // 默认值
+              ).toLowerCase());
+            }
+          });
+        }
+      })(MI18n || (MI18n = exports('MI18n', {})));
+      cclegacy._RF.pop();
+    }
+  };
+});
+
+System.register("chunks:///_virtual/MModel.ts", ['cc', './ModelSet.ts'], function (exports) {
+  var cclegacy, ModelSet;
+  return {
+    setters: [function (module) {
+      cclegacy = module.cclegacy;
+    }, function (module) {
+      ModelSet = module.ModelSet;
+    }],
+    execute: function () {
+      exports('MModel', void 0);
+      cclegacy._RF.push({}, "30eedctqzRJyrd2gZ+gdJyT", "MModel", undefined);
+      let MModel;
+      (function (_MModel) {
+        const Set = _MModel.Set = new ModelSet();
+        function getData() {
+          const data = {};
+          data['Set'] = Set.getData();
+          return JSON.stringify(data);
+        }
+        _MModel.getData = getData;
+        function clear() {
+          Set.syncData({
+            sfxSwitch: 1,
+            bgmSwitch: 1
+          });
+        }
+        _MModel.clear = clear;
+      })(MModel || (MModel = exports('MModel', {})));
+      cclegacy._RF.pop();
+    }
+  };
+});
+
+System.register("chunks:///_virtual/MNode.ts", ['cc', './Enum.ts'], function (exports) {
+  var cclegacy, Node, Layers, v3, UITransform, view, ENode;
+  return {
+    setters: [function (module) {
+      cclegacy = module.cclegacy;
+      Node = module.Node;
+      Layers = module.Layers;
+      v3 = module.v3;
+      UITransform = module.UITransform;
+      view = module.view;
+    }, function (module) {
+      ENode = module.ENode;
+    }],
+    execute: function () {
+      exports('MNode', void 0);
+      cclegacy._RF.push({}, "c894ca9ZsBOGY34pEZ0s7bW", "MNode", undefined);
+      let MNode;
+      (function (_MNode) {
+        let _canvas = null;
+        let _gameUI = null;
+        let _dialogRoot = null;
+        let _panelRoot = null;
+        function setNodes(param) {
+          _canvas = param.canvas;
+          _gameUI = param.gameUI;
+        }
+        _MNode.setNodes = setNodes;
+        function getNode(node) {
+          switch (node) {
+            case ENode.Canvas:
+              return _canvas;
+            case ENode.GameUI:
+              return _gameUI;
+          }
+        }
+        _MNode.getNode = getNode;
+        function getDialogRoot() {
+          let canvas = MNode.getNode(ENode.Canvas);
+          _dialogRoot = canvas.getChildByName("dialogRoot");
+          if (!_dialogRoot) {
+            _dialogRoot = new Node("dialogRoot");
+            _dialogRoot.layer = Layers.Enum.UI_2D;
+            canvas.addChild(_dialogRoot);
+            _dialogRoot.setPosition(v3());
+            _dialogRoot.setSiblingIndex(999);
+            _dialogRoot.addComponent(UITransform).setContentSize(view.getVisibleSize());
+          }
+          return _dialogRoot;
+        }
+        _MNode.getDialogRoot = getDialogRoot;
+        function getPanelRoot() {
+          let canvas = MNode.getNode(ENode.Canvas);
+          _panelRoot = canvas.getChildByName("panelRoot");
+          if (!_panelRoot) {
+            _panelRoot = new Node("panelRoot");
+            _panelRoot.layer = Layers.Enum.UI_2D;
+            canvas.addChild(_panelRoot);
+            _panelRoot.setPosition(v3());
+            _panelRoot.setSiblingIndex(0);
+            _panelRoot.addComponent(UITransform).setContentSize(view.getVisibleSize());
+          }
+          return _panelRoot;
+        }
+        _MNode.getPanelRoot = getPanelRoot;
+      })(MNode || (MNode = exports('MNode', {})));
+      cclegacy._RF.pop();
+    }
+  };
+});
+
+System.register("chunks:///_virtual/ModelSet.ts", ['cc', './BaseModel.ts', './Enum.ts'], function (exports) {
+  var cclegacy, BaseModel, ESwitchStatus;
+  return {
+    setters: [function (module) {
+      cclegacy = module.cclegacy;
+    }, function (module) {
+      BaseModel = module.BaseModel;
+    }, function (module) {
+      ESwitchStatus = module.ESwitchStatus;
+    }],
+    execute: function () {
+      cclegacy._RF.push({}, "0465feSfoNAa5IlHiUPB7uS", "ModelSet", undefined);
+      class ModelSet extends BaseModel {
+        constructor(...args) {
+          super(...args);
+          this.sfxSwitch = ESwitchStatus.Open;
+          this.bgmSwitch = ESwitchStatus.Open;
+        }
+        getSFXSwitch() {
+          return this.sfxSwitch;
+        }
+        setSFXSwith(sfxSwitch) {
+          this.sfxSwitch = sfxSwitch;
+        }
+        getBGMSwitch() {
+          return this.bgmSwitch;
+        }
+        setBGMSwith(bgmSwitch) {
+          this.bgmSwitch = bgmSwitch;
+        }
+      }
+      exports('ModelSet', ModelSet);
+      cclegacy._RF.pop();
+    }
+  };
+});
+
+System.register("chunks:///_virtual/MPool.ts", ['cc', './MAb.ts'], function (exports) {
+  var cclegacy, Component, NodePool, instantiate, EBundle, MAb;
+  return {
+    setters: [function (module) {
+      cclegacy = module.cclegacy;
+      Component = module.Component;
+      NodePool = module.NodePool;
+      instantiate = module.instantiate;
+    }, function (module) {
+      EBundle = module.EBundle;
+      MAb = module.MAb;
+    }],
+    execute: function () {
+      exports('MPool', void 0);
+      cclegacy._RF.push({}, "23d65u4GLpAK6Gw4AmCGU0y", "MPool", undefined);
+      let MPool;
+      (function (_MPool) {
+        /**记录组件 */
+        class RecordComponent extends Component {
+          constructor(...args) {
+            super(...args);
+            this.path = "";
+          }
+        }
+        let pools = new Map();
+        async function load(param) {
+          if (!pools.has(param.path)) {
+            pools.set(param.path, new NodePool());
+          }
+          if (pools.get(param.path).size() > 0) {
+            try {
+              param.onComplete(pools.get(param.path).get());
+            } catch {}
+          } else {
+            let asset = await MAb.asyncLoad({
+              bundle: param.bundle,
+              path: param.path,
+              onError: param.onError
+            });
+            let node = instantiate(asset);
+            node.addComponent(RecordComponent).path = param.path;
+            param.onComplete(node);
+          }
+        }
+        function asyncLoad(param) {
+          return new Promise(resolve => {
+            load({
+              path: param.path,
+              bundle: param.bundle,
+              onComplete: asset => {
+                resolve(asset);
+              },
+              onError: param.onError
+            });
+          });
+        }
+        _MPool.asyncLoad = asyncLoad;
+        function recovery(node) {
+          var _node$getComponent;
+          let path = (_node$getComponent = node.getComponent(RecordComponent)) == null ? void 0 : _node$getComponent.path;
+          if (path) {
+            if (pools.has(path)) {
+              pools.get(path).put(node);
+            } else {
+              node == null || node.destroy();
+            }
+          } else {
+            node == null || node.destroy();
+          }
+        }
+        _MPool.recovery = recovery;
+        function createAvater() {
+          return new Promise(resolve => {
+            load({
+              bundle: EBundle.resources,
+              path: "res/prefab/avater",
+              onComplete: asset => {
+                resolve(asset);
+              }
+            });
+          });
+        }
+        _MPool.createAvater = createAvater;
+        function creatTouchClose() {
+          return new Promise(resolve => {
+            load({
+              bundle: EBundle.resources,
+              path: "res/prefab/touchClose",
+              onComplete: asset => {
+                resolve(asset);
+              }
+            });
+          });
+        }
+        _MPool.creatTouchClose = creatTouchClose;
+      })(MPool || (MPool = exports('MPool', {})));
+      cclegacy._RF.pop();
+    }
+  };
+});
+
+System.register("chunks:///_virtual/MSchedule.ts", ['cc', './Tools.ts'], function (exports) {
+  var cclegacy, Tools;
+  return {
+    setters: [function (module) {
+      cclegacy = module.cclegacy;
+    }, function (module) {
+      Tools = module.Tools;
+    }],
+    execute: function () {
+      exports('MSchedule', void 0);
+      cclegacy._RF.push({}, "1777fC3ppVP67+nE4RySsB1", "MSchedule", undefined);
+      let MSchedule;
+      (function (_MSchedule) {
+        let regulars = [];
+        function update(dt) {
+          for (let i = 0; i < regulars.length; i++) {
+            let regular = regulars[i];
+            if (regular.count >= regular.repeat) continue;
+            regular.timer += dt * 1000;
+            if (regular.count == 0) {
+              if (regular.timer >= regular.delay) {
+                regular.timer = 0;
+                regular.count++;
+                regular.callback();
+              }
+            } else {
+              if (regular.timer >= regular.interval) {
+                regular.timer = 0;
+                regular.count++;
+                regular.callback();
+              }
+            }
+          }
+        }
+        _MSchedule.update = update;
+        function repeat(callback, interval, repeat, delay, target) {
+          let serialnum = Tools.genOrderSerialnumber();
+          regulars.push({
+            serialnum: serialnum,
+            timer: 0,
+            interval: interval,
+            repeat: repeat,
+            count: 0,
+            delay: delay,
+            callback: callback,
+            target: target
+          });
+          return serialnum;
+        }
+        _MSchedule.repeat = repeat;
+        function delay(callback, delayTime, target) {
+          let serialnum = Tools.genOrderSerialnumber();
+          regulars.push({
+            serialnum: serialnum,
+            timer: 0,
+            interval: Infinity,
+            repeat: 1,
+            count: 0,
+            delay: delayTime,
+            callback: callback,
+            target: target
+          });
+          return serialnum;
+        }
+        _MSchedule.delay = delay;
+        function sleep(delayTime, target, outSerialnum) {
+          return new Promise(resolve => {
+            delay(() => {
+              resolve();
+            }, delayTime, target);
+          });
+        }
+        _MSchedule.sleep = sleep;
+        function targetOff(target) {
+          for (let i = 0; i < regulars.length; i++) {
+            var _regular$target;
+            let regular = regulars[i];
+            if ((regular == null || (_regular$target = regular.target) == null ? void 0 : _regular$target.uuid) == (target == null ? void 0 : target.uuid)) {
+              regulars.splice(i, 1);
+              i--;
+            }
+          }
+        }
+        _MSchedule.targetOff = targetOff;
+        function unschedule(serialnum) {
+          let index = regulars.findIndex(a => a.serialnum == serialnum);
+          if (index > -1) {
+            regulars.splice(index, 1);
+          }
+        }
+        _MSchedule.unschedule = unschedule;
+        function updateInterval(param) {
+          let regular = regulars.find(a => a.serialnum == param.serialnum);
+          if (regular) {
+            regular.interval = param.interval;
+          }
+        }
+        _MSchedule.updateInterval = updateInterval;
+        function updateDelay(param) {
+          let regular = regulars.find(a => a.serialnum == param.serialnum);
+          if (regular) {
+            if (param.floatAmount != undefined) {
+              regular.delay += param.floatAmount;
+            }
+            if (param.fixAmount != undefined) {
+              regular.delay = param.fixAmount;
+            }
+          }
+        }
+        _MSchedule.updateDelay = updateDelay;
+        function clear() {
+          regulars = [];
+        }
+        _MSchedule.clear = clear;
+      })(MSchedule || (MSchedule = exports('MSchedule', {})));
+      cclegacy._RF.pop();
+    }
+  };
+});
+
+System.register("chunks:///_virtual/MSkeleton.ts", ['cc'], function (exports) {
+  var cclegacy;
+  return {
+    setters: [function (module) {
+      cclegacy = module.cclegacy;
+    }],
+    execute: function () {
+      exports('MSkeleton', void 0);
+      cclegacy._RF.push({}, "253e6Ys3ohHL5InhuL52crd", "MSkeleton", undefined);
+      let MSkeleton;
+      (function (_MSkeleton) {
+        let nsSpeed = 1;
+        let nsSkeletons = [];
+        function pause(skt) {
+          nsSkeletons.forEach(element => {
+            var _element$skt;
+            if ((element == null || (_element$skt = element.skt) == null ? void 0 : _element$skt.uuid) == skt.uuid) {
+              element.skt.timeScale = 0;
+            }
+          });
+        }
+        _MSkeleton.pause = pause;
+        function resume(skt) {
+          nsSkeletons.forEach(element => {
+            var _element$skt2;
+            if ((element == null || (_element$skt2 = element.skt) == null ? void 0 : _element$skt2.uuid) == skt.uuid) {
+              element.skt.timeScale = nsSpeed * element.timeScale;
+            }
+          });
+        }
+        _MSkeleton.resume = resume;
+        function updateTotalSkeletonSpeed(speed) {
+          nsSpeed = speed;
+          nsSkeletons.forEach(element => {
+            var _element$skt3;
+            if (element != null && (_element$skt3 = element.skt) != null && (_element$skt3 = _element$skt3.node) != null && _element$skt3.isValid) {
+              element.skt.timeScale = nsSpeed * element.timeScale;
+            }
+          });
+        }
+        _MSkeleton.updateTotalSkeletonSpeed = updateTotalSkeletonSpeed;
+        function setAnimation(param) {
+          param.skeleton.setCompleteListener(null);
+          param.skeleton.setEventListener(null);
+          param.skeleton.timeScale = nsSpeed * ((param == null ? void 0 : param.timeScale) ?? 1);
+          let defaultSkin = (param == null ? void 0 : param.skin) ?? param.skeleton["defaultSkin"];
+          if (!defaultSkin) {
+            defaultSkin = "default";
+          }
+          param.skeleton.setSkin(defaultSkin);
+          let TrackEntry = param.skeleton.setAnimation((param == null ? void 0 : param.trackIndex) ?? 0, param.name, !!(param != null && param.loop));
+          nsSkeletons.push({
+            skt: param.skeleton,
+            target: param == null ? void 0 : param.target,
+            timeScale: (param == null ? void 0 : param.timeScale) ?? 1
+          });
+          return TrackEntry;
+        }
+        _MSkeleton.setAnimation = setAnimation;
+        function setCompleteListener(skeleton, completeListener) {
+          skeleton.setCompleteListener(() => {
+            skeleton.setCompleteListener(null);
+            completeListener == null || completeListener();
+          });
+        }
+        _MSkeleton.setCompleteListener = setCompleteListener;
+        function setEventListener(skeleton, eventNames, eventListener) {
+          skeleton.setEventListener((res1, res2) => {
+            if (eventNames.indexOf(res2.data.name) > -1) {
+              eventListener == null || eventListener();
+            }
+          });
+        }
+        _MSkeleton.setEventListener = setEventListener;
+        function targetOff(target) {
+          for (let i = 0; i < nsSkeletons.length; i++) {
+            var _nsSkeletons$i, _nsSkeletons$i2, _nsSkeletons$i3;
+            if (!((_nsSkeletons$i = nsSkeletons[i]) != null && (_nsSkeletons$i = _nsSkeletons$i.skt) != null && (_nsSkeletons$i = _nsSkeletons$i.node) != null && _nsSkeletons$i.uuid) || ((_nsSkeletons$i2 = nsSkeletons[i]) == null || (_nsSkeletons$i2 = _nsSkeletons$i2.skt) == null || (_nsSkeletons$i2 = _nsSkeletons$i2.node) == null ? void 0 : _nsSkeletons$i2.uuid) == target.node.uuid || ((_nsSkeletons$i3 = nsSkeletons[i]) == null || (_nsSkeletons$i3 = _nsSkeletons$i3.target) == null || (_nsSkeletons$i3 = _nsSkeletons$i3.node) == null ? void 0 : _nsSkeletons$i3.uuid) == target.node.uuid) {
+              nsSkeletons[i].skt.setCompleteListener(null);
+              nsSkeletons[i].skt.setEventListener(null);
+              nsSkeletons.splice(i, 1);
+              i--;
+            }
+          }
+        }
+        _MSkeleton.targetOff = targetOff;
+        function clear() {
+          nsSkeletons = [];
+        }
+        _MSkeleton.clear = clear;
+      })(MSkeleton || (MSkeleton = exports('MSkeleton', {})));
+      cclegacy._RF.pop();
+    }
+  };
+});
+
+System.register("chunks:///_virtual/MToast.ts", ['cc', './MAb.ts', './MPool.ts', './MSchedule.ts', './MNode.ts', './Enum.ts'], function (exports) {
+  var cclegacy, Label, v3, UIOpacity, tween, EBundle, MPool, MSchedule, MNode, ENode;
+  return {
+    setters: [function (module) {
+      cclegacy = module.cclegacy;
+      Label = module.Label;
+      v3 = module.v3;
+      UIOpacity = module.UIOpacity;
+      tween = module.tween;
+    }, function (module) {
+      EBundle = module.EBundle;
+    }, function (module) {
+      MPool = module.MPool;
+    }, function (module) {
+      MSchedule = module.MSchedule;
+    }, function (module) {
+      MNode = module.MNode;
+    }, function (module) {
+      ENode = module.ENode;
+    }],
+    execute: function () {
+      exports('MToast', void 0);
+      cclegacy._RF.push({}, "1c94d6BRvxF3IyBHAF+L7vC", "MToast", undefined);
+      let MToast;
+      (function (_MToast) {
+        let stacks = [];
+        let moveUping = false;
+        let lastTitle = "";
+        let showingCopied = false;
+        async function showToast(param) {
+          if (moveUping) {
+            if (stacks.length > 0) {
+              if (param.title != stacks[stacks.length - 1].title) {
+                stacks.push(param);
+              }
+            } else {
+              if (param.title != lastTitle) {
+                stacks.push(param);
+              }
+            }
+            return;
+          }
+          moveUping = true;
+          let node = await MPool.asyncLoad({
+            bundle: EBundle.resources,
+            path: "res/prefab/toast"
+          });
+          lastTitle = param.title;
+          node.getComponentInChildren(Label).string = param.title;
+          let canvas = MNode.getNode(ENode.Canvas);
+          canvas.addChild(node);
+          node.setPosition(v3(0, 0));
+          node.setSiblingIndex(9999);
+          let uiOpacity = node.getComponent(UIOpacity);
+          tween(node).parallel(tween().call(() => {
+            node.setPosition(v3());
+          }).to(0.3, {
+            position: v3(0, 100, 0)
+          }).delay(1.2).to(0.3, {
+            position: v3(0, 200, 0)
+          }), tween(uiOpacity).call(() => {
+            uiOpacity.opacity = 0;
+          }).to(0.3, {
+            opacity: 255
+          }).delay(1.2).to(0.3, {
+            opacity: 0
+          })).call(() => {
+            moveUping = false;
+            if (stacks.length > 0) {
+              let item = stacks.shift();
+              showToast(item);
+            } else {
+              MPool.recovery(node);
+            }
+          }).start();
+        }
+        _MToast.showToast = showToast;
+        async function showCopied() {
+          if (showingCopied) return;
+          showingCopied = true;
+          let canvas = MNode.getNode(ENode.Canvas);
+          let ndCopied = canvas.getChildByName("copied");
+          if (!ndCopied) {
+            ndCopied = await MPool.asyncLoad({
+              bundle: EBundle.resources,
+              path: "res/prefab/copied"
+            });
+          }
+          ndCopied.getComponent(UIOpacity).opacity = 255;
+          canvas.addChild(ndCopied);
+          ndCopied.setPosition(v3());
+          MSchedule.delay(() => {
+            ndCopied.getComponent(UIOpacity).opacity = 0;
+            showingCopied = false;
+          }, 1000);
+        }
+        _MToast.showCopied = showCopied;
+      })(MToast || (MToast = exports('MToast', {})));
+      cclegacy._RF.pop();
+    }
+  };
+});
+
+System.register("chunks:///_virtual/MTween.ts", ['cc'], function (exports) {
+  var cclegacy, Tween, tween, v3, UIOpacity;
+  return {
+    setters: [function (module) {
+      cclegacy = module.cclegacy;
+      Tween = module.Tween;
+      tween = module.tween;
+      v3 = module.v3;
+      UIOpacity = module.UIOpacity;
+    }],
+    execute: function () {
+      exports('MTween', void 0);
+      cclegacy._RF.push({}, "d01c6ZBt11EBIpUrj9B84sn", "MTween", undefined);
+      let MTween;
+      (function (_MTween) {
+        function jelly(param) {
+          Tween.stopAllByTarget(param.node);
+          let startScale;
+          if (param.startScale != null) {
+            startScale = param.startScale;
+          } else {
+            startScale = param.node.scale;
+          }
+          tween(param.node).set({
+            scale: startScale
+          }).to(0.1, {
+            scale: startScale.clone().add(v3(0.2, 0.2, 1))
+          }).to(0.1, {
+            scale: startScale
+          }).to(0.1, {
+            scale: startScale.clone().add(v3(0.1, 0.1, 1))
+          }).to(0.1, {
+            scale: startScale
+          }).to(0.1, {
+            scale: startScale.clone().add(v3(0.05, 0.05, 1))
+          }).to(0.1, {
+            scale: startScale
+          }).delay((param.interval ?? 1000) / 1000).union().repeat(Math.min(999999999, param.repeat ?? 999999999)).start();
+        }
+        _MTween.jelly = jelly;
+        function breath(node) {
+          Tween.stopAllByTarget(node);
+          tween(node).set({
+            scale: v3(1, 1, 1)
+          }).to(0.18, {
+            scale: v3(1.05, 1.05, 1)
+          }).to(0.18, {
+            scale: v3(1, 1, 1)
+          }).to(0.18, {
+            scale: v3(0.95, 0.95, 1)
+          }).to(0.18, {
+            scale: v3(1, 1, 1)
+          }).union().repeatForever().start();
+        }
+        _MTween.breath = breath;
+        function swing(node) {
+          Tween.stopAllByTarget(node);
+          tween(node).set({
+            angle: 0
+          }).to(0.06, {
+            angle: 10
+          }).to(0.06, {
+            angle: 0
+          }).to(0.06, {
+            angle: -10
+          }).to(0.06, {
+            angle: 0
+          }).to(0.06, {
+            angle: 10
+          }).to(0.06, {
+            angle: 0
+          }).to(0.06, {
+            angle: -10
+          }).to(0.06, {
+            angle: 0
+          }).to(0.06, {
+            angle: 10
+          }).to(0.06, {
+            angle: 0
+          }).to(0.06, {
+            angle: -10
+          }).to(0.06, {
+            angle: 0
+          }).delay(1).union().repeatForever().start();
+        }
+        _MTween.swing = swing;
+        function infiniteRotate(node) {
+          Tween.stopAllByTarget(node);
+          tween(node).set({
+            angle: 0
+          }).to(5, {
+            angle: -359
+          }).union().repeatForever().start();
+        }
+        _MTween.infiniteRotate = infiniteRotate;
+        function twinkle(node) {
+          Tween.stopAllByTarget(node);
+          tween(node.getComponent(UIOpacity)).set({
+            opacity: 255
+          }).to(0.5, {
+            opacity: 50
+          }).to(0.5, {
+            opacity: 255
+          }).union().repeatForever().start();
+        }
+        _MTween.twinkle = twinkle;
+      })(MTween || (MTween = exports('MTween', {})));
+      cclegacy._RF.pop();
+    }
+  };
+});
+
+System.register("chunks:///_virtual/MUi.ts", ['cc', './MAb.ts', './MAudio.ts', './MNode.ts', './Enum.ts', './MConfig.ts'], function (exports) {
+  var cclegacy, Node, Layers, v3, UITransform, view, instantiate, BlockInputEvents, UIOpacity, Component, Sprite, Label, Color, tween, Tween, easing, MAb, EBundle, MAudio, EAudio, MNode, ENode, MConfig;
+  return {
+    setters: [function (module) {
+      cclegacy = module.cclegacy;
+      Node = module.Node;
+      Layers = module.Layers;
+      v3 = module.v3;
+      UITransform = module.UITransform;
+      view = module.view;
+      instantiate = module.instantiate;
+      BlockInputEvents = module.BlockInputEvents;
+      UIOpacity = module.UIOpacity;
+      Component = module.Component;
+      Sprite = module.Sprite;
+      Label = module.Label;
+      Color = module.Color;
+      tween = module.tween;
+      Tween = module.Tween;
+      easing = module.easing;
+    }, function (module) {
+      MAb = module.MAb;
+      EBundle = module.EBundle;
+    }, function (module) {
+      MAudio = module.MAudio;
+      EAudio = module.EAudio;
+    }, function (module) {
+      MNode = module.MNode;
+    }, function (module) {
+      ENode = module.ENode;
+    }, function (module) {
+      MConfig = module.MConfig;
+    }],
+    execute: function () {
+      exports('MUi', void 0);
+      cclegacy._RF.push({}, "33984UnRsNNL5OJfxhQoVTG", "MUi", undefined);
+
+      /**
+       * 面板枚举（由各业务模块扩展）
+       *
+       * 游戏 bundle 中定义自己的面板：
+       *   const GamePanel = { Main: 'Main/res/PanelMain' } as const;
+       *   MUi.showPanel(GamePanel.Main as any);
+       */
+      let EPanel = exports('EPanel', /*#__PURE__*/function (EPanel) {
+        EPanel["Temp"] = "";
+        return EPanel;
+      }({}));
+
+      /**
+       * 弹窗枚举（由各业务模块扩展）
+       *
+       * 核心弹窗在此定义，游戏特定弹窗在游戏 bundle 中定义：
+       *   const GameDialog = { YouWin: 'YouWin/res/DialogYouWin' } as const;
+       *   MUi.showDialog(GameDialog.YouWin as any);
+       */
+      let EDialog = exports('EDialog', /*#__PURE__*/function (EDialog) {
+        EDialog["Loading"] = "Loading/res/DialogLoading";
+        EDialog["Modal"] = "Modal/res/DialogModal";
+        EDialog["Reconnect"] = "Reconnect/res/DialogReconnect";
+        return EDialog;
+      }({}));
+
+      /**抽屉 */
+      let EDrawer = exports('EDrawer', /*#__PURE__*/function (EDrawer) {
+        return EDrawer;
+      }({}));
+      var EUiState = /*#__PURE__*/function (EUiState) {
+        EUiState[EUiState["None"] = 0] = "None";
+        EUiState[EUiState["Loading"] = 1] = "Loading";
+        EUiState[EUiState["Loaded"] = 2] = "Loaded";
+        return EUiState;
+      }(EUiState || {});
+      /**ui动画 */
+      let EUiAction = exports('EUiAction', /*#__PURE__*/function (EUiAction) {
+        EUiAction[EUiAction["None"] = 0] = "None";
+        EUiAction[EUiAction["BackOut"] = 1] = "BackOut";
+        return EUiAction;
+      }({}));
+
+      /**ui参数 */
+
+      /**面板参数 */
+
+      /**弹框参数 */
+      let MUi;
+      (function (_MUi) {
+        /**弹窗名称 节点 */
+        let nsDialogMap = new Map();
+        /**面板名称 节点 */
+        let nsPanelMap = new Map();
+        let nsPanelSet = new Set();
+        let nsUiStateMap = new Map();
+        let nsCurrentPanel = null;
+        let nsDialogParams = [];
+        class BaseUI extends Component {
+          constructor(...args) {
+            super(...args);
+            this.uiOption = void 0;
+            this.covereState = "none";
+          }
+          onEnable() {}
+          init() {}
+          /**被最上层覆盖 */
+          covered() {}
+          /**被暴露在最顶层 */
+          exposed() {}
+          getCoverState() {
+            return this.covereState;
+          }
+          setCoverState(state) {
+            this.covereState = state;
+          }
+          onDisable() {
+            var _this$uiOption;
+            (_this$uiOption = this.uiOption) == null || _this$uiOption.onHide == null || _this$uiOption.onHide();
+          }
+        }
+        class BaseDialog extends BaseUI {
+          constructor(...args) {
+            super(...args);
+            this.dialogName = void 0;
+          }
+          init() {}
+          setProperties(param) {
+            this.uiOption = param == null ? void 0 : param.uiOption;
+            this.dialogName = param.dialogName;
+          }
+          destroyDialog() {
+            var _this$node;
+            if (nsUiStateMap.has(this.dialogName)) {
+              nsUiStateMap.delete(this.dialogName);
+            }
+            if (nsDialogMap.has(this.dialogName)) {
+              nsDialogMap.delete(this.dialogName);
+            }
+            if (nsDialogMap.size == 0) {
+              nsPanelMap.forEach(element => {
+                let basePanel = element.getComponent(BasePanel);
+                if (basePanel) {
+                  if (basePanel.getCoverState() != "exposed") {
+                    basePanel.setCoverState("exposed");
+                    basePanel.exposed();
+                  }
+                }
+              });
+            } else {
+              let exposedDialog = MNode.getDialogRoot().children[nsDialogMap.size - 1];
+              if (exposedDialog) {
+                let baseDialog = exposedDialog.getComponentInChildren(BaseDialog);
+                if (baseDialog) {
+                  if (baseDialog.getCoverState() != "covered") {
+                    baseDialog.setCoverState("covered");
+                    baseDialog.covered();
+                  }
+                }
+              }
+            }
+            (_this$node = this.node) == null || (_this$node = _this$node.parent) == null || _this$node.destroy == null || _this$node.destroy();
+          }
+          onClickClose() {
+            MAudio.playOneShot(EAudio.Close);
+            this.destroyDialog();
+          }
+          attachClickClose() {
+            let node = new Node();
+            node.layer = Layers.Enum.UI_2D;
+            node.setParent(this.node.parent);
+            node.setPosition(v3());
+            node.addComponent(UITransform).setContentSize(view.getVisibleSize());
+            node.setSiblingIndex(9999);
+            node.on(Node.EventType.TOUCH_END, () => {
+              this.destroyDialog();
+            }, this);
+          }
+          attachCustomClick(callback) {
+            let node = new Node();
+            node.layer = Layers.Enum.UI_2D;
+            node.setParent(this.node.parent);
+            node.setPosition(v3());
+            node.addComponent(UITransform).setContentSize(view.getVisibleSize());
+            node.setSiblingIndex(9999);
+            node.on(Node.EventType.TOUCH_END, () => {
+              callback();
+            }, this);
+          }
+          onDisable() {
+            super.onDisable();
+          }
+        }
+        _MUi.BaseDialog = BaseDialog;
+        class BasePanel extends BaseUI {
+          constructor(...args) {
+            super(...args);
+            this.panelName = void 0;
+          }
+          setProperties(param) {
+            this.uiOption = param == null ? void 0 : param.uiOption;
+            this.panelName = param.panelName;
+          }
+          destroyPanel() {
+            var _this$node2;
+            (_this$node2 = this.node) == null || _this$node2.destroy == null || _this$node2.destroy();
+            nsPanelMap.delete(this.panelName);
+          }
+          onClickClose() {
+            MAudio.playOneShot(EAudio.Close);
+            this.destroyPanel();
+          }
+          onDisable() {
+            super.onDisable();
+          }
+        }
+        _MUi.BasePanel = BasePanel;
+        async function showDialog(dialogName, dialogOption) {
+          let uiState = nsUiStateMap.get(dialogName);
+          if (uiState == EUiState.Loading) return;
+          nsUiStateMap.set(dialogName, EUiState.Loading);
+          let handle = node => {
+            nsUiStateMap.set(dialogName, EUiState.Loaded);
+            let dialog = node.getComponent(BaseDialog);
+            if (dialog) {
+              dialog.setProperties({
+                uiOption: dialogOption,
+                dialogName: dialogName
+              });
+              dialog.init();
+            } else {
+              console.warn(`[MUi] Node for ${dialogName} does not have BaseDialog component.`);
+            }
+            dialogOption == null || dialogOption.onShow == null || dialogOption.onShow(node.parent);
+            switch (dialogOption == null ? void 0 : dialogOption.action) {
+              case EUiAction.BackOut:
+                tween(node).set({
+                  scale: v3(0.72, 0.72, 1)
+                }).to(0.3, {
+                  scale: v3(1, 1, 1)
+                }, {
+                  easing: easing.backOut
+                }).start();
+                break;
+            }
+            nsPanelMap.forEach(element => {
+              let basePanel = element.getComponent(BasePanel);
+              if (basePanel) {
+                if (basePanel.getCoverState() != "covered") {
+                  basePanel.setCoverState("covered");
+                  basePanel.covered();
+                }
+              }
+            });
+            nsDialogMap.forEach((element, dialog) => {
+              if (dialog != dialogName) {
+                let baseDialog = element.getComponentInChildren(BaseDialog);
+                if (baseDialog) {
+                  if (baseDialog.getCoverState() != "covered") {
+                    baseDialog.setCoverState("covered");
+                    baseDialog.covered();
+                  }
+                }
+              }
+            });
+          };
+          let loadDialog = async loading => {
+            try {
+              let prf = await MAb.asyncLoad({
+                bundle: (dialogOption == null ? void 0 : dialogOption.bundle) || EBundle.Dialog,
+                path: dialogName,
+                onTimeOut: () => {
+                  console.warn("资源加载超时");
+                }
+              });
+              let node = instantiate(prf);
+              let width = Math.min(MConfig.configLocal.maxWidth, view.getVisibleSize().width);
+              let height = view.getVisibleSize().height;
+              node.scale = v3(width / 780, width / 780, 1);
+              node.getComponent(UITransform).height = height / node.scale.y;
+              let shell = await shellDialog({
+                dialog: node,
+                customBg: dialogOption == null ? void 0 : dialogOption.customBg,
+                tapToClose: dialogOption == null ? void 0 : dialogOption.tapToClose,
+                noCloseHit: dialogOption == null ? void 0 : dialogOption.noCloseHit
+              });
+              nsDialogMap.set(dialogName, shell);
+              shell.setParent(MNode.getDialogRoot());
+              shell.setPosition(v3());
+              handle(node);
+            } catch (e) {
+              console.error(`[MUi] Failed to load dialog ${dialogName}:`, e);
+              nsUiStateMap.delete(dialogName); // 允许重试
+            } finally {
+              if (loading) {
+                Tween.stopAllByTarget(loading);
+                loading.active = false;
+              }
+            }
+          };
+          let showLoading = loading => {
+            if (!loading) return;
+            loading.active = true;
+            let uiOpacity = loading.getComponent(UIOpacity);
+            if (!uiOpacity) {
+              uiOpacity = loading.addComponent(UIOpacity);
+            }
+            tween(uiOpacity).set({
+              opacity: 0
+            }).to(0.2, {
+              opacity: 255
+            }).start();
+          };
+          let canvas = MNode.getNode(ENode.Canvas);
+          let loading = canvas == null ? void 0 : canvas.getChildByName("DialogLoading");
+          if (!loading && canvas) {
+            try {
+              let prf = await MAb.asyncLoad({
+                bundle: EBundle.Dialog,
+                path: EDialog.Loading
+              });
+              loading = instantiate(prf);
+              canvas.addChild(loading);
+              loading.setPosition(v3());
+              loading.addComponent(UITransform).setContentSize(view.getVisibleSize());
+            } catch (e) {
+              // 如果 DialogLoading 加载失败，创建一个临时的遮罩层以阻塞输入
+              loading = new Node("DialogLoading");
+              loading.addComponent(BlockInputEvents);
+              loading.addComponent(UITransform).setContentSize(view.getVisibleSize());
+              canvas.addChild(loading);
+              // 这里不再 warn，因为 MAb 已经处理了
+            }
+          }
+
+          showLoading(loading);
+          loadDialog(loading);
+        }
+        _MUi.showDialog = showDialog;
+        function showPanel(panelName, panelOption) {
+          nsCurrentPanel = panelName;
+          let handle = node => {
+            let panel = node.getComponent(BasePanel);
+            panel.setProperties({
+              uiOption: panelOption,
+              panelName: panelName
+            });
+            panel.init();
+            panelOption == null || panelOption.onShow == null || panelOption.onShow(node);
+            switch (panelOption == null ? void 0 : panelOption.action) {
+              case EUiAction.BackOut:
+                tween(node).set({
+                  scale: v3(0.72, 0.72, 1)
+                }).to(0.3, {
+                  scale: v3(1, 1, 1)
+                }, {
+                  easing: easing.backOut
+                }).start();
+                break;
+            }
+            let splits = nsCurrentPanel.split("/");
+            if (splits[splits.length - 1] != node.name) {
+              node.destroy();
+            }
+          };
+          if (nsPanelMap.has(panelName)) {
+            let panel = nsPanelMap.get(panelName);
+            panel.position = v3(0, panel.position.y);
+            let uiOpacity = panel.getComponent(UIOpacity);
+            if (!uiOpacity) {
+              uiOpacity = panel.addComponent(UIOpacity);
+            }
+            uiOpacity.opacity = 255;
+            handle(panel);
+            return;
+          }
+          if (nsPanelSet.has(panelName)) {
+            return;
+          }
+          nsPanelSet.add(panelName);
+          let loadPanel = async () => {
+            let prf = await MAb.asyncLoad({
+              bundle: EBundle.Panel,
+              path: panelName,
+              onTimeOut: () => {
+                console.warn("资源加载超时");
+              }
+            });
+            let node = instantiate(prf);
+            node.addComponent(UITransform).setContentSize(view.getVisibleSize());
+            nsPanelMap.set(panelName, node);
+            node.setParent(MNode.getPanelRoot());
+            node.setPosition(v3());
+            handle(node);
+          };
+          loadPanel();
+        }
+        _MUi.showPanel = showPanel;
+        function showDialogs(params) {
+          nsDialogParams = params;
+          let recursion = () => {
+            if (params.length > 0) {
+              var _dialog$option, _dialog$option2;
+              let dialog = params.shift();
+              showDialog(dialog.dialogName, {
+                data: dialog == null || (_dialog$option = dialog.option) == null ? void 0 : _dialog$option.data,
+                action: dialog == null || (_dialog$option2 = dialog.option) == null ? void 0 : _dialog$option2.action,
+                onShow: () => {
+                  var _dialog$option3;
+                  dialog == null || (_dialog$option3 = dialog.option) == null || _dialog$option3.onShow == null || _dialog$option3.onShow();
+                  if (dialog != null && dialog.onShowLoadAfter) {
+                    recursion();
+                  }
+                },
+                onHide: () => {
+                  var _dialog$option4;
+                  dialog == null || (_dialog$option4 = dialog.option) == null || _dialog$option4.onHide == null || _dialog$option4.onHide();
+                  if (dialog != null && dialog.onHideLoadAfter) {
+                    recursion();
+                  }
+                }
+              });
+            }
+          };
+          recursion();
+        }
+        _MUi.showDialogs = showDialogs;
+        function unshiftShowDialog(dialogName, option) {
+          if (nsDialogParams.length == 0) {
+            showDialog(dialogName, option);
+          } else {
+            nsDialogParams.unshift({
+              dialogName: dialogName,
+              option: option
+            });
+          }
+        }
+        _MUi.unshiftShowDialog = unshiftShowDialog;
+        function pushShowDialog(dialogName, option) {
+          if (nsDialogParams.length == 0) {
+            showDialog(dialogName, option);
+          } else {
+            nsDialogParams.push({
+              dialogName: dialogName,
+              option: option
+            });
+          }
+        }
+        _MUi.pushShowDialog = pushShowDialog;
+        function destroyDialog(dialogName) {
+          if (nsDialogMap.has(dialogName)) {
+            if (nsDialogMap.get(dialogName).isValid) {
+              var _nsDialogMap$get;
+              (_nsDialogMap$get = nsDialogMap.get(dialogName)) == null || _nsDialogMap$get.destroy == null || _nsDialogMap$get.destroy();
+              nsDialogMap.delete(dialogName);
+              if (nsUiStateMap.has(dialogName)) {
+                nsUiStateMap.delete(dialogName);
+              }
+            }
+          }
+        }
+        _MUi.destroyDialog = destroyDialog;
+        function destroyPanel(panelName) {
+          if (nsPanelMap.has(panelName)) {
+            if (nsPanelMap.get(panelName).isValid) {
+              var _nsPanelMap$get;
+              (_nsPanelMap$get = nsPanelMap.get(panelName)) == null || _nsPanelMap$get.destroy == null || _nsPanelMap$get.destroy();
+              nsPanelMap.delete(panelName);
+            }
+          }
+        }
+        _MUi.destroyPanel = destroyPanel;
+        function destroyAllDialog() {
+          nsDialogMap.forEach(element => {
+            element == null || element.destroy == null || element.destroy();
+          });
+          nsDialogMap.clear();
+        }
+        _MUi.destroyAllDialog = destroyAllDialog;
+        function destroyAllPanel() {
+          nsPanelMap.forEach(element => {
+            element == null || element.destroy == null || element.destroy();
+          });
+          nsPanelMap.clear();
+        }
+        _MUi.destroyAllPanel = destroyAllPanel;
+        function getCurrentPanel() {
+          return nsCurrentPanel;
+        }
+        _MUi.getCurrentPanel = getCurrentPanel;
+        function isDialogShown(dialogName) {
+          return nsUiStateMap.has(dialogName);
+        }
+        _MUi.isDialogShown = isDialogShown;
+        function shellDialog(param) {
+          return new Promise(async resolve => {
+            let shell = new Node("shell");
+            shell.layer = Layers.Enum.UI_2D;
+            shell.addComponent(UITransform).setContentSize(view.getVisibleSize());
+            shell.addComponent(BlockInputEvents);
+            if (param.customBg) {
+              try {
+                let spf = await MAb.asyncLoad({
+                  bundle: EBundle.resources,
+                  path: param.customBg
+                });
+                shell.addComponent(Sprite).spriteFrame = spf;
+              } catch (e) {
+                console.warn(`[MUi] Custom background load failed: ${param.customBg}`);
+              }
+            } else {
+              let block = new Node("block");
+              block.layer = Layers.Enum.UI_2D;
+              block.setParent(shell);
+              let uiOpacity = block.getComponent(UIOpacity);
+              if (!uiOpacity) {
+                uiOpacity = block.addComponent(UIOpacity);
+              }
+              uiOpacity.opacity = 186;
+              block.addComponent(UITransform).setContentSize(view.getVisibleSize());
+            }
+            if (param.tapToClose) {
+              shell.on(Node.EventType.TOUCH_END, () => {
+                let dialog = param.dialog.getComponent(BaseDialog);
+                if (dialog) {
+                  dialog.onClickClose();
+                } else {
+                  shell.destroy();
+                }
+              }, this);
+              if (!param.noCloseHit) {
+                let tip = new Node("tap_close_tip");
+                tip.layer = Layers.Enum.UI_2D;
+                shell.addChild(tip);
+                tip.setPosition(v3(0, -905, 0));
+                let uiOpacity = tip.addComponent(UIOpacity);
+                let label = tip.addComponent(Label);
+                label.string = "- Tap to close -";
+                label.fontSize = 36;
+                label.lineHeight = 40;
+                label.color = Color.WHITE;
+
+                // Pulsing animation for the tip
+                tween(uiOpacity).repeatForever(tween().to(1, {
+                  opacity: 100
+                }).to(1, {
+                  opacity: 255
+                })).start();
+              }
+            }
+            param.dialog.setParent(shell);
+            resolve(shell);
+          });
+        }
+        function clear() {
+          nsDialogMap.clear();
+          nsPanelMap.clear();
+          nsUiStateMap.clear();
+          nsCurrentPanel = null;
+          nsPanelSet = new Set();
+          nsDialogParams = [];
+        }
+        _MUi.clear = clear;
+      })(MUi || (MUi = exports('MUi', {})));
+      cclegacy._RF.pop();
+    }
+  };
+});
+
+System.register("chunks:///_virtual/MUrlParam.ts", ['cc'], function (exports) {
+  var cclegacy;
+  return {
+    setters: [function (module) {
+      cclegacy = module.cclegacy;
+    }],
+    execute: function () {
+      exports('MUrlParam', void 0);
+      cclegacy._RF.push({}, "7527cuoLKVOo5MPjV4cfl+u", "MUrlParam", undefined);
+      // import { MCrypto } from "./MCrypto";
+      let MUrlParam;
+      (function (_MUrlParam) {
+        function get(key) {
+          let param = new URLSearchParams(window.location.search.split("params=")[1]);
+          return param.get(key);
+        }
+        _MUrlParam.get = get;
+      })(MUrlParam || (MUrlParam = exports('MUrlParam', {})));
+      cclegacy._RF.pop();
+    }
+  };
+});
+
+System.register("chunks:///_virtual/MWebSocket.ts", ['cc', './socket.io.mjs_cjs=&original=.js', './socket.io.js'], function (exports) {
+  var cclegacy, game, Game, _cjsExports;
+  return {
+    setters: [function (module) {
+      cclegacy = module.cclegacy;
+      game = module.game;
+      Game = module.Game;
+    }, null, function (module) {
+      _cjsExports = module.default;
+    }],
+    execute: function () {
+      exports('MWebSocket', void 0);
+      cclegacy._RF.push({}, "bc759dnavBHKJZeW3fn6LVk", "MWebSocket", undefined);
+      // import { MCrypto } from './MCrypto';
+
+      /**
+       * 通用 WebSocket 管理器
+       *
+       * 仅提供 Socket.IO 连接、断连、消息收发能力。
+       * 游戏特定的事件监听和业务逻辑由各游戏 bundle 自行处理：
+       *
+       *   MWebSocket.connect({ url: 'ws://...', onConnect, onDisconnect });
+       *   MWebSocket.on('INIT_RESULT', (msg) => { ... });
+       *   MWebSocket.send('INIT', { userId }, { encrypt: true });
+       */
+      let MWebSocket;
+      (function (_MWebSocket) {
+        let _ws;
+        let _url = '';
+        function connect(option) {
+          _url = option.url;
+          if (option.autoReconnectOnResume !== false) {
+            game.on(Game.EVENT_PAUSE, () => {
+              if (_ws && _ws.connected) {
+                _ws.disconnect();
+              }
+            });
+            game.on(Game.EVENT_RESUME, () => {
+              if (_ws && _ws.disconnected) {
+                _ws.connect();
+              }
+            });
+          }
+          _ws = _cjsExports(_url, {
+            withCredentials: true,
+            transports: ['websocket', 'polling', 'flashsocket']
+          });
+          _ws.on('connect', () => {
+            console.warn('[MWebSocket] 已连接');
+            option.onConnect == null || option.onConnect();
+          });
+          _ws.on('disconnect', () => {
+            console.warn('[MWebSocket] 已断开');
+            option.onDisconnect == null || option.onDisconnect();
+          });
+        }
+        _MWebSocket.connect = connect;
+        function on(event, callback) {
+          if (_ws) {
+            _ws.on(event, callback);
+          }
+        }
+        _MWebSocket.on = on;
+        function off(event, callback) {
+          if (_ws) {
+            _ws.off(event, callback);
+          }
+        }
+        _MWebSocket.off = off;
+        function send(event, data, option) {
+          if (_ws) {
+            let msg = JSON.stringify(data);
+            // if (option?.encrypt) {
+            //     msg = MCrypto.aesEncrypt(msg);
+            // }
+            _ws.emit(event, msg);
+          }
+        }
+        _MWebSocket.send = send;
+        function getSocket() {
+          return _ws;
+        }
+        _MWebSocket.getSocket = getSocket;
+        function isConnected() {
+          var _ws2;
+          return ((_ws2 = _ws) == null ? void 0 : _ws2.connected) ?? false;
+        }
+        _MWebSocket.isConnected = isConnected;
+        function disconnect() {
+          if (_ws && _ws.connected) {
+            _ws.disconnect();
+          }
+        }
+        _MWebSocket.disconnect = disconnect;
+        function reconnect() {
+          if (_ws && _ws.disconnected) {
+            _ws.connect();
+          }
+        }
+        _MWebSocket.reconnect = reconnect;
+      })(MWebSocket || (MWebSocket = exports('MWebSocket', {})));
+      cclegacy._RF.pop();
+    }
+  };
+});
+
+System.register("chunks:///_virtual/OnEnginLaunch.ts", ['cc'], function () {
+  var cclegacy, director, Director, macro;
+  return {
+    setters: [function (module) {
+      cclegacy = module.cclegacy;
+      director = module.director;
+      Director = module.Director;
+      macro = module.macro;
+    }],
+    execute: function () {
+      cclegacy._RF.push({}, "7e799jbwOFCoZF5ePA/zw7J", "OnEnginLaunch", undefined);
+      director.on(Director.EVENT_AFTER_SCENE_LAUNCH, () => {
+        macro.ENABLE_MULTI_TOUCH = false;
+      });
+      cclegacy._RF.pop();
+    }
+  };
+});
+
+System.register("chunks:///_virtual/PopupBtnCmp.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc', './PopupManager.ts'], function (exports) {
+  var _applyDecoratedDescriptor, _initializerDefineProperty, cclegacy, Enum, Prefab, _decorator, Component, Button, find, UITransform, v3, PopupManager;
+  return {
+    setters: [function (module) {
+      _applyDecoratedDescriptor = module.applyDecoratedDescriptor;
+      _initializerDefineProperty = module.initializerDefineProperty;
+    }, function (module) {
+      cclegacy = module.cclegacy;
+      Enum = module.Enum;
+      Prefab = module.Prefab;
+      _decorator = module._decorator;
+      Component = module.Component;
+      Button = module.Button;
+      find = module.find;
+      UITransform = module.UITransform;
+      v3 = module.v3;
+    }, function (module) {
+      PopupManager = module.PopupManager;
+    }],
+    execute: function () {
+      var _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11;
+      cclegacy._RF.push({}, "83f8arxFC5MMrUesXfSKIK/", "PopupBtnCmp", undefined);
+      const {
+        ccclass,
+        property,
+        menu
+      } = _decorator;
+      let PopupType = exports('PopupType', /*#__PURE__*/function (PopupType) {
+        PopupType[PopupType["Prefab"] = 1] = "Prefab";
+        PopupType[PopupType["Path"] = 2] = "Path";
+        return PopupType;
+      }({}));
+      let AnimType = exports('AnimType', /*#__PURE__*/function (AnimType) {
+        AnimType[AnimType["None"] = 1] = "None";
+        AnimType[AnimType["OpacityIn"] = 2] = "OpacityIn";
+        AnimType[AnimType["ScaleIn"] = 3] = "ScaleIn";
+        AnimType[AnimType["BottomIn"] = 4] = "BottomIn";
+        AnimType[AnimType["RightIn"] = 5] = "RightIn";
+        AnimType[AnimType["LeftIn"] = 6] = "LeftIn";
+        return AnimType;
+      }({}));
+      let CloseAnimType = exports('CloseAnimType', /*#__PURE__*/function (CloseAnimType) {
+        CloseAnimType[CloseAnimType["None"] = 1] = "None";
+        CloseAnimType[CloseAnimType["ScaleOut"] = 2] = "ScaleOut";
+        CloseAnimType[CloseAnimType["BottomOut"] = 4] = "BottomOut";
+        CloseAnimType[CloseAnimType["RightOut"] = 5] = "RightOut";
+        CloseAnimType[CloseAnimType["LeftOut"] = 6] = "LeftOut";
+        return CloseAnimType;
+      }({}));
+      Enum(PopupType);
+      Enum(AnimType);
+      Enum(CloseAnimType);
+      let PopupBtnCmp = exports('PopupBtnCmp', (_dec = ccclass('PopupBtnCmp'), _dec2 = menu('弹窗相关/弹窗入口'), _dec3 = property({
+        type: PopupType
+      }), _dec4 = property({
+        visible: function () {
+          return this.popupType === PopupType.Path;
+        }
+      }), _dec5 = property({
+        type: Prefab,
+        visible: function () {
+          return this.popupType === PopupType.Prefab;
+        }
+      }), _dec6 = property({
+        visible: function () {
+          return this.setTabIndex;
+        }
+      }), _dec7 = property({
+        visible: function () {
+          return this.setTabIndex;
+        }
+      }), _dec8 = property({
+        type: AnimType
+      }), _dec9 = property({
+        type: CloseAnimType
+      }), _dec(_class = _dec2(_class = (_class2 = class PopupBtnCmp extends Component {
+        constructor(...args) {
+          super(...args);
+          _initializerDefineProperty(this, "popupType", _descriptor, this);
+          _initializerDefineProperty(this, "path", _descriptor2, this);
+          _initializerDefineProperty(this, "prefab", _descriptor3, this);
+          _initializerDefineProperty(this, "setTabIndex", _descriptor4, this);
+          _initializerDefineProperty(this, "nodePath", _descriptor5, this);
+          _initializerDefineProperty(this, "index", _descriptor6, this);
+          _initializerDefineProperty(this, "animType", _descriptor7, this);
+          _initializerDefineProperty(this, "closeAnimType", _descriptor8, this);
+          _initializerDefineProperty(this, "noCloseHit", _descriptor9, this);
+          _initializerDefineProperty(this, "noMask", _descriptor10, this);
+          _initializerDefineProperty(this, "noTouchClose", _descriptor11, this);
+          this.initScale = null;
+        }
+        onLoad() {
+          this.initScale = this.node.getScale().clone();
+          let button = this.node.getComponent(Button);
+          if (button) {
+            this.node.on(Button.EventType.CLICK, this.onClick, this);
+          }
+        }
+        onClick() {
+          var _find;
+          let tempPopup = null;
+          if (this.popupType === PopupType.Path) {
+            tempPopup = this.path;
+          } else if (this.popupType === PopupType.Prefab) {
+            tempPopup = this.prefab;
+          }
+          if (!tempPopup) return;
+          let args = {
+            noCloseHit: this.noCloseHit,
+            noTouchClose: this.noTouchClose,
+            noMask: this.noMask,
+            onShow: node => {
+              if (this.setTabIndex) {
+                let tabbarNode = find(this.nodePath, node);
+                if (tabbarNode) {
+                  let tabbarCpt = tabbarNode.getComponent("Tabbar");
+                  if (tabbarCpt) {
+                    tabbarCpt.setPage(this.index);
+                  }
+                }
+              }
+            }
+          };
+          switch (this.animType) {
+            case AnimType.OpacityIn:
+              args.opacityIn = true;
+              break;
+            case AnimType.ScaleIn:
+              args.scaleIn = true;
+              break;
+            case AnimType.BottomIn:
+              args.bottomIn = true;
+              break;
+            case AnimType.RightIn:
+              args.rightIn = true;
+              break;
+            case AnimType.LeftIn:
+              args.leftIn = true;
+              break;
+          }
+          switch (this.closeAnimType) {
+            case CloseAnimType.ScaleOut:
+              args.scaleOut = true;
+              let uiTransform = this.node.getComponent(UITransform);
+              let worldPos = (uiTransform == null ? void 0 : uiTransform.convertToWorldSpaceAR(v3(0, 0, 0))) || v3(0, 0, 0);
+              let canvasTransform = (_find = find("Canvas")) == null ? void 0 : _find.getComponent(UITransform);
+              let endPos = (canvasTransform == null ? void 0 : canvasTransform.convertToNodeSpaceAR(worldPos)) || v3(0, 0, 0);
+              args.scaleOutParm = {
+                toPos: v3(endPos.x, endPos.y, 0),
+                node: this.node,
+                scale: this.initScale
+              };
+              break;
+            case CloseAnimType.BottomOut:
+              args.bottomOut = true;
+              break;
+            case CloseAnimType.RightOut:
+              args.rightOut = true;
+              break;
+            case CloseAnimType.LeftOut:
+              args.leftOut = true;
+              break;
+          }
+          PopupManager.addPopup(tempPopup, args);
+        }
+      }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "popupType", [_dec3], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return PopupType.Prefab;
+        }
+      }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "path", [_dec4], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return '';
+        }
+      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "prefab", [_dec5], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return null;
+        }
+      }), _descriptor4 = _applyDecoratedDescriptor(_class2.prototype, "setTabIndex", [property], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return false;
+        }
+      }), _descriptor5 = _applyDecoratedDescriptor(_class2.prototype, "nodePath", [_dec6], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return '';
+        }
+      }), _descriptor6 = _applyDecoratedDescriptor(_class2.prototype, "index", [_dec7], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return '';
+        }
+      }), _descriptor7 = _applyDecoratedDescriptor(_class2.prototype, "animType", [_dec8], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return AnimType.None;
+        }
+      }), _descriptor8 = _applyDecoratedDescriptor(_class2.prototype, "closeAnimType", [_dec9], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return CloseAnimType.None;
+        }
+      }), _descriptor9 = _applyDecoratedDescriptor(_class2.prototype, "noCloseHit", [property], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return false;
+        }
+      }), _descriptor10 = _applyDecoratedDescriptor(_class2.prototype, "noMask", [property], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return false;
+        }
+      }), _descriptor11 = _applyDecoratedDescriptor(_class2.prototype, "noTouchClose", [property], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return false;
+        }
+      })), _class2)) || _class) || _class));
+      cclegacy._RF.pop();
+    }
+  };
+});
+
+System.register("chunks:///_virtual/PopupCloseBtnCmp.ts", ['cc', './PopupManager.ts'], function (exports) {
+  var cclegacy, Component, Button, _decorator, PopupManager;
+  return {
+    setters: [function (module) {
+      cclegacy = module.cclegacy;
+      Component = module.Component;
+      Button = module.Button;
+      _decorator = module._decorator;
+    }, function (module) {
+      PopupManager = module.PopupManager;
+    }],
+    execute: function () {
+      var _dec, _dec2, _class;
+      cclegacy._RF.push({}, "345a7jMDhVDCofQQxctQm1o", "PopupCloseBtnCmp", undefined);
+      const {
+        ccclass,
+        property,
+        menu
+      } = _decorator;
+      let PopupCloseBtnCmp = exports('PopupCloseBtnCmp', (_dec = ccclass('PopupCloseBtnCmp'), _dec2 = menu('弹窗相关/关闭按钮'), _dec(_class = _dec2(_class = class PopupCloseBtnCmp extends Component {
+        onLoad() {
+          let button = this.node.getComponent(Button);
+          if (button) {
+            this.node.on(Button.EventType.CLICK, () => {
+              PopupManager.removeTop();
+            }, this);
+          }
+        }
+      }) || _class) || _class));
+      cclegacy._RF.pop();
+    }
+  };
+});
+
+System.register("chunks:///_virtual/PopupLifeCmp.ts", ['cc'], function (exports) {
+  var cclegacy, Component, _decorator;
+  return {
+    setters: [function (module) {
+      cclegacy = module.cclegacy;
+      Component = module.Component;
+      _decorator = module._decorator;
+    }],
+    execute: function () {
+      var _dec, _class;
+      cclegacy._RF.push({}, "6b82b2pjb1FGIjXyGVHHD0i", "PopupLifeCmp", undefined);
+      const {
+        ccclass,
+        property
+      } = _decorator;
+      let PopupLifeCmp = exports('PopupLifeCmp', (_dec = ccclass('PopupLifeCmp'), _dec(_class = class PopupLifeCmp extends Component {
+        constructor(...args) {
+          super(...args);
+          this.onPopupDestroy = null;
+        }
+        setOnDestroy(callback) {
+          this.onPopupDestroy = callback;
+        }
+        onDestroy() {
+          if (this.onPopupDestroy) {
+            this.onPopupDestroy();
+          }
+        }
+      }) || _class));
+      cclegacy._RF.pop();
+    }
+  };
+});
+
+System.register("chunks:///_virtual/PopupManager.ts", ['cc', './MEvent.ts', './PopupLifeCmp.ts'], function (exports) {
+  var cclegacy, director, Director, assetManager, Prefab, instantiate, v3, find, tween, view, isValid, Node, UITransform, BlockInputEvents, Graphics, Color, Button, resources, MEvent, PopupLifeCmp;
+  return {
+    setters: [function (module) {
+      cclegacy = module.cclegacy;
+      director = module.director;
+      Director = module.Director;
+      assetManager = module.assetManager;
+      Prefab = module.Prefab;
+      instantiate = module.instantiate;
+      v3 = module.v3;
+      find = module.find;
+      tween = module.tween;
+      view = module.view;
+      isValid = module.isValid;
+      Node = module.Node;
+      UITransform = module.UITransform;
+      BlockInputEvents = module.BlockInputEvents;
+      Graphics = module.Graphics;
+      Color = module.Color;
+      Button = module.Button;
+      resources = module.resources;
+    }, function (module) {
+      MEvent = module.MEvent;
+    }, function (module) {
+      PopupLifeCmp = module.PopupLifeCmp;
+    }],
+    execute: function () {
+      exports('PopupManager', void 0);
+      cclegacy._RF.push({}, "09edcZqWI1Du4CR/L0187X3", "PopupManager", undefined);
+
+      /**
+       * 弹窗管理器 (TypeScript 命名空间版)
+       * 移植自 PopupManager.js，适配 Cocos Creator 3.8
+       */
+      let PopupManager;
+      (function (_PopupManager) {
+        const baseZIndex = _PopupManager.baseZIndex = 50;
+        let popupStack = [];
+        let waitingQueue = [];
+        let maskLayer = null;
+        let touchLayer = null;
+        let closeNode = null;
+        function init() {
+          popupStack = [];
+          waitingQueue = [];
+          director.on(Director.EVENT_BEFORE_SCENE_LAUNCH, () => {
+            removeAll();
+          });
+
+          // 定时检测逻辑
+          setInterval(checkPopupStack, 100);
+        }
+        _PopupManager.init = init;
+        function checkPopupStack() {
+          if (popupStack.length <= 0) {
+            if (waitingQueue.length > 0) {
+              let popupObj = waitingQueue.pop();
+              createPopup(popupObj.path, popupObj.args);
+            }
+          }
+        }
+        function addPopup(path, args = {}) {
+          if (!path) return;
+          args.path = path;
+          args.weight = args.weight || 1;
+          args.multiple = args.multiple || false;
+          if (args.isWait) {
+            waitingQueue.push({
+              path: path,
+              args: args
+            });
+            waitingQueue.sort((o1, o2) => o1.args.weight - o2.args.weight);
+          } else {
+            createPopup(path, args);
+          }
+        }
+        _PopupManager.addPopup = addPopup;
+        function createPopup(path, args) {
+          if (!args.multiple && checkIsAddedByPath(path)) {
+            console.log("[PopupManager] Popup already added:", path);
+            return;
+          }
+          popupStack.push(args);
+          if (typeof path === "string") {
+            let bundleName = args.bundle || "resources";
+            let bundle = assetManager.getBundle(bundleName);
+            let loadAsset = targetBundle => {
+              targetBundle.load(path, Prefab, (err, prefab) => {
+                if (err) {
+                  console.error("[PopupManager] load error:", path, err);
+                  let idx = popupStack.indexOf(args);
+                  if (idx >= 0) popupStack.splice(idx, 1);
+                  return;
+                }
+                if (args.parent && !isValid(args.parent, true)) return;
+                if (popupStack.indexOf(args) >= 0) {
+                  let node = instantiate(prefab);
+                  handlePopup(node, args);
+                }
+              });
+            };
+            if (bundle) {
+              loadAsset(bundle);
+            } else {
+              assetManager.loadBundle(bundleName, (err, loadedBundle) => {
+                if (err) {
+                  console.error("[PopupManager] loadBundle error:", bundleName, err);
+                  // 降级尝试 resources
+                  loadAsset(resources);
+                  return;
+                }
+                loadAsset(loadedBundle);
+              });
+            }
+          } else if (path instanceof Prefab) {
+            let node = instantiate(path);
+            if (node) handlePopup(node, args);
+          } else {
+            handlePopup(path, args);
+          }
+        }
+        function handlePopup(node, args) {
+          args.node = node;
+          args.name = node.name;
+          node["popupArgs"] = args;
+          let endPos = args.pos || v3(0, 0, 0);
+          let lifeCmp = node.addComponent(PopupLifeCmp);
+          lifeCmp.setOnDestroy(() => {
+            for (let i = 0; i < popupStack.length; i++) {
+              if (popupStack[i].node == node) {
+                popupStack.splice(i, 1);
+                updateStack();
+                break;
+              }
+            }
+          });
+          if (args.addBeforeCall) {
+            args.addBeforeCall(node);
+          }
+          let canvas = find("Canvas");
+          if (canvas) {
+            node.parent = canvas;
+          }
+          if (!args.closeInSound) {
+            MEvent.emit("EVENT_BTN_CLICK_2_SOUNDS");
+          }
+          updateStack();
+          node.setPosition(args.pos || v3(0, 0, 0));
+          if (args.onShow) {
+            args.onShow(node);
+          }
+
+          // 动画逻辑
+          if (args.scaleIn) {
+            let orgScale = node.getScale();
+            node.setScale(v3(0.4, 0.4, 1));
+            let uiOpacity = node.getComponent('cc.UIOpacity') || node.addComponent('cc.UIOpacity');
+            uiOpacity.opacity = 0;
+            tween(node).to(args.animTime || 0.3, {
+              scale: orgScale
+            }, {
+              easing: "backOut"
+            }).start();
+            tween(uiOpacity).to(args.animTime || 0.3, {
+              opacity: 255
+            }).call(() => {
+              if (args.onShowEnd) args.onShowEnd(node);
+            }).start();
+            if (maskLayer) {
+              let maskOpacity = maskLayer.getComponent('cc.UIOpacity') || maskLayer.addComponent('cc.UIOpacity');
+              tween(maskOpacity).to(args.animTime || 0.3, {
+                opacity: 255
+              }).start();
+            }
+          } else if (args.opacityIn) {
+            let uiOpacity = node.getComponent('cc.UIOpacity') || node.addComponent('cc.UIOpacity');
+            uiOpacity.opacity = 0;
+            tween(uiOpacity).to(args.animTime || 0.3, {
+              opacity: 255
+            }, {
+              easing: "quadOut"
+            }).call(() => {
+              if (args.onShowEnd) args.onShowEnd(node);
+            }).start();
+            if (maskLayer) {
+              let maskOpacity = maskLayer.getComponent('cc.UIOpacity') || maskLayer.addComponent('cc.UIOpacity');
+              tween(maskOpacity).to(args.animTime || 0.3, {
+                opacity: 255
+              }).start();
+            }
+          } else if (args.bottomIn) {
+            let startPos = endPos.clone().add(v3(0, -view.getVisibleSize().height, 0));
+            node.setPosition(startPos);
+            tween(node).to(args.animTime || 0.3, {
+              position: endPos
+            }, {
+              easing: "quadOut"
+            }).call(() => {
+              if (args.onShowEnd) args.onShowEnd(node);
+            }).start();
+          } else {
+            if (maskLayer) {
+              let maskOpacity = maskLayer.getComponent('cc.UIOpacity') || maskLayer.addComponent('cc.UIOpacity');
+              maskOpacity.opacity = 255;
+            }
+            if (args.onShowEnd) args.onShowEnd(node);
+          }
+        }
+        function removeTop() {
+          if (popupStack.length <= 0) return false;
+          let top = popupStack[popupStack.length - 1];
+          if (!top || !top.node) return false;
+          removePopup(top.node);
+          return true;
+        }
+        _PopupManager.removeTop = removeTop;
+        function removePopup(node, force = false) {
+          if (!node || !isValid(node)) return;
+          for (let i = 0; i < popupStack.length; i++) {
+            if (popupStack[i].node == node) {
+              let popupObj = popupStack[i];
+              if (!popupObj.closeOutSound) {
+                MEvent.emit("EVENT_BTN_CLOSE_SOUNDS");
+              }
+              let remove = () => {
+                if (popupObj.onClose) popupObj.onClose(popupObj.node);
+                onClosePopup(popupObj);
+                if (popupObj.node && isValid(popupObj.node, true)) {
+                  popupObj.node.destroy();
+                }
+                let idx = popupStack.indexOf(popupObj);
+                if (idx >= 0) popupStack.splice(idx, 1);
+                updateStack();
+              };
+              if (!force && popupObj.onCloseBefore) {
+                popupObj.onCloseBefore(popupObj.node, remove);
+              } else {
+                remove();
+              }
+              break;
+            }
+          }
+          updateStack();
+        }
+        _PopupManager.removePopup = removePopup;
+        function removeAll() {
+          for (let i = 0; i < popupStack.length; i++) {
+            let obj = popupStack[i];
+            if (obj && obj.node && isValid(obj.node)) {
+              if (obj.onClose) obj.onClose(obj.node);
+              onClosePopup(obj);
+              obj.node.destroy();
+            }
+          }
+          popupStack = [];
+          waitingQueue = [];
+          if (touchLayer && isValid(touchLayer)) touchLayer.destroy();
+          if (maskLayer && isValid(maskLayer)) maskLayer.destroy();
+          maskLayer = null;
+          touchLayer = null;
+        }
+        _PopupManager.removeAll = removeAll;
+        function updateStack() {
+          let canvas = find("Canvas");
+          if (!canvas) return;
+          if (!maskLayer || !isValid(maskLayer)) {
+            maskLayer = new Node("MaskLayer");
+            maskLayer.parent = canvas;
+            let transform = maskLayer.addComponent(UITransform);
+            transform.setContentSize(view.getVisibleSize().width * 3, view.getVisibleSize().height * 3);
+            maskLayer.addComponent(BlockInputEvents);
+            let graphics = maskLayer.addComponent(Graphics);
+            graphics.fillColor = new Color(0, 0, 0, 200);
+            graphics.rect(-transform.width / 2, -transform.height / 2, transform.width, transform.height);
+            graphics.fill();
+            maskLayer.addComponent('cc.UIOpacity');
+          }
+          let needMaskIdx = -1;
+          for (let i = popupStack.length - 1; i >= 0; i--) {
+            if (!popupStack[i].noMask) {
+              needMaskIdx = i;
+              break;
+            }
+          }
+          if (needMaskIdx >= 0) {
+            maskLayer.active = true;
+            maskLayer.setSiblingIndex(baseZIndex + needMaskIdx * 3);
+          } else {
+            maskLayer.active = false;
+          }
+          if (!touchLayer || !isValid(touchLayer)) {
+            touchLayer = new Node("TouchLayer");
+            touchLayer.parent = canvas;
+            let transform = touchLayer.addComponent(UITransform);
+            transform.setContentSize(view.getVisibleSize().width * 3, view.getVisibleSize().height * 3);
+            touchLayer.addComponent(Button);
+            touchLayer.on(Button.EventType.CLICK, () => {
+              let top = popupStack[popupStack.length - 1];
+              if (top && !top.noTouchClose) {
+                removeTop();
+              }
+            });
+            resources.load("BalootClient/BaseRes/prefabs/popup_close", Prefab, (err, prefab) => {
+              if (err) return;
+              closeNode = instantiate(prefab);
+              closeNode.parent = touchLayer;
+              closeNode.setPosition(v3(0, -905, 0));
+              closeNode.on(Button.EventType.CLICK, () => {
+                removeTop();
+              });
+              updateCloseNodeVisibility();
+            });
+          }
+          if (popupStack.length > 0) {
+            let topIdx = popupStack.length - 1;
+            let top = popupStack[topIdx];
+            top.node.setSiblingIndex(baseZIndex + topIdx * 3 + 2);
+            if (top.touchThrough) {
+              touchLayer.active = false;
+            } else {
+              touchLayer.active = true;
+              touchLayer.setSiblingIndex(baseZIndex + topIdx * 3 + 1);
+            }
+            updateCloseNodeVisibility();
+          } else {
+            touchLayer.active = false;
+          }
+        }
+        function updateCloseNodeVisibility() {
+          if (closeNode) {
+            if (popupStack.length > 0) {
+              closeNode.active = !popupStack[popupStack.length - 1].noCloseHit;
+            } else {
+              closeNode.active = false;
+            }
+          }
+        }
+        function checkIsAddedByPath(path) {
+          for (let i = 0; i < popupStack.length; i++) {
+            let itemPath = popupStack[i].path;
+            if (typeof itemPath === "string") {
+              if (path == itemPath) return true;
+            } else if (itemPath instanceof Prefab) {
+              if (path.name == itemPath.name) return true;
+            }
+          }
+          return false;
+        }
+        function onClosePopup(args) {
+          if (!args || !args.node) return;
+        }
+      })(PopupManager || (PopupManager = exports('PopupManager', {})));
+      cclegacy._RF.pop();
+    }
+  };
+});
+
+System.register("chunks:///_virtual/SubSystemManager.ts", ['cc'], function (exports) {
+  var cclegacy, assetManager, sys;
+  return {
+    setters: [function (module) {
+      cclegacy = module.cclegacy;
+      assetManager = module.assetManager;
+      sys = module.sys;
+    }],
+    execute: function () {
+      exports('MSubSystem', void 0);
+      cclegacy._RF.push({}, "64cdd892/1HdLF3pATtxC/5", "SubSystemManager", undefined);
+
+      /**
+       * 子系统管理器
+       *
+       * 负责子系统 Bundle 的按需加载、卸载和版本管理
+       * 供大厅调用，实现点击时才下载子系统的流程
+       */
+      let MSubSystem;
+      (function (_MSubSystem) {
+        /** 子系统信息 */
+
+        /** 已注册的子系统 */
+        const _systems = new Map();
+
+        /** 加载回调缓存 */
+
+        /**
+         * 注册子系统（由大厅初始化时调用）
+         */
+        function register(bundleName, displayName, entryComponent) {
+          _systems.set(bundleName, {
+            bundleName,
+            displayName,
+            loaded: false,
+            entryComponent
+          });
+          console.log(`[MSubSystem] 注册子系统: ${bundleName} (${displayName})`);
+        }
+        _MSubSystem.register = register;
+        function load(bundleName) {
+          return new Promise((resolve, reject) => {
+            const info = _systems.get(bundleName);
+            if (!info) {
+              reject(new Error(`子系统未注册: ${bundleName}`));
+              return;
+            }
+
+            // 已加载直接返回
+            const existing = assetManager.getBundle(bundleName);
+            if (existing) {
+              info.loaded = true;
+              console.log(`[MSubSystem] Bundle 已加载: ${bundleName}`);
+              resolve();
+              return;
+            }
+
+            // 构建 Bundle URL
+            let bundleUrl;
+            if (sys.isNative) {
+              const writablePath = jsb.fileUtils.getWritablePath();
+              bundleUrl = `${writablePath}remote-asset/${bundleName}`;
+            } else {
+              // Web/开发环境: 从 CDN 或本地服务器加载
+              const cdnBase = globalThis.__cdnBase || '';
+              bundleUrl = cdnBase ? `${cdnBase}/${bundleName}` : bundleName;
+            }
+            console.log(`[MSubSystem] 加载 Bundle: ${bundleUrl}`);
+            assetManager.loadBundle(bundleUrl, error => {
+              if (error) {
+                console.error(`[MSubSystem] 加载失败: ${bundleName}`, error);
+                reject(error);
+                return;
+              }
+              info.loaded = true;
+              console.log(`[MSubSystem] 加载成功: ${bundleName}`);
+              resolve();
+            });
+          });
+        }
+        _MSubSystem.load = load;
+        function unload(bundleName) {
+          const info = _systems.get(bundleName);
+          if (!info) return;
+          const bundle = assetManager.getBundle(bundleName);
+          if (bundle) {
+            assetManager.removeBundle(bundle);
+            info.loaded = false;
+            console.log(`[MSubSystem] 已卸载: ${bundleName}`);
+          }
+        }
+        _MSubSystem.unload = unload;
+        function isLoaded(bundleName) {
+          var _systems$get;
+          return ((_systems$get = _systems.get(bundleName)) == null ? void 0 : _systems$get.loaded) || false;
+        }
+        _MSubSystem.isLoaded = isLoaded;
+        function getAll() {
+          return Array.from(_systems.values());
+        }
+        _MSubSystem.getAll = getAll;
+        function getDisplayName(bundleName) {
+          var _systems$get2;
+          return ((_systems$get2 = _systems.get(bundleName)) == null ? void 0 : _systems$get2.displayName) || bundleName;
+        }
+        _MSubSystem.getDisplayName = getDisplayName;
+      })(MSubSystem || (MSubSystem = exports('MSubSystem', {})));
+      globalThis.MSubSystem = MSubSystem;
+      cclegacy._RF.pop();
+    }
+  };
+});
+
+System.register("chunks:///_virtual/Tools.ts", ['cc'], function (exports) {
+  var cclegacy, sys, Color, view, ResolutionPolicy, UIRenderer, Sprite, Label, Material, director, Canvas, Widget;
+  return {
+    setters: [function (module) {
+      cclegacy = module.cclegacy;
+      sys = module.sys;
+      Color = module.Color;
+      view = module.view;
+      ResolutionPolicy = module.ResolutionPolicy;
+      UIRenderer = module.UIRenderer;
+      Sprite = module.Sprite;
+      Label = module.Label;
+      Material = module.Material;
+      director = module.director;
+      Canvas = module.Canvas;
+      Widget = module.Widget;
+    }],
+    execute: function () {
+      exports('Tools', void 0);
+      cclegacy._RF.push({}, "9a09dSGGIBBLpL470B3TULm", "Tools", undefined);
+      let Tools;
+      (function (_Tools) {
+        const DURATION_MS = _Tools.DURATION_MS = 1;
+        const DURATION_S = _Tools.DURATION_S = 1000 * DURATION_MS;
+        const DURATION_M = _Tools.DURATION_M = 60 * DURATION_S;
+        const DURATION_H = _Tools.DURATION_H = 60 * DURATION_M;
+        const DURATION_D = _Tools.DURATION_D = 24 * DURATION_H;
+        function getItem(key) {
+          return sys.localStorage.getItem(key);
+        }
+        _Tools.getItem = getItem;
+        function setItem(key, value) {
+          sys.localStorage.setItem(key, value);
+        }
+        _Tools.setItem = setItem;
+        function removeItem(key) {
+          sys.localStorage.removeItem(key);
+        }
+        _Tools.removeItem = removeItem;
+        function now() {
+          return Date.now();
+        }
+        _Tools.now = now;
+        function rgbToHex(r, g, b) {
+          let hex = (r << 16 | g << 8 | b).toString(16);
+          return "#" + new Array(Math.abs(hex.length - 7)).join("0") + hex;
+        }
+        _Tools.rgbToHex = rgbToHex;
+        function hexToRgb(hex) {
+          return new Color().fromHEX(hex);
+        }
+        _Tools.hexToRgb = hexToRgb;
+        function dayStartTime(time) {
+          return new Date(time).setHours(0, 0, 0, 0);
+        }
+        _Tools.dayStartTime = dayStartTime;
+        function dayEndTime(time) {
+          return new Date(time).setHours(23, 59, 59, 999);
+        }
+        _Tools.dayEndTime = dayEndTime;
+        function weekStartTime(time) {
+          let day = new Date(time).getDay();
+          if (day == 0) {
+            day = 7;
+          }
+          return new Date(new Date(time).setHours(0, 0, 0, 0) - (day - 1) * 24 * 60 * 60 * 1000).getTime();
+        }
+        _Tools.weekStartTime = weekStartTime;
+        function weekEndTime(time) {
+          let day = new Date(time).getDay();
+          if (day == 0) {
+            day = 7;
+          }
+          return new Date(new Date(time).setHours(23, 59, 59, 999) + (7 - day) * 24 * 60 * 60 * 1000).getTime();
+        }
+        _Tools.weekEndTime = weekEndTime;
+        function inSameDay(time1, time2) {
+          return dayStartTime(time1) == dayStartTime(time2);
+        }
+        _Tools.inSameDay = inSameDay;
+        function inSameWeek(time1, time2) {
+          return weekStartTime(time1) == weekStartTime(time2);
+        }
+        _Tools.inSameWeek = inSameWeek;
+        function isToday(param) {
+          let daytime = 1000 * 60 * 60 * 24;
+          let timeOffest = 8 * 60 * 60 * 1000;
+          if (Math.floor((param.currentTime + timeOffest) / daytime) == Math.floor((param.targetTime + timeOffest) / daytime)) {
+            return true;
+          } else {
+            return false;
+          }
+        }
+        _Tools.isToday = isToday;
+        function offsetDay(param) {
+          let dayTime = 24 * 60 * 60 * 1000;
+          let timeOffest = 8 * 60 * 60 * 1000;
+          let offset = Math.floor((param.endTime + timeOffest) / dayTime) - Math.floor((param.startTime + timeOffest) / dayTime);
+          return offset;
+        }
+        _Tools.offsetDay = offsetDay;
+        function fillZero(originNumber, zeroAmount) {
+          return (Array(zeroAmount).join('0') + originNumber).slice(-zeroAmount);
+        }
+        _Tools.fillZero = fillZero;
+        function copy(data) {
+          if (typeof data != 'object') {
+            return data;
+          }
+          if (Array.isArray(data)) {
+            return copyArray(data);
+          } else {
+            return copyObject(data);
+          }
+        }
+        _Tools.copy = copy;
+        function copyArray(data) {
+          let newdata = [];
+          data.forEach(element => {
+            if (typeof element == "object") {
+              if (Array.isArray(element)) {
+                newdata.push(copyArray(element));
+              } else {
+                newdata.push(copyObject(element));
+              }
+            } else {
+              newdata.push(element);
+            }
+          });
+          return newdata;
+        }
+        function copyObject(data) {
+          if (data) {
+            let newdata = new Object();
+            for (var key in data) {
+              if (typeof data[key] == "object") {
+                if (Array.isArray(data[key])) {
+                  newdata[key] = copyArray(data[key]);
+                } else {
+                  newdata[key] = copyObject(data[key]);
+                }
+              } else {
+                newdata[key] = data[key];
+              }
+            }
+            return newdata;
+          } else {
+            return null;
+          }
+        }
+        function formatNumber(value, minDetailedDisplay = 1000, fractionDigits) {
+          if (value < minDetailedDisplay) {
+            return value.toFixed(fractionDigits ?? 0);
+          } else if (value < 1000 * 1000) {
+            return (value / 1000).toFixed(value % 1000 == 0 ? 0 : 2) + 'K';
+          } else if (value < 1000 * 1000 * 1000) {
+            return (value / 1000 / 1000).toFixed(value % 1000 == 0 ? 0 : 2) + 'M';
+          } else if (value < 1000 * 1000 * 1000 * 1000) {
+            return (value / 1000 / 1000 / 1000).toFixed(value % 1000 == 0 ? 0 : 2) + 'B';
+          } else if (value < 1000 * 1000 * 1000 * 1000 * 1000) {
+            return (value / 1000 / 1000 / 1000 / 1000).toFixed(value % 1000 == 0 ? 0 : 2) + 'T';
+          } else {
+            let strNumber = Math.round(value).toString();
+            let pos = strNumber.indexOf('e+');
+            if (pos > 0) {
+              let len = strNumber.substr(pos + 2);
+              let num = strNumber.substr(0, 4);
+              return num + 'E' + len;
+            } else {
+              let len = Math.round(value).toString().length - 1;
+              let num = value / Math.pow(10, len);
+              return num.toFixed(value % 1000 == 0 ? 0 : 2) + 'E' + len;
+            }
+          }
+        }
+        _Tools.formatNumber = formatNumber;
+        function scientificToNumber(x) {
+          if (Math.abs(x) < 1.0) {
+            var e = parseInt(x.toString().split('e-')[1]);
+            if (e) {
+              x *= Math.pow(10, e - 1);
+              x = '0.' + new Array(e).join('0') + x.toString().substring(2);
+            }
+          } else {
+            var e = parseInt(x.toString().split('+')[1]);
+            if (e > 20) {
+              e -= 20;
+              x /= Math.pow(10, e);
+              x += new Array(e + 1).join('0');
+            }
+          }
+          return x;
+        }
+        _Tools.scientificToNumber = scientificToNumber;
+        function genUid(param) {
+          let tsoup = (param == null ? void 0 : param.soup) ?? "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_";
+          let tlUid = (param == null ? void 0 : param.lUid) ?? 30;
+          let lSoup = tsoup.length;
+          let id = [];
+          for (let i = 0; i < tlUid; i++) {
+            id[i] = tsoup.charAt(Math.random() * lSoup);
+          }
+          return id.join('');
+        }
+        _Tools.genUid = genUid;
+        var serialnum = 0;
+        /**有序的序列号 */
+        function genOrderSerialnumber() {
+          serialnum++;
+          return serialnum;
+        }
+        _Tools.genOrderSerialnumber = genOrderSerialnumber;
+        function screenSize() {
+          let screenHeight = view.getVisibleSize().height;
+          let screenWidth = view.getVisibleSize().width;
+          if (screenHeight > screenWidth) {
+            /**竖屏 */
+            if (screenHeight / screenWidth >= 2) {
+              return "l";
+            } else if (screenHeight / screenWidth > 1.776) {
+              return "m";
+            } else {
+              return "s";
+            }
+          } else {
+            /**横屏 */
+            if (screenWidth / screenHeight >= 2) {
+              return "l";
+            } else if (screenWidth / screenHeight >= 1.775) {
+              return "m";
+            } else {
+              return "s";
+            }
+          }
+        }
+        _Tools.screenSize = screenSize;
+        var chnNumChar = ["零", "一", "二", "三", "四", "五", "六", "七", "八", "九"];
+        var chnUnitSection = ["", "万", "亿", "万亿", "亿亿"];
+        var tcChnUnitSection = ["", "萬", "億", "萬億", "億億"];
+        var chnUnitChar = ["", "十", "百", "千"];
+
+        /**数字转中文 */
+        function numberToChinese(num) {
+          let language = sys.languageCode;
+          var unitPos = 0;
+          var strIns = '',
+            chnStr = '';
+          var needZero = false;
+          if (num === 0) {
+            return chnNumChar[0];
+          }
+          while (num > 0) {
+            var section = num % 10000;
+            if (needZero) {
+              chnStr = chnNumChar[0] + chnStr;
+            }
+            strIns = sectionToChinese(section);
+            if (language.indexOf("zh-cn") != -1 || language.indexOf("zh_cn") != -1 || language == "zh") {
+              strIns += section !== 0 ? chnUnitSection[unitPos] : chnUnitSection[0];
+            } else {
+              strIns += section !== 0 ? tcChnUnitSection[unitPos] : tcChnUnitSection[0];
+            }
+            chnStr = strIns + chnStr;
+            needZero = section < 1000 && section > 0;
+            num = Math.floor(num / 10000);
+            unitPos++;
+          }
+          return chnStr;
+        }
+        _Tools.numberToChinese = numberToChinese;
+        function numberToDay(num) {
+          switch (num) {
+            case 1:
+              return "一";
+            case 2:
+              return "二";
+            case 3:
+              return "三";
+            case 4:
+              return "四";
+            case 5:
+              return "五";
+            case 6:
+              return "六";
+            case 7:
+              return "日";
+          }
+        }
+        _Tools.numberToDay = numberToDay;
+        function sectionToChinese(section) {
+          var strIns = '',
+            chnStr = '';
+          var unitPos = 0;
+          var zero = true;
+          while (section > 0) {
+            var v = section % 10;
+            if (v === 0) {
+              if (!zero) {
+                zero = true;
+                chnStr = chnNumChar[v] + chnStr;
+              }
+            } else {
+              zero = false;
+              strIns = chnNumChar[v];
+              strIns += chnUnitChar[unitPos];
+              chnStr = strIns + chnStr;
+            }
+            unitPos++;
+            section = Math.floor(section / 10);
+          }
+          return chnStr;
+        }
+
+        /**数字转罗马数字 */
+        function numberToRoman(num) {
+          switch (num) {
+            case 0:
+              return "";
+            case 1:
+              return "Ⅰ";
+            case 2:
+              return "Ⅱ";
+            case 3:
+              return "Ⅲ";
+            case 4:
+              return "Ⅳ";
+            case 5:
+              return "Ⅴ";
+            case 6:
+              return "Ⅵ";
+            case 7:
+              return "Ⅶ";
+            case 8:
+              return "Ⅷ";
+            case 9:
+              return "Ⅸ";
+            case 10:
+              return "Ⅹ";
+          }
+        }
+        _Tools.numberToRoman = numberToRoman;
+        function intervalDay(time) {
+          let daytime = 1000 * 60 * 60 * 24;
+          return Math.floor(Date.now() / daytime) - Math.floor(time / daytime);
+        }
+        _Tools.intervalDay = intervalDay;
+        function getChars(str, separator) {
+          str = str.replace(/ /g, "");
+          str = str.replace(/，/g, ",");
+          let chars = str.split(separator);
+          for (let i = 0; i < chars.length; i++) {
+            if (chars[i] == "") {
+              chars.splice(i, 1);
+              i--;
+            }
+          }
+          return chars;
+        }
+        _Tools.getChars = getChars;
+        function getNumbers(str, separator) {
+          let arr = [];
+          let chars = getChars(str, separator);
+          chars.forEach(element => {
+            arr.push(parseInt(element));
+          });
+          return arr;
+        }
+        _Tools.getNumbers = getNumbers;
+        function shuffle(arr) {
+          var l = arr.length;
+          var index, temp;
+          while (l > 0) {
+            index = Math.floor(Math.random() * l);
+            temp = arr[l - 1];
+            arr[l - 1] = arr[index];
+            arr[index] = temp;
+            l--;
+          }
+          return arr;
+        }
+        _Tools.shuffle = shuffle;
+        function adapter() {
+          let canvasSize = view.getVisibleSize();
+          let designResolutionSize = view.getDesignResolutionSize();
+          if (canvasSize.height / canvasSize.width < designResolutionSize.height / designResolutionSize.width) {
+            view.setDesignResolutionSize(designResolutionSize.width, designResolutionSize.height, ResolutionPolicy.FIXED_HEIGHT);
+          } else {
+            view.setDesignResolutionSize(designResolutionSize.width, designResolutionSize.height, ResolutionPolicy.FIXED_WIDTH);
+          }
+        }
+        _Tools.adapter = adapter;
+        function checkProbable(probable, randSize = 100) {
+          let randomNumber = Math.random() * randSize;
+          return randomNumber <= probable;
+        }
+        _Tools.checkProbable = checkProbable;
+        function setGray(node, loop) {
+          let comp = node.getComponent(UIRenderer);
+          if (comp instanceof Sprite || comp instanceof Label) {
+            const material = new Material();
+            material.initialize({
+              effectName: 'builtin-unlit'
+            });
+            material.setProperty('mainColor', new Color(0.3, 0.59, 0.11, 1));
+            comp.material = material;
+          }
+          if (loop) {
+            if (node.children.length > 0) {
+              node.children.forEach(element => {
+                setGray(element, loop);
+              });
+            }
+          }
+        }
+        _Tools.setGray = setGray;
+        function setPrimaryColor(node, loop) {
+          let comp = node.getComponent(UIRenderer);
+          if (comp instanceof Sprite || comp instanceof Label) {
+            const material = new Material();
+            material.initialize({
+              effectName: 'builtin-sprite'
+            });
+            comp.material = material;
+          }
+          if (loop) {
+            if (node.children.length > 0) {
+              node.children.forEach(element => {
+                setPrimaryColor(element, loop);
+              });
+            }
+          }
+        }
+        _Tools.setPrimaryColor = setPrimaryColor;
+        function setColor(node, color, loop) {
+          node.getComponent(UIRenderer).color = color;
+          if (loop) {
+            if (node.children.length > 0) {
+              node.children.forEach(element => {
+                setColor(element, color, loop);
+              });
+            }
+          }
+        }
+        _Tools.setColor = setColor;
+        function setNumberColor(desc, color = '#B1F520') {
+          if (desc != null) {
+            let outs = [];
+            let temp = desc;
+            desc.match(/(\+|\-)?\d+%?/g).forEach(v => {
+              let temps = temp.split(v);
+              outs.push(temps.shift());
+              outs.push(`<color=${color}>${v}</c>`);
+              temp = temps.join(v);
+            });
+            outs.push(temp);
+            return outs.join('');
+          } else {
+            return null;
+          }
+        }
+        _Tools.setNumberColor = setNumberColor;
+        function cutStr(str, len, extralStr = "") {
+          let str_length = 0;
+          let str_len = 0;
+          let str_cut = '';
+          str_len = str.length;
+          for (var i = 0; i < str_len; i++) {
+            let a = str.charAt(i);
+            let regExp = new RegExp('^[\u4E00-\u9FFF]+$');
+            let regExp2 = new RegExp('^[A-Za-z0-9]+$');
+            if (regExp.test(a)) {
+              str_length += 2;
+            } else if (regExp2.test(a)) {
+              str_length += 1;
+            } else {
+              if (a != ' ') {
+                str_length += 1.5;
+              }
+            }
+            if (a != ' ') {
+              str_cut = str_cut.concat(a);
+            }
+            if (str_length >= len) {
+              return str_cut + extralStr;
+            }
+          }
+          //如果给定字符串小于指定长度，则返回源字符串；  
+          if (str_length <= len) {
+            return str;
+          }
+        }
+        _Tools.cutStr = cutStr;
+        function numberToString(num, fixed) {
+          num = parseFloat(num.toFixed(fixed ?? 0));
+          let newstr = "";
+          let arrs2 = [];
+          if (num % 1 == 0) {
+            arrs2 = num.toString().split("");
+            if (fixed > 0) {
+              newstr = ".";
+              for (let i = 0; i < fixed; i++) {
+                newstr += "0";
+              }
+            }
+          } else {
+            let arrs = num.toString().split(".");
+            newstr = "." + arrs[1];
+            if (fixed > 0 && arrs[1].length < fixed) {
+              for (let i = 0; i < fixed - arrs[1].length; i++) {
+                newstr += "0";
+              }
+            }
+            arrs2 = arrs[0].split("");
+          }
+          let counter = 0;
+          while (arrs2.length > 0) {
+            counter++;
+            newstr = arrs2.pop() + newstr;
+            if (counter == 3) {
+              if (arrs2.length > 0) {
+                newstr = "," + newstr;
+              }
+              counter = 0;
+            }
+          }
+          return newstr;
+        }
+        _Tools.numberToString = numberToString;
+        function saveJSONToLocal(jsonData, fileName) {
+          // 将JSON对象转换为字符串
+          const jsonString = JSON.stringify(jsonData);
+
+          // 创建一个Blob实例，类型为JSON文件类型
+          const blob = new Blob([jsonString], {
+            type: 'application/json'
+          });
+
+          // 创建一个链接元素
+          const a = document.createElement('a');
+
+          // 使用createObjectURL创建一个指向Blob的URL
+          a.href = URL.createObjectURL(blob);
+
+          // 设置下载文件名
+          a.download = fileName || 'data.json';
+
+          // 触发链接点击，开始下载
+          document.body.appendChild(a);
+          a.click();
+
+          // 清理并移除元素和对象URL引用
+          document.body.removeChild(a);
+          URL.revokeObjectURL(a.href);
+        }
+        _Tools.saveJSONToLocal = saveJSONToLocal;
+        function limitRange(current, rangeMin, rangeMax) {
+          if (current <= rangeMin) {
+            return rangeMin;
+          }
+          if (current >= rangeMax) {
+            return rangeMax;
+          }
+          return Math.floor(current);
+        }
+        _Tools.limitRange = limitRange;
+        function updateAlignment(node) {
+          director.getScene().getComponentInChildren(Canvas).scheduleOnce(() => {
+            node.children.forEach(element => {
+              let widget = element.getComponent(Widget);
+              if (widget) {
+                widget.updateAlignment();
+              }
+              updateAlignment(element);
+            });
+          });
+        }
+        _Tools.updateAlignment = updateAlignment;
+      })(Tools || (Tools = exports('Tools', {})));
+      cclegacy._RF.pop();
+    }
+  };
+});
+
+System.register("chunks:///_virtual/TouchClose.ts", ['cc', './MEvent.ts', './MPool.ts'], function (exports) {
+  var cclegacy, Component, Node, v3, UITransform, view, UIOpacity, _decorator, MEvent, MPool;
+  return {
+    setters: [function (module) {
+      cclegacy = module.cclegacy;
+      Component = module.Component;
+      Node = module.Node;
+      v3 = module.v3;
+      UITransform = module.UITransform;
+      view = module.view;
+      UIOpacity = module.UIOpacity;
+      _decorator = module._decorator;
+    }, function (module) {
+      MEvent = module.MEvent;
+    }, function (module) {
+      MPool = module.MPool;
+    }],
+    execute: function () {
+      var _dec, _class;
+      cclegacy._RF.push({}, "6053dnYqEFGZ679mE9crCWZ", "TouchClose", undefined);
+      const {
+        ccclass,
+        property
+      } = _decorator;
+      let TouchClose = exports('default', (_dec = ccclass("TouchClose"), _dec(_class = class TouchClose extends Component {
+        constructor(...args) {
+          super(...args);
+          this.callback = void 0;
+        }
+        onEnable() {
+          this.node.on(Node.EventType.TOUCH_START, () => {
+            var _this$callback;
+            (_this$callback = this.callback) == null || _this$callback.call(this);
+          }, this);
+          MEvent.on('RecoveryTouchClose', () => {
+            MPool.recovery(this.node);
+          }, this);
+        }
+        init(param) {
+          this.callback = param.callback;
+          this.node.setParent(param.excludeNode.getParent());
+          this.node.setPosition(v3());
+          this.node.getComponent(UITransform).setContentSize(view.getVisibleSize());
+          this.node.setSiblingIndex(param.excludeNode.getSiblingIndex());
+          if (param.showBg) {
+            this.node.getComponent(UIOpacity).opacity = 186;
+          } else {
+            this.node.getComponent(UIOpacity).opacity = 0;
+          }
+        }
+        onDisable() {
+          this.node.targetOff(this);
+          MEvent.targetOff(this);
+        }
+      }) || _class));
+      cclegacy._RF.pop();
+    }
+  };
+});
 
 (function(r) {
   r('virtual:///prerequisite-imports/lobby-casino-core', 'chunks:///_virtual/lobby-casino-core'); 
