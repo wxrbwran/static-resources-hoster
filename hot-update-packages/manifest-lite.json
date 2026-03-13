@@ -1,0 +1,38 @@
+{
+  "version": "1.0.0",
+  "cdnBase": "https://static-resources-hoster-snowy.vercel.app/hot-update-packages",
+  "minAppVersion": "1.0.0",
+  "buildTime": "2026-03-13T03:22:57.434Z",
+  "bundles": {
+    "lobby-casino": {
+      "name": "lobby-casino",
+      "version": "1.0.0",
+      "zip": {
+        "url": "https://static-resources-hoster-snowy.vercel.app/hot-update-packages/packages/lobby-casino-1.0.0.zip",
+        "size": 11047660,
+        "md5": "8f8971f12ca2c554151cfda773927191"
+      },
+      "fileCount": 323
+    },
+    "lobby-casino-core": {
+      "name": "lobby-casino-core",
+      "version": "1.0.0",
+      "zip": {
+        "url": "https://static-resources-hoster-snowy.vercel.app/hot-update-packages/packages/lobby-casino-core-1.0.0.zip",
+        "size": 19905,
+        "md5": "1158c36edf50c6b60b83cbe5e2feed53"
+      },
+      "fileCount": 2
+    },
+    "lobby-casino-email": {
+      "name": "lobby-casino-email",
+      "version": "1.0.0",
+      "zip": {
+        "url": "https://static-resources-hoster-snowy.vercel.app/hot-update-packages/packages/lobby-casino-email-1.0.0.zip",
+        "size": 226022,
+        "md5": "e9769018245387442b092b66c5c908cd"
+      },
+      "fileCount": 31
+    }
+  }
+}
