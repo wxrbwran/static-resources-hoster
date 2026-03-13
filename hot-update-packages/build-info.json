@@ -3,16 +3,16 @@
   "cdnBase": "https://static-resources-hoster-snowy.vercel.app/hot-update-packages",
   "minAppVersion": "1.0.0",
   "platform": "android",
-  "buildTime": "2026-03-13T03:53:00.960Z",
+  "buildTime": "2026-03-13T05:20:34.062Z",
   "bundles": [
     {
       "name": "lobby-casino",
       "version": "1.0.0",
-      "fileCount": 323,
+      "fileCount": 309,
       "zip": {
         "fileName": "lobby-casino-1.0.0.zip",
-        "size": 11058311,
-        "md5": "8e3d6a5a4c5b5d5e97c0fc057146d967"
+        "size": 11059358,
+        "md5": "2450f6f386d4b6f9bb3c69474118afea"
       }
     },
     {
@@ -28,11 +28,11 @@
     {
       "name": "lobby-casino-email",
       "version": "1.0.0",
-      "fileCount": 31,
+      "fileCount": 29,
       "zip": {
         "fileName": "lobby-casino-email-1.0.0.zip",
-        "size": 227531,
-        "md5": "a434c3f14241176d7f9569150127c3a7"
+        "size": 499912,
+        "md5": "cf125554d6dd1c049c2d3dd413bd4197"
       }
     }
   ]
