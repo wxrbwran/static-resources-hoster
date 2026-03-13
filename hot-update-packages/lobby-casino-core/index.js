@@ -3391,6 +3391,7 @@ System.register("chunks:///_virtual/PopupManager.ts", ['cc', './MEvent.ts', './P
               if (sys.isNative && hotUpdate && typeof hotUpdate.getBundleUrl === 'function') {
                 bundleUrl = hotUpdate.getBundleUrl(bundleName);
               }
+              console.log("[PopupManager] loadBundle bundleUrl:", bundleUrl);
               assetManager.loadBundle(bundleUrl, (err, loadedBundle) => {
                 if (err) {
                   console.error("[PopupManager] loadBundle error:", bundleName, err);
