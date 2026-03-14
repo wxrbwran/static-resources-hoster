@@ -3752,6 +3752,7 @@ System.register("chunks:///_virtual/UserInfoBar.ts", ['./rollupPluginModLoBabelH
         }
         start() {
           console.log('[UserInfoBar] start, nodeMail assigned:', !!this.nodeMail);
+          console.log('[UserInfoBar] hide settings~1');
           this.updateAll();
 
           // 手动绑定点击事件作为兜底
