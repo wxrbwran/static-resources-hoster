@@ -2,7 +2,7 @@
   "name": "casino",
   "displayName": "娱乐城游戏",
   "packageName": "com.kb.game.cocos.testsub",
-  "cdnBase": "https://static-resources-hoster-snowy.vercel.app/hot-update-packages",
+  "cdnBase": "https://static-resources-hoster-snowy.vercel.app/data-gg-hot-update",
   "coreBundle": "lobby-casino-core",
   "lobbyBundle": "lobby-casino",
   "apiConfigUrl": "https://api.example.com/config",

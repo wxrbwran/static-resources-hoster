@@ -1,0 +1,216 @@
+
+spine_10.png
+size: 864,864
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+wheel4/wheel4_000
+  rotate: false
+  xy: 741, 501
+  size: 121, 179
+  orig: 121, 183
+  offset: 0, 2
+  index: -1
+wheel4/wheel4_001
+  rotate: false
+  xy: 739, 14
+  size: 121, 178
+  orig: 121, 183
+  offset: 0, 3
+  index: -1
+wheel4/wheel4_002
+  rotate: true
+  xy: 618, 375
+  size: 121, 180
+  orig: 121, 183
+  offset: 0, 2
+  index: -1
+wheel4/wheel4_003
+  rotate: false
+  xy: 495, 310
+  size: 121, 182
+  orig: 121, 183
+  offset: 0, 0
+  index: -1
+wheel4/wheel4_004
+  rotate: true
+  xy: 2, 310
+  size: 121, 182
+  orig: 121, 183
+  offset: 0, 1
+  index: -1
+wheel4/wheel4_005
+  rotate: false
+  xy: 2, 679
+  size: 121, 183
+  orig: 121, 183
+  offset: 0, 0
+  index: -1
+wheel4/wheel4_006
+  rotate: false
+  xy: 186, 249
+  size: 121, 182
+  orig: 121, 183
+  offset: 0, 1
+  index: -1
+wheel4/wheel4_007
+  rotate: false
+  xy: 2, 126
+  size: 121, 182
+  orig: 121, 183
+  offset: 0, 1
+  index: -1
+wheel4/wheel4_008
+  rotate: true
+  xy: 2, 556
+  size: 121, 183
+  orig: 121, 183
+  offset: 0, 0
+  index: -1
+wheel4/wheel4_009
+  rotate: true
+  xy: 125, 741
+  size: 121, 183
+  orig: 121, 183
+  offset: 0, 0
+  index: -1
+wheel4/wheel4_010
+  rotate: false
+  xy: 309, 249
+  size: 121, 182
+  orig: 121, 183
+  offset: 0, 1
+  index: -1
+wheel4/wheel4_011
+  rotate: false
+  xy: 616, 127
+  size: 121, 181
+  orig: 121, 183
+  offset: 0, 2
+  index: -1
+wheel4/wheel4_012
+  rotate: true
+  xy: 432, 187
+  size: 121, 182
+  orig: 121, 183
+  offset: 0, 1
+  index: -1
+wheel4/wheel4_013
+  rotate: false
+  xy: 432, 4
+  size: 121, 181
+  orig: 121, 183
+  offset: 0, 2
+  index: -1
+wheel4/wheel4_014
+  rotate: true
+  xy: 555, 4
+  size: 121, 181
+  orig: 121, 183
+  offset: 0, 2
+  index: -1
+wheel4/wheel4_015
+  rotate: false
+  xy: 618, 681
+  size: 121, 181
+  orig: 121, 183
+  offset: 0, 2
+  index: -1
+wheel4/wheel4_016
+  rotate: false
+  xy: 618, 498
+  size: 121, 181
+  orig: 121, 183
+  offset: 0, 2
+  index: -1
+wheel4/wheel4_017
+  rotate: false
+  xy: 741, 682
+  size: 121, 180
+  orig: 121, 183
+  offset: 0, 3
+  index: -1
+wheel4/wheel4_018
+  rotate: false
+  xy: 739, 194
+  size: 121, 179
+  orig: 121, 183
+  offset: 0, 4
+  index: -1
+wheel4/wheel4_019
+  rotate: true
+  xy: 125, 126
+  size: 121, 182
+  orig: 121, 183
+  offset: 0, 1
+  index: -1
+wheel4/wheel4_020
+  rotate: false
+  xy: 309, 65
+  size: 121, 182
+  orig: 121, 183
+  offset: 0, 1
+  index: -1
+wheel4/wheel4_021
+  rotate: false
+  xy: 187, 556
+  size: 121, 183
+  orig: 121, 183
+  offset: 0, 0
+  index: -1
+wheel4/wheel4_022
+  rotate: true
+  xy: 2, 433
+  size: 121, 183
+  orig: 121, 183
+  offset: 0, 0
+  index: -1
+wheel4/wheel4_023
+  rotate: true
+  xy: 187, 433
+  size: 121, 183
+  orig: 121, 183
+  offset: 0, 0
+  index: -1
+wheel4/wheel4_024
+  rotate: true
+  xy: 310, 741
+  size: 121, 183
+  orig: 121, 183
+  offset: 0, 0
+  index: -1
+wheel4/wheel4_025
+  rotate: true
+  xy: 2, 3
+  size: 121, 182
+  orig: 121, 183
+  offset: 0, 1
+  index: -1
+wheel4/wheel4_026
+  rotate: true
+  xy: 310, 618
+  size: 121, 183
+  orig: 121, 183
+  offset: 0, 0
+  index: -1
+wheel4/wheel4_027
+  rotate: false
+  xy: 372, 433
+  size: 121, 183
+  orig: 121, 183
+  offset: 0, 0
+  index: -1
+wheel4/wheel4_028
+  rotate: false
+  xy: 495, 679
+  size: 121, 183
+  orig: 121, 183
+  offset: 0, 0
+  index: -1
+wheel4/wheel4_029
+  rotate: false
+  xy: 495, 494
+  size: 121, 183
+  orig: 121, 183
+  offset: 0, 0
+  index: -1
