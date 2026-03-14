@@ -618,9 +618,9 @@ System.register("chunks:///_virtual/Interface.ts", ['cc'], function () {
   };
 });
 
-System.register("chunks:///_virtual/lobby-casino-core", ['./Config.ts', './Enum.ts', './MApp.ts', './SubSystemManager.ts', './BaseModel.ts', './CopSkeleton.ts', './CopSprite.ts', './IHttp.ts', './Interface.ts', './MAb.ts', './MAudio.ts', './MConfig.ts', './MCopy.ts', './MDebug.ts', './MEvent.ts', './MHttp.ts', './MI18n.ts', './MModel.ts', './MNode.ts', './MPool.ts', './MSchedule.ts', './MSkeleton.ts', './MToast.ts', './MTween.ts', './MUi.ts', './MUrlParam.ts', './MWebSocket.ts', './PopupBtnCmp.ts', './PopupCloseBtnCmp.ts', './PopupLifeCmp.ts', './PopupManager.ts', './ModelSet.ts', './Decorator.ts', './InfiniteScroll.ts', './OnEnginLaunch.ts', './Tools.ts', './TouchClose.ts'], function () {
+System.register("chunks:///_virtual/lobby-casino-core", ['./Config.ts', './Enum.ts', './MApp.ts', './BaseModel.ts', './CopSkeleton.ts', './CopSprite.ts', './IHttp.ts', './Interface.ts', './MAb.ts', './MAudio.ts', './MConfig.ts', './MCopy.ts', './MDebug.ts', './MEvent.ts', './MHttp.ts', './MI18n.ts', './MModel.ts', './MNode.ts', './MPool.ts', './MSchedule.ts', './MSkeleton.ts', './MToast.ts', './MTween.ts', './MUi.ts', './MUrlParam.ts', './MWebSocket.ts', './PopupBtnCmp.ts', './PopupCloseBtnCmp.ts', './PopupLifeCmp.ts', './PopupManager.ts', './ModelSet.ts', './Decorator.ts', './InfiniteScroll.ts', './OnEnginLaunch.ts', './Tools.ts', './TouchClose.ts'], function () {
   return {
-    setters: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    setters: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     execute: function () {}
   };
 });
@@ -874,8 +874,8 @@ System.register("chunks:///_virtual/MAb.ts", ['cc'], function (exports) {
   };
 });
 
-System.register("chunks:///_virtual/MApp.ts", ['cc', './MAb.ts', './MUi.ts', './MEvent.ts', './MHttp.ts', './MWebSocket.ts', './MAudio.ts', './MModel.ts', './MConfig.ts', './MI18n.ts', './MSchedule.ts', './MTween.ts', './MSkeleton.ts', './MToast.ts', './MNode.ts', './MPool.ts', './MCopy.ts', './MDebug.ts', './MUrlParam.ts', './SubSystemManager.ts', './PopupManager.ts'], function (exports) {
-  var cclegacy, MAb, MUi, MEvent, MHttp, MWebSocket, MAudio, MModel, MConfig, MI18n, MSchedule, MTween, MSkeleton, MToast, MNode, MPool, MCopy, MDebug, MUrlParam, MSubSystem, PopupManager;
+System.register("chunks:///_virtual/MApp.ts", ['cc', './MAb.ts', './MUi.ts', './MEvent.ts', './MHttp.ts', './MWebSocket.ts', './MAudio.ts', './MModel.ts', './MConfig.ts', './MI18n.ts', './MSchedule.ts', './MTween.ts', './MSkeleton.ts', './MToast.ts', './MNode.ts', './MPool.ts', './MCopy.ts', './MDebug.ts', './MUrlParam.ts', './PopupManager.ts'], function (exports) {
+  var cclegacy, MAb, MUi, MEvent, MHttp, MWebSocket, MAudio, MModel, MConfig, MI18n, MSchedule, MTween, MSkeleton, MToast, MNode, MPool, MCopy, MDebug, MUrlParam, PopupManager;
   return {
     setters: [function (module) {
       cclegacy = module.cclegacy;
@@ -916,8 +916,6 @@ System.register("chunks:///_virtual/MApp.ts", ['cc', './MAb.ts', './MUi.ts', './
     }, function (module) {
       MUrlParam = module.MUrlParam;
     }, function (module) {
-      MSubSystem = module.MSubSystem;
-    }, function (module) {
       PopupManager = module.PopupManager;
     }],
     execute: function () {
@@ -957,7 +955,6 @@ System.register("chunks:///_virtual/MApp.ts", ['cc', './MAb.ts', './MUi.ts', './
           MCopy,
           MDebug,
           MUrlParam,
-          MSubSystem,
           MApp: null,
           // MApp 自身在下方注册
           PopupManager
@@ -3657,130 +3654,6 @@ System.register("chunks:///_virtual/PopupManager.ts", ['cc', './MEvent.ts', './P
           if (!args || !args.node) return;
         }
       })(PopupManager || (PopupManager = exports('PopupManager', {})));
-      cclegacy._RF.pop();
-    }
-  };
-});
-
-System.register("chunks:///_virtual/SubSystemManager.ts", ['cc'], function (exports) {
-  var cclegacy, assetManager, sys;
-  return {
-    setters: [function (module) {
-      cclegacy = module.cclegacy;
-      assetManager = module.assetManager;
-      sys = module.sys;
-    }],
-    execute: function () {
-      exports('MSubSystem', void 0);
-      cclegacy._RF.push({}, "64cdd892/1HdLF3pATtxC/5", "SubSystemManager", undefined);
-
-      /**
-       * 子系统管理器
-       *
-       * 负责子系统 Bundle 的按需加载、卸载和版本管理
-       * 供大厅调用，实现点击时才下载子系统的流程
-       */
-      let MSubSystem;
-      (function (_MSubSystem) {
-        /** 子系统信息 */
-
-        /** 已注册的子系统 */
-        const _systems = new Map();
-
-        /** 加载回调缓存 */
-
-        /**
-         * 注册子系统（由大厅初始化时调用）
-         */
-        function register(bundleName, displayName, entryComponent) {
-          _systems.set(bundleName, {
-            bundleName,
-            displayName,
-            loaded: false,
-            entryComponent
-          });
-          console.log(`[MSubSystem] 注册子系统: ${bundleName} (${displayName})`);
-        }
-        _MSubSystem.register = register;
-        async function load(bundleName) {
-          const info = _systems.get(bundleName);
-          if (!info) {
-            throw new Error(`子系统未注册: ${bundleName}`);
-          }
-
-          // 已加载直接返回
-          const existing = assetManager.getBundle(bundleName);
-          if (existing) {
-            info.loaded = true;
-            console.log(`[MSubSystem] Bundle 已加载: ${bundleName}`);
-            return;
-          }
-
-          // 确定 bundle URL
-          let bundleUrl;
-          const hotUpdate = globalThis.__hotUpdate;
-          if (sys.isNative && hotUpdate && typeof hotUpdate.ensureBundleReady === 'function') {
-            // 原生平台：先确保 bundle 已下载/更新，返回正确的加载路径
-            console.log(`[MSubSystem] 确保 ${bundleName} 就绪...`);
-            bundleUrl = await hotUpdate.ensureBundleReady(bundleName);
-          } else if (sys.isNative) {
-            var _jsb$fileUtils, _jsb$fileUtils2;
-            // 原生平台但无 hotUpdate：尝试热更目录，fallback 到包名
-            const jsb = globalThis.jsb;
-            const writablePath = (jsb == null || (_jsb$fileUtils = jsb.fileUtils) == null ? void 0 : _jsb$fileUtils.getWritablePath()) || '/';
-            const storagePath = `${writablePath}remote-asset/${bundleName}`;
-            if (jsb != null && (_jsb$fileUtils2 = jsb.fileUtils) != null && _jsb$fileUtils2.isFileExist(`${storagePath}/project.manifest`)) {
-              bundleUrl = storagePath;
-            } else {
-              bundleUrl = bundleName;
-            }
-          } else {
-            // Web：从 CDN 或本地服务器加载
-            const cdnBase = globalThis.__cdnBase || '';
-            bundleUrl = cdnBase ? `${cdnBase}/${bundleName}` : bundleName;
-          }
-          console.log(`[MSubSystem] 加载 Bundle: ${bundleUrl}`);
-          return new Promise((resolve, reject) => {
-            assetManager.loadBundle(bundleUrl, error => {
-              if (error) {
-                console.error(`[MSubSystem] 加载失败: ${bundleName}`, error);
-                reject(error);
-                return;
-              }
-              info.loaded = true;
-              console.log(`[MSubSystem] 加载成功: ${bundleName}`);
-              resolve();
-            });
-          });
-        }
-        _MSubSystem.load = load;
-        function unload(bundleName) {
-          const info = _systems.get(bundleName);
-          if (!info) return;
-          const bundle = assetManager.getBundle(bundleName);
-          if (bundle) {
-            assetManager.removeBundle(bundle);
-            info.loaded = false;
-            console.log(`[MSubSystem] 已卸载: ${bundleName}`);
-          }
-        }
-        _MSubSystem.unload = unload;
-        function isLoaded(bundleName) {
-          var _systems$get;
-          return ((_systems$get = _systems.get(bundleName)) == null ? void 0 : _systems$get.loaded) || false;
-        }
-        _MSubSystem.isLoaded = isLoaded;
-        function getAll() {
-          return Array.from(_systems.values());
-        }
-        _MSubSystem.getAll = getAll;
-        function getDisplayName(bundleName) {
-          var _systems$get2;
-          return ((_systems$get2 = _systems.get(bundleName)) == null ? void 0 : _systems$get2.displayName) || bundleName;
-        }
-        _MSubSystem.getDisplayName = getDisplayName;
-      })(MSubSystem || (MSubSystem = exports('MSubSystem', {})));
-      globalThis.MSubSystem = MSubSystem;
       cclegacy._RF.pop();
     }
   };

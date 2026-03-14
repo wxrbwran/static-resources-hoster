@@ -67,6 +67,7 @@
         "0f1d50bd-3e3d-43ec-bb14-2d7eb9ccfc3c",
         "0f6a61602",
         "0fae49e1e",
+        "1257edc4-8cae-4ec0-ac33-bebe51554ba9",
         "146b54fd-6a92-4d93-9dd5-3856c49968f6",
         "17ba8ea8-0ea1-4194-afc9-5d7a46ecc11c",
         "17ba8ea8-0ea1-4194-afc9-5d7a46ecc11c@6c48a",
@@ -3365,6 +3366,11 @@
         "1ced1702-ec5f-4784-aeef-fae04b779a20": [
             "res/texture/xin/texture_hall",
             "cc.Texture2D",
+            1
+        ],
+        "1257edc4-8cae-4ec0-ac33-bebe51554ba9": [
+            "script/hall/CLAUDE",
+            "cc.TextAsset",
             1
         ]
     },

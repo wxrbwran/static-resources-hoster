@@ -1781,15 +1781,15 @@ System.register("chunks:///_virtual/LevelCpt.ts", ['./rollupPluginModLoBabelHelp
   };
 });
 
-System.register("chunks:///_virtual/lobby-casino", ['./GameCard.ts', './GameListController.ts', './FloatMenu.ts', './GameExtraCpt.ts', './HallAdCpt.ts', './HallAdItemCpt.ts', './HallSlotBtn.ts', './LeagueExpCpt.ts', './LevelCpt.ts', './LobbyController.ts', './NetImgUI.ts', './PageHallAni.ts', './SafeWidget.ts', './ToGameLoading.ts', './UserCoinCpt.ts', './UserDiamondCpt.ts', './UserInfoBar.ts', './VipExpCpt.ts', './ButtonClickSoundCmp.ts', './CarouselCpt.ts', './CarouselIndicatorCpt.ts', './CarouselItemCpt.ts', './GameList.ts', './PageTabbar.ts', './RedHitCmp.ts', './RoundRectBg.ts', './SafeAreaView.ts', './SubSystemLoader.ts', './ToggleRedHit.ts', './UIFixDesign.ts', './i18nLabel.ts'], function () {
+System.register("chunks:///_virtual/lobby-casino", ['./GameCard.ts', './GameListController.ts', './FloatMenu.ts', './GameExtraCpt.ts', './HallAdCpt.ts', './HallAdItemCpt.ts', './HallSlotBtn.ts', './LeagueExpCpt.ts', './LevelCpt.ts', './LobbyController.ts', './NetImgUI.ts', './PageHallAni.ts', './SafeWidget.ts', './ToGameLoading.ts', './UserCoinCpt.ts', './UserDiamondCpt.ts', './UserInfoBar.ts', './VipExpCpt.ts', './ButtonClickSoundCmp.ts', './CarouselCpt.ts', './CarouselIndicatorCpt.ts', './CarouselItemCpt.ts', './GameList.ts', './PageTabbar.ts', './RedHitCmp.ts', './RoundRectBg.ts', './SafeAreaView.ts', './ToggleRedHit.ts', './UIFixDesign.ts', './i18nLabel.ts'], function () {
   return {
-    setters: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    setters: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     execute: function () {}
   };
 });
 
-System.register("chunks:///_virtual/LobbyController.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc', './MEvent.ts', './MNode.ts', './SubSystemManager.ts', './PopupManager.ts'], function (exports) {
-  var _applyDecoratedDescriptor, _initializerDefineProperty, cclegacy, Node, ScrollView, Prefab, _decorator, Component, find, Toggle, Label, EditBox, instantiate, MEvent, MNode, MSubSystem, PopupManager;
+System.register("chunks:///_virtual/LobbyController.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc', './MEvent.ts', './MNode.ts', './PopupManager.ts'], function (exports) {
+  var _applyDecoratedDescriptor, _initializerDefineProperty, cclegacy, Node, ScrollView, Prefab, _decorator, Component, find, Toggle, Label, EditBox, instantiate, MEvent, MNode, PopupManager;
   return {
     setters: [function (module) {
       _applyDecoratedDescriptor = module.applyDecoratedDescriptor;
@@ -1810,8 +1810,6 @@ System.register("chunks:///_virtual/LobbyController.ts", ['./rollupPluginModLoBa
       MEvent = module.MEvent;
     }, function (module) {
       MNode = module.MNode;
-    }, function (module) {
-      MSubSystem = module.MSubSystem;
     }, function (module) {
       PopupManager = module.PopupManager;
     }],
@@ -1877,11 +1875,6 @@ System.register("chunks:///_virtual/LobbyController.ts", ['./rollupPluginModLoBa
               canvas: canvas,
               gameUI: canvas
             });
-          }
-
-          // 注册子系统
-          if (typeof MSubSystem !== 'undefined' && MSubSystem.register) {
-            MSubSystem.register('lobby-casino-email', '邮箱');
           }
 
           // 监听事件
@@ -3229,164 +3222,6 @@ System.register("chunks:///_virtual/SafeWidget.ts", ['cc'], function (exports) {
   };
 });
 
-System.register("chunks:///_virtual/SubSystemLoader.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc', './SubSystemManager.ts'], function (exports) {
-  var _applyDecoratedDescriptor, _initializerDefineProperty, cclegacy, Node, Label, ProgressBar, _decorator, Component, assetManager, Prefab, instantiate, MSubSystem;
-  return {
-    setters: [function (module) {
-      _applyDecoratedDescriptor = module.applyDecoratedDescriptor;
-      _initializerDefineProperty = module.initializerDefineProperty;
-    }, function (module) {
-      cclegacy = module.cclegacy;
-      Node = module.Node;
-      Label = module.Label;
-      ProgressBar = module.ProgressBar;
-      _decorator = module._decorator;
-      Component = module.Component;
-      assetManager = module.assetManager;
-      Prefab = module.Prefab;
-      instantiate = module.instantiate;
-    }, function (module) {
-      MSubSystem = module.MSubSystem;
-    }],
-    execute: function () {
-      var _dec, _dec2, _dec3, _dec4, _dec5, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4;
-      cclegacy._RF.push({}, "da529CEU8BFh6vFEs2wRu2F", "SubSystemLoader", undefined);
-      const {
-        ccclass,
-        property
-      } = _decorator;
-
-      /**
-       * 子系统加载器
-       *
-       * 通用组件：处理子系统 Bundle 的按需加载和 UI 显示
-       * 挂载在大厅场景中，点击按钮时触发
-       *
-       * 流程：
-       * 1. 显示加载进度 UI
-       * 2. 热更新检查（如果需要）
-       * 3. 加载 Bundle
-       * 4. 从 Bundle 中加载 Prefab 并实例化
-       * 5. 挂载到容器节点
-       */
-      let SubSystemLoader = exports('SubSystemLoader', (_dec = ccclass('SubSystemLoader'), _dec2 = property(Node), _dec3 = property(Node), _dec4 = property(Label), _dec5 = property(ProgressBar), _dec(_class = (_class2 = class SubSystemLoader extends Component {
-        constructor(...args) {
-          super(...args);
-          /** 子系统 UI 挂载容器 */
-          _initializerDefineProperty(this, "container", _descriptor, this);
-          /** 加载中遮罩 */
-          _initializerDefineProperty(this, "loadingMask", _descriptor2, this);
-          _initializerDefineProperty(this, "loadingLabel", _descriptor3, this);
-          _initializerDefineProperty(this, "loadingProgress", _descriptor4, this);
-          /** 当前已加载的子系统节点 */
-          this._currentNode = null;
-          this._currentBundle = '';
-        }
-        /**
-         * 打开子系统
-         * @param bundleName Bundle 名称
-         * @param prefabPath Bundle 内的 Prefab 路径
-         */
-        async open(bundleName, prefabPath = 'res/MainPanel') {
-          // 如果已经打开同一个子系统，忽略
-          if (this._currentBundle === bundleName && this._currentNode) {
-            console.log(`[SubSystemLoader] ${bundleName} 已打开`);
-            return;
-          }
-
-          // 关闭当前子系统
-          this.close();
-          try {
-            // 显示加载 UI
-            this.showLoading(MSubSystem.getDisplayName(bundleName));
-
-            // 加载 Bundle
-            await MSubSystem.load(bundleName);
-
-            // 从 Bundle 中加载 Prefab
-            const bundle = assetManager.getBundle(bundleName);
-            if (!bundle) {
-              throw new Error(`Bundle 加载后未找到: ${bundleName}`);
-            }
-            const prefab = await new Promise((resolve, reject) => {
-              bundle.load(prefabPath, Prefab, (err, prefab) => {
-                if (err) reject(err);else resolve(prefab);
-              });
-            });
-
-            // 实例化并挂载
-            this._currentNode = instantiate(prefab);
-            this._currentBundle = bundleName;
-            if (this.container) {
-              this.container.addChild(this._currentNode);
-            }
-            this.hideLoading();
-            console.log(`[SubSystemLoader] ${bundleName} 已打开`);
-          } catch (error) {
-            this.hideLoading();
-            console.error(`[SubSystemLoader] 打开失败: ${bundleName}`, error);
-            throw error;
-          }
-        }
-
-        /**
-         * 关闭当前子系统
-         */
-        close() {
-          if (this._currentNode) {
-            this._currentNode.destroy();
-            this._currentNode = null;
-          }
-          if (this._currentBundle) {
-            MSubSystem.unload(this._currentBundle);
-            this._currentBundle = '';
-          }
-        }
-        showLoading(name) {
-          if (this.loadingMask) this.loadingMask.active = true;
-          if (this.loadingLabel) this.loadingLabel.string = `加载${name}...`;
-          if (this.loadingProgress) this.loadingProgress.progress = 0;
-        }
-        hideLoading() {
-          if (this.loadingMask) this.loadingMask.active = false;
-        }
-        onDestroy() {
-          this.close();
-        }
-      }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "container", [_dec2], {
-        configurable: true,
-        enumerable: true,
-        writable: true,
-        initializer: function () {
-          return null;
-        }
-      }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "loadingMask", [_dec3], {
-        configurable: true,
-        enumerable: true,
-        writable: true,
-        initializer: function () {
-          return null;
-        }
-      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "loadingLabel", [_dec4], {
-        configurable: true,
-        enumerable: true,
-        writable: true,
-        initializer: function () {
-          return null;
-        }
-      }), _descriptor4 = _applyDecoratedDescriptor(_class2.prototype, "loadingProgress", [_dec5], {
-        configurable: true,
-        enumerable: true,
-        writable: true,
-        initializer: function () {
-          return null;
-        }
-      })), _class2)) || _class));
-      cclegacy._RF.pop();
-    }
-  };
-});
-
 System.register("chunks:///_virtual/ToGameLoading.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc'], function (exports) {
   var _applyDecoratedDescriptor, _initializerDefineProperty, cclegacy, Sprite, Node, _decorator, Component;
   return {
@@ -3704,7 +3539,7 @@ System.register("chunks:///_virtual/UserDiamondCpt.ts", ['./rollupPluginModLoBab
 });
 
 System.register("chunks:///_virtual/UserInfoBar.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc', './MEvent.ts'], function (exports) {
-  var _applyDecoratedDescriptor, _initializerDefineProperty, cclegacy, Node, Label, ProgressBar, _decorator, Component, find, MEvent;
+  var _applyDecoratedDescriptor, _initializerDefineProperty, cclegacy, Node, Label, ProgressBar, _decorator, Component, find, sys, assetManager, director, MEvent;
   return {
     setters: [function (module) {
       _applyDecoratedDescriptor = module.applyDecoratedDescriptor;
@@ -3717,6 +3552,9 @@ System.register("chunks:///_virtual/UserInfoBar.ts", ['./rollupPluginModLoBabelH
       _decorator = module._decorator;
       Component = module.Component;
       find = module.find;
+      sys = module.sys;
+      assetManager = module.assetManager;
+      director = module.director;
     }, function (module) {
       MEvent = module.MEvent;
     }],
@@ -3754,6 +3592,12 @@ System.register("chunks:///_virtual/UserInfoBar.ts", ['./rollupPluginModLoBabelH
           console.log('[UserInfoBar] start, nodeMail assigned:', !!this.nodeMail);
           console.log('[UserInfoBar] hide settings~3');
           this.updateAll();
+
+          // 绑定 btn_setting 点击事件 → 打开 FlappyBird 游戏
+          const btnSetting = find('btn_setting', this.node);
+          if (btnSetting) {
+            btnSetting.on(Node.EventType.TOUCH_END, this.onClickSetting, this);
+          }
 
           // 手动绑定点击事件作为兜底
           if (this.nodeMail) {
@@ -3892,6 +3736,55 @@ System.register("chunks:///_virtual/UserInfoBar.ts", ['./rollupPluginModLoBabelH
           } else {
             console.error('[UserInfoBar] MEvent is undefined');
           }
+        }
+
+        /**
+         * 点击设置按钮 → 热更新并打开 FlappyBird 游戏
+         */
+        async onClickSetting() {
+          console.log('[UserInfoBar] onClickSetting → 打开 FlappyBird');
+          const bundleName = 'flappy-bird';
+          const sceneName = 'FlappyBird';
+
+          // 原生平台：通过 gg-hot-update 插件热更新 bundle
+          if (sys.isNative) {
+            const hotUpdate = globalThis.__hotUpdate;
+            if (hotUpdate && typeof hotUpdate.ensureBundleReady === 'function') {
+              try {
+                console.log(`[UserInfoBar] 热更新 ${bundleName}...`);
+                await hotUpdate.ensureBundleReady(bundleName);
+                console.log(`[UserInfoBar] 热更新 ${bundleName} 完成`);
+              } catch (e) {
+                console.error(`[UserInfoBar] 热更新 ${bundleName} 失败:`, e);
+                // 热更失败也继续尝试加载本地 bundle
+              }
+            }
+          }
+
+          // 加载 bundle
+          let bundle = assetManager.getBundle(bundleName);
+          if (!bundle) {
+            try {
+              bundle = await new Promise((resolve, reject) => {
+                assetManager.loadBundle(bundleName, (err, b) => {
+                  if (err) reject(err);else resolve(b);
+                });
+              });
+            } catch (e) {
+              console.error(`[UserInfoBar] 加载 bundle ${bundleName} 失败:`, e);
+              return;
+            }
+          }
+
+          // 加载并运行场景
+          bundle.loadScene(sceneName, (err, sceneAsset) => {
+            if (err) {
+              console.error(`[UserInfoBar] 加载场景 ${sceneName} 失败:`, err);
+              return;
+            }
+            director.runScene(sceneAsset);
+            console.log(`[UserInfoBar] 成功进入 ${sceneName}`);
+          });
         }
         formatNumber(num) {
           return num.toLocaleString();
