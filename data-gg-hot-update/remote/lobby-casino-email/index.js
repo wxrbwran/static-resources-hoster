@@ -100,7 +100,7 @@ System.register("chunks:///_virtual/PopupMailView.ts", ['./rollupPluginModLoBabe
         }
         reqInfo() {
           console.log('[PopupMailView] Using mock data for testing');
-          console.log('[PopupMailView] Using mock data for testing2');
+          console.log('[PopupMailView] Using mock data for testing3');
           this.useMockData();
         }
         useMockData() {

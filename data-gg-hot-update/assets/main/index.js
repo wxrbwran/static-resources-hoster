@@ -3274,6 +3274,9 @@ System.register("chunks:///_virtual/LaunchScene.ts", ['./rollupPluginModLoBabelH
               enableLog: Config.DEBUG
             });
 
+            // 初始化旧接口兼容性
+            this.initLegacyCompatibility();
+
             // 更新核心包（5% → 50%）
             this.setProgress(0.05, '检查核心包更新...');
             await this.updateBundleWithGG(coreBundleName, 0.05, 0.50);
@@ -3438,9 +3441,35 @@ System.register("chunks:///_virtual/LaunchScene.ts", ['./rollupPluginModLoBabelH
         // ============ 插件集成辅助 ============
 
         /**
+         * 兼容旧接口，供 PopupManager 等组件使用
+         */
+        initLegacyCompatibility() {
+          globalThis.__hotUpdate = {
+            ensureBundleReady: async (bundleName, onProgress) => {
+              console.log(`[LaunchScene] [LegacyCompat] ensureBundleReady: ${bundleName}`);
+              if (!sys.isNative) return bundleName;
+              try {
+                // 这里可以决定是否显示进度，子系统加载通常不希望打断主流程，
+                // 但由于 PopupManager 会等待这个 Promise，我们可以静默更新
+                await this.updateBundleWithGG(bundleName, 0, 1, true);
+              } catch (e) {
+                console.error(`[LaunchScene] [LegacyCompat] ${bundleName} 预热失败:`, e);
+              }
+
+              // 插件已处理搜索路径，直接返回 bundleName
+              return bundleName;
+            },
+            // 保持方法签名兼容
+            getBundleStoragePath: bundleName => {
+              return `${ggHotUpdateManager.localRootDirPath}/${bundleName}`;
+            }
+          };
+        }
+
+        /**
          * 使用 GGHotUpdate 插件更新 Bundle
          */
-        async updateBundleWithGG(bundleName, progressStart, progressEnd) {
+        async updateBundleWithGG(bundleName, progressStart, progressEnd, silent = false) {
           if (!sys.isNative) return;
           return new Promise((resolve, reject) => {
             const instance = ggHotUpdateManager.getInstance(bundleName);
@@ -3457,10 +3486,12 @@ System.register("chunks:///_virtual/LaunchScene.ts", ['./rollupPluginModLoBabelH
                     break;
                   case GGHotUpdateInstanceState.HotUpdateDownloading:
                   case GGHotUpdateInstanceState.HotUpdateExtracting:
-                    // 插件内部会计算进度
-                    const progress = inst.totalBytes > 0 ? inst.downloadedBytes / inst.totalBytes : 0;
-                    const p = progressStart + progress * (progressEnd - progressStart);
-                    this.setProgress(p, `正在更新${this.getBundleDisplayName(bundleName)}... ${Math.floor(p * 100)}%`);
+                    if (!silent) {
+                      // 插件内部会计算进度
+                      const progress = inst.totalBytes > 0 ? inst.downloadedBytes / inst.totalBytes : 0;
+                      const p = progressStart + progress * (progressEnd - progressStart);
+                      this.setProgress(p, `正在更新${this.getBundleDisplayName(bundleName)}... ${Math.floor(p * 100)}%`);
+                    }
                     break;
                   case GGHotUpdateInstanceState.HotUpdateSuc:
                     instance.unregister(observer);
@@ -3476,7 +3507,7 @@ System.register("chunks:///_virtual/LaunchScene.ts", ['./rollupPluginModLoBabelH
                   case GGHotUpdateInstanceState.CheckUpdateFailedDownloadRemoteProjectManifestError:
                   case GGHotUpdateInstanceState.CheckUpdateFailedParseRemoteProjectManifestError:
                     instance.unregister(observer);
-                    reject(new Error(`${bundleName} 检查更新失败: ${inst.state}`));
+                    resolve(); // 检查失败也尝试加载，可能是网络问题或者该 Bundle 不在热更列表
                     break;
                 }
               }
@@ -4051,6 +4082,9 @@ System.register("chunks:///_virtual/Splash.ts", ['./rollupPluginModLoBabelHelper
                 enableLog: Config.DEBUG
               });
 
+              // 初始化旧接口兼容性
+              this.initLegacyCompatibility();
+
               // 更新核心包
               console.log('[Splash] 检查核心包更新...');
               await this.updateBundleWithGG(coreBundleName);
@@ -4167,9 +4201,31 @@ System.register("chunks:///_virtual/Splash.ts", ['./rollupPluginModLoBabelHelper
         }
 
         /**
+         * 兼容旧接口，供 PopupManager 等组件使用
+         */
+        initLegacyCompatibility() {
+          globalThis.__hotUpdate = {
+            ensureBundleReady: async (bundleName, onProgress) => {
+              console.log(`[Splash] [LegacyCompat] ensureBundleReady: ${bundleName}`);
+              if (!sys.isNative) return bundleName;
+              try {
+                await this.updateBundleWithGG(bundleName, true);
+              } catch (e) {
+                console.error(`[Splash] [LegacyCompat] ${bundleName} 预热失败:`, e);
+              }
+              return bundleName;
+            },
+            // 保持方法签名兼容
+            getBundleStoragePath: bundleName => {
+              return `${ggHotUpdateManager.localRootDirPath}/${bundleName}`;
+            }
+          };
+        }
+
+        /**
          * 使用 GGHotUpdate 插件更新 Bundle
          */
-        async updateBundleWithGG(bundleName) {
+        async updateBundleWithGG(bundleName, silent = false) {
           if (!sys.isNative) return;
           return new Promise((resolve, reject) => {
             const instance = ggHotUpdateManager.getInstance(bundleName);
@@ -4186,7 +4242,9 @@ System.register("chunks:///_virtual/Splash.ts", ['./rollupPluginModLoBabelHelper
                     break;
                   case GGHotUpdateInstanceState.HotUpdateDownloading:
                   case GGHotUpdateInstanceState.HotUpdateExtracting:
-                    console.log(`[Splash] ${bundleName} 更新中...`);
+                    if (!silent) {
+                      console.log(`[Splash] ${bundleName} 更新中...`);
+                    }
                     break;
                   case GGHotUpdateInstanceState.HotUpdateSuc:
                     instance.unregister(observer);
@@ -4198,7 +4256,7 @@ System.register("chunks:///_virtual/Splash.ts", ['./rollupPluginModLoBabelHelper
                     break;
                   case inst.state.startsWith('CheckUpdateFailed'):
                     instance.unregister(observer);
-                    reject(new Error(`${bundleName} 检查更新失败: ${inst.state}`));
+                    resolve(); // 检查失败也尝试加载
                     break;
                 }
               }
