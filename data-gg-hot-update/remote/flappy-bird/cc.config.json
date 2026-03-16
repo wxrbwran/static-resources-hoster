@@ -3,13 +3,12 @@
     "nativeBase": "native",
     "name": "flappy-bird",
     "deps": [
-        "lobby-casino",
-        "lobby-casino-email"
+        "lobby-casino"
     ],
     "uuids": [
+        "04ffa9cb9",
         "073efb703",
-        "0a9e09a50",
-        "0e0027000",
+        "09b4ae2fc",
         "20835ba4-6145-4fbc-a58a-051ce700aa3e",
         "20835ba4-6145-4fbc-a58a-051ce700aa3e@6c48a",
         "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
@@ -51,6 +50,8 @@
         "70c3b2fd-9f46-4d41-b1a5-7628c044a3e3@e9aa5",
         "70c3b2fd-9f46-4d41-b1a5-7628c044a3e3@f8750",
         "73f2a28c-d1b6-4ccb-ae74-9c0c52faf202",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@6c48a",
         "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
         "7feec4dc-c504-4bb1-ae19-fd8b545d6877",
         "7feec4dc-c504-4bb1-ae19-fd8b545d6877@6c48a",
@@ -275,13 +276,14 @@
         "db://assets/games/flappy-bird/scenes/FlappyBird.scene": "2a996cb2-827a-4e91-87c8-e0d50bcab482"
     },
     "packs": {
-        "0e0027000": [
+        "09b4ae2fc": [
+            "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@6c48a",
             "7feec4dc-c504-4bb1-ae19-fd8b545d6877@6c48a",
             "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@6c48a",
             "20835ba4-6145-4fbc-a58a-051ce700aa3e@6c48a",
             "951249e0-9f16-456d-8b85-a6ca954da16b@6c48a"
         ],
-        "0a9e09a50": [
+        "04ffa9cb9": [
             "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
             "2a996cb2-827a-4e91-87c8-e0d50bcab482",
             "507890db-4e37-40e6-b367-f0318c3ddc79",
@@ -311,6 +313,7 @@
             "70c3b2fd-9f46-4d41-b1a5-7628c044a3e3@d6811",
             "70c3b2fd-9f46-4d41-b1a5-7628c044a3e3@e9aa5",
             "70c3b2fd-9f46-4d41-b1a5-7628c044a3e3@f8750",
+            "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
             "81081eb4-d814-440f-bb5e-a732f08d22ef",
             "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
             "994f1d90-b441-487a-9026-4064271e7b49"
@@ -327,8 +330,6 @@
         "native": []
     },
     "redirect": [
-        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
-        "1",
         "iZ139302-e117-5355-d978-22b4e892612d",
         "0",
         "iZ139302-e117-5355-d978-22b4e892612d@86d87",

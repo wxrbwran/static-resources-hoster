@@ -37,8 +37,8 @@
         "remoteBundles": [
             "lobby-casino-core",
             "lobby-casino",
-            "lobby-casino-email",
-            "flappy-bird"
+            "flappy-bird",
+            "lobby-casino-email"
         ],
         "subpackages": [],
         "preloadBundles": [
@@ -52,9 +52,9 @@
             "internal",
             "lobby-casino-core",
             "lobby-casino",
+            "flappy-bird",
             "lobby-casino-email",
-            "main",
-            "flappy-bird"
+            "main"
         ],
         "downloadMaxConcurrency": 15
     },
