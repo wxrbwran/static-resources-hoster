@@ -289,7 +289,7 @@ System.register("chunks:///_virtual/GameData.ts", ['cc'], function (exports) {
         }
         static async saveScore() {
           const bestScore = await this.getBestScore();
-          console.log('bestScore', bestScore);
+          console.log('bestScore is:', bestScore);
           if (this._score > bestScore) {
             this._bestScore = this._score;
             localStorage.setItem(this.BEST_SCORE_KEY, this._bestScore.toString());
