@@ -3,7 +3,7 @@
   "displayName": "娱乐城游戏",
   "packageName": "com.kb.game.cocos.testsub",
   "cdnBase": "https://static-resources-hoster-snowy.vercel.app/data-gg-hot-update",
-  "coreBundle": "lobby-casino-core",
+  "coreBundle": "lobby-casino-corex",
   "lobbyBundle": "lobby-casino",
   "apiConfigUrl": "https://api.example.com/config",
   "minAppVersion": "1.0.0"
