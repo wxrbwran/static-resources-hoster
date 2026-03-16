@@ -2671,6 +2671,7 @@ System.register("chunks:///_virtual/LaunchScene.ts", ['./rollupPluginModLoBabelH
           // 注册场景路由器到 globalThis，供子游戏/大厅通过 globalThis 访问
           globalThis.sceneRouter = sceneRouter;
           globalThis.GameSceneConfig = GameSceneConfig;
+          console.log('[LaunchScene] SceneRouter 注册完成:', typeof sceneRouter, typeof GameSceneConfig);
           this.initSceneNodes();
           Config.init();
         }
