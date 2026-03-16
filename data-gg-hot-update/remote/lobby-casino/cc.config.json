@@ -2468,6 +2468,11 @@
             "cc.SpriteFrame",
             1
         ],
+        "1257edc4-8cae-4ec0-ac33-bebe51554ba9": [
+            "script/hall/CLAUDE",
+            "cc.TextAsset",
+            1
+        ],
         "09971685-c4b6-47f8-aada-ff9eefa1aa92": [
             "res/spines/btn/spine_4",
             "cc.Asset",
@@ -3366,11 +3371,6 @@
         "1ced1702-ec5f-4784-aeef-fae04b779a20": [
             "res/texture/xin/texture_hall",
             "cc.Texture2D",
-            1
-        ],
-        "1257edc4-8cae-4ec0-ac33-bebe51554ba9": [
-            "script/hall/CLAUDE",
-            "cc.TextAsset",
             1
         ]
     },

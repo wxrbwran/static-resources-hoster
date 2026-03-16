@@ -3539,7 +3539,7 @@ System.register("chunks:///_virtual/UserDiamondCpt.ts", ['./rollupPluginModLoBab
 });
 
 System.register("chunks:///_virtual/UserInfoBar.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc', './MEvent.ts'], function (exports) {
-  var _applyDecoratedDescriptor, _initializerDefineProperty, cclegacy, Node, Label, ProgressBar, _decorator, Component, find, sys, assetManager, director, MEvent;
+  var _applyDecoratedDescriptor, _initializerDefineProperty, cclegacy, Node, Label, ProgressBar, _decorator, Component, find, sys, MEvent;
   return {
     setters: [function (module) {
       _applyDecoratedDescriptor = module.applyDecoratedDescriptor;
@@ -3553,8 +3553,6 @@ System.register("chunks:///_virtual/UserInfoBar.ts", ['./rollupPluginModLoBabelH
       Component = module.Component;
       find = module.find;
       sys = module.sys;
-      assetManager = module.assetManager;
-      director = module.director;
     }, function (module) {
       MEvent = module.MEvent;
     }],
@@ -3744,7 +3742,6 @@ System.register("chunks:///_virtual/UserInfoBar.ts", ['./rollupPluginModLoBabelH
         async onClickSetting() {
           console.log('[UserInfoBar] onClickSetting → 打开 FlappyBird');
           const bundleName = 'flappy-bird';
-          const sceneName = 'FlappyBird';
 
           // 原生平台：通过 gg-hot-update 插件热更新 bundle
           if (sys.isNative) {
@@ -3756,35 +3753,22 @@ System.register("chunks:///_virtual/UserInfoBar.ts", ['./rollupPluginModLoBabelH
                 console.log(`[UserInfoBar] 热更新 ${bundleName} 完成`);
               } catch (e) {
                 console.error(`[UserInfoBar] 热更新 ${bundleName} 失败:`, e);
-                // 热更失败也继续尝试加载本地 bundle
               }
             }
           }
 
-          // 加载 bundle
-          let bundle = assetManager.getBundle(bundleName);
-          if (!bundle) {
+          // 通过 SceneRouter 统一切换场景
+          const router = globalThis.sceneRouter;
+          const scenes = globalThis.GameSceneConfig;
+          if (router && scenes) {
             try {
-              bundle = await new Promise((resolve, reject) => {
-                assetManager.loadBundle(bundleName, (err, b) => {
-                  if (err) reject(err);else resolve(b);
-                });
-              });
+              await router.runSceneAsync(scenes.FlappyBird);
             } catch (e) {
-              console.error(`[UserInfoBar] 加载 bundle ${bundleName} 失败:`, e);
-              return;
+              console.error('[UserInfoBar] 进入 FlappyBird 失败:', e);
             }
+          } else {
+            console.error('[UserInfoBar] SceneRouter 不可用');
           }
-
-          // 加载并运行场景
-          bundle.loadScene(sceneName, (err, sceneAsset) => {
-            if (err) {
-              console.error(`[UserInfoBar] 加载场景 ${sceneName} 失败:`, err);
-              return;
-            }
-            director.runScene(sceneAsset);
-            console.log(`[UserInfoBar] 成功进入 ${sceneName}`);
-          });
         }
         formatNumber(num) {
           return num.toLocaleString();

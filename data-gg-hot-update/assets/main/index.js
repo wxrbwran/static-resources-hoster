@@ -2602,7 +2602,7 @@ System.register("chunks:///_virtual/GGZipTypes.ts", ['cc'], function (exports) {
   };
 });
 
-System.register("chunks:///_virtual/LaunchScene.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc', './Config2.ts', './MockData.ts', './GGHotUpdateManager.ts', './GGHotUpdateType.ts'], function (exports) {
+System.register("chunks:///_virtual/LaunchScene.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc', './Config2.ts', './MockData.ts', './GGHotUpdateManager.ts', './GGHotUpdateType.ts', './SceneRouter.ts', './SceneConfig.ts'], function (exports) {
   var _applyDecoratedDescriptor, _initializerDefineProperty, cclegacy, Asset, _decorator, Component, find, ProgressBar, Label, sys, assetManager, director, Config, MockData, ggHotUpdateManager, GGHotUpdateInstanceEnum, GGHotUpdateInstanceState;
   return {
     setters: [function (module) {
@@ -2628,7 +2628,7 @@ System.register("chunks:///_virtual/LaunchScene.ts", ['./rollupPluginModLoBabelH
     }, function (module) {
       GGHotUpdateInstanceEnum = module.GGHotUpdateInstanceEnum;
       GGHotUpdateInstanceState = module.GGHotUpdateInstanceState;
-    }],
+    }, null, null],
     execute: function () {
       var _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2;
       cclegacy._RF.push({}, "fa0eaKMCx1JFqYahqzE+L1k", "LaunchScene", undefined);
@@ -2987,9 +2987,9 @@ System.register("chunks:///_virtual/LaunchScene.ts", ['./rollupPluginModLoBabelH
   };
 });
 
-System.register("chunks:///_virtual/main", ['./Config2.ts', './LaunchScene.ts', './MockData.ts', './ProgressBarTarget.ts', './Splash.ts', './Types.ts', './FileUtils.ts', './Md5.ts', './GGHotUpdateInstance.ts', './GGHotUpdateManager.ts', './GGHotUpdateType.ts', './GGJsb.ts', './GGZip.ts', './GGZipTypes.ts', './GGEventManager.ts', './GGLogger.ts', './GGObserverSystem.ts'], function () {
+System.register("chunks:///_virtual/main", ['./Config2.ts', './LaunchScene.ts', './MockData.ts', './ProgressBarTarget.ts', './SceneConfig.ts', './SceneRouter.ts', './Splash.ts', './Types.ts', './FileUtils.ts', './Md5.ts', './GGHotUpdateInstance.ts', './GGHotUpdateManager.ts', './GGHotUpdateType.ts', './GGJsb.ts', './GGZip.ts', './GGZipTypes.ts', './GGEventManager.ts', './GGLogger.ts', './GGObserverSystem.ts'], function () {
   return {
-    setters: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    setters: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
     execute: function () {}
   };
 });
@@ -3435,7 +3435,128 @@ System.register("chunks:///_virtual/ProgressBarTarget.ts", ['./rollupPluginModLo
   };
 });
 
-System.register("chunks:///_virtual/Splash.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc', './Config2.ts', './MockData.ts', './GGHotUpdateManager.ts', './GGHotUpdateType.ts'], function (exports) {
+System.register("chunks:///_virtual/SceneConfig.ts", ['cc'], function (exports) {
+  var cclegacy;
+  return {
+    setters: [function (module) {
+      cclegacy = module.cclegacy;
+    }],
+    execute: function () {
+      cclegacy._RF.push({}, "7e592DWswxLubkOy1djEmsB", "SceneConfig", undefined);
+      /**
+       * 项目场景配置
+       *
+       * 所有场景的 bundle + sceneName 集中定义，避免硬编码。
+       */
+      class GameSceneConfig {}
+      exports('GameSceneConfig', GameSceneConfig);
+
+      // 注册到 globalThis，子游戏可通过 (globalThis as any).GameSceneConfig 访问
+      /** 启动/引导场景（主包） */
+      GameSceneConfig.Launch = {
+        bundleName: 'main',
+        sceneName: 'Launch'
+      };
+      /** 大厅场景 */
+      GameSceneConfig.Lobby = {
+        bundleName: 'lobby-casino',
+        sceneName: 'Lobby'
+      };
+      /** FlappyBird 子游戏 */
+      GameSceneConfig.FlappyBird = {
+        bundleName: 'flappy-bird',
+        sceneName: 'FlappyBird'
+      };
+      globalThis.GameSceneConfig = GameSceneConfig;
+      cclegacy._RF.pop();
+    }
+  };
+});
+
+System.register("chunks:///_virtual/SceneRouter.ts", ['cc'], function (exports) {
+  var cclegacy, director, assetManager;
+  return {
+    setters: [function (module) {
+      cclegacy = module.cclegacy;
+      director = module.director;
+      assetManager = module.assetManager;
+    }],
+    execute: function () {
+      cclegacy._RF.push({}, "a796fXisZRATKnhyqkLCbYk", "SceneRouter", undefined);
+
+      /**
+       * 场景配置
+       */
+
+      /**
+       * 统一场景路由器
+       *
+       * 参考 gg-hot-update 官方示例，集中管理所有场景切换。
+       * 子游戏、大厅、启动场景统一通过 sceneRouter 进出。
+       */
+      class SceneRouterImpl {
+        /**
+         * 加载 bundle 场景资源（不切换）
+         */
+        async loadSceneAsync(config) {
+          console.log(`[SceneRouter] 加载 ${config.bundleName}/${config.sceneName}`);
+          try {
+            const bundle = await this.loadBundle(config.bundleName);
+            return await new Promise((resolve, reject) => {
+              bundle.loadScene(config.sceneName, (err, asset) => {
+                if (err) {
+                  console.error(`[SceneRouter] 加载场景失败: ${config.sceneName}`, err);
+                  reject(err);
+                  return;
+                }
+                resolve(asset);
+              });
+            });
+          } catch (err) {
+            console.error(`[SceneRouter] loadSceneAsync 失败:`, err);
+            return null;
+          }
+        }
+
+        /**
+         * 加载并切换到目标场景
+         */
+        async runSceneAsync(config) {
+          var _director$getScene;
+          console.log(`[SceneRouter] 离开 ${((_director$getScene = director.getScene()) == null ? void 0 : _director$getScene.name) ?? ''}`);
+          const sceneAsset = await this.loadSceneAsync(config);
+          if (sceneAsset) {
+            director.runScene(sceneAsset);
+            console.log(`[SceneRouter] 进入 ${config.bundleName}/${config.sceneName}`);
+          } else {
+            console.error(`[SceneRouter] 进入场景失败: ${config.bundleName}/${config.sceneName}`);
+          }
+        }
+        loadBundle(bundleName) {
+          const existing = assetManager.getBundle(bundleName);
+          if (existing) return Promise.resolve(existing);
+          return new Promise((resolve, reject) => {
+            assetManager.loadBundle(bundleName, (err, bundle) => {
+              if (err) {
+                console.error(`[SceneRouter] 加载 bundle 失败: ${bundleName}`, err);
+                reject(err);
+                return;
+              }
+              resolve(bundle);
+            });
+          });
+        }
+      }
+      const sceneRouter = exports('sceneRouter', new SceneRouterImpl());
+
+      // 注册到 globalThis，子游戏可通过 (globalThis as any).sceneRouter 访问
+      globalThis.sceneRouter = sceneRouter;
+      cclegacy._RF.pop();
+    }
+  };
+});
+
+System.register("chunks:///_virtual/Splash.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc', './Config2.ts', './MockData.ts', './GGHotUpdateManager.ts', './GGHotUpdateType.ts', './SceneRouter.ts', './SceneConfig.ts'], function (exports) {
   var _applyDecoratedDescriptor, _initializerDefineProperty, cclegacy, Asset, _decorator, Component, sys, director, assetManager, Config, MockData, ggHotUpdateManager, GGHotUpdateInstanceEnum, GGHotUpdateInstanceState;
   return {
     setters: [function (module) {
@@ -3458,7 +3579,7 @@ System.register("chunks:///_virtual/Splash.ts", ['./rollupPluginModLoBabelHelper
     }, function (module) {
       GGHotUpdateInstanceEnum = module.GGHotUpdateInstanceEnum;
       GGHotUpdateInstanceState = module.GGHotUpdateInstanceState;
-    }],
+    }, null, null],
     execute: function () {
       var _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2;
       cclegacy._RF.push({}, "cfebeNl2+lK5rrY6fi81baA", "Splash", undefined);

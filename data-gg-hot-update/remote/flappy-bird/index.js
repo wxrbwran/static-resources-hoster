@@ -49,49 +49,30 @@ System.register("chunks:///_virtual/AudioMgr.ts", ['cc'], function (exports) {
     execute: function () {
       cclegacy._RF.push({}, "7f62d0eH2VKKq+WRTPYwu0l", "AudioMgr", undefined);
       /**
-       * @en
-       * this is a sington class for audio play, can be easily called from anywhere in you project.
-       * @zh
-       * 这是一个用于播放音频的单件类，可以很方便地在项目的任何地方调用。
+       * 子游戏音频管理单例
+       *
+       * 节点挂在当前场景下，场景切换时自动销毁。
+       * getter 会检查节点是否有效，失效时自动重建。
        */
       class AudioMgr {
         static get inst() {
-          if (this._inst == null) {
+          var _this$_inst$_audioSou;
+          if (this._inst == null || !((_this$_inst$_audioSou = this._inst._audioSource) != null && (_this$_inst$_audioSou = _this$_inst$_audioSou.node) != null && _this$_inst$_audioSou.isValid)) {
             this._inst = new AudioMgr();
           }
           return this._inst;
         }
         constructor() {
           this._audioSource = void 0;
-          //@en create a node as audioMgr
-          //@zh 创建一个节点作为 audioMgr
           let audioMgr = new Node();
           audioMgr.name = '__audioMgr__';
-
-          //@en add to the scene.
-          //@zh 添加节点到场景
           director.getScene().addChild(audioMgr);
-
-          //@en make it as a persistent node, so it won't be destroied when scene change.
-          //@zh 标记为常驻节点，这样场景切换的时候就不会被销毁了
-          director.addPersistRootNode(audioMgr);
-
-          //@en add AudioSource componrnt to play audios.
-          //@zh 添加 AudioSource 组件，用于播放音频。
+          // 不标记 persistent，场景切换时自动销毁
           this._audioSource = audioMgr.addComponent(AudioSource);
         }
         get audioSource() {
           return this._audioSource;
         }
-
-        /**
-         * @en
-         * play short audio, such as strikes,explosions
-         * @zh
-         * 播放短音频,比如 打击音效，爆炸音效等
-         * @param sound clip or url for the audio
-         * @param volume 
-         */
         playOneShot(sound, volume = 1.0) {
           if (sound instanceof AudioClip) {
             this._audioSource.playOneShot(sound, volume);
@@ -105,15 +86,6 @@ System.register("chunks:///_virtual/AudioMgr.ts", ['cc'], function (exports) {
             });
           }
         }
-
-        /**
-         * @en
-         * play long audio, such as the bg music
-         * @zh
-         * 播放长音频，比如 背景音乐
-         * @param sound clip or url for the sound
-         * @param volume 
-         */
         play(sound, volume = 1.0) {
           if (sound instanceof AudioClip) {
             this._audioSource.stop();
@@ -135,24 +107,12 @@ System.register("chunks:///_virtual/AudioMgr.ts", ['cc'], function (exports) {
             });
           }
         }
-
-        /**
-         * stop the audio play
-         */
         stop() {
           this._audioSource.stop();
         }
-
-        /**
-         * pause the audio play
-         */
         pause() {
           this._audioSource.pause();
         }
-
-        /**
-         * resume the audio play
-         */
         resume() {
           this._audioSource.play();
         }
@@ -164,8 +124,8 @@ System.register("chunks:///_virtual/AudioMgr.ts", ['cc'], function (exports) {
   };
 });
 
-System.register("chunks:///_virtual/Bird.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc', './Tags.ts', './GameMgr.ts', './AudioMgr.ts'], function (exports) {
-  var _applyDecoratedDescriptor, _initializerDefineProperty, cclegacy, AudioClip, _decorator, Component, RigidBody2D, input, Input, Collider2D, Contact2DType, KeyCode, Vec2, Animation, Tags, GameMgr, AudioMgr;
+System.register("chunks:///_virtual/Bird.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc', './Tags.ts', './AudioMgr.ts'], function (exports) {
+  var _applyDecoratedDescriptor, _initializerDefineProperty, cclegacy, AudioClip, _decorator, Component, RigidBody2D, input, Input, Collider2D, Contact2DType, KeyCode, Vec2, Animation, director, Tags, AudioMgr;
   return {
     setters: [function (module) {
       _applyDecoratedDescriptor = module.applyDecoratedDescriptor;
@@ -183,10 +143,9 @@ System.register("chunks:///_virtual/Bird.ts", ['./rollupPluginModLoBabelHelpers.
       KeyCode = module.KeyCode;
       Vec2 = module.Vec2;
       Animation = module.Animation;
+      director = module.director;
     }, function (module) {
       Tags = module.Tags;
-    }, function (module) {
-      GameMgr = module.GameMgr;
     }, function (module) {
       AudioMgr = module.AudioMgr;
     }],
@@ -266,12 +225,12 @@ System.register("chunks:///_virtual/Bird.ts", ['./rollupPluginModLoBabelHelpers.
         async onBeginContact(selfCollider, otherCollider, contact) {
           // console.log(otherCollider.tag);
           if (otherCollider.tag === Tags.LAND || otherCollider.tag === Tags.PIPE) {
-            await GameMgr.inst().transitionToGameOverState();
+            director.emit('game-over');
           }
         }
         onEndContact(selfCollider, otherCollider, contact) {
           if (otherCollider.tag === Tags.PIPE_MIDDLE) {
-            GameMgr.inst().addScore();
+            director.emit('add-score');
           }
         }
       }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "rotateSpeed", [property], {
@@ -355,7 +314,7 @@ System.register("chunks:///_virtual/GameData.ts", ['cc'], function (exports) {
 });
 
 System.register("chunks:///_virtual/GameMgr.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc', './Bird.ts', './MoveBg.ts', './PipeSpawner.ts', './GameReadyUI.ts', './GameData.ts', './GameOverUI.ts', './AudioMgr.ts'], function (exports) {
-  var _applyDecoratedDescriptor, _initializerDefineProperty, cclegacy, Node, Label, AudioClip, _decorator, Component, Bird, MoveBg, PipeSpawner, GameReadyUI, GameData, GameOverUI, AudioMgr;
+  var _applyDecoratedDescriptor, _initializerDefineProperty, cclegacy, Node, Label, AudioClip, _decorator, Component, director, Bird, MoveBg, PipeSpawner, GameReadyUI, GameData, GameOverUI, AudioMgr;
   return {
     setters: [function (module) {
       _applyDecoratedDescriptor = module.applyDecoratedDescriptor;
@@ -367,6 +326,7 @@ System.register("chunks:///_virtual/GameMgr.ts", ['./rollupPluginModLoBabelHelpe
       AudioClip = module.AudioClip;
       _decorator = module._decorator;
       Component = module.Component;
+      director = module.director;
     }, function (module) {
       Bird = module.Bird;
     }, function (module) {
@@ -440,6 +400,12 @@ System.register("chunks:///_virtual/GameMgr.ts", ['./rollupPluginModLoBabelHelpe
         start() {
           this.transitionToReadyState();
           AudioMgr.inst.play(this.bgAudio, 0.3);
+          director.on('game-over', this.transitionToGameOverState, this);
+          director.on('add-score', this.addScore, this);
+        }
+        onDestroy() {
+          director.off('game-over', this.transitionToGameOverState, this);
+          director.off('add-score', this.addScore, this);
         }
         transitionToReadyState() {
           this.curGS = GameState.Ready;
@@ -561,7 +527,7 @@ System.register("chunks:///_virtual/GameMgr.ts", ['./rollupPluginModLoBabelHelpe
 });
 
 System.register("chunks:///_virtual/GameOverUI.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc'], function (exports) {
-  var _applyDecoratedDescriptor, _initializerDefineProperty, cclegacy, Label, Node, _decorator, Component, find, assetManager, director;
+  var _applyDecoratedDescriptor, _initializerDefineProperty, cclegacy, Label, Node, _decorator, Component, find, director, assetManager;
   return {
     setters: [function (module) {
       _applyDecoratedDescriptor = module.applyDecoratedDescriptor;
@@ -573,8 +539,8 @@ System.register("chunks:///_virtual/GameOverUI.ts", ['./rollupPluginModLoBabelHe
       _decorator = module._decorator;
       Component = module.Component;
       find = module.find;
-      assetManager = module.assetManager;
       director = module.director;
+      assetManager = module.assetManager;
     }],
     execute: function () {
       var _dec, _dec2, _dec3, _dec4, _dec5, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4;
@@ -590,6 +556,7 @@ System.register("chunks:///_virtual/GameOverUI.ts", ['./rollupPluginModLoBabelHe
           _initializerDefineProperty(this, "bestScoreLabel", _descriptor2, this);
           _initializerDefineProperty(this, "newSprite", _descriptor3, this);
           _initializerDefineProperty(this, "medalArray", _descriptor4, this);
+          this._isClosing = false;
         }
         onLoad() {
           const closeBtn = find('CloseButton', this.node);
@@ -617,36 +584,39 @@ System.register("chunks:///_virtual/GameOverUI.ts", ['./rollupPluginModLoBabelHe
           this.node.active = false;
         }
         onClose() {
+          if (this._isClosing) return;
+          this._isClosing = true;
           console.log('[GameOverUI] 退出到大厅');
-          const lobbyBundle = assetManager.getBundle('lobby-casino');
-          if (lobbyBundle) {
-            lobbyBundle.loadScene('Lobby', (err, sceneAsset) => {
-              if (!err) {
-                director.runScene(sceneAsset);
-              } else {
-                console.error('[GameOverUI] 加载大厅场景失败:', err);
-              }
+          director.resume();
+
+          // 通过 SceneRouter 回到大厅（音频节点不再是 persistent，场景切换时自动销毁）
+          const router = globalThis.sceneRouter;
+          const scenes = globalThis.GameSceneConfig;
+          if (router && scenes) {
+            router.runSceneAsync(scenes.Lobby).catch(err => {
+              console.error('[GameOverUI] 切换到大厅失败:', err);
+              this._isClosing = false;
             });
           } else {
-            // bundle 未加载时重新加载
-            assetManager.loadBundle('lobby-casino', (err, bundle) => {
+            // 降级：编辑器预览模式下 SceneRouter 不可用
+            console.warn('[GameOverUI] SceneRouter 不可用，尝试 director.loadScene');
+            director.loadScene('Lobby', err => {
               if (err) {
-                console.error('[GameOverUI] 加载 lobby-casino bundle 失败:', err);
-                return;
+                console.error('[GameOverUI] 加载 Lobby 失败:', err);
+                this._isClosing = false;
               }
-              bundle.loadScene('Lobby', (err2, sceneAsset) => {
-                if (!err2) {
-                  director.runScene(sceneAsset);
-                } else {
-                  console.error('[GameOverUI] 加载大厅场景失败:', err2);
-                }
-              });
             });
           }
         }
         onRestart() {
           const sceneName = "FlappyBird";
-          // 优先通过 bundle 加载（正式运行时）
+          const router = globalThis.sceneRouter;
+          const scenes = globalThis.GameSceneConfig;
+          if (router && scenes) {
+            router.runSceneAsync(scenes.FlappyBird);
+            return;
+          }
+          // 降级：编辑器预览
           let bundle = assetManager.getBundle('flappy-bird');
           if (bundle) {
             bundle.loadScene(sceneName, (err, sceneAsset) => {
@@ -657,7 +627,6 @@ System.register("chunks:///_virtual/GameOverUI.ts", ['./rollupPluginModLoBabelHe
               }
             });
           } else {
-            // 编辑器预览模式：用当前场景的 uuid 重新加载
             const currentScene = director.getScene();
             if (currentScene) {
               const sceneUuid = currentScene.uuid;
