@@ -2603,7 +2603,7 @@ System.register("chunks:///_virtual/GGZipTypes.ts", ['cc'], function (exports) {
 });
 
 System.register("chunks:///_virtual/LaunchScene.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc', './Config2.ts', './MockData.ts', './GGHotUpdateManager.ts', './GGHotUpdateType.ts', './SceneRouter.ts', './SceneConfig.ts'], function (exports) {
-  var _applyDecoratedDescriptor, _initializerDefineProperty, cclegacy, Asset, _decorator, Component, find, ProgressBar, Label, sys, assetManager, director, Config, MockData, ggHotUpdateManager, GGHotUpdateInstanceEnum, GGHotUpdateInstanceState;
+  var _applyDecoratedDescriptor, _initializerDefineProperty, cclegacy, Asset, _decorator, Component, find, ProgressBar, Label, sys, assetManager, director, Config, MockData, ggHotUpdateManager, GGHotUpdateInstanceEnum, GGHotUpdateInstanceState, sceneRouter, GameSceneConfig;
   return {
     setters: [function (module) {
       _applyDecoratedDescriptor = module.applyDecoratedDescriptor;
@@ -2628,7 +2628,11 @@ System.register("chunks:///_virtual/LaunchScene.ts", ['./rollupPluginModLoBabelH
     }, function (module) {
       GGHotUpdateInstanceEnum = module.GGHotUpdateInstanceEnum;
       GGHotUpdateInstanceState = module.GGHotUpdateInstanceState;
-    }, null, null],
+    }, function (module) {
+      sceneRouter = module.sceneRouter;
+    }, function (module) {
+      GameSceneConfig = module.GameSceneConfig;
+    }],
     execute: function () {
       var _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2;
       cclegacy._RF.push({}, "fa0eaKMCx1JFqYahqzE+L1k", "LaunchScene", undefined);
@@ -2664,6 +2668,9 @@ System.register("chunks:///_virtual/LaunchScene.ts", ['./rollupPluginModLoBabelH
         }
         onLoad() {
           console.log('[LaunchScene] 启动场景加载');
+          // 注册场景路由器到 globalThis，供子游戏/大厅通过 globalThis 访问
+          globalThis.sceneRouter = sceneRouter;
+          globalThis.GameSceneConfig = GameSceneConfig;
           this.initSceneNodes();
           Config.init();
         }
@@ -3450,8 +3457,6 @@ System.register("chunks:///_virtual/SceneConfig.ts", ['cc'], function (exports) 
        */
       class GameSceneConfig {}
       exports('GameSceneConfig', GameSceneConfig);
-
-      // 注册到 globalThis，子游戏可通过 (globalThis as any).GameSceneConfig 访问
       /** 启动/引导场景（主包） */
       GameSceneConfig.Launch = {
         bundleName: 'main',
@@ -3467,7 +3472,6 @@ System.register("chunks:///_virtual/SceneConfig.ts", ['cc'], function (exports) 
         bundleName: 'flappy-bird',
         sceneName: 'FlappyBird'
       };
-      globalThis.GameSceneConfig = GameSceneConfig;
       cclegacy._RF.pop();
     }
   };
@@ -3495,6 +3499,9 @@ System.register("chunks:///_virtual/SceneRouter.ts", ['cc'], function (exports) 
        * 子游戏、大厅、启动场景统一通过 sceneRouter 进出。
        */
       class SceneRouterImpl {
+        constructor() {
+          this._switching = false;
+        }
         /**
          * 加载 bundle 场景资源（不切换）
          */
@@ -3523,13 +3530,22 @@ System.register("chunks:///_virtual/SceneRouter.ts", ['cc'], function (exports) 
          */
         async runSceneAsync(config) {
           var _director$getScene;
+          if (this._switching) {
+            console.warn(`[SceneRouter] 场景切换中，忽略 ${config.bundleName}/${config.sceneName}`);
+            return;
+          }
+          this._switching = true;
           console.log(`[SceneRouter] 离开 ${((_director$getScene = director.getScene()) == null ? void 0 : _director$getScene.name) ?? ''}`);
-          const sceneAsset = await this.loadSceneAsync(config);
-          if (sceneAsset) {
-            director.runScene(sceneAsset);
-            console.log(`[SceneRouter] 进入 ${config.bundleName}/${config.sceneName}`);
-          } else {
-            console.error(`[SceneRouter] 进入场景失败: ${config.bundleName}/${config.sceneName}`);
+          try {
+            const sceneAsset = await this.loadSceneAsync(config);
+            if (sceneAsset) {
+              director.runScene(sceneAsset);
+              console.log(`[SceneRouter] 进入 ${config.bundleName}/${config.sceneName}`);
+            } else {
+              console.error(`[SceneRouter] 进入场景失败: ${config.bundleName}/${config.sceneName}`);
+            }
+          } finally {
+            this._switching = false;
           }
         }
         loadBundle(bundleName) {
@@ -3548,16 +3564,13 @@ System.register("chunks:///_virtual/SceneRouter.ts", ['cc'], function (exports) 
         }
       }
       const sceneRouter = exports('sceneRouter', new SceneRouterImpl());
-
-      // 注册到 globalThis，子游戏可通过 (globalThis as any).sceneRouter 访问
-      globalThis.sceneRouter = sceneRouter;
       cclegacy._RF.pop();
     }
   };
 });
 
 System.register("chunks:///_virtual/Splash.ts", ['./rollupPluginModLoBabelHelpers.js', 'cc', './Config2.ts', './MockData.ts', './GGHotUpdateManager.ts', './GGHotUpdateType.ts', './SceneRouter.ts', './SceneConfig.ts'], function (exports) {
-  var _applyDecoratedDescriptor, _initializerDefineProperty, cclegacy, Asset, _decorator, Component, sys, director, assetManager, Config, MockData, ggHotUpdateManager, GGHotUpdateInstanceEnum, GGHotUpdateInstanceState;
+  var _applyDecoratedDescriptor, _initializerDefineProperty, cclegacy, Asset, _decorator, Component, sys, director, assetManager, Config, MockData, ggHotUpdateManager, GGHotUpdateInstanceEnum, GGHotUpdateInstanceState, sceneRouter, GameSceneConfig;
   return {
     setters: [function (module) {
       _applyDecoratedDescriptor = module.applyDecoratedDescriptor;
@@ -3579,7 +3592,11 @@ System.register("chunks:///_virtual/Splash.ts", ['./rollupPluginModLoBabelHelper
     }, function (module) {
       GGHotUpdateInstanceEnum = module.GGHotUpdateInstanceEnum;
       GGHotUpdateInstanceState = module.GGHotUpdateInstanceState;
-    }, null, null],
+    }, function (module) {
+      sceneRouter = module.sceneRouter;
+    }, function (module) {
+      GameSceneConfig = module.GameSceneConfig;
+    }],
     execute: function () {
       var _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2;
       cclegacy._RF.push({}, "cfebeNl2+lK5rrY6fi81baA", "Splash", undefined);
@@ -3608,6 +3625,8 @@ System.register("chunks:///_virtual/Splash.ts", ['./rollupPluginModLoBabelHelper
         }
         start() {
           console.log('[Splash] 启动 Bootstrapper...');
+          globalThis.sceneRouter = sceneRouter;
+          globalThis.GameSceneConfig = GameSceneConfig;
           Config.init();
           this.startLoad();
         }

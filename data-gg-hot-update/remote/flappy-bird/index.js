@@ -609,6 +609,7 @@ System.register("chunks:///_virtual/GameOverUI.ts", ['./rollupPluginModLoBabelHe
           }
         }
         onRestart() {
+          if (this._isClosing) return;
           const sceneName = "FlappyBird";
           const router = globalThis.sceneRouter;
           const scenes = globalThis.GameSceneConfig;
