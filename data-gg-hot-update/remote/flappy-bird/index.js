@@ -398,6 +398,7 @@ System.register("chunks:///_virtual/GameMgr.ts", ['./rollupPluginModLoBabelHelpe
           GameMgr._inst = this;
         }
         start() {
+          console.log("GameMgr start");
           this.transitionToReadyState();
           AudioMgr.inst.play(this.bgAudio, 0.3);
           director.on('game-over', this.transitionToGameOverState, this);
