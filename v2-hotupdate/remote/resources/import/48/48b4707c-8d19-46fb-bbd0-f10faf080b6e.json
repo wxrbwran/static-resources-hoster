@@ -1,0 +1,1 @@
+[1,0,0,[["cc.JsonAsset",["_name","json"],1]],[[0,0,1,3]],[[0,"app-config",{"env":"dev","channel":"brand_a","configApiUrl":"","apiBaseUrl":"https://u3d-dev-web.kbtech.cc/dev","cdnBaseUrl":"https://static-resources-hoster-snowy.vercel.app/v2-hotupdate","forceUpdate":{"minVersion":"0.0.0","landingUrl":""},"preloadBundles":["lobby-game","lobby-activity"]}]],0,0,[],[],[]]
