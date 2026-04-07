@@ -1,0 +1,54 @@
+{
+  "version": "812a266",
+  "bundle": "lobby-referral",
+  "files": {
+    "cc.config.json": {
+      "md5": "b8907c92d90fc4dbc9e83c4792966715",
+      "size": 6971
+    },
+    "import/03/0367d6e48.json": {
+      "md5": "da9d256a6184e3cd39ab35a1179baed8",
+      "size": 9670
+    },
+    "import/0c/0c734b37e.json": {
+      "md5": "ff42befd6830f85f4625263605784ed6",
+      "size": 149
+    },
+    "import/0d/0d1e35c84.json": {
+      "md5": "8d6ca185b17d7396897ef6326ded52ba",
+      "size": 40939
+    },
+    "import/13/1367d6e48.json": {
+      "md5": "11629341f9c2cd1d45217bcb76021738",
+      "size": 78
+    },
+    "import/58/58ccbc1b-f039-47d6-9765-6dbdd827380a.json": {
+      "md5": "62a9b3e69a61a083ed335739d30357ec",
+      "size": 10949
+    },
+    "import/7d/7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca.json": {
+      "md5": "a253314ec7107d95345d7fc89b8d7bb5",
+      "size": 72
+    },
+    "import/f1/f12a23c4-b924-4322-a260-3d982428f1e8.json": {
+      "md5": "a253314ec7107d95345d7fc89b8d7bb5",
+      "size": 72
+    },
+    "index.js": {
+      "md5": "2e8665a48ce9ed06f65c54a728edd3d3",
+      "size": 38230
+    },
+    "native/13/1367d6e48.png": {
+      "md5": "fc0e9c5c6fa55385c0116e0d6a7fca7a",
+      "size": 657597
+    },
+    "native/7d/7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca.png": {
+      "md5": "cea68f0d7cba38440224f6f74531e2d8",
+      "size": 82
+    },
+    "native/f1/f12a23c4-b924-4322-a260-3d982428f1e8.png": {
+      "md5": "5f1d92d4416374a0500f336771a68366",
+      "size": 1675
+    }
+  }
+}

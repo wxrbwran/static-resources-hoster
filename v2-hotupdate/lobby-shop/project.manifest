@@ -1,0 +1,86 @@
+{
+  "version": "812a266",
+  "bundle": "lobby-shop",
+  "files": {
+    "cc.config.json": {
+      "md5": "1b7d45f6b50da1f8404cd15fd4ee85ef",
+      "size": 13533
+    },
+    "import/01/01c704b09.json": {
+      "md5": "2e6fdc58e40c44956b8df28e23f822d2",
+      "size": 21175
+    },
+    "import/03/03afed171.json": {
+      "md5": "7d690ab05da2dd8f31612209183d0c23",
+      "size": 192
+    },
+    "import/05/05cb71668.json": {
+      "md5": "23394c909ca069261dca4ddfb200353e",
+      "size": 31824
+    },
+    "import/0a/0ac2fd850.json": {
+      "md5": "7afa13b4eb91473e36f3d7705e9d408a",
+      "size": 21723
+    },
+    "import/1a/1ac2fd850.json": {
+      "md5": "814384b9e26252eb92435cf11cbc2cd8",
+      "size": 78
+    },
+    "import/1e/1ebb1a2d-43cc-4cc2-8016-8e8467e002a5.json": {
+      "md5": "365e87a10ba55f8b20f3ba1f3efc8824",
+      "size": 23414
+    },
+    "import/4b/4b94153f-af74-4b09-af35-ae78db94d18d.json": {
+      "md5": "9bd04b6e5de0e522b786902abf897aa9",
+      "size": 99
+    },
+    "import/70/705ec457-294c-45ae-9f0c-64d33bea2cec.json": {
+      "md5": "a253314ec7107d95345d7fc89b8d7bb5",
+      "size": 72
+    },
+    "import/7d/7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca.json": {
+      "md5": "a253314ec7107d95345d7fc89b8d7bb5",
+      "size": 72
+    },
+    "import/b5/b512e022-de47-4a73-b258-eee0ee65d441.json": {
+      "md5": "a253314ec7107d95345d7fc89b8d7bb5",
+      "size": 72
+    },
+    "import/c7/c764bbdf-9fb2-4039-899f-cd0ce4c32fa1.json": {
+      "md5": "f094492b5b95224d1ad485211f67c15d",
+      "size": 14194
+    },
+    "import/d7/d72ce7e9-6afa-441a-8245-6b173a09d94d.json": {
+      "md5": "864dd5da83271f4307c3eeb818ca9dcc",
+      "size": 5455
+    },
+    "import/da/da47560b-94d9-4024-9d80-5752da418c24.json": {
+      "md5": "d0b5599e34544002199277c908b24c88",
+      "size": 33492
+    },
+    "index.js": {
+      "md5": "1446c871d42da182ddaf52e37f1baa9a",
+      "size": 78867
+    },
+    "native/1a/1ac2fd850.png": {
+      "md5": "a37745974c05a846903efcac24211168",
+      "size": 674418
+    },
+    "native/4b/4b94153f-af74-4b09-af35-ae78db94d18d.atlas": {
+      "md5": "0326dadcb990dbbea9e882d107f44c22",
+      "size": 450
+    },
+    "native/70/705ec457-294c-45ae-9f0c-64d33bea2cec.png": {
+      "md5": "0cf43926b928bcad746bb1718317cfc5",
+      "size": 334853
+    },
+    "native/7d/7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca.png": {
+      "md5": "cea68f0d7cba38440224f6f74531e2d8",
+      "size": 82
+    },
+    "native/b5/b512e022-de47-4a73-b258-eee0ee65d441.png": {
+      "md5": "1bbb389cda221d4525ad29579838a968",
+      "size": 11199
+    }
+  }
+}

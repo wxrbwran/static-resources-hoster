@@ -1,0 +1,38 @@
+{
+  "version": "812a266",
+  "bundle": "lobby-mail",
+  "files": {
+    "cc.config.json": {
+      "md5": "31225c41cefbb62fe088dc21250fdcad",
+      "size": 1393
+    },
+    "import/02/024b77d3-9b49-4479-a8c7-ef227e396772.json": {
+      "md5": "250be1cf980ed6e436e0be871d5dca30",
+      "size": 7683
+    },
+    "import/09/0973bd575.json": {
+      "md5": "c9798509db326ea852a36b2fca3a64fd",
+      "size": 1158
+    },
+    "import/19/1973bd575.json": {
+      "md5": "8427b0443b265da5a6d94940365be2c7",
+      "size": 77
+    },
+    "import/19/1973bd575@6c48a.json": {
+      "md5": "cf8d18d5697ace148370796079cded0b",
+      "size": 123
+    },
+    "import/57/570d055a-ff24-4637-83a7-4c173711bb20.json": {
+      "md5": "4f822ac45912465a60f99bdd85a48d5c",
+      "size": 10213
+    },
+    "index.js": {
+      "md5": "5b4e6faad053e53b60cb5cd7a26d0947",
+      "size": 43208
+    },
+    "native/19/1973bd575.png": {
+      "md5": "008c7ff6e396d63400bb5aad8a1d48ce",
+      "size": 44923
+    }
+  }
+}
