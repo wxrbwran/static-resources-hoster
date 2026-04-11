@@ -1,10 +1,10 @@
 {
-  "version": "5b5268a",
+  "version": "ab2e2f2",
   "bundle": "lobby-bet-records",
   "files": {
     "cc.config.json": {
-      "md5": "31e2672ce815a28cd354492a69de4906",
-      "size": 1247
+      "md5": "683fe663c391e03d15210060b9087de1",
+      "size": 1300
     },
     "import/06/0673c81c4.json": {
       "md5": "1461bb7ffb322ef0038fac7545423a04",
@@ -18,13 +18,17 @@
       "md5": "dbd2b8fa575bc9e28b7526a3b7e7e29a",
       "size": 123
     },
+    "import/ac/ac3854b5-8006-45ca-a258-216518f74a20.json": {
+      "md5": "52ae027c411014e798271e7ab940e473",
+      "size": 336
+    },
     "import/d1/d1f23adc-d371-47a7-9cf2-3c78ec8aa041.json": {
-      "md5": "063acb4138cea31cd1038e1443a8607b",
-      "size": 9834
+      "md5": "7c8ba751947df68c54c9f888d1813f45",
+      "size": 9777
     },
     "index.js": {
-      "md5": "0a8d3981abc5022696b18a8aaad4f88a",
-      "size": 5728
+      "md5": "f921ceb4a6d266dda778275f9bd27ced",
+      "size": 6142
     },
     "native/16/1673c81c4.png": {
       "md5": "7f0b90722c9d25e914c5008fe58a0acc",

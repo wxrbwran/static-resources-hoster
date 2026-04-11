@@ -1,38 +1,42 @@
 {
-  "version": "812a266",
+  "version": "ab2e2f2",
   "bundle": "lobby-mail",
   "files": {
     "cc.config.json": {
-      "md5": "31225c41cefbb62fe088dc21250fdcad",
-      "size": 1393
+      "md5": "6edc7e4d1a5398325b0199f3b659ec80",
+      "size": 1600
+    },
+    "import/00/00cf62f4-6115-4de9-96b3-7f9cb0c63f3f.json": {
+      "md5": "52ae027c411014e798271e7ab940e473",
+      "size": 336
     },
     "import/02/024b77d3-9b49-4479-a8c7-ef227e396772.json": {
-      "md5": "250be1cf980ed6e436e0be871d5dca30",
-      "size": 7683
+      "md5": "afc44282f8a3cda3f024f1f899ca0052",
+      "size": 7901
     },
-    "import/09/0973bd575.json": {
-      "md5": "c9798509db326ea852a36b2fca3a64fd",
-      "size": 1158
+    "import/02/02864dd67.json": {
+      "md5": "25ef4fe835e31a852b0be9a8b70f46ed",
+      "size": 1428
     },
-    "import/19/1973bd575.json": {
-      "md5": "8427b0443b265da5a6d94940365be2c7",
+    "import/12/12864dd67.json": {
+      "md5": "d64a514f94c7a91cb2f6d2a5eebb8f86",
       "size": 77
     },
-    "import/19/1973bd575@6c48a.json": {
-      "md5": "cf8d18d5697ace148370796079cded0b",
+    "import/12/12864dd67@6c48a.json": {
+      "md5": "523ef438518e9833cf98ff52e96d30c8",
       "size": 123
     },
     "import/57/570d055a-ff24-4637-83a7-4c173711bb20.json": {
-      "md5": "4f822ac45912465a60f99bdd85a48d5c",
-      "size": 10213
+      "md5": "2a8d65f344e1c82967b9391dea24ac92",
+      "size": 9699
     },
     "index.js": {
-      "md5": "a03b7c980f285eb68129af75b2230132",
-      "size": 43480
+      "md5": "72e0c7d08311e9c0d09f198c2e6614c5",
+      "size": 47722
     },
-    "native/19/1973bd575.png": {
-      "md5": "008c7ff6e396d63400bb5aad8a1d48ce",
-      "size": 44923
+    "native/12/12864dd67.png": {
+      "md5": "eb2d76bb036279ece73b24728f21cf49",
+      "size": 57374
     }
   }
 }

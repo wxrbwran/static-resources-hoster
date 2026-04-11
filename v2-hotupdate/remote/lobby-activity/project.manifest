@@ -1,58 +1,62 @@
 {
-  "version": "812a266",
+  "version": "ab2e2f2",
   "bundle": "lobby-activity",
   "files": {
     "cc.config.json": {
-      "md5": "7a1729fff46961b98df3fa7848a80f9c",
-      "size": 4795
+      "md5": "59a330e93d01ba834e38a5787b377d11",
+      "size": 4762
     },
     "import/01/0163bdf80.json": {
-      "md5": "f2bda298e9a69e0c0404dc782e2ee81c",
-      "size": 19585
+      "md5": "469d5dd75dadecdd2a704ec563b92133",
+      "size": 19584
+    },
+    "import/05/0543cde89.json": {
+      "md5": "dc88a0d8541c5f72183211e81408db81",
+      "size": 6222
     },
     "import/09/09f9daf09.json": {
       "md5": "ce676275fd98942d00365432346c98d2",
       "size": 4308
     },
-    "import/0c/0c8f654cd.json": {
-      "md5": "d99d2acc3336ea715e718cb9c436f7a9",
+    "import/0d/0da467e3d.json": {
+      "md5": "57900fe6ee5f3abd22846c78da110666",
       "size": 192
-    },
-    "import/0e/0ea0e3aec.json": {
-      "md5": "6ec0c8ccd78600dfac0a9024c059acfa",
-      "size": 6487
     },
     "import/11/11bdc4b0-64a8-4eb7-a2a7-9fb9e233e977.json": {
       "md5": "a253314ec7107d95345d7fc89b8d7bb5",
       "size": 72
     },
-    "import/1c/1cb4fb72-a166-4a77-92c5-f7f5b45d3062.json": {
-      "md5": "0ec65e30bfd04209361a2eb4fbbb6dc5",
-      "size": 3577
-    },
-    "import/1e/1ea0e3aec.json": {
-      "md5": "bc87985e01cd9e16942268805d43e8bd",
+    "import/15/1543cde89.json": {
+      "md5": "330f985ae3e8c994147298c9d4df7294",
       "size": 78
+    },
+    "import/1c/1cb4fb72-a166-4a77-92c5-f7f5b45d3062.json": {
+      "md5": "59ad75d59df720fd64a0b28e571245b8",
+      "size": 3563
     },
     "import/7d/7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca.json": {
       "md5": "a253314ec7107d95345d7fc89b8d7bb5",
       "size": 72
+    },
+    "import/bf/bf513b8a-1c43-4d02-b07c-48b37d1e7c82.json": {
+      "md5": "52ae027c411014e798271e7ab940e473",
+      "size": 336
     },
     "import/f1/f12a23c4-b924-4322-a260-3d982428f1e8.json": {
       "md5": "a253314ec7107d95345d7fc89b8d7bb5",
       "size": 72
     },
     "index.js": {
-      "md5": "4607f90b31ace44bf54e0fcfd5ac8b70",
-      "size": 43085
+      "md5": "db8cbb1efe2b6f7a65f64dc56a0db218",
+      "size": 49550
     },
     "native/11/11bdc4b0-64a8-4eb7-a2a7-9fb9e233e977.png": {
       "md5": "65417fcd98e2307e1c7ca1a7ca031f06",
       "size": 1062
     },
-    "native/1e/1ea0e3aec.png": {
-      "md5": "5ffe79621d3caaae11a141d1209f52db",
-      "size": 2281770
+    "native/15/1543cde89.png": {
+      "md5": "5e207d0f0287573e78e57a87c3f6d624",
+      "size": 1750535
     },
     "native/7d/7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca.png": {
       "md5": "cea68f0d7cba38440224f6f74531e2d8",
