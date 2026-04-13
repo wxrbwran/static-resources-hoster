@@ -1,5 +1,5 @@
 {
-  "version": "ab2e2f2",
+  "version": "1d49c7c",
   "bundle": "lobby-contact-us",
   "files": {
     "cc.config.json": {
@@ -23,12 +23,12 @@
       "size": 15253
     },
     "import/ae/ae7995dc-5719-4ef1-99b8-4a000d2a65cc.json": {
-      "md5": "52ae027c411014e798271e7ab940e473",
-      "size": 336
+      "md5": "cdf272e4e20e61e7231e4f7f2b4b6f53",
+      "size": 512
     },
     "index.js": {
-      "md5": "22bf36b41e373afb1a32794d2c476929",
-      "size": 44697
+      "md5": "5f438b8b62e249f911293c143af72b69",
+      "size": 44483
     },
     "native/17/17961fa33.png": {
       "md5": "b55eb91e269d0e353d8513b6f5cc72ba",

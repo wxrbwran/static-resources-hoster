@@ -1,9 +1,9 @@
 {
-  "version": "ab2e2f2",
+  "version": "1d49c7c",
   "bundle": "lobby-shop",
   "files": {
     "cc.config.json": {
-      "md5": "f6c1f2a0f4d09f51eae9e1029840ec91",
+      "md5": "dc6c6a701313ced7b5a9f28cb46827f1",
       "size": 13587
     },
     "import/01/01c704b09.json": {
@@ -38,13 +38,13 @@
       "md5": "a253314ec7107d95345d7fc89b8d7bb5",
       "size": 72
     },
-    "import/76/762e0a7b-0e78-4360-82b4-809591d29948.json": {
-      "md5": "52ae027c411014e798271e7ab940e473",
-      "size": 336
-    },
     "import/7d/7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca.json": {
       "md5": "a253314ec7107d95345d7fc89b8d7bb5",
       "size": 72
+    },
+    "import/a1/a14baa3c-f009-436c-ba12-c49a4261408f.json": {
+      "md5": "f4034b2edc6cf45a4cd0f5841dcde90c",
+      "size": 512
     },
     "import/b5/b512e022-de47-4a73-b258-eee0ee65d441.json": {
       "md5": "a253314ec7107d95345d7fc89b8d7bb5",
@@ -63,8 +63,8 @@
       "size": 33493
     },
     "index.js": {
-      "md5": "ed82443edc7623c3af177072dd78ffa6",
-      "size": 92890
+      "md5": "9d28fd20a6904ac9dabf854092cf9263",
+      "size": 93183
     },
     "native/16/163c1ac8e.png": {
       "md5": "a37745974c05a846903efcac24211168",

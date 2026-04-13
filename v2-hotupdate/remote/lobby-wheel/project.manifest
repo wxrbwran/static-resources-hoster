@@ -1,5 +1,5 @@
 {
-  "version": "ab2e2f2",
+  "version": "04594c2",
   "bundle": "lobby-wheel",
   "files": {
     "cc.config.json": {
@@ -19,8 +19,8 @@
       "size": 321
     },
     "import/0e/0e6551c48.json": {
-      "md5": "0f9ae42fbac98be21841e2a87c6e4c71",
-      "size": 100770
+      "md5": "dd7cac669f5c04641f69e912278dd8b9",
+      "size": 100827
     },
     "import/12/12732131-ef8b-4c19-9b5a-84eb43028608.json": {
       "md5": "7ecf83487f6bdc35fc6451799e7a656f",
@@ -51,8 +51,8 @@
       "size": 100
     },
     "import/92/92ac17c6-eee8-4d95-9e17-ffeebfef3142.json": {
-      "md5": "52ae027c411014e798271e7ab940e473",
-      "size": 336
+      "md5": "e863d7bcb13ffd545ddf6a0cdd5465db",
+      "size": 512
     },
     "import/a6/a628eba3-f64b-4611-81c2-f09bb45f480a.json": {
       "md5": "a253314ec7107d95345d7fc89b8d7bb5",
@@ -83,8 +83,8 @@
       "size": 72
     },
     "index.js": {
-      "md5": "bcf03d0d925d5ca5b1bb0bc99f4e0585",
-      "size": 68737
+      "md5": "0debfa1bae980562ed990a6d8c684175",
+      "size": 69338
     },
     "native/12/12732131-ef8b-4c19-9b5a-84eb43028608.atlas": {
       "md5": "a46d667190b3d85ebbbcfd0943046786",

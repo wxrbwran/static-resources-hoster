@@ -1,5 +1,5 @@
 {
-  "version": "ab2e2f2",
+  "version": "1d49c7c",
   "bundle": "lobby-mail",
   "files": {
     "cc.config.json": {
@@ -7,8 +7,8 @@
       "size": 1600
     },
     "import/00/00cf62f4-6115-4de9-96b3-7f9cb0c63f3f.json": {
-      "md5": "52ae027c411014e798271e7ab940e473",
-      "size": 336
+      "md5": "bbecea8c20989d421a1ae6e2c3b72d50",
+      "size": 512
     },
     "import/02/024b77d3-9b49-4479-a8c7-ef227e396772.json": {
       "md5": "afc44282f8a3cda3f024f1f899ca0052",
@@ -31,8 +31,8 @@
       "size": 9699
     },
     "index.js": {
-      "md5": "72e0c7d08311e9c0d09f198c2e6614c5",
-      "size": 47722
+      "md5": "8881fc47fda55b85486d2adb8c504628",
+      "size": 47201
     },
     "native/12/12864dd67.png": {
       "md5": "eb2d76bb036279ece73b24728f21cf49",
